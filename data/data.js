@@ -17,6 +17,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox/manual: Randy Villegas: Dem side — race total (AdImpact, CA CD-22) $16,671,440 (confirmed) · Randy Villegas: Rep side — race total (AdImpact, CA CD-22) $11,676,459 (confirmed)"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "FEC: 26 race(s) moved. Evan Turnage (US House, MS-2): $0 → $461,473.51 · Dr. Thomas Fisher (US House, IL-7): $0 → $947,370.63 · Delia Ramirez (US House, IL-3 (incumbent)): $0 → $793,478.13 · Brian Poindexter (US House, OH-7): $0 → $125,937.12 · Dan Osborn (US Senate (Independent)): $0 → $23,304,743.52"
     },
     {
@@ -508,6 +512,26 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Dem side — race total (AdImpact, CA CD-22)",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 16671440,
+          "source": "AdImpact",
+          "confidence": "adimpact",
+          "asOf": "2026-06-17",
+          "note": "all Dem-aligned spend in race, 1/1/25-12/31/26"
+        },
+        {
+          "actor": "Rep side — race total (AdImpact, CA CD-22)",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 11676459,
+          "source": "AdImpact",
+          "confidence": "adimpact",
+          "asOf": "2026-06-17",
+          "note": "all Rep-aligned spend in race"
         }
       ],
       "ads": [],
