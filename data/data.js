@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox: + Ben McAdams (UT-1-2026) $163,120"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "Inbox/manual: Alex Bores: Alex Bores campaign — TV (WABC-TV) $112,400 (confirmed)"
     },
     {
@@ -2860,6 +2864,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:locality-mcadams-kutv",
+          "actor": "Ben McAdams",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 163120,
+          "source": "competitive inbox (Locality/KUTV, revised total)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-17",
+          "flight": "5/26-6/22"
         }
       ],
       "ads": [],
