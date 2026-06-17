@@ -17,6 +17,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "FEC: 26 race(s) moved. Evan Turnage (US House, MS-2): $0 → $461,473.51 · Dr. Thomas Fisher (US House, IL-7): $0 → $947,370.63 · Delia Ramirez (US House, IL-3 (incumbent)): $0 → $793,478.13 · Brian Poindexter (US House, OH-7): $0 → $125,937.12 · Dan Osborn (US Senate (Independent)): $0 → $23,304,743.52"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "New ad creatives: Eric Jones: 14 new (Congressional Candidate Eric Jones Makes) · Graham Platner: 15 new (Donald Trump Said This About Me) · Micah Lasher: 15 new (Welcome to the Upper West Side) · David Seligman: 15 new (Seligman for AG - Compassion in Law) · Abdul El-Sayed: 15 new (Our new ad, “Stopwatch.”) · Mandela Barnes: 10 new (Mandela Barnes on MSNOW's The Weekend)"
     },
     {
@@ -46,9 +50,21 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/evan_turnage/",
         "tk": "https://www.tiktok.com/@evanturnage"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Evan Turnage (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 461473.51,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
       "ads": [],
-      "ytChannelId": "UCe87uP-u-pcVNP78spNxnfg"
+      "ytChannelId": "UCe87uP-u-pcVNP78spNxnfg",
+      "fecId": "H6MS02220",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Dr. Thomas Fisher",
@@ -66,9 +82,30 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/dr.thomasfisherforcongress/",
         "tk": "https://www.tiktok.com/@drthomasfisher"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Dr. Thomas Fisher (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 827370.63,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 120000,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
       "ads": [],
-      "ytChannelId": "UCBNxPFN4Nc6HJIwAoXDf1DQ"
+      "ytChannelId": "UCBNxPFN4Nc6HJIwAoXDf1DQ",
+      "fecId": "H6IL07438",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Delia Ramirez",
@@ -86,8 +123,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/deliaramirezil/",
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Delia Ramirez (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 793478.13,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
+      "ads": [],
+      "fecId": "H2IL03162",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Karina Villa",
@@ -143,8 +192,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/PoindexterForCongress/",
         "tk": "https://www.tiktok.com/@poindexterforcongress"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Brian Poindexter (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 125937.12,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-15"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6OH07168",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Dan Osborn",
@@ -162,8 +223,38 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/osbornforne/",
         "tk": "https://www.tiktok.com/@osbornforne"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Dan Osborn (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 2784328.54,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-22"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 12508808.56,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 8011606.419999999,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "S4NE00207",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Emanuel Jones",
@@ -181,8 +272,20 @@ window.TRACKER_DATA = {
         "ig": null,
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Emanuel Jones (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 274720.52,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-29"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6GA13039",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Summer Lee",
@@ -200,9 +303,21 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/summerleeforpa/",
         "tk": null
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Summer Lee (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
       "ads": [],
-      "ytChannelId": "UCqQJ44qlkVxWV5N12YeacyA"
+      "ytChannelId": "UCqQJ44qlkVxWV5N12YeacyA",
+      "fecId": "H6PA05158",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Paige Cognetti",
@@ -220,8 +335,29 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/paigegcognetti/",
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Paige Cognetti (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 852243.1,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-29"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 483.27,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6PA08293",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Bob Brooks",
@@ -239,8 +375,38 @@ window.TRACKER_DATA = {
         "ig": null,
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Bob Brooks (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 918817.59,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-29"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 953734.84,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 5100,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6PA07188",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Jeff Warren",
@@ -315,8 +481,38 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/villegasforcongress/",
         "tk": "https://www.tiktok.com/@villegasforcongress"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Randy Villegas (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1411155.63,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-05-13"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 92174.89,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 306873,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6CA22190",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Eric Jones",
@@ -334,7 +530,17 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/ericjones.us/",
         "tk": "https://www.tiktok.com/@ericjones.us"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Eric Jones (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
       "ads": [
         {
           "title": "Congressional Candidate Eric Jones Makes Speech at Election Night Party",
@@ -379,7 +585,9 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-05-28"
         }
       ],
-      "ytChannelId": "UCWsGjvUpP9m755WIIoVry8g"
+      "ytChannelId": "UCWsGjvUpP9m755WIIoVry8g",
+      "fecId": "H6CA23297",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Jane Kim",
@@ -416,7 +624,35 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/grahamformaine/",
         "tk": "https://www.tiktok.com/@grahamformaine"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Graham Platner (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 14131390.66,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-05-20"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 653.3,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 3999000,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
       "ads": [
         {
           "title": "Donald Trump Said This About Me",
@@ -461,7 +697,9 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-09"
         }
       ],
-      "ytChannelId": "UCa_t4_O0On6PXNdXPciiyVw"
+      "ytChannelId": "UCa_t4_O0On6PXNdXPciiyVw",
+      "fecId": "S6ME00373",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Robert White",
@@ -479,8 +717,29 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/robertwhite_dc/",
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Robert White (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 587752.55,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-05-27"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 10000,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6DC01079",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Trey Martin",
@@ -498,8 +757,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/treyforoklahoma",
         "tk": "https://www.tiktok.com/@treyforoklahoma"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Trey Martin (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 5419.38,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-05-27"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6OK05319",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Nate Blouin",
@@ -517,8 +788,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/nateforutah/",
         "tk": "https://www.tiktok.com/@nateforutah"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Nate Blouin (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 588094.06,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6UT01178",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Darializa Avila Chevalier",
@@ -536,8 +819,29 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/darializaforny/",
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Darializa Avila Chevalier (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 699868.69,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 111.97,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6NY13279",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Drew Warshaw",
@@ -574,8 +878,38 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/brad.lander/",
         "tk": "https://www.tiktok.com/@bradlandernyc"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Brad Lander (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1756066.31,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 1348.36,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 30000,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6NY10176",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Claire Valdez",
@@ -593,8 +927,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/claireforny/",
         "tk": "https://www.tiktok.com/@claireforny"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Claire Valdez (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 928623.07,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6NY07214",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Micah Lasher",
@@ -612,7 +958,26 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/micahlasher/",
         "tk": "https://www.tiktok.com/@micahlasher"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Micah Lasher (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1558632.97,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 2815525.95,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
       "ads": [
         {
           "title": "Welcome to the Upper West Side",
@@ -657,7 +1022,9 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-03"
         }
       ],
-      "ytChannelId": "UCnqbg2q9AmBNZUxZl-YNlAw"
+      "ytChannelId": "UCnqbg2q9AmBNZUxZl-YNlAw",
+      "fecId": "H6NY12172",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "David Seligman",
@@ -738,8 +1105,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/eileenforcolorado/",
         "tk": "https://www.tiktok.com/@eileenforcolorado"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Eileen Laubacher (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 5487524.43,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6CO04202",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Abdul El-Sayed",
@@ -759,20 +1138,22 @@ window.TRACKER_DATA = {
       },
       "spend": [
         {
-          "actor": "Abdul For Senate (candidate)",
+          "actor": "Abdul El-Sayed (candidate)",
           "type": "candidate",
-          "amount": 0,
+          "bucket": "self",
+          "amount": 5117400.65,
           "source": "FEC",
-          "confidence": "sample",
-          "asOf": null
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside groups (IE)",
+          "actor": "Outside spending — supporting",
           "type": "outside",
-          "amount": 0,
+          "bucket": "support",
+          "amount": 50,
           "source": "FEC Schedule E",
-          "confidence": "sample",
-          "asOf": null
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
         }
       ],
       "ads": [
@@ -819,7 +1200,9 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-16"
         }
       ],
-      "ytChannelId": "UC0Arr9_NIOkWt-hyuhQpx1Q"
+      "ytChannelId": "UC0Arr9_NIOkWt-hyuhQpx1Q",
+      "fecId": "S6MI00418",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Donavan McKinney",
@@ -837,9 +1220,30 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/donavanmckinney/",
         "tk": null
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Donavan McKinney (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 542968.69,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 110,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
       "ads": [],
-      "ytChannelId": "UChIs0S3I0QcCaYcVPe9zyig"
+      "ytChannelId": "UChIs0S3I0QcCaYcVPe9zyig",
+      "fecId": "H6MI13254",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Justin Onwenu",
@@ -876,8 +1280,29 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/justinjpearson/",
         "tk": "https://www.tiktok.com/@realjustinjpearson"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Justin Pearson (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 718433.61,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 1234.13,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "H6TN09449",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Mandela Barnes",
@@ -958,8 +1383,29 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/marypeltola/",
         "tk": "https://www.tiktok.com/@mary_peltola"
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Mary Peltola (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 2934553.61,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 5234.29,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "S6AK00276",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Jonathan Kreiss-Tomkins",
@@ -996,7 +1442,17 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/hectormujicafl/",
         "tk": "https://www.tiktok.com/@hectormujicafl"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Hector Mujica (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 637278.06,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
       "ads": [
         {
           "title": "Entrevista con Sasha Tirador - 31 de mayo, 2026",
@@ -1006,7 +1462,9 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-02"
         }
       ],
-      "ytChannelId": "UCG89G2v6KSzd8K_Q_YAX64w"
+      "ytChannelId": "UCG89G2v6KSzd8K_Q_YAX64w",
+      "fecId": "S6FL00806",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Gina Hinojosa",
@@ -1043,7 +1501,26 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/gregcasar/",
         "tk": "https://www.tiktok.com/@repcasar"
       },
-      "spend": [],
+      "spend": [
+        {
+          "actor": "Greg Casar (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 705499.35,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 37.5,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
       "ads": [
         {
           "title": "Congressman Greg Casar: Breaking News About KUT",
@@ -1088,7 +1565,9 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-03"
         }
       ],
-      "ytChannelId": "UCyct8J6LAICeOl0vZyhXD8A"
+      "ytChannelId": "UCyct8J6LAICeOl0vZyhXD8A",
+      "fecId": "H2TX35144",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Juliana Stratton",
@@ -1106,8 +1585,38 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/julianastratton/",
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Juliana Stratton (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 4096025.84,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 9082588.17,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 10489100.92,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecId": "S6IL00458",
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Delia Ramirez",
@@ -1125,8 +1634,20 @@ window.TRACKER_DATA = {
         "ig": "https://www.instagram.com/deliaramirezil/",
         "tk": null
       },
-      "spend": [],
-      "ads": []
+      "spend": [
+        {
+          "actor": "Delia Ramirez (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 793478.13,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
+      "ads": [],
+      "fecId": "H2IL03162",
+      "fecUpdated": "2026-06-17"
     }
   ]
 };

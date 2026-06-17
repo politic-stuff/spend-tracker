@@ -1,4 +1,5 @@
 # local-only
+.env
 data/inbox-queue.json
 data/inbox-queue.*.done.json
 data/races.seed.json
