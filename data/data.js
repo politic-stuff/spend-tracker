@@ -1301,7 +1301,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/max-miller.jpg"
     },
     {
       "name": "Summer Lee",
@@ -1361,7 +1362,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/james-hayes.jpg"
     },
     {
       "name": "Paige Cognetti",
@@ -1430,7 +1432,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/rob-bresnahan-jr.jpg"
     },
     {
       "name": "Bob Brooks",
@@ -1681,7 +1684,8 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-05-28"
         }
       ],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/eric-jones.jpg"
     },
     {
       "name": "Mike Thompson",
@@ -1750,7 +1754,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/robert-white.jpg"
     },
     {
       "name": "Denise Rosado",
@@ -1839,7 +1844,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/keith-faber.jpg"
     },
     {
       "name": "Dan Osborn",
@@ -1890,7 +1896,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/dan-osborn.jpg"
     },
     {
       "name": "Pete Ricketts",
@@ -1934,7 +1941,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/pete-ricketts.jpg"
     },
     {
       "name": "Cindy Burbank",
@@ -1982,7 +1990,8 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/jeff-warren.jpg"
     },
     {
       "name": "Joe Emrick",
@@ -2034,7 +2043,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/rosemary-brown.jpg"
     },
     {
       "name": "Jane Kim",
@@ -2072,7 +2082,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/ben-allen.jpg"
     },
     {
       "name": "Graham Platner",
@@ -2280,7 +2291,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/adriano-espaillat.jpg"
     },
     {
       "name": "Jaliel Amador",
@@ -2426,7 +2438,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/joseph-hernandez.jpg"
     },
     {
       "name": "Brad Lander",
@@ -2504,7 +2517,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/daniel-goldman.jpg"
     },
     {
       "name": "Nickie Kane",
@@ -2729,7 +2743,8 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-03"
         }
       ],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/micah-lasher.jpg"
     },
     {
       "name": "Alex Bores",
@@ -2783,7 +2798,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/alex-bores.jpg"
     },
     {
       "name": "George Conway",
@@ -2809,7 +2825,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/george-conway.jpg"
     },
     {
       "name": "Jack Schlossberg",
@@ -2835,7 +2852,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/jack-schlossberg.jpg"
     },
     {
       "name": "Nina Schwalbe",
@@ -2940,7 +2958,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/ben-mcadams.jpg"
     },
     {
       "name": "Liban Mohamed",
@@ -2992,7 +3011,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/michael-farrell.jpg"
     },
     {
       "name": "Riley Owen",
@@ -3018,7 +3038,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/riley-owen.jpg"
     },
     {
       "name": "David Seligman",
@@ -3160,7 +3181,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/michael-allen.jpg"
     },
     {
       "name": "Conner Pennington",
@@ -3269,7 +3291,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/lauren-boebert.jpg"
     },
     {
       "name": "Abdul El-Sayed",
@@ -3390,7 +3413,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/mallory-mcmorrow.jpg"
     },
     {
       "name": "Haley Stevens",
@@ -3425,7 +3449,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/haley-stevens.jpg"
     },
     {
       "name": "Rachel Howard",
@@ -3451,7 +3476,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/rachel-howard.jpg"
     },
     {
       "name": "Travis Zollner",
@@ -3521,7 +3547,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/mike-rogers.jpg"
     },
     {
       "name": "Donavan McKinney",
@@ -3610,7 +3637,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/naz-hassan.jpg"
     },
     {
       "name": "Articia Bomer",
@@ -3677,7 +3705,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/patrick-d-o-connell.jpg"
     },
     {
       "name": "Justin Pearson",
@@ -3718,7 +3747,8 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/justin-pearson.jpg"
     },
     {
       "name": "London Lamar",
@@ -3733,7 +3763,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/london-lamar.jpg"
     },
     {
       "name": "M. LaTroy A-Williams",
@@ -3778,7 +3809,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/brent-taylor.jpg"
     },
     {
       "name": "Charlotte Bergmann",
@@ -3874,7 +3906,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/david-crowley.jpg"
     },
     {
       "name": "Sara Rodriguez",
@@ -4024,7 +4057,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/david-leslie.jpg"
     },
     {
       "name": "Dan S. Sullivan",
@@ -4077,7 +4111,8 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/jonathan-kreiss-tomkins.jpg"
     },
     {
       "name": "Bernadette Wilson",
@@ -4092,7 +4127,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/bernadette-wilson.jpg"
     },
     {
       "name": "Adam Crum",
@@ -4225,7 +4261,8 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/jennifer-jenkins.jpg"
     },
     {
       "name": "Ashley Moody",
@@ -4445,7 +4482,8 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/juliana-stratton.jpg"
     },
     {
       "name": "Don Tracy",
