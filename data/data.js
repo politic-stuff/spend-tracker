@@ -130881,7 +130881,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/bob-brooks.jpg"
     },
     {
       "name": "Ryan Mackenzie",
@@ -131226,7 +131227,8 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/john-kulewicz.jpg"
     },
     {
       "name": "Keith Faber",
@@ -131425,7 +131427,8 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/brian-wrightson.jpg"
     },
     {
       "name": "Rosemary Brown",
@@ -131662,7 +131665,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/darializa-avila-chevalier.png"
     },
     {
       "name": "Adriano Espaillat",
@@ -131789,7 +131793,8 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/drew-warshaw.avif"
     },
     {
       "name": "Thomas DiNapoli",
@@ -132309,7 +132314,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/nate-blouin.jpg"
     },
     {
       "name": "Ben McAdams",
@@ -132501,7 +132507,8 @@ window.TRACKER_DATA = {
           "source": "YouTube RSS",
           "firstSeen": "2026-06-09"
         }
-      ]
+      ],
+      "photo": "assets/photos/david-seligman.png"
     },
     {
       "name": "Jena Griswold",
@@ -132627,7 +132634,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/eileen-laubacher.jpg"
     },
     {
       "name": "Jenna Preston",
@@ -133072,7 +133080,8 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/justin-onwenu.jpg"
     },
     {
       "name": "Abraham Aiyash",
@@ -133610,7 +133619,8 @@ window.TRACKER_DATA = {
           "source": "YouTube RSS",
           "firstSeen": "2026-06-02"
         }
-      ]
+      ],
+      "photo": "assets/photos/hector-mujica.png"
     },
     {
       "name": "Alexander Vindman",

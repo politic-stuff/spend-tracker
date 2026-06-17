@@ -130880,7 +130880,8 @@
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/bob-brooks.jpg"
     },
     {
       "name": "Ryan Mackenzie",
@@ -131225,7 +131226,8 @@
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/john-kulewicz.jpg"
     },
     {
       "name": "Keith Faber",
@@ -131424,7 +131426,8 @@
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/brian-wrightson.jpg"
     },
     {
       "name": "Rosemary Brown",
@@ -131661,7 +131664,8 @@
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/darializa-avila-chevalier.png"
     },
     {
       "name": "Adriano Espaillat",
@@ -131788,7 +131792,8 @@
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/drew-warshaw.avif"
     },
     {
       "name": "Thomas DiNapoli",
@@ -132308,7 +132313,8 @@
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/nate-blouin.jpg"
     },
     {
       "name": "Ben McAdams",
@@ -132500,7 +132506,8 @@
           "source": "YouTube RSS",
           "firstSeen": "2026-06-09"
         }
-      ]
+      ],
+      "photo": "assets/photos/david-seligman.png"
     },
     {
       "name": "Jena Griswold",
@@ -132626,7 +132633,8 @@
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/eileen-laubacher.jpg"
     },
     {
       "name": "Jenna Preston",
@@ -133071,7 +133079,8 @@
       },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [],
+      "photo": "assets/photos/justin-onwenu.jpg"
     },
     {
       "name": "Abraham Aiyash",
@@ -133609,7 +133618,8 @@
           "source": "YouTube RSS",
           "firstSeen": "2026-06-02"
         }
-      ]
+      ],
+      "photo": "assets/photos/hector-mujica.png"
     },
     {
       "name": "Alexander Vindman",
