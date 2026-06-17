@@ -13,7 +13,21 @@
       "AdImpact paid account (via Chrome ext.)"
     ]
   },
+  "counts": {
+    "races": 33,
+    "candidates": 115,
+    "federal": 78,
+    "state": 37
+  },
   "changelog": [
+    {
+      "ts": "2026-06-17",
+      "note": "FEC: 30 race(s) moved. Angel Oakley (US House IL-3): $0 → $1,657.29 · Max Miller (US House OH-7): $0 → $513,420.7 · James Hayes (US House PA-12): $0 → $16,237.51 · Ryan Mackenzie (US House PA-7): $0 → $203,333.61 · David Valadao (US House CA-22): $0 → $1,187,808.57"
+    },
+    {
+      "ts": "2026-06-17",
+      "note": "Restructured to race-field model: 33 races, 115 candidates (tracked + opponents)."
+    },
     {
       "ts": "2026-06-17",
       "note": "Inbox/manual: Randy Villegas: Dem side — race total (AdImpact, CA CD-22) $16,671,440 (confirmed) · Randy Villegas: Rep side — race total (AdImpact, CA CD-22) $11,676,459 (confirmed)"
@@ -31,93 +45,420 @@
       "note": "Initial seed from primary-countdown. No live data pulled yet."
     }
   ],
-  "counts": {
-    "total": 40,
-    "federal": 28,
-    "state": 12
+  "races": {
+    "IL-3-2026": {
+      "raceKey": "IL-3-2026",
+      "state": "Illinois",
+      "office": "US House IL-3",
+      "primaryDate": "2026-11-03",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Delia Ramirez (D)",
+      "notes": "Safe-D.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "OH-7-2026": {
+      "raceKey": "OH-7-2026",
+      "state": "Ohio",
+      "office": "US House OH-7",
+      "primaryDate": "2026-05-05",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Max Miller (R)",
+      "notes": "Poindexter won 8-way Dem primary ~37%. Solid R district.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "PA-12-2026": {
+      "raceKey": "PA-12-2026",
+      "state": "Pennsylvania",
+      "office": "US House PA-12",
+      "primaryDate": "2026-05-19",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Summer Lee (D)",
+      "notes": "Lee incumbent.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "PA-8-2026": {
+      "raceKey": "PA-8-2026",
+      "state": "Pennsylvania",
+      "office": "US House PA-8",
+      "primaryDate": "2026-05-19",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Rob Bresnahan Jr. (R)",
+      "notes": "Cognetti (Scranton mayor) challenging freshman R. Leans R.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "PA-7-2026": {
+      "raceKey": "PA-7-2026",
+      "state": "Pennsylvania",
+      "office": "US House PA-7",
+      "primaryDate": "2026-05-19",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Ryan Mackenzie (R)",
+      "notes": "Toss-up. Freshman R flipped seat 2024 by ~1pt.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "CA-22-2026": {
+      "raceKey": "CA-22-2026",
+      "state": "California",
+      "office": "US House CA-22",
+      "primaryDate": "2026-06-02",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "David Valadao (R)",
+      "notes": "Top-two: Valadao 1st, Villegas 2nd. Marquee race.",
+      "confidence": "high",
+      "adimpact": {
+        "demSide": 16671440,
+        "repSide": 11676459,
+        "total": 28347899,
+        "asOf": "2026-06-17"
+      }
+    },
+    "CA-4-2026": {
+      "raceKey": "CA-4-2026",
+      "state": "California",
+      "office": "US House CA-4",
+      "primaryDate": "2026-06-02",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Mike Thompson (D)",
+      "notes": "DEM-vs-DEM general. Jones self-funded ~$5.35M.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "DC-Delegate-2026": {
+      "raceKey": "DC-Delegate-2026",
+      "state": "Washington, D.C.",
+      "office": "US House Delegate",
+      "primaryDate": "2026-06-16",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Eleanor Holmes Norton (D), retiring",
+      "notes": "Open seat; White won June 16 primary ~63%. Safe-D.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "OH-AG-2026": {
+      "raceKey": "OH-AG-2026",
+      "state": "Ohio",
+      "office": "Attorney General",
+      "primaryDate": "2026-05-05",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Dave Yost (R), term-limited; open",
+      "notes": "Kulewicz won May 5 Dem primary (def. Elliot Forhan). Open seat.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "NE-Sen-2026": {
+      "raceKey": "NE-Sen-2026",
+      "state": "Nebraska",
+      "office": "U.S. Senate",
+      "primaryDate": "2026-05-12",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Pete Ricketts (R), incumbent",
+      "notes": "Dem nominee Burbank pledged to drop out and back Osborn. Effectively Osborn vs Ricketts.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "PA-HD137-2026": {
+      "raceKey": "PA-HD137-2026",
+      "state": "Pennsylvania",
+      "office": "State House District 137",
+      "primaryDate": "2026-05-19",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Joe Emrick (R), incumbent",
+      "notes": "Highly competitive Northampton County district.",
+      "confidence": "med",
+      "adimpact": null
+    },
+    "PA-SD40-2026": {
+      "raceKey": "PA-SD40-2026",
+      "state": "Pennsylvania",
+      "office": "State Senate District 40",
+      "primaryDate": "2026-05-19",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Rosemary Brown (R), incumbent",
+      "notes": "Both unopposed in primary.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "CA-InsComm-2026": {
+      "raceKey": "CA-InsComm-2026",
+      "state": "California",
+      "office": "Insurance Commissioner",
+      "primaryDate": "2026-06-02",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Ricardo Lara (D), term-limited; open",
+      "notes": "Top-two: Kim vs Ben Allen (both D). Republican missed cut.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "ME-Sen-2026": {
+      "raceKey": "ME-Sen-2026",
+      "state": "Maine",
+      "office": "U.S. Senate",
+      "primaryDate": "2026-06-09",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Susan Collins (R), incumbent",
+      "notes": "Platner won June 9 primary; Mills withdrew pre-primary.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "NY-13-2026": {
+      "raceKey": "NY-13-2026",
+      "state": "New York",
+      "office": "US House NY-13",
+      "primaryDate": "2026-06-23",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Adriano Espaillat (D)",
+      "notes": "Main contest: incumbent Espaillat vs our DSA-backed Avila Chevalier. GOP nominee via parallel 6/23 primary (pending). Several minor Dem filers omitted.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "NY-Comptroller-2026": {
+      "raceKey": "NY-Comptroller-2026",
+      "state": "New York",
+      "office": "State Comptroller",
+      "primaryDate": "2026-06-23",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Thomas DiNapoli (D)",
+      "notes": "Warshaw challenging long-time incumbent DiNapoli.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "NY-10-2026": {
+      "raceKey": "NY-10-2026",
+      "state": "New York",
+      "office": "US House NY-10",
+      "primaryDate": "2026-06-23",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Daniel Goldman (D)",
+      "notes": "Lander leading incumbent Goldman by ~19-34pts in polls. GOP general opp pending (6/23 primary). Safe-D.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "NY-7-2026": {
+      "raceKey": "NY-7-2026",
+      "state": "New York",
+      "office": "US House NY-7",
+      "primaryDate": "2026-06-23",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Nydia Velázquez (D), retiring",
+      "notes": "OPEN (Velázquez retiring). Valdez frontrunner vs Reynoso (Velázquez-backed). GOP opp pending. Safe-D.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "NY-12-2026": {
+      "raceKey": "NY-12-2026",
+      "state": "New York",
+      "office": "US House NY-12",
+      "primaryDate": "2026-06-23",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Jerrold Nadler (D), retiring",
+      "notes": "OPEN (Nadler retiring, endorsed Lasher). ~10-way Dem primary; Lasher & Alex Bores lead. NOTE: Alex Bores already appears in the competitive inbox (Nexstar comp). GOP slate was a Ballotpedia cross-listing artifact — omitted pending recheck.",
+      "confidence": "med",
+      "adimpact": null
+    },
+    "UT-1-2026": {
+      "raceKey": "UT-1-2026",
+      "state": "Utah",
+      "office": "US House UT-1",
+      "primaryDate": "2026-06-23",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "redrawn open seat (Blake Moore R moved to UT-2)",
+      "notes": "Redrawn D-leaning open seat. Blouin trails former Rep. Ben McAdams in primary polling. Owen won GOP convention.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "CO-AG-2026": {
+      "raceKey": "CO-AG-2026",
+      "state": "Colorado",
+      "office": "Attorney General",
+      "primaryDate": "2026-06-30",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Phil Weiser (D), term-limited",
+      "notes": "Open seat; 5-way Dem primary. GOP nominee via 6/30 primary.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "CO-4-2026": {
+      "raceKey": "CO-4-2026",
+      "state": "Colorado",
+      "office": "US House CO-4",
+      "primaryDate": "2026-06-30",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Lauren Boebert (R)",
+      "notes": "Laubacher sole Dem on ballot. Boebert incumbent, Trump-endorsed. Deep-red.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "MI-Sen-2026": {
+      "raceKey": "MI-Sen-2026",
+      "state": "Michigan",
+      "office": "US Senate",
+      "primaryDate": "2026-08-04",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Gary Peters (D), retiring",
+      "notes": "OPEN (Peters retiring). Leading trio El-Sayed/McMorrow/Stevens. GOP frontrunner Mike Rogers (2024 nominee).",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "MI-13-2026": {
+      "raceKey": "MI-13-2026",
+      "state": "Michigan",
+      "office": "US House MI-13",
+      "primaryDate": "2026-08-04",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Shri Thanedar (D)",
+      "notes": "McKinney (Sanders/Tlaib/WFP) vs incumbent Thanedar lead a 6-way primary. Safe-D.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "MI-SD1-2026": {
+      "raceKey": "MI-SD1-2026",
+      "state": "Michigan",
+      "office": "State Senate District 1",
+      "primaryDate": "2026-08-04",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Erika Geiss (D), term-limited",
+      "notes": "Open Dem-held seat (Geiss term-limited, redrawn). Onwenu vs Aiyash head-to-head. Strongly D.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "TN-9-2026": {
+      "raceKey": "TN-9-2026",
+      "state": "Tennessee",
+      "office": "US House TN-9",
+      "primaryDate": "2026-08-06",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Steve Cohen (D), retiring — OPEN",
+      "notes": "OPEN seat — Cohen retiring after GOP redistricting (announced 5/15/26). Not a Cohen challenge. GOP primary pending.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "WI-Gov-2026": {
+      "raceKey": "WI-Gov-2026",
+      "state": "Wisconsin",
+      "office": "Governor",
+      "primaryDate": "2026-08-11",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Tony Evers (D), retiring — OPEN",
+      "notes": "OPEN (Evers declining 3rd term). Barnes presumptive frontrunner. GOP: Tom Tiffany (Trump-endorsed) favorite.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "AK-Sen-2026": {
+      "raceKey": "AK-Sen-2026",
+      "state": "Alaska",
+      "office": "US Senate",
+      "primaryDate": "2026-08-18",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Dan S. Sullivan (R), incumbent",
+      "notes": "Top-4 nonpartisan primary → RCV general. Peltola vs incumbent Sullivan (R) the main contest.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "AK-Gov-2026": {
+      "raceKey": "AK-Gov-2026",
+      "state": "Alaska",
+      "office": "Governor",
+      "primaryDate": "2026-08-18",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Mike Dunleavy (R), term-limited — OPEN",
+      "notes": "Top-4 open seat (Dunleavy term-limited). 11 R / 3 D / 3 ind. Dahlstrom (R) dropped out 6/1.",
+      "confidence": "med",
+      "adimpact": null
+    },
+    "FL-Sen-2026": {
+      "raceKey": "FL-Sen-2026",
+      "state": "Florida",
+      "office": "US Senate (special)",
+      "primaryDate": "2026-08-18",
+      "generalDate": "2026-11-03",
+      "status": "primary",
+      "seatHeldBy": "Ashley Moody (R), appointed (Rubio resigned)",
+      "notes": "SPECIAL for Rubio's seat. Mujica is a MINOR candidate; Vindman is Dem fundraising frontrunner ($8.2M). Moody heavy GOP favorite.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "TX-Gov-2026": {
+      "raceKey": "TX-Gov-2026",
+      "state": "Texas",
+      "office": "Governor",
+      "primaryDate": "2026-11-03",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Greg Abbott (R)",
+      "notes": "Abbott 3-term incumbent.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "TX-37-2026": {
+      "raceKey": "TX-37-2026",
+      "state": "Texas",
+      "office": "US House TX-37",
+      "primaryDate": "2026-11-03",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Greg Casar (D)",
+      "notes": "Peña won May 26 GOP runoff ~58%.",
+      "confidence": "high",
+      "adimpact": null
+    },
+    "IL-Sen-2026": {
+      "raceKey": "IL-Sen-2026",
+      "state": "Illinois",
+      "office": "US Senate",
+      "primaryDate": "2026-11-03",
+      "generalDate": "2026-11-03",
+      "status": "general",
+      "seatHeldBy": "Dick Durbin (D), retiring",
+      "notes": "OPEN seat. Tracy med-confidence (projected, confirm cert). Solid/Likely D.",
+      "confidence": "med",
+      "adimpact": null
+    }
   },
   "candidates": [
     {
-      "name": "Evan Turnage",
-      "office": "US House, MS-2",
-      "state": "Mississippi",
-      "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-03-10",
-      "result": "lost",
-      "links": {
-        "web": "https://www.evanturnage.com/",
-        "x": "https://x.com/evan_turnage",
-        "yt": "https://www.youtube.com/@EvanTurnageforCongress",
-        "fb": "https://www.facebook.com/evanturnageMS",
-        "ig": "https://www.instagram.com/evan_turnage/",
-        "tk": "https://www.tiktok.com/@evanturnage"
-      },
-      "spend": [
-        {
-          "actor": "Evan Turnage (candidate)",
-          "type": "candidate",
-          "bucket": "self",
-          "amount": 461473.51,
-          "source": "FEC",
-          "confidence": "FEC",
-          "asOf": "2026-03-31"
-        }
-      ],
-      "ads": [],
-      "ytChannelId": "UCe87uP-u-pcVNP78spNxnfg",
-      "fecId": "H6MS02220",
-      "fecUpdated": "2026-06-17"
-    },
-    {
-      "name": "Dr. Thomas Fisher",
-      "office": "US House, IL-7",
-      "state": "Illinois",
-      "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-03-17",
-      "result": "lost",
-      "links": {
-        "web": "https://thomasfisherforcongress.com/",
-        "x": "https://x.com/drthomasfisher",
-        "yt": "https://www.youtube.com/@Dr.ThomasFisherforCongress",
-        "fb": "https://www.facebook.com/profile.php?id=61583976170394",
-        "ig": "https://www.instagram.com/dr.thomasfisherforcongress/",
-        "tk": "https://www.tiktok.com/@drthomasfisher"
-      },
-      "spend": [
-        {
-          "actor": "Dr. Thomas Fisher (candidate)",
-          "type": "candidate",
-          "bucket": "self",
-          "amount": 827370.63,
-          "source": "FEC",
-          "confidence": "FEC",
-          "asOf": "2026-03-31"
-        },
-        {
-          "actor": "Outside spending — supporting",
-          "type": "outside",
-          "bucket": "support",
-          "amount": 120000,
-          "source": "FEC Schedule E",
-          "confidence": "FEC",
-          "asOf": "2026-06-17"
-        }
-      ],
-      "ads": [],
-      "ytChannelId": "UCBNxPFN4Nc6HJIwAoXDf1DQ",
-      "fecId": "H6IL07438",
-      "fecUpdated": "2026-06-17"
-    },
-    {
       "name": "Delia Ramirez",
-      "office": "US House, IL-3 (incumbent)",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "IL-3-2026",
+      "office": "US House IL-3",
       "state": "Illinois",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-03-17",
-      "result": "won",
+      "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.deliaforcongress.com/",
         "x": "https://x.com/deliaramirezil",
@@ -126,6 +467,7 @@
         "ig": "https://www.instagram.com/deliaramirezil/",
         "tk": null
       },
+      "fecId": "H2IL03162",
       "spend": [
         {
           "actor": "Delia Ramirez (candidate)",
@@ -138,55 +480,44 @@
         }
       ],
       "ads": [],
-      "fecId": "H2IL03162",
       "fecUpdated": "2026-06-17"
     },
     {
-      "name": "Karina Villa",
-      "office": "State Comptroller",
+      "name": "Angel Oakley",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "IL-3-2026",
+      "office": "US House IL-3",
       "state": "Illinois",
-      "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-03-17",
-      "result": "lost",
-      "links": {
-        "web": "https://karinavilla.com/",
-        "x": "https://x.com/Citizens4Karina",
-        "yt": null,
-        "fb": "https://www.facebook.com/Karinaforsenate/",
-        "ig": "https://www.instagram.com/karinavillaforcomptroller/",
-        "tk": null
-      },
-      "spend": [],
-      "ads": []
-    },
-    {
-      "name": "John Kulewicz",
-      "office": "Attorney General",
-      "state": "Ohio",
-      "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-05-05",
-      "result": "won",
-      "links": {
-        "web": "https://john4ohioag.com/",
-        "x": "https://x.com/JohnKulewicz",
-        "yt": null,
-        "fb": "https://www.facebook.com/profile.php?id=61580274795926",
-        "ig": null,
-        "tk": null
-      },
-      "spend": [],
-      "ads": []
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6IL03163",
+      "spend": [
+        {
+          "actor": "Angel Oakley (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1657.29,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Brian Poindexter",
-      "office": "US House, OH-7",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "OH-7-2026",
+      "office": "US House OH-7",
       "state": "Ohio",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-05-05",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://poindexterforcongress.com/",
         "x": "https://x.com/bpforcongress",
@@ -195,6 +526,7 @@
         "ig": "https://www.instagram.com/PoindexterForCongress/",
         "tk": "https://www.tiktok.com/@poindexterforcongress"
       },
+      "fecId": "H6OH07168",
       "spend": [
         {
           "actor": "Brian Poindexter (candidate)",
@@ -207,97 +539,44 @@
         }
       ],
       "ads": [],
-      "fecId": "H6OH07168",
       "fecUpdated": "2026-06-17"
     },
     {
-      "name": "Dan Osborn",
-      "office": "US Senate (Independent)",
-      "state": "Nebraska",
+      "name": "Max Miller",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "OH-7-2026",
+      "office": "US House OH-7",
+      "state": "Ohio",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-05-12",
-      "result": "won",
-      "links": {
-        "web": "https://www.osbornforsenate.com/",
-        "x": "https://x.com/osbornforne",
-        "yt": null,
-        "fb": "https://www.facebook.com/osbornforne",
-        "ig": "https://www.instagram.com/osbornforne/",
-        "tk": "https://www.tiktok.com/@osbornforne"
-      },
+      "result": null,
+      "links": {},
+      "fecId": "H4OH15083",
       "spend": [
         {
-          "actor": "Dan Osborn (candidate)",
+          "actor": "Max Miller (candidate)",
           "type": "candidate",
           "bucket": "self",
-          "amount": 2784328.54,
+          "amount": 513420.7,
           "source": "FEC",
           "confidence": "FEC",
-          "asOf": "2026-04-22"
-        },
-        {
-          "actor": "Outside spending — supporting",
-          "type": "outside",
-          "bucket": "support",
-          "amount": 12508808.56,
-          "source": "FEC Schedule E",
-          "confidence": "FEC",
-          "asOf": "2026-06-17"
-        },
-        {
-          "actor": "Outside spending — opposing",
-          "type": "outside",
-          "bucket": "oppose",
-          "amount": 8011606.419999999,
-          "source": "FEC Schedule E",
-          "confidence": "FEC",
-          "asOf": "2026-06-17"
+          "asOf": "2026-04-15"
         }
       ],
       "ads": [],
-      "fecId": "S4NE00207",
-      "fecUpdated": "2026-06-17"
-    },
-    {
-      "name": "Emanuel Jones",
-      "office": "US House, GA-13",
-      "state": "Georgia",
-      "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-05-19",
-      "result": "lost",
-      "links": {
-        "web": "https://www.emanueljonesforcongress.com/",
-        "x": "https://twitter.com/emanueldjones",
-        "yt": null,
-        "fb": "https://www.facebook.com/emanuel.d.jones",
-        "ig": null,
-        "tk": null
-      },
-      "spend": [
-        {
-          "actor": "Emanuel Jones (candidate)",
-          "type": "candidate",
-          "bucket": "self",
-          "amount": 274720.52,
-          "source": "FEC",
-          "confidence": "FEC",
-          "asOf": "2026-04-29"
-        }
-      ],
-      "ads": [],
-      "fecId": "H6GA13039",
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Summer Lee",
-      "office": "US House, PA-12 (incumbent)",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "PA-12-2026",
+      "office": "US House PA-12",
       "state": "Pennsylvania",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-05-19",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://summerforpa.com/",
         "x": "https://twitter.com/SummerForPA",
@@ -306,6 +585,7 @@
         "ig": "https://www.instagram.com/summerleeforpa/",
         "tk": null
       },
+      "fecId": "H6PA05158",
       "spend": [
         {
           "actor": "Summer Lee (candidate)",
@@ -318,18 +598,44 @@
         }
       ],
       "ads": [],
-      "ytChannelId": "UCqQJ44qlkVxWV5N12YeacyA",
-      "fecId": "H6PA05158",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "James Hayes",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "PA-12-2026",
+      "office": "US House PA-12",
+      "state": "Pennsylvania",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H4PA12068",
+      "spend": [
+        {
+          "actor": "James Hayes (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 16237.51,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-29"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Paige Cognetti",
-      "office": "US House, PA-8",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "PA-8-2026",
+      "office": "US House PA-8",
       "state": "Pennsylvania",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-05-19",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://paigeforpa.com/",
         "x": "https://x.com/paigegcognetti",
@@ -338,6 +644,7 @@
         "ig": "https://www.instagram.com/paigegcognetti/",
         "tk": null
       },
+      "fecId": "H6PA08293",
       "spend": [
         {
           "actor": "Paige Cognetti (candidate)",
@@ -359,17 +666,44 @@
         }
       ],
       "ads": [],
-      "fecId": "H6PA08293",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Rob Bresnahan Jr.",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "PA-8-2026",
+      "office": "US House PA-8",
+      "state": "Pennsylvania",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6PA09101",
+      "spend": [
+        {
+          "actor": "Rob Bresnahan Jr. (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Bob Brooks",
-      "office": "US House, PA-7",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "PA-7-2026",
+      "office": "US House PA-7",
       "state": "Pennsylvania",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-05-19",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://brooksforcongress.com/",
         "x": "https://x.com/VoteBobBrooks",
@@ -378,6 +712,7 @@
         "ig": null,
         "tk": null
       },
+      "fecId": "H6PA07188",
       "spend": [
         {
           "actor": "Bob Brooks (candidate)",
@@ -408,74 +743,53 @@
         }
       ],
       "ads": [],
-      "fecId": "H6PA07188",
       "fecUpdated": "2026-06-17"
     },
     {
-      "name": "Jeff Warren",
-      "office": "State House, HD-137",
+      "name": "Ryan Mackenzie",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "PA-7-2026",
+      "office": "US House PA-7",
       "state": "Pennsylvania",
-      "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-05-19",
-      "result": "won",
-      "links": {
-        "web": "https://www.jeffwarrenforpa.com/",
-        "x": null,
-        "yt": null,
-        "fb": "https://www.facebook.com/TheWarrenCampaign",
-        "ig": "https://www.instagram.com/jeffwarrenforpa/",
-        "tk": "https://www.tiktok.com/@jeffwarren4747"
-      },
-      "spend": [],
-      "ads": []
-    },
-    {
-      "name": "Brian Wrightson",
-      "office": "State Senate, SD-40",
-      "state": "Pennsylvania",
-      "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-05-19",
-      "result": "won",
-      "links": {
-        "web": "https://wrightsonforsenate.net/",
-        "x": "https://twitter.com/bwrightson",
-        "yt": null,
-        "fb": null,
-        "ig": "https://www.instagram.com/bwrightson/",
-        "tk": null
-      },
-      "spend": [],
-      "ads": []
-    },
-    {
-      "name": "Tom Steyer",
-      "office": "Governor",
-      "state": "California",
-      "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-06-02",
-      "result": "lost",
-      "links": {
-        "web": "https://www.tomsteyer.com/",
-        "x": "https://x.com/TomSteyer",
-        "yt": null,
-        "fb": "https://www.facebook.com/officialtomsteyer",
-        "ig": "https://www.instagram.com/tomsteyer/",
-        "tk": null
-      },
-      "spend": [],
-      "ads": []
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H8PA15195",
+      "spend": [
+        {
+          "actor": "Ryan Mackenzie (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 191137.8,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2018-12-31"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 12195.810000000001,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
     },
     {
       "name": "Randy Villegas",
-      "office": "US House, CA-22",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "CA-22-2026",
+      "office": "US House CA-22",
       "state": "California",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-02",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://www.villegasforcongress.com/",
         "x": "https://x.com/Villegas_CA22",
@@ -484,6 +798,7 @@
         "ig": "https://www.instagram.com/villegasforcongress/",
         "tk": "https://www.tiktok.com/@villegasforcongress"
       },
+      "fecId": "H6CA22190",
       "spend": [
         {
           "actor": "Randy Villegas (candidate)",
@@ -511,40 +826,56 @@
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
-        },
-        {
-          "actor": "Dem side — race total (AdImpact, CA CD-22)",
-          "type": "outside",
-          "bucket": "support",
-          "amount": 16671440,
-          "source": "AdImpact",
-          "confidence": "adimpact",
-          "asOf": "2026-06-17",
-          "note": "all Dem-aligned spend in race, 1/1/25-12/31/26"
-        },
-        {
-          "actor": "Rep side — race total (AdImpact, CA CD-22)",
-          "type": "outside",
-          "bucket": "oppose",
-          "amount": 11676459,
-          "source": "AdImpact",
-          "confidence": "adimpact",
-          "asOf": "2026-06-17",
-          "note": "all Rep-aligned spend in race"
         }
       ],
       "ads": [],
-      "fecId": "H6CA22190",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "David Valadao",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "CA-22-2026",
+      "office": "US House CA-22",
+      "state": "California",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H2CA20094",
+      "spend": [
+        {
+          "actor": "David Valadao (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1181112.9,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2012-12-31"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 6695.67,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Eric Jones",
-      "office": "US House, CA-4",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "CA-4-2026",
+      "office": "US House CA-4",
       "state": "California",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-02",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://www.ericjones.us/",
         "x": "https://x.com/ericjones_us",
@@ -553,6 +884,7 @@
         "ig": "https://www.instagram.com/ericjones.us/",
         "tk": "https://www.tiktok.com/@ericjones.us"
       },
+      "fecId": "H6CA23297",
       "spend": [
         {
           "actor": "Eric Jones (candidate)",
@@ -608,18 +940,370 @@
           "firstSeen": "2026-05-28"
         }
       ],
-      "ytChannelId": "UCWsGjvUpP9m755WIIoVry8g",
-      "fecId": "H6CA23297",
       "fecUpdated": "2026-06-17"
     },
     {
+      "name": "Mike Thompson",
+      "party": "D",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "CA-4-2026",
+      "office": "US House CA-4",
+      "state": "California",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H4CA37102",
+      "spend": [
+        {
+          "actor": "Mike Thompson (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Robert White",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "DC-Delegate-2026",
+      "office": "US House Delegate",
+      "state": "Washington, D.C.",
+      "level": "federal",
+      "result": "won",
+      "status": "our candidate",
+      "links": {
+        "web": "https://www.joinrobertwhite.com/",
+        "x": "https://twitter.com/robertwhite_dc",
+        "yt": null,
+        "fb": "https://www.facebook.com/RobertWhiteAtLarge",
+        "ig": "https://www.instagram.com/robertwhite_dc/",
+        "tk": null
+      },
+      "fecId": "H6DC01079",
+      "spend": [
+        {
+          "actor": "Robert White (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 587752.55,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-05-27"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 10000,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Denise Rosado",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "DC-Delegate-2026",
+      "office": "US House Delegate",
+      "state": "Washington, D.C.",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6DC01111",
+      "spend": [
+        {
+          "actor": "Denise Rosado (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1062.66,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-05-27"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Kymone Freeman",
+      "party": "DC Statehood Green",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "DC-Delegate-2026",
+      "office": "US House Delegate",
+      "state": "Washington, D.C.",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H4DC00100",
+      "spend": [
+        {
+          "actor": "Kymone Freeman (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "John Kulewicz",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "OH-AG-2026",
+      "office": "Attorney General",
+      "state": "Ohio",
+      "level": "state",
+      "result": "won",
+      "status": "our candidate",
+      "links": {
+        "web": "https://john4ohioag.com/",
+        "x": "https://x.com/JohnKulewicz",
+        "yt": null,
+        "fb": "https://www.facebook.com/profile.php?id=61580274795926",
+        "ig": null,
+        "tk": null
+      },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Keith Faber",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "OH-AG-2026",
+      "office": "Attorney General",
+      "state": "Ohio",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Dan Osborn",
+      "party": "Independent",
+      "relationship": "tracked",
+      "raceKey": "NE-Sen-2026",
+      "office": "U.S. Senate",
+      "state": "Nebraska",
+      "level": "federal",
+      "result": "won",
+      "status": "our candidate",
+      "links": {
+        "web": "https://www.osbornforsenate.com/",
+        "x": "https://x.com/osbornforne",
+        "yt": null,
+        "fb": "https://www.facebook.com/osbornforne",
+        "ig": "https://www.instagram.com/osbornforne/",
+        "tk": "https://www.tiktok.com/@osbornforne"
+      },
+      "fecId": "S4NE00207",
+      "spend": [
+        {
+          "actor": "Dan Osborn (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 2784328.54,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-22"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 12508808.56,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 8011606.419999999,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Pete Ricketts",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "NE-Sen-2026",
+      "office": "U.S. Senate",
+      "state": "Nebraska",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S6NE00129",
+      "spend": [
+        {
+          "actor": "Pete Ricketts (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 4281083.75,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-22"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 808578.61,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 431.09,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Cindy Burbank",
+      "party": "D",
+      "relationship": "general-opp",
+      "status": "withdrew",
+      "raceKey": "NE-Sen-2026",
+      "office": "U.S. Senate",
+      "state": "Nebraska",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S6NE00145",
+      "spend": [
+        {
+          "actor": "Cindy Burbank (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1872.97,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-22"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Jeff Warren",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "PA-HD137-2026",
+      "office": "State House District 137",
+      "state": "Pennsylvania",
+      "level": "state",
+      "result": "won",
+      "status": "our candidate",
+      "links": {
+        "web": "https://www.jeffwarrenforpa.com/",
+        "x": null,
+        "yt": null,
+        "fb": "https://www.facebook.com/TheWarrenCampaign",
+        "ig": "https://www.instagram.com/jeffwarrenforpa/",
+        "tk": "https://www.tiktok.com/@jeffwarren4747"
+      },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Joe Emrick",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "PA-HD137-2026",
+      "office": "State House District 137",
+      "state": "Pennsylvania",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Brian Wrightson",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "PA-SD40-2026",
+      "office": "State Senate District 40",
+      "state": "Pennsylvania",
+      "level": "state",
+      "result": "won",
+      "status": "our candidate",
+      "links": {
+        "web": "https://wrightsonforsenate.net/",
+        "x": "https://twitter.com/bwrightson",
+        "yt": null,
+        "fb": null,
+        "ig": "https://www.instagram.com/bwrightson/",
+        "tk": null
+      },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Rosemary Brown",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "PA-SD40-2026",
+      "office": "State Senate District 40",
+      "state": "Pennsylvania",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
       "name": "Jane Kim",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "CA-InsComm-2026",
       "office": "Insurance Commissioner",
       "state": "California",
       "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-06-02",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://www.janekim.org/",
         "x": "https://x.com/JaneKim",
@@ -628,17 +1312,35 @@
         "ig": "https://www.instagram.com/janekim/",
         "tk": "https://www.tiktok.com/@janekimforca"
       },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Ben Allen",
+      "party": "D",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "CA-InsComm-2026",
+      "office": "Insurance Commissioner",
+      "state": "California",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
       "spend": [],
       "ads": []
     },
     {
       "name": "Graham Platner",
-      "office": "US Senate",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "ME-Sen-2026",
+      "office": "U.S. Senate",
       "state": "Maine",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-09",
       "result": "won",
+      "status": "our candidate",
       "links": {
         "web": "https://www.grahamforsenate.com",
         "x": "https://x.com/grahamformaine",
@@ -647,6 +1349,7 @@
         "ig": "https://www.instagram.com/grahamformaine/",
         "tk": "https://www.tiktok.com/@grahamformaine"
       },
+      "fecId": "S6ME00373",
       "spend": [
         {
           "actor": "Graham Platner (candidate)",
@@ -720,120 +1423,62 @@
           "firstSeen": "2026-06-09"
         }
       ],
-      "ytChannelId": "UCa_t4_O0On6PXNdXPciiyVw",
-      "fecId": "S6ME00373",
       "fecUpdated": "2026-06-17"
     },
     {
-      "name": "Robert White",
-      "office": "US House Delegate",
-      "state": "Washington, D.C.",
+      "name": "Susan Collins",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "ME-Sen-2026",
+      "office": "U.S. Senate",
+      "state": "Maine",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-16",
-      "result": "won",
-      "links": {
-        "web": "https://www.joinrobertwhite.com/",
-        "x": "https://twitter.com/robertwhite_dc",
-        "yt": null,
-        "fb": "https://www.facebook.com/RobertWhiteAtLarge",
-        "ig": "https://www.instagram.com/robertwhite_dc/",
-        "tk": null
-      },
+      "result": null,
+      "links": {},
+      "fecId": "S6ME00159",
       "spend": [
         {
-          "actor": "Robert White (candidate)",
+          "actor": "Susan Collins (candidate)",
           "type": "candidate",
           "bucket": "self",
-          "amount": 587752.55,
+          "amount": 6547574.47,
           "source": "FEC",
           "confidence": "FEC",
-          "asOf": "2026-05-27"
+          "asOf": "2026-05-20"
         },
         {
           "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
-          "amount": 10000,
+          "amount": 2005068.8399999996,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 15452.939999999999,
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
         }
       ],
       "ads": [],
-      "fecId": "H6DC01079",
-      "fecUpdated": "2026-06-17"
-    },
-    {
-      "name": "Trey Martin",
-      "office": "US House, OK-5",
-      "state": "Oklahoma",
-      "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-16",
-      "result": "lost",
-      "links": {
-        "web": "https://www.treyforoklahoma.com/",
-        "x": "https://x.com/treyforoklahoma",
-        "yt": null,
-        "fb": "https://www.facebook.com/treyforoklahoma",
-        "ig": "https://www.instagram.com/treyforoklahoma",
-        "tk": "https://www.tiktok.com/@treyforoklahoma"
-      },
-      "spend": [
-        {
-          "actor": "Trey Martin (candidate)",
-          "type": "candidate",
-          "bucket": "self",
-          "amount": 5419.38,
-          "source": "FEC",
-          "confidence": "FEC",
-          "asOf": "2026-05-27"
-        }
-      ],
-      "ads": [],
-      "fecId": "H6OK05319",
-      "fecUpdated": "2026-06-17"
-    },
-    {
-      "name": "Nate Blouin",
-      "office": "US House, UT-1",
-      "state": "Utah",
-      "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-23",
-      "result": null,
-      "links": {
-        "web": "https://www.nateforutah.com/",
-        "x": "https://x.com/NateForUtah",
-        "yt": null,
-        "fb": "https://www.facebook.com/nbforutah",
-        "ig": "https://www.instagram.com/nateforutah/",
-        "tk": "https://www.tiktok.com/@nateforutah"
-      },
-      "spend": [
-        {
-          "actor": "Nate Blouin (candidate)",
-          "type": "candidate",
-          "bucket": "self",
-          "amount": 588094.06,
-          "source": "FEC",
-          "confidence": "FEC",
-          "asOf": "2026-06-03"
-        }
-      ],
-      "ads": [],
-      "fecId": "H6UT01178",
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Darializa Avila Chevalier",
-      "office": "US House, NY-13",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "NY-13-2026",
+      "office": "US House NY-13",
       "state": "New York",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-23",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://darializaforcongress.com",
         "x": "https://x.com/darializaforny",
@@ -842,6 +1487,7 @@
         "ig": "https://www.instagram.com/darializaforny/",
         "tk": null
       },
+      "fecId": "H6NY13279",
       "spend": [
         {
           "actor": "Darializa Avila Chevalier (candidate)",
@@ -863,17 +1509,122 @@
         }
       ],
       "ads": [],
-      "fecId": "H6NY13279",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Adriano Espaillat",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "incumbent",
+      "raceKey": "NY-13-2026",
+      "office": "US House NY-13",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H2NY13096",
+      "spend": [
+        {
+          "actor": "Adriano Espaillat (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1537250.19,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Jaliel Amador",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-13-2026",
+      "office": "US House NY-13",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY13238",
+      "spend": [
+        {
+          "actor": "Jaliel Amador (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 5698.76,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-02-27"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "James Felton Keith",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-13-2026",
+      "office": "US House NY-13",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY13220",
+      "spend": [
+        {
+          "actor": "James Felton Keith (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Oscar Romero",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-13-2026",
+      "office": "US House NY-13",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY13253",
+      "spend": [
+        {
+          "actor": "Oscar Romero (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 18479.27,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Drew Warshaw",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "NY-Comptroller-2026",
       "office": "State Comptroller",
       "state": "New York",
       "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-06-23",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.drewwarshaw.com/",
         "x": "https://x.com/drewforny",
@@ -882,17 +1633,65 @@
         "ig": "https://www.instagram.com/drewforny/",
         "tk": "https://www.tiktok.com/@drewforny"
       },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Thomas DiNapoli",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "incumbent",
+      "raceKey": "NY-Comptroller-2026",
+      "office": "State Comptroller",
+      "state": "New York",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Raj Goyle",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-Comptroller-2026",
+      "office": "State Comptroller",
+      "state": "New York",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Joseph Hernandez",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "NY-Comptroller-2026",
+      "office": "State Comptroller",
+      "state": "New York",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
       "spend": [],
       "ads": []
     },
     {
       "name": "Brad Lander",
-      "office": "US House, NY-10",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "NY-10-2026",
+      "office": "US House NY-10",
       "state": "New York",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-23",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.bradlanderforcongress.com/",
         "x": "https://x.com/bradlander",
@@ -901,6 +1700,7 @@
         "ig": "https://www.instagram.com/brad.lander/",
         "tk": "https://www.tiktok.com/@bradlandernyc"
       },
+      "fecId": "H6NY10176",
       "spend": [
         {
           "actor": "Brad Lander (candidate)",
@@ -931,17 +1731,70 @@
         }
       ],
       "ads": [],
-      "fecId": "H6NY10176",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Daniel Goldman",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "incumbent",
+      "raceKey": "NY-10-2026",
+      "office": "US House NY-10",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H2NY10308",
+      "spend": [
+        {
+          "actor": "Daniel Goldman (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 7192469.79,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Nickie Kane",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-10-2026",
+      "office": "US House NY-10",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY10184",
+      "spend": [
+        {
+          "actor": "Nickie Kane (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Claire Valdez",
-      "office": "US House, NY-7",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "NY-7-2026",
+      "office": "US House NY-7",
       "state": "New York",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-23",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://clairevaldezforcongress.com/",
         "x": "https://x.com/claireforny",
@@ -950,6 +1803,7 @@
         "ig": "https://www.instagram.com/claireforny/",
         "tk": "https://www.tiktok.com/@claireforny"
       },
+      "fecId": "H6NY07214",
       "spend": [
         {
           "actor": "Claire Valdez (candidate)",
@@ -962,17 +1816,96 @@
         }
       ],
       "ads": [],
-      "fecId": "H6NY07214",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Antonio Reynoso",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-7-2026",
+      "office": "US House NY-7",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY07164",
+      "spend": [
+        {
+          "actor": "Antonio Reynoso (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 571379.93,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Julie Won",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-7-2026",
+      "office": "US House NY-7",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY07248",
+      "spend": [
+        {
+          "actor": "Julie Won (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 537868.87,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Vichal Kumar",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-7-2026",
+      "office": "US House NY-7",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY07230",
+      "spend": [
+        {
+          "actor": "Vichal Kumar (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 121431.13,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Micah Lasher",
-      "office": "US House, NY-12",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "NY-12-2026",
+      "office": "US House NY-12",
       "state": "New York",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-23",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://micahlasher.com/",
         "x": "https://x.com/micahlasher",
@@ -981,6 +1914,7 @@
         "ig": "https://www.instagram.com/micahlasher/",
         "tk": "https://www.tiktok.com/@micahlasher"
       },
+      "fecId": "H6NY12172",
       "spend": [
         {
           "actor": "Micah Lasher (candidate)",
@@ -1045,18 +1979,286 @@
           "firstSeen": "2026-06-03"
         }
       ],
-      "ytChannelId": "UCnqbg2q9AmBNZUxZl-YNlAw",
-      "fecId": "H6NY12172",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Alex Bores",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-12-2026",
+      "office": "US House NY-12",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY12214",
+      "spend": [
+        {
+          "actor": "Alex Bores (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1865443.4,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 2485698,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 2419559.08,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "George Conway",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-12-2026",
+      "office": "US House NY-12",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY12347",
+      "spend": [
+        {
+          "actor": "George Conway (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 5734432.04,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Jack Schlossberg",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-12-2026",
+      "office": "US House NY-12",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY12255",
+      "spend": [
+        {
+          "actor": "Jack Schlossberg (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 2657144.84,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Nina Schwalbe",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "NY-12-2026",
+      "office": "US House NY-12",
+      "state": "New York",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6NY12388",
+      "spend": [
+        {
+          "actor": "Nina Schwalbe (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 457827.4,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Nate Blouin",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "UT-1-2026",
+      "office": "US House UT-1",
+      "state": "Utah",
+      "level": "federal",
+      "result": null,
+      "status": "our candidate",
+      "links": {
+        "web": "https://www.nateforutah.com/",
+        "x": "https://x.com/NateForUtah",
+        "yt": null,
+        "fb": "https://www.facebook.com/nbforutah",
+        "ig": "https://www.instagram.com/nateforutah/",
+        "tk": "https://www.tiktok.com/@nateforutah"
+      },
+      "fecId": "H6UT01178",
+      "spend": [
+        {
+          "actor": "Nate Blouin (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 588094.06,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Ben McAdams",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "frontrunner",
+      "raceKey": "UT-1-2026",
+      "office": "US House UT-1",
+      "state": "Utah",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H8UT04053",
+      "spend": [
+        {
+          "actor": "Ben McAdams (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1245386.88,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 22809.44,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Liban Mohamed",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "UT-1-2026",
+      "office": "US House UT-1",
+      "state": "Utah",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6UT01228",
+      "spend": [
+        {
+          "actor": "Liban Mohamed (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 175338.38,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Michael Farrell",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "declared",
+      "raceKey": "UT-1-2026",
+      "office": "US House UT-1",
+      "state": "Utah",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6UT01236",
+      "spend": [
+        {
+          "actor": "Michael Farrell (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 274058.31,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-06-03"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Riley Owen",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "UT-1-2026",
+      "office": "US House UT-1",
+      "state": "Utah",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6UT01244",
+      "spend": [
+        {
+          "actor": "Riley Owen (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 84658.2,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-04-05"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "David Seligman",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "CO-AG-2026",
       "office": "Attorney General",
       "state": "Colorado",
       "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-06-30",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.seligmanforag.com/",
         "x": "https://x.com/daveyseligman",
@@ -1065,6 +2267,7 @@
         "ig": "https://www.instagram.com/daveyseligman/",
         "tk": "https://www.tiktok.com/@seligman.for.ag"
       },
+      "fecId": null,
       "spend": [],
       "ads": [
         {
@@ -1109,17 +2312,108 @@
           "source": "YouTube RSS",
           "firstSeen": "2026-06-09"
         }
-      ],
-      "ytChannelId": "UC0XztOj8xw1UP-ZxjaDHouw"
+      ]
+    },
+    {
+      "name": "Jena Griswold",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "CO-AG-2026",
+      "office": "Attorney General",
+      "state": "Colorado",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Michael Dougherty",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "CO-AG-2026",
+      "office": "Attorney General",
+      "state": "Colorado",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Hetal Doshi",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "CO-AG-2026",
+      "office": "Attorney General",
+      "state": "Colorado",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Crisanta Duran",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "CO-AG-2026",
+      "office": "Attorney General",
+      "state": "Colorado",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Michael Allen",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "primary-pending",
+      "raceKey": "CO-AG-2026",
+      "office": "Attorney General",
+      "state": "Colorado",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Conner Pennington",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "primary-pending",
+      "raceKey": "CO-AG-2026",
+      "office": "Attorney General",
+      "state": "Colorado",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     },
     {
       "name": "Eileen Laubacher",
-      "office": "US House, CO-4",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "CO-4-2026",
+      "office": "US House CO-4",
       "state": "Colorado",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-06-30",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.eileenforcolorado.com/",
         "x": "https://x.com/EileenforCO",
@@ -1128,6 +2422,7 @@
         "ig": "https://www.instagram.com/eileenforcolorado/",
         "tk": "https://www.tiktok.com/@eileenforcolorado"
       },
+      "fecId": "H6CO04202",
       "spend": [
         {
           "actor": "Eileen Laubacher (candidate)",
@@ -1140,17 +2435,79 @@
         }
       ],
       "ads": [],
-      "fecId": "H6CO04202",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Jenna Preston",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "write-in",
+      "raceKey": "CO-4-2026",
+      "office": "US House CO-4",
+      "state": "Colorado",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H6CO04228",
+      "spend": [
+        {
+          "actor": "Jenna Preston (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 64494.63,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Lauren Boebert",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "CO-4-2026",
+      "office": "US House CO-4",
+      "state": "Colorado",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H0CO03165",
+      "spend": [
+        {
+          "actor": "Lauren Boebert (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 811578.16,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 5480.42,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Abdul El-Sayed",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "MI-Sen-2026",
       "office": "US Senate",
       "state": "Michigan",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-08-04",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://abdulforsenate.com/",
         "x": "https://x.com/abdulelsayed",
@@ -1159,6 +2516,7 @@
         "ig": "https://www.instagram.com/abdulelsayed/",
         "tk": "https://www.tiktok.com/@abdulelsayed"
       },
+      "fecId": "S6MI00418",
       "spend": [
         {
           "actor": "Abdul El-Sayed (candidate)",
@@ -1223,18 +2581,184 @@
           "firstSeen": "2026-06-16"
         }
       ],
-      "ytChannelId": "UC0Arr9_NIOkWt-hyuhQpx1Q",
-      "fecId": "S6MI00418",
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Mallory McMorrow",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-Sen-2026",
+      "office": "US Senate",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S6MI00392",
+      "spend": [
+        {
+          "actor": "Mallory McMorrow (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 4931519.99,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 50,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Haley Stevens",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-Sen-2026",
+      "office": "US Senate",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S6MI00426",
+      "spend": [
+        {
+          "actor": "Haley Stevens (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 5481553.31,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 76094.5,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Rachel Howard",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-Sen-2026",
+      "office": "US Senate",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S6MI00467",
+      "spend": [
+        {
+          "actor": "Rachel Howard (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 6170.77,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2025-09-30"
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Travis Zollner",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-Sen-2026",
+      "office": "US Senate",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S6MI00483",
+      "spend": [
+        {
+          "actor": "Travis Zollner (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 0,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": null
+        }
+      ],
+      "ads": [],
+      "fecUpdated": "2026-06-17"
+    },
+    {
+      "name": "Mike Rogers",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "frontrunner",
+      "raceKey": "MI-Sen-2026",
+      "office": "US Senate",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "S4MI00595",
+      "spend": [
+        {
+          "actor": "Mike Rogers (candidate)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 3677475.85,
+          "source": "FEC",
+          "confidence": "FEC",
+          "asOf": "2026-03-31"
+        },
+        {
+          "actor": "Outside spending — supporting",
+          "type": "outside",
+          "bucket": "support",
+          "amount": 26391578.950000003,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Outside spending — opposing",
+          "type": "outside",
+          "bucket": "oppose",
+          "amount": 39086618.129999995,
+          "source": "FEC Schedule E",
+          "confidence": "FEC",
+          "asOf": "2026-06-17"
+        }
+      ],
+      "ads": [],
       "fecUpdated": "2026-06-17"
     },
     {
       "name": "Donavan McKinney",
-      "office": "US House, MI-13",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "MI-13-2026",
+      "office": "US House MI-13",
       "state": "Michigan",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-08-04",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.donavanforcongress.com/",
         "x": "https://x.com/DonavanMI13",
@@ -1243,6 +2767,7 @@
         "ig": "https://www.instagram.com/donavanmckinney/",
         "tk": null
       },
+      "fecId": "H6MI13254",
       "spend": [
         {
           "actor": "Donavan McKinney (candidate)",
@@ -1264,18 +2789,78 @@
         }
       ],
       "ads": [],
-      "ytChannelId": "UChIs0S3I0QcCaYcVPe9zyig",
-      "fecId": "H6MI13254",
       "fecUpdated": "2026-06-17"
     },
     {
+      "name": "Shri Thanedar",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "incumbent",
+      "raceKey": "MI-13-2026",
+      "office": "US House MI-13",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": "H2MI13204",
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Shelby Campbell",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-13-2026",
+      "office": "US House MI-13",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Naz Hassan",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-13-2026",
+      "office": "US House MI-13",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Articia Bomer",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "primary-pending",
+      "raceKey": "MI-13-2026",
+      "office": "US House MI-13",
+      "state": "Michigan",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
       "name": "Justin Onwenu",
-      "office": "State Senate, SD-1",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "MI-SD1-2026",
+      "office": "State Senate District 1",
       "state": "Michigan",
       "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-08-04",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.justinformi.com/",
         "x": null,
@@ -1284,17 +2869,50 @@
         "ig": null,
         "tk": null
       },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Abraham Aiyash",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "MI-SD1-2026",
+      "office": "State Senate District 1",
+      "state": "Michigan",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Patrick D. O'Connell",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "MI-SD1-2026",
+      "office": "State Senate District 1",
+      "state": "Michigan",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
       "spend": [],
       "ads": []
     },
     {
       "name": "Justin Pearson",
-      "office": "US House, TN-9",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "TN-9-2026",
+      "office": "US House TN-9",
       "state": "Tennessee",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-08-06",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.votejustinj.com/",
         "x": "https://twitter.com/justinjpearson",
@@ -1303,6 +2921,7 @@
         "ig": "https://www.instagram.com/justinjpearson/",
         "tk": "https://www.tiktok.com/@realjustinjpearson"
       },
+      "fecId": "H6TN09449",
       "spend": [
         {
           "actor": "Justin Pearson (candidate)",
@@ -1323,18 +2942,93 @@
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
-      "fecId": "H6TN09449",
-      "fecUpdated": "2026-06-17"
+      "ads": []
+    },
+    {
+      "name": "London Lamar",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "TN-9-2026",
+      "office": "US House TN-9",
+      "state": "Tennessee",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "M. LaTroy A-Williams",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "TN-9-2026",
+      "office": "US House TN-9",
+      "state": "Tennessee",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Jim Torino",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "TN-9-2026",
+      "office": "US House TN-9",
+      "state": "Tennessee",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Brent Taylor",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "TN-9-2026",
+      "office": "US House TN-9",
+      "state": "Tennessee",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Charlotte Bergmann",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "TN-9-2026",
+      "office": "US House TN-9",
+      "state": "Tennessee",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     },
     {
       "name": "Mandela Barnes",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "WI-Gov-2026",
       "office": "Governor",
       "state": "Wisconsin",
       "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-08-11",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.mandelabarnes.com/",
         "x": "https://x.com/TheOtherMandela",
@@ -1343,6 +3037,7 @@
         "ig": "https://www.instagram.com/theothermandela/",
         "tk": "https://www.tiktok.com/@theothermandela"
       },
+      "fecId": null,
       "spend": [],
       "ads": [
         {
@@ -1387,17 +3082,108 @@
           "source": "YouTube RSS",
           "firstSeen": "2026-05-13"
         }
-      ],
-      "ytChannelId": "UC0Tu6MYHYWZ61RUNzxiy6GQ"
+      ]
+    },
+    {
+      "name": "David Crowley",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "WI-Gov-2026",
+      "office": "Governor",
+      "state": "Wisconsin",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Sara Rodriguez",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "WI-Gov-2026",
+      "office": "Governor",
+      "state": "Wisconsin",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Kelda Roys",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "WI-Gov-2026",
+      "office": "Governor",
+      "state": "Wisconsin",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Francesca Hong",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "WI-Gov-2026",
+      "office": "Governor",
+      "state": "Wisconsin",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Missy Hughes",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "WI-Gov-2026",
+      "office": "Governor",
+      "state": "Wisconsin",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Tom Tiffany",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "frontrunner",
+      "raceKey": "WI-Gov-2026",
+      "office": "Governor",
+      "state": "Wisconsin",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     },
     {
       "name": "Mary Peltola",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "AK-Sen-2026",
       "office": "US Senate",
       "state": "Alaska",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-08-18",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://marypeltola.com/",
         "x": "https://x.com/MaryPeltola",
@@ -1406,6 +3192,7 @@
         "ig": "https://www.instagram.com/marypeltola/",
         "tk": "https://www.tiktok.com/@mary_peltola"
       },
+      "fecId": "S6AK00276",
       "spend": [
         {
           "actor": "Mary Peltola (candidate)",
@@ -1426,18 +3213,78 @@
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
-      "fecId": "S6AK00276",
-      "fecUpdated": "2026-06-17"
+      "ads": []
+    },
+    {
+      "name": "Carol Hafner",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "AK-Sen-2026",
+      "office": "US Senate",
+      "state": "Alaska",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "David Leslie",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "AK-Sen-2026",
+      "office": "US Senate",
+      "state": "Alaska",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Dan S. Sullivan",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "AK-Sen-2026",
+      "office": "US Senate",
+      "state": "Alaska",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Scott Kohlhaas",
+      "party": "Libertarian",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "AK-Sen-2026",
+      "office": "US Senate",
+      "state": "Alaska",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     },
     {
       "name": "Jonathan Kreiss-Tomkins",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "AK-Gov-2026",
       "office": "Governor",
       "state": "Alaska",
       "level": "state",
-      "raceType": "primary",
-      "raceDate": "2026-08-18",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.jktforak.com/",
         "x": "https://x.com/jktforak",
@@ -1446,17 +3293,80 @@
         "ig": "https://www.instagram.com/jktforak/",
         "tk": null
       },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Bernadette Wilson",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "AK-Gov-2026",
+      "office": "Governor",
+      "state": "Alaska",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Adam Crum",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "AK-Gov-2026",
+      "office": "Governor",
+      "state": "Alaska",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Treg Taylor",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "AK-Gov-2026",
+      "office": "Governor",
+      "state": "Alaska",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Click Bishop",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "running",
+      "raceKey": "AK-Gov-2026",
+      "office": "Governor",
+      "state": "Alaska",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
       "spend": [],
       "ads": []
     },
     {
       "name": "Hector Mujica",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "FL-Sen-2026",
       "office": "US Senate (special)",
       "state": "Florida",
       "level": "federal",
-      "raceType": "primary",
-      "raceDate": "2026-08-18",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://hectormujica.com/",
         "x": "https://x.com/HectorMujicaFL",
@@ -1465,6 +3375,7 @@
         "ig": "https://www.instagram.com/hectormujicafl/",
         "tk": "https://www.tiktok.com/@hectormujicafl"
       },
+      "fecId": "S6FL00806",
       "spend": [
         {
           "actor": "Hector Mujica (candidate)",
@@ -1484,19 +3395,78 @@
           "source": "YouTube RSS",
           "firstSeen": "2026-06-02"
         }
-      ],
-      "ytChannelId": "UCG89G2v6KSzd8K_Q_YAX64w",
-      "fecId": "S6FL00806",
-      "fecUpdated": "2026-06-17"
+      ]
+    },
+    {
+      "name": "Alexander Vindman",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "frontrunner",
+      "raceKey": "FL-Sen-2026",
+      "office": "US Senate (special)",
+      "state": "Florida",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Angie Nixon",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "FL-Sen-2026",
+      "office": "US Senate (special)",
+      "state": "Florida",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Jennifer Jenkins",
+      "party": "D",
+      "relationship": "primary-opp",
+      "status": "running",
+      "raceKey": "FL-Sen-2026",
+      "office": "US Senate (special)",
+      "state": "Florida",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Ashley Moody",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent-frontrunner",
+      "raceKey": "FL-Sen-2026",
+      "office": "US Senate (special)",
+      "state": "Florida",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     },
     {
       "name": "Gina Hinojosa",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "TX-Gov-2026",
       "office": "Governor",
       "state": "Texas",
       "level": "state",
-      "raceType": "general",
-      "raceDate": "2026-11-03",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://ginafortexas.com/",
         "x": "https://x.com/GinaHinojosaTX",
@@ -1505,17 +3475,50 @@
         "ig": "https://www.instagram.com/ginafortexas/",
         "tk": "https://www.tiktok.com/@ginafortexas"
       },
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Greg Abbott",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "incumbent",
+      "raceKey": "TX-Gov-2026",
+      "office": "Governor",
+      "state": "Texas",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
+    },
+    {
+      "name": "Jenn Mack Raphoon",
+      "party": "Independent",
+      "relationship": "general-opp",
+      "status": "declared",
+      "raceKey": "TX-Gov-2026",
+      "office": "Governor",
+      "state": "Texas",
+      "level": "state",
+      "result": null,
+      "links": {},
+      "fecId": null,
       "spend": [],
       "ads": []
     },
     {
       "name": "Greg Casar",
-      "office": "US House, TX-37",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "TX-37-2026",
+      "office": "US House TX-37",
       "state": "Texas",
       "level": "federal",
-      "raceType": "general",
-      "raceDate": "2026-11-03",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.gregcasar.com/",
         "x": "https://x.com/GregCasar",
@@ -1524,6 +3527,7 @@
         "ig": "https://www.instagram.com/gregcasar/",
         "tk": "https://www.tiktok.com/@repcasar"
       },
+      "fecId": "H2TX35144",
       "spend": [
         {
           "actor": "Greg Casar (candidate)",
@@ -1587,19 +3591,33 @@
           "source": "YouTube RSS",
           "firstSeen": "2026-06-03"
         }
-      ],
-      "ytChannelId": "UCyct8J6LAICeOl0vZyhXD8A",
-      "fecId": "H2TX35144",
-      "fecUpdated": "2026-06-17"
+      ]
+    },
+    {
+      "name": "Lauren B. Peña",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "nominee",
+      "raceKey": "TX-37-2026",
+      "office": "US House TX-37",
+      "state": "Texas",
+      "level": "federal",
+      "result": null,
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     },
     {
       "name": "Juliana Stratton",
+      "party": "D",
+      "relationship": "tracked",
+      "raceKey": "IL-Sen-2026",
       "office": "US Senate",
       "state": "Illinois",
       "level": "federal",
-      "raceType": "general",
-      "raceDate": "2026-11-03",
       "result": null,
+      "status": "our candidate",
       "links": {
         "web": "https://www.julianastratton.com/",
         "x": "https://x.com/JulianaStratton",
@@ -1608,6 +3626,7 @@
         "ig": "https://www.instagram.com/julianastratton/",
         "tk": null
       },
+      "fecId": "S6IL00458",
       "spend": [
         {
           "actor": "Juliana Stratton (candidate)",
@@ -1637,40 +3656,22 @@
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
-      "fecId": "S6IL00458",
-      "fecUpdated": "2026-06-17"
+      "ads": []
     },
     {
-      "name": "Delia Ramirez",
-      "office": "US House, IL-3",
+      "name": "Don Tracy",
+      "party": "R",
+      "relationship": "general-opp",
+      "status": "frontrunner",
+      "raceKey": "IL-Sen-2026",
+      "office": "US Senate",
       "state": "Illinois",
       "level": "federal",
-      "raceType": "general",
-      "raceDate": "2026-11-03",
       "result": null,
-      "links": {
-        "web": "https://www.deliaforcongress.com/",
-        "x": "https://x.com/deliaramirezil",
-        "yt": null,
-        "fb": "https://www.facebook.com/DeliaRamirezIL",
-        "ig": "https://www.instagram.com/deliaramirezil/",
-        "tk": null
-      },
-      "spend": [
-        {
-          "actor": "Delia Ramirez (candidate)",
-          "type": "candidate",
-          "bucket": "self",
-          "amount": 793478.13,
-          "source": "FEC",
-          "confidence": "FEC",
-          "asOf": "2026-03-31"
-        }
-      ],
-      "ads": [],
-      "fecId": "H2IL03162",
-      "fecUpdated": "2026-06-17"
+      "links": {},
+      "fecId": null,
+      "spend": [],
+      "ads": []
     }
   ]
 }

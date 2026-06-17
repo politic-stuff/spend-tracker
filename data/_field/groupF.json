@@ -1,0 +1,5 @@
+[
+  {"raceKey":"TX-Gov-2026","state":"TX","office":"Governor","ourCandidate":"Gina Hinojosa","ourParty":"D","seatHeldBy":"Greg Abbott (R)","generalOpponents":[{"name":"Greg Abbott","party":"R","status":"incumbent"},{"name":"Jenn Mack Raphoon","party":"Independent","status":"declared"}],"notes":"Abbott 3-term incumbent.","confidence":"high"},
+  {"raceKey":"TX-37-2026","state":"TX","office":"US House TX-37","ourCandidate":"Greg Casar","ourParty":"D","seatHeldBy":"Greg Casar (D)","generalOpponents":[{"name":"Lauren B. Peña","party":"R","status":"nominee"}],"notes":"Peña won May 26 GOP runoff ~58%.","confidence":"high"},
+  {"raceKey":"IL-Sen-2026","state":"IL","office":"US Senate","ourCandidate":"Juliana Stratton","ourParty":"D","seatHeldBy":"Dick Durbin (D), retiring","generalOpponents":[{"name":"Don Tracy","party":"R","status":"frontrunner"}],"notes":"OPEN seat. Tracy med-confidence (projected, confirm cert). Solid/Likely D.","confidence":"med"}
+]
