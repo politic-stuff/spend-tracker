@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox/manual: Alex Bores: Alex Bores campaign — TV (WABC-TV) $112,400 (confirmed)"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdImpact race totals: MI-Sen-2026: D $43.0M / R $35.1M"
     },
     {
@@ -2684,6 +2688,16 @@
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "actor": "Alex Bores campaign — TV (WABC-TV)",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 112400,
+          "source": "competitive inbox (Disney/WABC-TV, 6/16-6/23)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-17",
+          "note": "first-pass single-station order; scheduled matcher will aggregate all stations/flights + Nexstar comp"
         }
       ],
       "ads": [],
