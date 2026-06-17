@@ -131627,8 +131627,7 @@ window.TRACKER_DATA = {
       },
       "fecId": null,
       "spend": [],
-      "ads": [],
-      "photo": "assets/photos/jeff-warren.jpg"
+      "ads": []
     },
     {
       "name": "Joe Emrick",
