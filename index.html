@@ -55,6 +55,15 @@
   .adcell.rep{background:color-mix(in srgb,var(--rep) 12%,transparent)} .adcell.rep .val{color:var(--rep)}
   .adcell.tot .val{color:var(--txt)}
   .adsrc{font-size:10px;color:var(--muted);text-align:right;margin:-6px 0 8px}
+  .spenders{margin:8px 0 4px;border-top:1px solid var(--line);padding-top:8px}
+  .spenders h4{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+  .spender{display:flex;align-items:center;gap:7px;font-size:12.5px;padding:2px 0}
+  .spender .dot{width:7px;height:7px;border-radius:2px;flex:none}
+  .spender.D .dot{background:var(--dem)} .spender.R .dot{background:var(--rep)} .spender.I .dot{background:var(--ind)}
+  .spender .nm{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .spender .amt{font-variant-numeric:tabular-nums;font-weight:600}
+  .spender.D .amt{color:var(--dem)} .spender.R .amt{color:var(--rep)} .spender.I .amt{color:var(--ind)}
+  .spenders .more{font-size:11px;color:var(--muted);margin-top:3px;cursor:pointer}
   .cand{border-top:1px solid var(--line);padding:9px 0}
   .cand.tracked{background:color-mix(in srgb,var(--accent) 7%,transparent);margin:0 -16px;padding:9px 16px;border-top:1px solid var(--line)}
   .cand .top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
@@ -160,10 +169,15 @@ function raceCard({rk,race,cands}){
       <div class="adcell rep"><div class="lab">Rep side</div><div class="val">${fmt(ai.repSide)}</div></div>
     </div><div class="adsrc">race totals · AdImpact${ai.asOf?" · "+ai.asOf:""}</div>` : "";
   const statusLabel = race.status==="general" ? "General · Nov 3" : `Primary · ${race.primaryDate||"TBD"}`;
+  const sp = race.spenders||[];
+  const spenders = sp.length ? `<div class="spenders"><h4>Top spenders · ${sp.length} (AdImpact)</h4>`
+    + sp.slice(0,8).map(s=>`<div class="spender ${s.side}"><span class="dot"></span><span class="nm">${s.name}</span><span class="amt">${fmt(s.amount)}</span></div>`).join("")
+    + (sp.length>8?`<div class="more">+${sp.length-8} more</div>`:"")+`</div>` : "";
   return `<div class="race">
     <div class="racehead"><span class="rtitle">${race.office}</span><span class="rmeta">· ${race.state} · ${statusLabel}</span></div>
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
     ${adbar}
+    ${spenders}
     ${cands.map(candRow).join("")}
   </div>`;
 }

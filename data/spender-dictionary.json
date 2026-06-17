@@ -1,0 +1,854 @@
+{
+  "clf": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "R",
+      "amount": 7913475,
+      "name": "CLF"
+    },
+    {
+      "raceKey": "PA-7-2026",
+      "side": "R",
+      "amount": 7758920,
+      "name": "CLF"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "R",
+      "amount": 3561364,
+      "name": "CLF"
+    }
+  ],
+  "house majority pac": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 6094850,
+      "name": "House Majority PAC"
+    },
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 6597380,
+      "name": "House Majority PAC"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "D",
+      "amount": 3666795,
+      "name": "House Majority PAC"
+    }
+  ],
+  "american action network": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "R",
+      "amount": 2739550,
+      "name": "American Action Network"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "R",
+      "amount": 252998,
+      "name": "American Action Network"
+    }
+  ],
+  "house majority forward": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 1490570,
+      "name": "House Majority Forward"
+    },
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 482389,
+      "name": "House Majority Forward"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "D",
+      "amount": 1317145,
+      "name": "House Majority Forward"
+    }
+  ],
+  "save my care": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 1368651,
+      "name": "Save My Care"
+    },
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 502643,
+      "name": "Save My Care"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "D",
+      "amount": 848883,
+      "name": "Save My Care"
+    }
+  ],
+  "314 action": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 1267143,
+      "name": "314 Action"
+    }
+  ],
+  "villegas for ca 22": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 1157801,
+      "name": "Villegas for CA-22"
+    }
+  ],
+  "project 218": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 866788,
+      "name": "Project 218"
+    },
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 452138,
+      "name": "Project 218"
+    }
+  ],
+  "new democrat majority": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 681159,
+      "name": "New Democrat Majority"
+    }
+  ],
+  "blue dog action pac": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 599796,
+      "name": "Blue Dog Action PAC"
+    },
+    {
+      "raceKey": "CA-4-2026",
+      "side": "D",
+      "amount": 1115859,
+      "name": "Blue Dog Action PAC"
+    }
+  ],
+  "dmfi pac": [
+    {
+      "raceKey": "CA-22-2026",
+      "side": "D",
+      "amount": 586445,
+      "name": "DMFI PAC"
+    }
+  ],
+  "jones for ca cd 04": [
+    {
+      "raceKey": "CA-4-2026",
+      "side": "D",
+      "amount": 3945117,
+      "name": "Jones for CA CD-04"
+    }
+  ],
+  "thompson for ca cd 04": [
+    {
+      "raceKey": "CA-4-2026",
+      "side": "D",
+      "amount": 1948273,
+      "name": "Thompson for CA CD-04"
+    }
+  ],
+  "new leadership now": [
+    {
+      "raceKey": "CA-4-2026",
+      "side": "D",
+      "amount": 493246,
+      "name": "New Leadership Now"
+    }
+  ],
+  "article one pac": [
+    {
+      "raceKey": "CA-4-2026",
+      "side": "D",
+      "amount": 104000,
+      "name": "Article One PAC"
+    }
+  ],
+  "riehle for ca cd 04": [
+    {
+      "raceKey": "CA-4-2026",
+      "side": "R",
+      "amount": 5230,
+      "name": "Riehle for CA CD-04"
+    }
+  ],
+  "national association of realtors": [
+    {
+      "raceKey": "CA-4-2026",
+      "side": "D",
+      "amount": 279,
+      "name": "National Association of Realtors"
+    }
+  ],
+  "stronger together pa": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 1508717,
+      "name": "Stronger Together PA"
+    }
+  ],
+  "lead left pac": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 1441427,
+      "name": "Lead Left PAC"
+    }
+  ],
+  "american prosperity alliance": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "R",
+      "amount": 994579,
+      "name": "American Prosperity Alliance"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "R",
+      "amount": 371039,
+      "name": "American Prosperity Alliance"
+    }
+  ],
+  "brooks for pa cd 07": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 541907,
+      "name": "Brooks for PA CD-07"
+    }
+  ],
+  "affordable pa": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 444131,
+      "name": "Affordable PA"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "D",
+      "amount": 1439982,
+      "name": "Affordable PA"
+    }
+  ],
+  "crosswell for pa cd 07": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "D",
+      "amount": 420559,
+      "name": "Crosswell for PA CD-07"
+    }
+  ],
+  "securing american greatness": [
+    {
+      "raceKey": "PA-7-2026",
+      "side": "R",
+      "amount": 399608,
+      "name": "Securing American Greatness"
+    },
+    {
+      "raceKey": "PA-8-2026",
+      "side": "R",
+      "amount": 254184,
+      "name": "Securing American Greatness"
+    }
+  ],
+  "unrig our economy": [
+    {
+      "raceKey": "PA-8-2026",
+      "side": "D",
+      "amount": 2480098,
+      "name": "Unrig Our Economy"
+    },
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "D",
+      "amount": 2642077,
+      "name": "Unrig Our Economy"
+    }
+  ],
+  "nrdc action fund": [
+    {
+      "raceKey": "PA-8-2026",
+      "side": "D",
+      "amount": 126289,
+      "name": "NRDC Action Fund"
+    }
+  ],
+  "campaign for america first international assistance": [
+    {
+      "raceKey": "PA-8-2026",
+      "side": "R",
+      "amount": 91644,
+      "name": "Campaign for America First International Assistance"
+    }
+  ],
+  "ricketts for ne senate": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "R",
+      "amount": 1561031,
+      "name": "Ricketts for NE Senate"
+    }
+  ],
+  "one nation": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "R",
+      "amount": 1128861,
+      "name": "One Nation"
+    },
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "R",
+      "amount": 22628247,
+      "name": "One Nation"
+    },
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "R",
+      "amount": 4143009,
+      "name": "One Nation"
+    }
+  ],
+  "osborn for ne senate": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "I",
+      "amount": 428871,
+      "name": "Osborn for NE Senate"
+    }
+  ],
+  "defending our values pac": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "R",
+      "amount": 254097,
+      "name": "Defending Our Values PAC"
+    }
+  ],
+  "fellowship pac": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "R",
+      "amount": 202953,
+      "name": "Fellowship PAC"
+    }
+  ],
+  "nebraska appleseed action fund": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "D",
+      "amount": 27771,
+      "name": "Nebraska Appleseed Action Fund"
+    }
+  ],
+  "americans for prosperity": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "R",
+      "amount": 2922,
+      "name": "Americans for Prosperity"
+    }
+  ],
+  "common defense action fund": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "D",
+      "amount": 1076,
+      "name": "Common Defense Action Fund"
+    }
+  ],
+  "momsrising together": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "D",
+      "amount": 768,
+      "name": "MomsRising Together"
+    }
+  ],
+  "nrsc": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "R",
+      "amount": 563,
+      "name": "NRSC"
+    }
+  ],
+  "sixteen thirty fund": [
+    {
+      "raceKey": "NE-Sen-2026",
+      "side": "D",
+      "amount": 522,
+      "name": "Sixteen Thirty Fund"
+    }
+  ],
+  "slf pac": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "R",
+      "amount": 28790892,
+      "name": "SLF PAC"
+    },
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "R",
+      "amount": 25269160,
+      "name": "SLF PAC"
+    },
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "R",
+      "amount": 7845849,
+      "name": "SLF PAC"
+    }
+  ],
+  "winsenate": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "D",
+      "amount": 25225725,
+      "name": "WinSenate"
+    },
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 17020884,
+      "name": "WinSenate"
+    },
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "D",
+      "amount": 6100372,
+      "name": "WinSenate"
+    }
+  ],
+  "pine tree results pac": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "R",
+      "amount": 24456958,
+      "name": "Pine Tree Results PAC"
+    }
+  ],
+  "wfw action fund": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "R",
+      "amount": 16437704,
+      "name": "WFW Action Fund"
+    }
+  ],
+  "platner for me senate": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "D",
+      "amount": 11908962,
+      "name": "Platner for ME Senate"
+    }
+  ],
+  "stronger america": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "R",
+      "amount": 7241164,
+      "name": "Stronger America"
+    }
+  ],
+  "majority forward": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "D",
+      "amount": 7168038,
+      "name": "Majority Forward"
+    },
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "D",
+      "amount": 3949736,
+      "name": "Majority Forward"
+    }
+  ],
+  "duty and honor": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "D",
+      "amount": 2495422,
+      "name": "Duty and Honor"
+    },
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "D",
+      "amount": 323031,
+      "name": "Duty and Honor"
+    }
+  ],
+  "mills for me senate": [
+    {
+      "raceKey": "ME-Sen-2026",
+      "side": "D",
+      "amount": 1974310,
+      "name": "Mills for ME Senate"
+    }
+  ],
+  "americans for prosperity action": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "R",
+      "amount": 9125027,
+      "name": "Americans for Prosperity Action"
+    }
+  ],
+  "center for democratic priorities": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 6524191,
+      "name": "Center for Democratic Priorities"
+    }
+  ],
+  "yes mi action committee": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 5346593,
+      "name": "Yes MI Action Committee"
+    }
+  ],
+  "united democracy project": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 5241146,
+      "name": "United Democracy Project"
+    }
+  ],
+  "a stronger michigan": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 2821771,
+      "name": "A Stronger Michigan"
+    }
+  ],
+  "center forward committee": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 1905426,
+      "name": "Center Forward Committee"
+    }
+  ],
+  "mcmorrow for mi senate": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 1810492,
+      "name": "McMorrow for MI Senate"
+    }
+  ],
+  "el sayed for mi senate": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 1107437,
+      "name": "El-Sayed for MI Senate"
+    }
+  ],
+  "fight for michigan": [
+    {
+      "raceKey": "MI-Sen-2026",
+      "side": "D",
+      "amount": 874977,
+      "name": "Fight for Michigan"
+    }
+  ],
+  "last frontier pac": [
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "R",
+      "amount": 6834929,
+      "name": "Last Frontier PAC"
+    }
+  ],
+  "peltola for ak senate": [
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "D",
+      "amount": 2874660,
+      "name": "Peltola for AK Senate"
+    }
+  ],
+  "the 907 initiative": [
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "D",
+      "amount": 1447442,
+      "name": "The 907 Initiative"
+    }
+  ],
+  "last frontier action": [
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "R",
+      "amount": 1046105,
+      "name": "Last Frontier Action"
+    }
+  ],
+  "american advancement inc": [
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "R",
+      "amount": 799649,
+      "name": "American Advancement Inc"
+    }
+  ],
+  "families over billionaires": [
+    {
+      "raceKey": "AK-Sen-2026",
+      "side": "D",
+      "amount": 542507,
+      "name": "Families Over Billionaires"
+    }
+  ],
+  "abbott for tx governor": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "R",
+      "amount": 6733974,
+      "name": "Abbott for TX Governor"
+    }
+  ],
+  "hinojosa for tx governor": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "D",
+      "amount": 627957,
+      "name": "Hinojosa for TX Governor"
+    }
+  ],
+  "huffines for tx comptroller": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "R",
+      "amount": 519999,
+      "name": "Huffines for TX Comptroller"
+    }
+  ],
+  "texans for greg abbott": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "R",
+      "amount": 234000,
+      "name": "Texans for Greg Abbott"
+    }
+  ],
+  "cole for tx governor": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "D",
+      "amount": 63195,
+      "name": "Cole for TX Governor"
+    }
+  ],
+  "preserve protect and defend": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "D",
+      "amount": 9697,
+      "name": "Preserve, Protect and Defend"
+    }
+  ],
+  "lone star project": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "D",
+      "amount": 6893,
+      "name": "Lone Star Project"
+    }
+  ],
+  "texas majority pac": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "D",
+      "amount": 6629,
+      "name": "Texas Majority PAC"
+    }
+  ],
+  "brooks for tx governor": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "R",
+      "amount": 600,
+      "name": "Brooks for TX Governor"
+    }
+  ],
+  "texas federation of teachers": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "D",
+      "amount": 392,
+      "name": "Texas Federation of Teachers"
+    }
+  ],
+  "project red tx": [
+    {
+      "raceKey": "TX-Gov-2026",
+      "side": "R",
+      "amount": 382,
+      "name": "Project Red TX"
+    }
+  ],
+  "bold america": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 1982591,
+      "name": "BOLD America"
+    }
+  ],
+  "american priorities": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 1014640,
+      "name": "American Priorities"
+    },
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 50000,
+      "name": "American Priorities"
+    }
+  ],
+  "progressive unity fund": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 962986,
+      "name": "Progressive Unity Fund"
+    }
+  ],
+  "avila chevalier for ny cd 13": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 534599,
+      "name": "Avila Chevalier for NY CD-13"
+    }
+  ],
+  "justice democrats": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 390848,
+      "name": "Justice Democrats"
+    },
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 34575,
+      "name": "Justice Democrats"
+    },
+    {
+      "raceKey": "MI-13-2026",
+      "side": "D",
+      "amount": 370,
+      "name": "Justice Democrats"
+    }
+  ],
+  "latino victory fund": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 289698,
+      "name": "Latino Victory Fund"
+    }
+  ],
+  "espaillat for ny cd 13": [
+    {
+      "raceKey": "NY-13-2026",
+      "side": "D",
+      "amount": 20188,
+      "name": "Espaillat for NY CD-13"
+    }
+  ],
+  "real fight nyc": [
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 345005,
+      "name": "Real Fight NYC"
+    }
+  ],
+  "valdez for ny cd 07": [
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 232126,
+      "name": "Valdez for NY CD-07"
+    }
+  ],
+  "reynoso for ny cd 07": [
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 105183,
+      "name": "Reynoso for NY CD-07"
+    }
+  ],
+  "leaders we deserve": [
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 56253,
+      "name": "Leaders We Deserve"
+    }
+  ],
+  "won for ny cd 07": [
+    {
+      "raceKey": "NY-7-2026",
+      "side": "D",
+      "amount": 24263,
+      "name": "Won for NY CD-07"
+    }
+  ],
+  "mckinney for mi cd 13": [
+    {
+      "raceKey": "MI-13-2026",
+      "side": "D",
+      "amount": 60119,
+      "name": "McKinney for MI CD-13"
+    }
+  ],
+  "thanedar for mi cd 13": [
+    {
+      "raceKey": "MI-13-2026",
+      "side": "D",
+      "amount": 50344,
+      "name": "Thanedar for MI CD-13"
+    }
+  ]
+}

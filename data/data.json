@@ -117,7 +117,64 @@
         "repSide": 4624831,
         "total": 14583383,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "House Majority PAC",
+          "amount": 3666795,
+          "side": "D"
+        },
+        {
+          "name": "CLF",
+          "amount": 3561364,
+          "side": "R"
+        },
+        {
+          "name": "Unrig Our Economy",
+          "amount": 2480098,
+          "side": "D"
+        },
+        {
+          "name": "Affordable PA",
+          "amount": 1439982,
+          "side": "D"
+        },
+        {
+          "name": "House Majority Forward",
+          "amount": 1317145,
+          "side": "D"
+        },
+        {
+          "name": "Save My Care",
+          "amount": 848883,
+          "side": "D"
+        },
+        {
+          "name": "American Prosperity Alliance",
+          "amount": 371039,
+          "side": "R"
+        },
+        {
+          "name": "Securing American Greatness",
+          "amount": 254184,
+          "side": "R"
+        },
+        {
+          "name": "American Action Network",
+          "amount": 252998,
+          "side": "R"
+        },
+        {
+          "name": "NRDC Action Fund",
+          "amount": 126289,
+          "side": "D"
+        },
+        {
+          "name": "Campaign for America First International Assistance",
+          "amount": 91644,
+          "side": "R"
+        }
+      ]
     },
     "PA-7-2026": {
       "raceKey": "PA-7-2026",
@@ -134,7 +191,64 @@
         "repSide": 9519363,
         "total": 22467995,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "CLF",
+          "amount": 7758920,
+          "side": "R"
+        },
+        {
+          "name": "House Majority PAC",
+          "amount": 6597380,
+          "side": "D"
+        },
+        {
+          "name": "Stronger Together PA",
+          "amount": 1508717,
+          "side": "D"
+        },
+        {
+          "name": "Lead Left PAC",
+          "amount": 1441427,
+          "side": "D"
+        },
+        {
+          "name": "American Prosperity Alliance",
+          "amount": 994579,
+          "side": "R"
+        },
+        {
+          "name": "Brooks for PA CD-07",
+          "amount": 541907,
+          "side": "D"
+        },
+        {
+          "name": "Save My Care",
+          "amount": 502643,
+          "side": "D"
+        },
+        {
+          "name": "House Majority Forward",
+          "amount": 482389,
+          "side": "D"
+        },
+        {
+          "name": "Affordable PA",
+          "amount": 444131,
+          "side": "D"
+        },
+        {
+          "name": "Crosswell for PA CD-07",
+          "amount": 420559,
+          "side": "D"
+        },
+        {
+          "name": "Securing American Greatness",
+          "amount": 399608,
+          "side": "R"
+        }
+      ]
     },
     "CA-22-2026": {
       "raceKey": "CA-22-2026",
@@ -151,7 +265,64 @@
         "repSide": 11676459,
         "total": 28347899,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "CLF",
+          "amount": 7913475,
+          "side": "R"
+        },
+        {
+          "name": "House Majority PAC",
+          "amount": 6094850,
+          "side": "D"
+        },
+        {
+          "name": "American Action Network",
+          "amount": 2739550,
+          "side": "R"
+        },
+        {
+          "name": "House Majority Forward",
+          "amount": 1490570,
+          "side": "D"
+        },
+        {
+          "name": "Save My Care",
+          "amount": 1368651,
+          "side": "D"
+        },
+        {
+          "name": "314 Action",
+          "amount": 1267143,
+          "side": "D"
+        },
+        {
+          "name": "Villegas for CA-22",
+          "amount": 1157801,
+          "side": "D"
+        },
+        {
+          "name": "Project 218",
+          "amount": 866788,
+          "side": "D"
+        },
+        {
+          "name": "New Democrat Majority",
+          "amount": 681159,
+          "side": "D"
+        },
+        {
+          "name": "Blue Dog Action PAC",
+          "amount": 599796,
+          "side": "D"
+        },
+        {
+          "name": "DMFI PAC",
+          "amount": 586445,
+          "side": "D"
+        }
+      ]
     },
     "CA-4-2026": {
       "raceKey": "CA-4-2026",
@@ -168,7 +339,44 @@
         "repSide": 5230,
         "total": 7612005,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "Jones for CA CD-04",
+          "amount": 3945117,
+          "side": "D"
+        },
+        {
+          "name": "Thompson for CA CD-04",
+          "amount": 1948273,
+          "side": "D"
+        },
+        {
+          "name": "Blue Dog Action PAC",
+          "amount": 1115859,
+          "side": "D"
+        },
+        {
+          "name": "New Leadership Now",
+          "amount": 493246,
+          "side": "D"
+        },
+        {
+          "name": "Article One PAC",
+          "amount": 104000,
+          "side": "D"
+        },
+        {
+          "name": "Riehle for CA CD-04",
+          "amount": 5230,
+          "side": "R"
+        },
+        {
+          "name": "National Association of Realtors",
+          "amount": 279,
+          "side": "D"
+        }
+      ]
     },
     "DC-Delegate-2026": {
       "raceKey": "DC-Delegate-2026",
@@ -209,7 +417,64 @@
         "repSide": 3153407,
         "total": 3612415,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "Ricketts for NE Senate",
+          "amount": 1561031,
+          "side": "R"
+        },
+        {
+          "name": "One Nation",
+          "amount": 1128861,
+          "side": "R"
+        },
+        {
+          "name": "Osborn for NE Senate",
+          "amount": 428871,
+          "side": "I"
+        },
+        {
+          "name": "Defending Our Values PAC",
+          "amount": 254097,
+          "side": "R"
+        },
+        {
+          "name": "Fellowship PAC",
+          "amount": 202953,
+          "side": "R"
+        },
+        {
+          "name": "Nebraska Appleseed Action Fund",
+          "amount": 27771,
+          "side": "D"
+        },
+        {
+          "name": "Americans for Prosperity",
+          "amount": 2922,
+          "side": "R"
+        },
+        {
+          "name": "Common Defense Action Fund",
+          "amount": 1076,
+          "side": "D"
+        },
+        {
+          "name": "MomsRising Together",
+          "amount": 768,
+          "side": "D"
+        },
+        {
+          "name": "NRSC",
+          "amount": 563,
+          "side": "R"
+        },
+        {
+          "name": "Sixteen Thirty Fund",
+          "amount": 522,
+          "side": "D"
+        }
+      ]
     },
     "PA-HD137-2026": {
       "raceKey": "PA-HD137-2026",
@@ -262,7 +527,64 @@
         "repSide": 103254634,
         "total": 156025428,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "SLF PAC",
+          "amount": 28790892,
+          "side": "R"
+        },
+        {
+          "name": "WinSenate",
+          "amount": 25225725,
+          "side": "D"
+        },
+        {
+          "name": "Pine Tree Results PAC",
+          "amount": 24456958,
+          "side": "R"
+        },
+        {
+          "name": "One Nation",
+          "amount": 22628247,
+          "side": "R"
+        },
+        {
+          "name": "WFW Action Fund",
+          "amount": 16437704,
+          "side": "R"
+        },
+        {
+          "name": "Platner for ME Senate",
+          "amount": 11908962,
+          "side": "D"
+        },
+        {
+          "name": "Stronger America",
+          "amount": 7241164,
+          "side": "R"
+        },
+        {
+          "name": "Majority Forward",
+          "amount": 7168038,
+          "side": "D"
+        },
+        {
+          "name": "Unrig Our Economy",
+          "amount": 2642077,
+          "side": "D"
+        },
+        {
+          "name": "Duty and Honor",
+          "amount": 2495422,
+          "side": "D"
+        },
+        {
+          "name": "Mills for ME Senate",
+          "amount": 1974310,
+          "side": "D"
+        }
+      ]
     },
     "NY-13-2026": {
       "raceKey": "NY-13-2026",
@@ -279,7 +601,49 @@
         "repSide": 0,
         "total": 5571514,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "BOLD America",
+          "amount": 1982591,
+          "side": "D"
+        },
+        {
+          "name": "American Priorities",
+          "amount": 1014640,
+          "side": "D"
+        },
+        {
+          "name": "Progressive Unity Fund",
+          "amount": 962986,
+          "side": "D"
+        },
+        {
+          "name": "Avila Chevalier for NY CD-13",
+          "amount": 534599,
+          "side": "D"
+        },
+        {
+          "name": "Project 218",
+          "amount": 452138,
+          "side": "D"
+        },
+        {
+          "name": "Justice Democrats",
+          "amount": 390848,
+          "side": "D"
+        },
+        {
+          "name": "Latino Victory Fund",
+          "amount": 289698,
+          "side": "D"
+        },
+        {
+          "name": "Espaillat for NY CD-13",
+          "amount": 20188,
+          "side": "D"
+        }
+      ]
     },
     "NY-Comptroller-2026": {
       "raceKey": "NY-Comptroller-2026",
@@ -320,7 +684,44 @@
         "repSide": 0,
         "total": 840839,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "Real Fight NYC",
+          "amount": 345005,
+          "side": "D"
+        },
+        {
+          "name": "Valdez for NY CD-07",
+          "amount": 232126,
+          "side": "D"
+        },
+        {
+          "name": "Reynoso for NY CD-07",
+          "amount": 105183,
+          "side": "D"
+        },
+        {
+          "name": "Leaders We Deserve",
+          "amount": 56253,
+          "side": "D"
+        },
+        {
+          "name": "American Priorities",
+          "amount": 50000,
+          "side": "D"
+        },
+        {
+          "name": "Justice Democrats",
+          "amount": 34575,
+          "side": "D"
+        },
+        {
+          "name": "Won for NY CD-07",
+          "amount": 24263,
+          "side": "D"
+        }
+      ]
     },
     "NY-12-2026": {
       "raceKey": "NY-12-2026",
@@ -385,7 +786,64 @@
         "repSide": 35101579,
         "total": 78065225,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "SLF PAC",
+          "amount": 25269160,
+          "side": "R"
+        },
+        {
+          "name": "WinSenate",
+          "amount": 17020884,
+          "side": "D"
+        },
+        {
+          "name": "Americans for Prosperity Action",
+          "amount": 9125027,
+          "side": "R"
+        },
+        {
+          "name": "Center for Democratic Priorities",
+          "amount": 6524191,
+          "side": "D"
+        },
+        {
+          "name": "Yes MI Action Committee",
+          "amount": 5346593,
+          "side": "D"
+        },
+        {
+          "name": "United Democracy Project",
+          "amount": 5241146,
+          "side": "D"
+        },
+        {
+          "name": "A Stronger Michigan",
+          "amount": 2821771,
+          "side": "D"
+        },
+        {
+          "name": "Center Forward Committee",
+          "amount": 1905426,
+          "side": "D"
+        },
+        {
+          "name": "McMorrow for MI Senate",
+          "amount": 1810492,
+          "side": "D"
+        },
+        {
+          "name": "El-Sayed for MI Senate",
+          "amount": 1107437,
+          "side": "D"
+        },
+        {
+          "name": "Fight for Michigan",
+          "amount": 874977,
+          "side": "D"
+        }
+      ]
     },
     "MI-13-2026": {
       "raceKey": "MI-13-2026",
@@ -402,7 +860,24 @@
         "repSide": 0,
         "total": 110834,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "McKinney for MI CD-13",
+          "amount": 60119,
+          "side": "D"
+        },
+        {
+          "name": "Thanedar for MI CD-13",
+          "amount": 50344,
+          "side": "D"
+        },
+        {
+          "name": "Justice Democrats",
+          "amount": 370,
+          "side": "D"
+        }
+      ]
     },
     "MI-SD1-2026": {
       "raceKey": "MI-SD1-2026",
@@ -455,7 +930,64 @@
         "repSide": 21022019,
         "total": 36356068,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "SLF PAC",
+          "amount": 7845849,
+          "side": "R"
+        },
+        {
+          "name": "Last Frontier PAC",
+          "amount": 6834929,
+          "side": "R"
+        },
+        {
+          "name": "WinSenate",
+          "amount": 6100372,
+          "side": "D"
+        },
+        {
+          "name": "One Nation",
+          "amount": 4143009,
+          "side": "R"
+        },
+        {
+          "name": "Majority Forward",
+          "amount": 3949736,
+          "side": "D"
+        },
+        {
+          "name": "Peltola for AK Senate",
+          "amount": 2874660,
+          "side": "D"
+        },
+        {
+          "name": "The 907 Initiative",
+          "amount": 1447442,
+          "side": "D"
+        },
+        {
+          "name": "Last Frontier Action",
+          "amount": 1046105,
+          "side": "R"
+        },
+        {
+          "name": "American Advancement Inc",
+          "amount": 799649,
+          "side": "R"
+        },
+        {
+          "name": "Families Over Billionaires",
+          "amount": 542507,
+          "side": "D"
+        },
+        {
+          "name": "Duty and Honor",
+          "amount": 323031,
+          "side": "D"
+        }
+      ]
     },
     "AK-Gov-2026": {
       "raceKey": "AK-Gov-2026",
@@ -496,7 +1028,64 @@
         "repSide": 7488960,
         "total": 8203723,
         "asOf": "2026-06-17"
-      }
+      },
+      "spenders": [
+        {
+          "name": "Abbott for TX Governor",
+          "amount": 6733974,
+          "side": "R"
+        },
+        {
+          "name": "Hinojosa for TX Governor",
+          "amount": 627957,
+          "side": "D"
+        },
+        {
+          "name": "Huffines for TX Comptroller",
+          "amount": 519999,
+          "side": "R"
+        },
+        {
+          "name": "Texans for Greg Abbott",
+          "amount": 234000,
+          "side": "R"
+        },
+        {
+          "name": "Cole for TX Governor",
+          "amount": 63195,
+          "side": "D"
+        },
+        {
+          "name": "Preserve, Protect and Defend",
+          "amount": 9697,
+          "side": "D"
+        },
+        {
+          "name": "Lone Star Project",
+          "amount": 6893,
+          "side": "D"
+        },
+        {
+          "name": "Texas Majority PAC",
+          "amount": 6629,
+          "side": "D"
+        },
+        {
+          "name": "Brooks for TX Governor",
+          "amount": 600,
+          "side": "R"
+        },
+        {
+          "name": "Texas Federation of Teachers",
+          "amount": 392,
+          "side": "D"
+        },
+        {
+          "name": "Project Red TX",
+          "amount": 382,
+          "side": "R"
+        }
+      ]
     },
     "TX-37-2026": {
       "raceKey": "TX-37-2026",
