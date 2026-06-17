@@ -188,6 +188,9 @@
   .msg.u{align-self:flex-end;background:var(--accent);color:#fff;border-bottom-right-radius:4px}
   .msg.a{align-self:flex-start;background:var(--surface2);color:var(--txt);border-bottom-left-radius:4px}
   .msg.sys{align-self:center;color:var(--muted);font-size:12.5px;text-align:center;background:none}
+  .msg strong{font-weight:700} .msg em{font-style:italic}
+  .msg code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;background:var(--surface);padding:1px 5px;border-radius:5px}
+  .msg .bul{color:var(--accent2);font-weight:700}
   .chatin{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line)}
   .chatin input{flex:1;background:var(--surface2);border:1px solid var(--line);border-radius:11px;padding:10px 13px;color:var(--txt);font-size:14px;outline:none}
   .chatin button{background:var(--accent);color:#fff;border:none;border-radius:11px;padding:0 15px;font-weight:700;cursor:pointer}
@@ -417,14 +420,29 @@ function chatContext(){
 const fab=document.getElementById('chatfab'),panel=document.getElementById('chatpanel'),msgs=document.getElementById('chatmsgs'),qin=document.getElementById('chatq'),send=document.getElementById('chatsend');
 fab.onclick=()=>{panel.classList.add('open');fab.style.display='none';qin.focus();};
 document.getElementById('chatx').onclick=()=>{panel.classList.remove('open');fab.style.display='flex';};
-function addMsg(t,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=t;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;return d;}
+function mdToHtml(t){
+  let s=(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
+  s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/__([^_]+)__/g,'<strong>$1</strong>');
+  s=s.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g,'$1<em>$2</em>');
+  s=s.replace(/(^|[^_\w])_([^_\n]+)_(?!\w)/g,'$1<em>$2</em>');
+  s=s.split('\n').map(line=>{
+    let m=line.match(/^\s*#{1,6}\s+(.*)$/); if(m)return '<strong>'+m[1].replace(/[*#]/g,'')+'</strong>';
+    m=line.match(/^\s*[-*•]\s+(.*)$/); if(m)return '<span class="bul">• </span>'+m[1];
+    return line;
+  }).join('\n');
+  s=s.replace(/\*\*/g,'').replace(/(^|\s)#{1,6}(\s|$)/g,'$1$2'); // strip any stray markers
+  return s; // \n preserved by white-space:pre-wrap
+}
+function setMsg(d,t){d.innerHTML=mdToHtml(t);msgs.scrollTop=msgs.scrollHeight;}
+function addMsg(t,cls,html){const d=document.createElement('div');d.className='msg '+cls;if(html){d.innerHTML=mdToHtml(t);}else{d.textContent=t;}msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;return d;}
 async function ask(){
   const q=qin.value.trim(); if(!q)return;
   if(CHAT_WORKER.indexOf('__')===0){addMsg('Chatbot is being set up — check back shortly.','sys');return;}
   qin.value='';addMsg(q,'u');send.disabled=true;const wait=addMsg('…','a');
   try{
     const r=await fetch(CHAT_WORKER,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q,context:chatContext()})});
-    const j=await r.json();wait.textContent=j.answer||j.error||'(no response)';
+    const j=await r.json();setMsg(wait,j.answer||j.error||'(no response)');
   }catch(e){wait.textContent='Network error — try again.';}
   send.disabled=false;qin.focus();
 }
