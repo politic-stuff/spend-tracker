@@ -43,8 +43,12 @@
   .conf{font-size:10px;padding:1px 6px;border-radius:6px;font-weight:700;text-transform:uppercase;letter-spacing:.3px}
   .conf.fec{background:color-mix(in srgb,var(--fed) 20%,transparent);color:var(--fed)}
   .conf.confirmed{background:color-mix(in srgb,var(--info) 22%,transparent);color:var(--accent2)}
+  .conf.adimpact{background:color-mix(in srgb,var(--accent) 26%,transparent);color:var(--accent2)}
   .conf.estimate{background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn)}
   .conf.sample{background:color-mix(in srgb,var(--sample) 22%,transparent);color:var(--sample)}
+  .spendrow.secondary{opacity:.5;font-size:11.5px;border-top:none;padding:1px 0 1px 10px}
+  .spendrow.secondary .amt{font-weight:500}
+  .bucketlbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px}
   .card.fed{border-left:3px solid var(--fed)} .card.state{border-left:3px solid var(--state)}
@@ -108,9 +112,10 @@
   <div class="legend">
     <span><span class="pill fed">FEDERAL</span> FEC-tracked</span>
     <span><span class="pill state">STATE</span> state portal / manual</span>
-    <span><b>Confidence:</b></span>
+    <span><b>Trust (headline source ↓):</b></span>
+    <span><span class="conf confirmed">Inbox</span> competitive inbox</span>
+    <span><span class="conf adimpact">AdImpact</span> your account</span>
     <span><span class="conf fec">FEC</span> filed</span>
-    <span><span class="conf confirmed">Confirmed</span> inbox</span>
     <span><span class="conf estimate">Estimate</span> public</span>
     <span><span class="conf sample">Sample</span> placeholder</span>
   </div>
@@ -135,7 +140,27 @@ function isActive(c){
   if(c.raceType==="general") return true;
   return (c.raceDate||"") >= today; // upcoming primary
 }
-function total(c){ return (c.spend||[]).reduce((s,x)=>s+(x.amount||0),0); }
+// Trust order for picking the headline figure per bucket (higher wins).
+const PRI={"confirmed-inbox":5,"adimpact":4,"FEC":3,"FEC Schedule E":3,"estimate":2,"sample":0};
+const BUCKETS=[["self","Candidate"],["support","Outside · supporting"],["oppose","Outside · opposing"],["other","Other"]];
+// Reconcile sources so overlapping reports never double-count: within each
+// bucket, the highest-trust source is the counted figure; the rest are shown
+// muted as "also reported".
+function reconcile(c){
+  const rows=c.spend||[];
+  const groups={};
+  for(const r of rows){const b=r.bucket||(r.type==="candidate"?"self":"support");(groups[b]=groups[b]||[]).push(r);}
+  let total=0; const out=[];
+  for(const [b,lbl] of BUCKETS){
+    const g=groups[b]; if(!g||!g.length) continue;
+    g.sort((a,z)=>(PRI[z.confidence]||1)-(PRI[a.confidence]||1) || (z.amount||0)-(a.amount||0));
+    const chosen=g[0];
+    if(chosen.confidence!=="sample") total+=chosen.amount||0;
+    out.push({bucket:lbl, chosen, others:g.slice(1)});
+  }
+  return {total, groups:out};
+}
+function total(c){ return reconcile(c).total; }
 
 // header + changelog
 $("#updated").textContent = D.lastUpdated
@@ -174,11 +199,18 @@ function render(){
 }
 
 function card(c){
-  const t=total(c);
-  const spendRows=(c.spend||[]).map(s=>
-    `<div class="spendrow"><span class="actor">${s.actor} <span class="conf ${cls(s.confidence)}">${label(s.confidence)}</span></span>`
-    +`<span class="amt">${fmt(s.amount)}</span></div>`).join("")
-    || `<div class="empty">No spend recorded yet.</div>`;
+  const rec=reconcile(c);
+  const t=rec.total;
+  const spendRows=rec.groups.length ? rec.groups.map(g=>{
+    const s=g.chosen;
+    const main=`<div class="spendrow"><span class="actor"><span class="bucketlbl">${g.bucket}</span> · ${s.actor} `
+      +`<span class="conf ${cls(s.confidence)}">${label(s.confidence)}</span></span>`
+      +`<span class="amt">${fmt(s.amount)}</span></div>`;
+    const also=g.others.map(o=>`<div class="spendrow secondary"><span class="actor">also: ${o.actor} `
+      +`<span class="conf ${cls(o.confidence)}">${label(o.confidence)}</span></span>`
+      +`<span class="amt">${fmt(o.amount)}</span></div>`).join("");
+    return main+also;
+  }).join("") : `<div class="empty">No spend recorded yet.</div>`;
   const ads=(c.ads||[]).length
     ? `<div class="ads"><h4>Ads running (${c.ads.length})</h4>`
       + c.ads.map(a=>`<div class="ad"><span class="plat">${a.platform||"web"}</span>`
@@ -201,8 +233,8 @@ function card(c){
     ${soc?`<div class="socials">${soc}</div>`:""}
   </div>`;
 }
-function cls(c){return ({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",estimate:"estimate",sample:"sample"})[c]||"estimate";}
-function label(c){return ({FEC:"FEC","FEC Schedule E":"FEC",confirmed:"Confirmed","confirmed-inbox":"Confirmed",estimate:"Est",sample:"Sample"})[c]||"Est";}
+function cls(c){return ({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"sample"})[c]||"estimate";}
+function label(c){return ({FEC:"FEC","FEC Schedule E":"FEC",confirmed:"Confirmed","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
 ["q","status","level","sort"].forEach(id=>$("#"+id).addEventListener("input",render));
 const th=$("#theme");

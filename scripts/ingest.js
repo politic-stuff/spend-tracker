@@ -30,8 +30,11 @@ for (const e of q.spend || []) {
   if (!c) { console.log(`  ? no candidate match: ${e.candidate}`); continue; }
   c.spend = c.spend || [];
   const i = c.spend.findIndex(r => r.actor === e.actor);
-  const row = { actor: e.actor, type: e.type || 'outside', amount: e.amount || 0,
-    source: e.source || 'competitive inbox', confidence: 'confirmed-inbox', asOf: today, note: e.note || null };
+  const isAI = /adimpact/i.test(e.source || '') || e.confidence === 'adimpact';
+  const type = e.type || 'outside';
+  const bucket = e.bucket || (type === 'candidate' ? 'self' : (/oppos|against|anti/i.test(e.actor + ' ' + (e.note || '')) ? 'oppose' : 'support'));
+  const row = { actor: e.actor, type, bucket, amount: e.amount || 0,
+    source: e.source || 'competitive inbox', confidence: isAI ? 'adimpact' : 'confirmed-inbox', asOf: today, note: e.note || null };
   if (i >= 0) c.spend[i] = row; else c.spend.push(row);
   notes.push(`${c.name}: ${e.actor} $${(e.amount || 0).toLocaleString()} (confirmed)`);
 }

@@ -68,11 +68,14 @@ async function resolveId(c) {
       }
 
       const prev = (c.spend || []).reduce((s, x) => s + (x.amount || 0), 0);
+      // keep any higher-trust manual rows (inbox/AdImpact); only replace FEC rows
+      const manual = (c.spend || []).filter(r => r.confidence === 'confirmed-inbox' || r.confidence === 'adimpact');
       c.spend = [
-        { actor: `${c.name} (candidate)`, type: 'candidate', amount: own, source: 'FEC', confidence: 'FEC', asOf: cov },
-        { actor: 'Outside spending — supporting', type: 'outside', amount: support, source: 'FEC Schedule E', confidence: 'FEC', asOf: today },
-        { actor: 'Outside spending — opposing', type: 'outside', amount: oppose, source: 'FEC Schedule E', confidence: 'FEC', asOf: today },
-      ].filter(r => r.amount > 0 || r.type === 'candidate');
+        ...manual,
+        { actor: `${c.name} (candidate)`, type: 'candidate', bucket: 'self', amount: own, source: 'FEC', confidence: 'FEC', asOf: cov },
+        { actor: 'Outside spending — supporting', type: 'outside', bucket: 'support', amount: support, source: 'FEC Schedule E', confidence: 'FEC', asOf: today },
+        { actor: 'Outside spending — opposing', type: 'outside', bucket: 'oppose', amount: oppose, source: 'FEC Schedule E', confidence: 'FEC', asOf: today },
+      ].filter(r => r.amount > 0 || r.type === 'candidate' || r.confidence === 'confirmed-inbox' || r.confidence === 'adimpact');
       c.fecUpdated = today;
 
       const now = c.spend.reduce((s, x) => s + (x.amount || 0), 0);
