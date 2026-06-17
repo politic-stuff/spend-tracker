@@ -144,6 +144,13 @@
   .crtitle{font-size:12px;line-height:1.3;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .crsub{font-size:10.5px;color:var(--muted);margin-top:2px}
   .crhint{font-size:11px;font-weight:500;color:var(--muted);text-transform:none;letter-spacing:0;margin-left:8px}
+  /* ad messaging breakdown */
+  .tonebar{display:flex;gap:4px;height:38px;border-radius:10px;overflow:hidden;font-size:12.5px;font-weight:700}
+  .tonebar>div{display:flex;align-items:center;justify-content:center;color:#fff;min-width:0;padding:0 6px;white-space:nowrap}
+  .tonebar .pos{background:#2e9e6b} .tonebar .con{background:#c79a3a} .tonebar .neg{background:#d2603f}
+  .themes{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+  .theme{font-size:12.5px;background:var(--surface2);border:1px solid var(--line);border-radius:8px;padding:4px 9px;color:var(--txt2);display:flex;align-items:center;gap:6px}
+  .theme b{color:var(--accent2);font-variant-numeric:tabular-nums}
   /* candidate block */
   .cand{display:flex;gap:13px;padding:14px 0;border-top:1px solid var(--line)}
   .cand:first-child{border-top:none}
@@ -364,6 +371,7 @@ function detail(rk){
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
     <div class="matchup">${mcard(our,"Your candidate")}<div class="vs">vs</div>${mcard(opp,opp&&opp.relationship==='general-opp'?'General opponent':'Top rival')}</div>
     <div class="panel"><h3>Spending advantage</h3>${bigbar}</div>
+    ${adBreakdown(race)}
     ${weekgrid}
     ${spenders}${field}`;
 }
@@ -373,6 +381,20 @@ function crCard(c){const t=(c.type||"").toUpperCase();const isVid=/VIDEO|TV|YOUT
   const inner=c.thumb?(isVid?`<span class="play">▶</span>`:""):`<span class="ph">creative</span>`;
   return `<a class="crcard" href="${c.link||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><div class="crthumb" ${thumb}>${c.type?`<span class="crtype">${c.type}</span>`:""}${inner}</div><div class="crmeta"><div class="crtitle">${(c.title||'Ad creative')}</div>${c.sub?`<div class="crsub">${c.sub}</div>`:""}</div></a>`;}
 window.toggleCr=(el)=>{el.classList.toggle("open");const s=el.nextElementSibling;if(s&&s.classList.contains("crstrip"))s.classList.toggle("open");};
+function allCreatives(race){const out=[];const by=race.creativesByAdvertiser||{};for(const k in by)out.push(...by[k]);return out;}
+function adBreakdown(race){
+  const cr=allCreatives(race);
+  const wt=cr.filter(c=>c.tone);
+  if(!wt.length)return "";
+  const cnt=t=>wt.filter(c=>(c.tone||"").toLowerCase()===t).length;
+  const pos=cnt("positive"),neg=cnt("negative"),con=cnt("contrast")+cnt("comparison");
+  const seg=(n,cls,lbl)=>n?`<div class="${cls}" style="flex:${n}">${n} ${lbl}</div>`:"";
+  const bar=`<div class="tonebar">${seg(pos,"pos","positive")}${seg(con,"con","contrast")}${seg(neg,"neg","negative")}</div>`;
+  const th={};cr.forEach(c=>(c.themes||[]).forEach(t=>{if(t)th[t]=(th[t]||0)+1;}));
+  const themes=Object.entries(th).sort((a,b)=>b[1]-a[1]);
+  const chips=themes.length?`<div class="themes">`+themes.map(([t,n])=>`<span class="theme">${t}<b>${n}</b></span>`).join("")+`</div>`:"";
+  return `<div class="panel"><h3>Ad messaging <span class="crhint">${wt.length} ad${wt.length>1?"s":""} analyzed by AdImpact</span></h3>${bar}${chips}</div>`;
+}
 function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"estimate"})[c]||"estimate";}
 function lab(c){return({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
