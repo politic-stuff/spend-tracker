@@ -25,6 +25,19 @@ const qPath = path.join(dir, 'inbox-queue.json');
 const today = new Date().toISOString().slice(0, 10);
 const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
+// ---- media weeks: Tue→Mon, reverse-counted from a race's election date ----
+// Week 1 = the Tue–Mon week immediately before election day (matches buyers'
+// "last Tuesday before the election = week 1"). Earlier weeks count up.
+const DAY = 86400000;
+function tuesdayOnOrBefore(d) { const x = new Date(d + 'T00:00:00Z'); const off = (x.getUTCDay() - 2 + 7) % 7; return new Date(x.getTime() - off * DAY); }
+function mediaWeek(flightStart, electionDate) {
+  if (!flightStart || !electionDate) return null;
+  const week1 = tuesdayOnOrBefore(electionDate).getTime() - 7 * DAY; // week before election week
+  const fTue = tuesdayOnOrBefore(flightStart).getTime();
+  return Math.round((week1 - fTue) / (7 * DAY)) + 1; // 1 = week before election; <=0 = election wk/after
+}
+const elecDate = race => race.status === 'general' ? (race.generalDate || '2026-11-03') : (race.primaryDate || race.generalDate);
+
 // ---- race resolver: build aliases from raceKeys (STATE-MIDDLE-2026) ----
 function buildAliases(data) {
   const map = {}; // alias -> raceKey
@@ -65,6 +78,24 @@ const changes = [], newSpenders = [], unmatched = [];
 for (const it of (Array.isArray(items) ? items : [])) {
   const rk = resolveRace(it, aliases);
   if (!rk || !data.races[rk]) { unmatched.push(`${it.advertiser} (${it.districtHint || '?'})`); continue; }
+  const race = data.races[rk];
+
+  // per-flight buys → race.buys[] (week×market grid). Keyed by sourceKey+market+flight so REVISIONs overwrite.
+  if (Array.isArray(it.buys) && it.buys.length) {
+    race.buys = race.buys || [];
+    const ed = elecDate(race);
+    for (const b of it.buys) {
+      const key = `${it.sourceKey || it.advertiser}|${b.market || ''}|${b.station || ''}|${b.flightStart || ''}`;
+      const row = { advertiser: it.advertiser, side: it.side || null, market: b.market || it.market || '?',
+        station: b.station || null, flightStart: b.flightStart || null, flightEnd: b.flightEnd || null,
+        amount: b.amount || 0, week: mediaWeek(b.flightStart, ed), source: it.source || 'inbox',
+        creativeUrl: b.creativeUrl || null, asOf: today, _key: key };
+      const i = race.buys.findIndex(x => x._key === key);
+      if (i >= 0) race.buys[i] = row; else race.buys.push(row);
+    }
+    changes.push(`buys ${it.advertiser} (${rk}): ${it.buys.length} flight(s)${it.correction ? ' [revised]' : ''}`);
+  }
+
   const cands = data.candidates.filter(c => c.raceKey === rk);
   const cand = cands.find(c => norm(c.name).includes(norm(it.advertiser)) || norm(it.advertiser).includes(norm(c.name).split(' ').pop()));
 

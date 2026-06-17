@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox: buys Ben McAdams (UT-1-2026): 4 flight(s) [revised] · ✎ Ben McAdams (UT-1-2026) → $163,120 [correction]"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "Inbox: + Ben McAdams (UT-1-2026) $163,120"
     },
     {
@@ -753,7 +757,65 @@
       "seatHeldBy": "redrawn open seat (Blake Moore R moved to UT-2)",
       "notes": "Redrawn D-leaning open seat. Blouin trails former Rep. Ben McAdams in primary polling. Owen won GOP convention.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": null,
+      "buys": [
+        {
+          "advertiser": "Ben McAdams",
+          "side": "D",
+          "market": "Salt Lake City",
+          "station": "KUTV",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 23515,
+          "week": 4,
+          "source": "competitive inbox (Locality/KUTV, revised)",
+          "creativeUrl": null,
+          "asOf": "2026-06-17",
+          "_key": "locality-mcadams-kutv|Salt Lake City|KUTV|2026-05-26"
+        },
+        {
+          "advertiser": "Ben McAdams",
+          "side": "D",
+          "market": "Salt Lake City",
+          "station": "KUTV",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 34305,
+          "week": 3,
+          "source": "competitive inbox (Locality/KUTV, revised)",
+          "creativeUrl": null,
+          "asOf": "2026-06-17",
+          "_key": "locality-mcadams-kutv|Salt Lake City|KUTV|2026-06-02"
+        },
+        {
+          "advertiser": "Ben McAdams",
+          "side": "D",
+          "market": "Salt Lake City",
+          "station": "KUTV",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 65200,
+          "week": 2,
+          "source": "competitive inbox (Locality/KUTV, revised)",
+          "creativeUrl": null,
+          "asOf": "2026-06-17",
+          "_key": "locality-mcadams-kutv|Salt Lake City|KUTV|2026-06-09"
+        },
+        {
+          "advertiser": "Ben McAdams",
+          "side": "D",
+          "market": "Salt Lake City",
+          "station": "KUTV",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 40100,
+          "week": 1,
+          "source": "competitive inbox (Locality/KUTV, revised)",
+          "creativeUrl": null,
+          "asOf": "2026-06-17",
+          "_key": "locality-mcadams-kutv|Salt Lake City|KUTV|2026-06-16"
+        }
+      ]
     },
     "CO-AG-2026": {
       "raceKey": "CO-AG-2026",
@@ -2870,10 +2932,10 @@
           "type": "candidate",
           "bucket": "self",
           "amount": 163120,
-          "source": "competitive inbox (Locality/KUTV, revised total)",
+          "source": "competitive inbox (Locality/KUTV, revised)",
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-17",
-          "flight": "5/26-6/22"
+          "flight": null
         }
       ],
       "ads": [],

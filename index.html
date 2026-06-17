@@ -102,6 +102,18 @@
   .bigbar .seg2{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:16px;min-width:48px}
   .bigbar .d{background:var(--dem)} .bigbar .r{background:var(--rep)} .bigbar .i{background:var(--ind)}
   .bbnum{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+  /* media-week grid */
+  .wgridwrap{overflow-x:auto;margin:0 -4px}
+  .wgrid{border-collapse:collapse;font-size:13px;min-width:100%}
+  .wgrid th,.wgrid td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap;font-variant-numeric:tabular-nums}
+  .wgrid th{color:var(--muted);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.3px;position:sticky;top:0}
+  .wgrid td.mkt,.wgrid th.mkt{text-align:left;font-weight:600;position:sticky;left:0;background:var(--surface)}
+  .wgrid .cell{color:var(--txt)} .wgrid .zero{color:var(--muted);opacity:.4}
+  .wgrid tr.tot td{font-weight:800;border-top:2px solid var(--line2)}
+  .wgrid td.rtot{font-weight:800;border-left:1px solid var(--line2)}
+  .wgrid th.wk small{display:block;font-weight:400;color:var(--muted);font-size:9.5px;text-transform:none;letter-spacing:0}
+  .wknote{font-size:12px;color:var(--muted);margin:4px 2px 0}
+  .gridtoggle{float:right;font-size:12px;color:var(--accent2);cursor:pointer;font-weight:600}
   /* spenders */
   .sp{display:flex;align-items:center;gap:11px;padding:9px 0;border-top:1px solid var(--line)}
   .sp:first-child{border-top:none}
@@ -183,6 +195,7 @@ const $ = s => document.querySelector(s);
 const PRI={"confirmed-inbox":5,adimpact:4,FEC:3,"FEC Schedule E":3,estimate:2,sample:0};
 const BUCKETS=[["self","Self"],["support","Supporting"],["oppose","Opposing"],["other","Other"]];
 const isFed=o=>/\bU\.?S\.?\s+(House|Senate)\b/i.test(o||"");
+const elecDate=r=>r.status==="general"?(r.generalDate||"2026-11-03"):(r.primaryDate||r.generalDate);
 const slug=n=>(n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
 function fmt(n){ if(n==null)return"—"; if(!n)return"$0";
@@ -264,6 +277,33 @@ function detail(rk){
   const bigbar=`<div class="bigbar"><div class="seg2 d" style="width:${Math.max(8,dPct)}%">${fmt(s.d)}</div><div class="seg2 r" style="width:${Math.max(8,rPct)}%">${fmt(s.rp)}</div></div>
     <div class="bbnum"><span>Dem side</span><span>Total <b style="color:var(--txt)">${fmt(tot)}</b> · ${s.src}${race.adimpact&&race.adimpact.asOf?" · "+race.adimpact.asOf:""}</span><span>Rep side</span></div>`;
 
+  // ---- media-week × market grid (buyers' view) ----
+  const buys=race.buys||[]; let weekgrid="";
+  if(buys.length){
+    const dim=state.gridDim||"market";
+    const weeks=[...new Set(buys.map(b=>b.week).filter(w=>w!=null))].sort((a,z)=>a-z);
+    const wkDates={}; for(const b of buys){if(b.week!=null&&!wkDates[b.week]&&b.flightStart)wkDates[b.week]={s:b.flightStart,e:b.flightEnd};}
+    const md=s=>s?s.slice(5).replace('-','/'):"";
+    const wlab=w=>w<=0?"Elec wk":("W"+w);
+    const keyOf=b=>dim==="market"?(b.market||"?"):(b.advertiser||"?");
+    const rows=[...new Set(buys.map(keyOf))];
+    const cell=(r,w)=>buys.filter(b=>keyOf(b)===r&&b.week===w).reduce((s,b)=>s+(b.amount||0),0);
+    const rowTot=r=>buys.filter(b=>keyOf(b)===r).reduce((s,b)=>s+(b.amount||0),0);
+    const colTot=w=>buys.filter(b=>b.week===w).reduce((s,b)=>s+(b.amount||0),0);
+    rows.sort((a,b)=>rowTot(b)-rowTot(a));
+    const head=`<tr><th class="mkt">${dim==="market"?"Market":"Advertiser"}</th>`
+      +weeks.map(w=>`<th class="wk">${wlab(w)}${wkDates[w]?`<small>${md(wkDates[w].s)}–${md(wkDates[w].e)}</small>`:""}</th>`).join("")
+      +`<th class="rtot">Total</th></tr>`;
+    const body=rows.map(r=>`<tr><td class="mkt">${r}</td>`
+      +weeks.map(w=>{const v=cell(r,w);return `<td class="${v?"cell":"zero"}">${v?fmt(v):"·"}</td>`}).join("")
+      +`<td class="rtot">${fmt(rowTot(r))}</td></tr>`).join("");
+    const totrow=`<tr class="tot"><td class="mkt">All</td>`+weeks.map(w=>`<td>${fmt(colTot(w))}</td>`).join("")+`<td class="rtot">${fmt(buys.reduce((s,b)=>s+(b.amount||0),0))}</td></tr>`;
+    weekgrid=`<div class="panel"><h3>Media-week spend by ${dim}
+      <span class="gridtoggle" onclick="window.toggleGrid()">↔ by ${dim==="market"?"advertiser":"market"}</span></h3>
+      <div class="wgridwrap"><table class="wgrid">${head}${body}${totrow}</table></div>
+      <div class="wknote">Media weeks run Tue–Mon · W1 = week before election (${elecDate(race)||"TBD"}), counting back.</div></div>`;
+  }
+
   const sp=[...(race.spenders||[])].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0)||(b.amount||0)-(a.amount||0));
   const spenders=sp.length?`<div class="panel"><h3>Spenders · ${sp.length} (AdImpact${sp.some(x=>x.source==='inbox')?' + inbox':''})</h3>`
     +sp.map(x=>`<div class="sp ${x.side}"><span class="dot"></span><span class="nm">${x.name}${x.isNew?'<span class="newbadge">NEW</span>':''}</span><span class="amt">${fmt(x.amount)}</span></div>`
@@ -294,13 +334,15 @@ function detail(rk){
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
     <div class="matchup">${mcard(our,"Your candidate")}<div class="vs">vs</div>${mcard(opp,opp&&opp.relationship==='general-opp'?'General opponent':'Top rival')}</div>
     <div class="panel"><h3>Spending advantage</h3>${bigbar}</div>
+    ${weekgrid}
     ${spenders}${field}`;
 }
 function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"estimate"})[c]||"estimate";}
 function lab(c){return({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
 // ---------- router ----------
-const state={status:"all",level:"all",sort:"spend"};
+const state={status:"all",level:"all",sort:"spend",gridDim:"market"};
+window.toggleGrid=()=>{state.gridDim=state.gridDim==="advertiser"?"market":"advertiser";render();};
 function render(){
   const h=location.hash||"#/";
   const m=h.match(/#\/race\/(.+)/);
