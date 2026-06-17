@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "AdImpact race totals: MI-Sen-2026: D $43.0M / R $35.1M"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdImpact race totals: CA-4-2026: D $7.6M / R $5,230"
     },
     {
@@ -378,9 +382,9 @@ window.TRACKER_DATA = {
       "notes": "OPEN (Peters retiring). Leading trio El-Sayed/McMorrow/Stevens. GOP frontrunner Mike Rogers (2024 nominee).",
       "confidence": "high",
       "adimpact": {
-        "demSide": 42960126,
+        "demSide": 42963646,
         "repSide": 35101579,
-        "total": 78061705,
+        "total": 78065225,
         "asOf": "2026-06-17"
       }
     },
