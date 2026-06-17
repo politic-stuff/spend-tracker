@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox spending-recap backfill: NY-7-2026"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "Inbox TV-buy backfill: NY-12-2026"
     },
     {
@@ -95359,46 +95363,42 @@
       "notes": "OPEN (Velázquez retiring). Valdez frontrunner vs Reynoso (Velázquez-backed). GOP opp pending. Safe-D.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 840839,
+        "demSide": 792000,
         "repSide": 0,
-        "total": 840839,
-        "asOf": "2026-06-17"
+        "total": 792000,
+        "asOf": "2026-06-17",
+        "source": "AdImpact Spending Recap (2026-06-17)"
       },
       "spenders": [
         {
           "name": "Real Fight NYC",
-          "amount": 345005,
-          "side": "D"
+          "side": "D",
+          "amount": 345000,
+          "source": "inbox"
         },
         {
           "name": "Valdez for NY CD-07",
-          "amount": 232126,
-          "side": "D"
+          "side": "D",
+          "amount": 232000,
+          "source": "inbox"
         },
         {
           "name": "Reynoso for NY CD-07",
-          "amount": 105183,
-          "side": "D"
+          "side": "D",
+          "amount": 109000,
+          "source": "inbox"
         },
         {
           "name": "Leaders We Deserve",
-          "amount": 56253,
-          "side": "D"
+          "side": "D",
+          "amount": 56000,
+          "source": "inbox"
         },
         {
           "name": "American Priorities",
+          "side": "D",
           "amount": 50000,
-          "side": "D"
-        },
-        {
-          "name": "Justice Democrats",
-          "amount": 34575,
-          "side": "D"
-        },
-        {
-          "name": "Won for NY CD-07",
-          "amount": 24263,
-          "side": "D"
+          "source": "inbox"
         }
       ]
     },

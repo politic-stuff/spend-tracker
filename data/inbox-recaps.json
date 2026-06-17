@@ -1,0 +1,13 @@
+{
+  "NY-7-2026": {
+    "source": "AdImpact Spending Recap (2026-06-17)",
+    "note": "Dem primary — all advertisers Dem-aligned. Totals are AdImpact election-to-date.",
+    "spenders": [
+      {"name": "Real Fight NYC", "total": 345000, "side": "D"},
+      {"name": "Valdez for NY CD-07", "total": 232000, "side": "D"},
+      {"name": "Reynoso for NY CD-07", "total": 109000, "side": "D"},
+      {"name": "Leaders We Deserve", "total": 56000, "side": "D"},
+      {"name": "American Priorities", "total": 50000, "side": "D"}
+    ]
+  }
+}
