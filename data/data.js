@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "AdImpact race totals: MI-Sen-2026: D $43.0M / R $35.1M"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "FEC: 30 race(s) moved. Angel Oakley (US House IL-3): $0 → $1,657.29 · Max Miller (US House OH-7): $0 → $513,420.7 · James Hayes (US House PA-12): $0 → $16,237.51 · Ryan Mackenzie (US House PA-7): $0 → $203,333.61 · David Valadao (US House CA-22): $0 → $1,187,808.57"
     },
     {
@@ -326,7 +330,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Gary Peters (D), retiring",
       "notes": "OPEN (Peters retiring). Leading trio El-Sayed/McMorrow/Stevens. GOP frontrunner Mike Rogers (2024 nominee).",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 42960126,
+        "repSide": 35101579,
+        "total": 78061705,
+        "asOf": "2026-06-17"
+      }
     },
     "MI-13-2026": {
       "raceKey": "MI-13-2026",
