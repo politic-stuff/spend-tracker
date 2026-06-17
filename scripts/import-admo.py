@@ -107,6 +107,10 @@ def process_file(path, data):
         data['races'][rk]['spenders'] = [{'name': k, 'side': v['side'], 'amount': round(v['amount'])}
                                          for k, v in sorted(d['sp'].items(), key=lambda x: -x[1]['amount'])]
         data['races'][rk]['buys'] = d['buys']
+        dem = sum(v['amount'] for v in d['sp'].values() if v['side'] == 'D')
+        rep = sum(v['amount'] for v in d['sp'].values() if v['side'] == 'R')
+        tot = sum(v['amount'] for v in d['sp'].values())
+        data['races'][rk]['adimpact'] = {'demSide': round(dem), 'repSide': round(rep), 'total': round(tot), 'asOf': date.today().isoformat(), 'source': 'AdMo'}
         results.append((rk, nm, len(d['sp']), len(d['buys']), len(set(b['market'] for b in d['buys']))))
     return results
 

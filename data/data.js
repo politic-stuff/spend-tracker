@@ -27,6 +27,10 @@ window.TRACKER_DATA = {
     },
     {
       "ts": "2026-06-17",
+      "note": "AdMo import: 11 race(s) backfilled \u2014 AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdMo import: 2 race(s) backfilled \u2014 AK-Sen-2026, MI-Sen-2026"
     },
     {
@@ -146,10 +150,11 @@ window.TRACKER_DATA = {
       "notes": "Cognetti (Scranton mayor) challenging freshman R. Leans R.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 9958552,
-        "repSide": 4624831,
-        "total": 14583383,
-        "asOf": "2026-06-17"
+        "demSide": 9232352,
+        "repSide": 4132094,
+        "total": 13364445,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -11807,10 +11812,11 @@ window.TRACKER_DATA = {
       "notes": "Toss-up. Freshman R flipped seat 2024 by ~1pt.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 12948632,
-        "repSide": 9519363,
-        "total": 22467995,
-        "asOf": "2026-06-17"
+        "demSide": 11747105,
+        "repSide": 9201090,
+        "total": 20948195,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -27108,10 +27114,11 @@ window.TRACKER_DATA = {
       "notes": "Top-two: Valadao 1st, Villegas 2nd. Marquee race.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 16671440,
-        "repSide": 11676459,
-        "total": 28347899,
-        "asOf": "2026-06-17"
+        "demSide": 15227567,
+        "repSide": 10938525,
+        "total": 26166092,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -58519,10 +58526,11 @@ window.TRACKER_DATA = {
       "notes": "DEM-vs-DEM general. Jones self-funded ~$5.35M.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 7606775,
+        "demSide": 7303296,
         "repSide": 5230,
-        "total": 7612005,
-        "asOf": "2026-06-17"
+        "total": 7308526,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -65969,10 +65977,11 @@ window.TRACKER_DATA = {
       "notes": "Dem nominee Burbank pledged to drop out and back Osborn. Effectively Osborn vs Ricketts.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 30137,
-        "repSide": 3153407,
-        "total": 3612415,
-        "asOf": "2026-06-17"
+        "demSide": 27496,
+        "repSide": 2955897,
+        "total": 2983393,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -72711,10 +72720,11 @@ window.TRACKER_DATA = {
       "notes": "Platner won June 9 primary; Mills withdrew pre-primary.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 52770794,
-        "repSide": 103254634,
-        "total": 156025428,
-        "asOf": "2026-06-17"
+        "demSide": 48593267,
+        "repSide": 98177504,
+        "total": 146770771,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -91577,10 +91587,11 @@ window.TRACKER_DATA = {
       "notes": "Main contest: incumbent Espaillat vs our DSA-backed Avila Chevalier. GOP nominee via parallel 6/23 primary (pending). Several minor Dem filers omitted.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 5571514,
+        "demSide": 5347592,
         "repSide": 0,
-        "total": 5571514,
-        "asOf": "2026-06-17"
+        "total": 5347592,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -93757,10 +93768,11 @@ window.TRACKER_DATA = {
       "notes": "OPEN (Peters retiring). Leading trio El-Sayed/McMorrow/Stevens. GOP frontrunner Mike Rogers (2024 nominee).",
       "confidence": "high",
       "adimpact": {
-        "demSide": 42963646,
-        "repSide": 35101579,
-        "total": 78065225,
-        "asOf": "2026-06-17"
+        "demSide": 34888173,
+        "repSide": 27823831,
+        "total": 62712004,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -108928,10 +108940,11 @@ window.TRACKER_DATA = {
       "notes": "Top-4 nonpartisan primary \u2192 RCV general. Peltola vs incumbent Sullivan (R) the main contest.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 15334048,
+        "demSide": 15329048,
         "repSide": 21022019,
-        "total": 36356068,
-        "asOf": "2026-06-17"
+        "total": 36351068,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
@@ -121878,10 +121891,11 @@ window.TRACKER_DATA = {
       "notes": "Abbott 3-term incumbent.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 714763,
-        "repSide": 7488960,
-        "total": 8203723,
-        "asOf": "2026-06-17"
+        "demSide": 691246,
+        "repSide": 6968574,
+        "total": 7659820,
+        "asOf": "2026-06-17",
+        "source": "AdMo"
       },
       "spenders": [
         {
