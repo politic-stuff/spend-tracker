@@ -143,6 +143,25 @@
     .barwrap{display:none} .who{width:140px}
     .dhead{font-size:24px} .matchup{flex-direction:column}
   }
+  /* chat widget */
+  .chatfab{position:fixed;right:22px;bottom:22px;z-index:50;background:var(--accent);color:#fff;border:none;
+    border-radius:999px;padding:13px 18px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35);display:flex;gap:8px;align-items:center}
+  .chatfab:hover{filter:brightness(1.08)}
+  .chatpanel{position:fixed;right:22px;bottom:22px;z-index:51;width:min(390px,calc(100vw - 32px));height:min(560px,calc(100vh - 44px));
+    background:var(--surface);border:1px solid var(--line2);border-radius:18px;box-shadow:0 12px 48px rgba(0,0,0,.5);display:none;flex-direction:column;overflow:hidden}
+  .chatpanel.open{display:flex}
+  .chathead{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:9px;font-weight:700}
+  .chathead .x{margin-left:auto;cursor:pointer;color:var(--muted);font-size:18px;background:none;border:none}
+  .chathead .ai{font-size:11px;font-weight:600;color:var(--muted)}
+  .chatmsgs{flex:1;overflow-y:auto;padding:14px 16px;display:flex;flex-direction:column;gap:11px}
+  .msg{font-size:14px;line-height:1.5;max-width:88%;padding:10px 13px;border-radius:13px;white-space:pre-wrap}
+  .msg.u{align-self:flex-end;background:var(--accent);color:#fff;border-bottom-right-radius:4px}
+  .msg.a{align-self:flex-start;background:var(--surface2);color:var(--txt);border-bottom-left-radius:4px}
+  .msg.sys{align-self:center;color:var(--muted);font-size:12.5px;text-align:center;background:none}
+  .chatin{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line)}
+  .chatin input{flex:1;background:var(--surface2);border:1px solid var(--line);border-radius:11px;padding:10px 13px;color:var(--txt);font-size:14px;outline:none}
+  .chatin button{background:var(--accent);color:#fff;border:none;border-radius:11px;padding:0 15px;font-weight:700;cursor:pointer}
+  .chatin button:disabled{opacity:.5}
 </style>
 </head>
 <body>
@@ -293,6 +312,47 @@ $("#q").addEventListener("input",()=>{ if(location.hash&&location.hash!=="#/")lo
 $("#theme").addEventListener("click",()=>{const t=document.documentElement.dataset.theme==="light"?"dark":"light";document.documentElement.dataset.theme=t;localStorage.spendTheme=t;});
 document.documentElement.dataset.theme=localStorage.spendTheme||"dark";
 render();
+</script>
+
+<button class="chatfab" id="chatfab">💬 Ask about the data</button>
+<div class="chatpanel" id="chatpanel">
+  <div class="chathead">🎯 Spend Assistant <span class="ai">Claude Haiku</span><button class="x" id="chatx">✕</button></div>
+  <div class="chatmsgs" id="chatmsgs"><div class="msg sys">Ask anything about the spend — e.g. "Who's the biggest outside spender against El-Sayed?" or "Which races have the most total spending?"</div></div>
+  <div class="chatin"><input id="chatq" placeholder="Ask a question…" autocomplete="off"><button id="chatsend">Send</button></div>
+</div>
+<script>
+const CHAT_WORKER = "https://spend-tracker-chat.flippypdf.workers.dev";
+function chatContext(){
+  const D=window.TRACKER_DATA||{races:{},candidates:[]};
+  const lines=[];
+  for(const rk of Object.keys(D.races)){
+    const r=D.races[rk], cs=D.candidates.filter(c=>c.raceKey===rk);
+    const a=r.adimpact; const our=cs.find(c=>c.relationship==='tracked');
+    const tot=(c)=>{const g={};for(const s of c.spend||[]){const b=s.bucket||'self';if(!g[b]||(s.amount||0)>g[b])g[b]=s.amount||0;}return Object.values(g).reduce((x,y)=>x+y,0);};
+    let l=`${r.office} (${r.state}, ${r.status}${r.primaryDate?' '+r.primaryDate:''})`;
+    if(a)l+=`: Dem $${a.demSide||0} / Rep $${a.repSide||0} / total $${a.total||0}`;
+    if(r.spenders&&r.spenders.length)l+=`. Spenders: `+r.spenders.slice(0,6).map(s=>`${s.name} $${s.amount}(${s.side})`).join(', ');
+    const named=cs.filter(c=>c.relationship==='tracked'||c.relationship==='general-opp').map(c=>`${c.name}[${c.relationship==='tracked'?'ours':'opp'},${c.party}] $${Math.round(tot(c))}`);
+    if(named.length)l+=`. Candidates: `+named.join(', ');
+    lines.push(l);
+  }
+  return lines.join('\n').slice(0,22000);
+}
+const fab=document.getElementById('chatfab'),panel=document.getElementById('chatpanel'),msgs=document.getElementById('chatmsgs'),qin=document.getElementById('chatq'),send=document.getElementById('chatsend');
+fab.onclick=()=>{panel.classList.add('open');fab.style.display='none';qin.focus();};
+document.getElementById('chatx').onclick=()=>{panel.classList.remove('open');fab.style.display='flex';};
+function addMsg(t,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=t;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;return d;}
+async function ask(){
+  const q=qin.value.trim(); if(!q)return;
+  if(CHAT_WORKER.indexOf('__')===0){addMsg('Chatbot is being set up — check back shortly.','sys');return;}
+  qin.value='';addMsg(q,'u');send.disabled=true;const wait=addMsg('…','a');
+  try{
+    const r=await fetch(CHAT_WORKER,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q,context:chatContext()})});
+    const j=await r.json();wait.textContent=j.answer||j.error||'(no response)';
+  }catch(e){wait.textContent='Network error — try again.';}
+  send.disabled=false;qin.focus();
+}
+send.onclick=ask; qin.addEventListener('keydown',e=>{if(e.key==='Enter')ask();});
 </script>
 </body>
 </html>

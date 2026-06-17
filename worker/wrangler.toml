@@ -1,0 +1,9 @@
+name = "spend-tracker-chat"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+# Secret (set out-of-band, NEVER in this file or git):
+#   wrangler secret put CLAUDE_API_KEY
+# Public dashboard origin allowed to call this Worker:
+[vars]
+ALLOWED_ORIGIN = "https://politic-stuff.github.io"
