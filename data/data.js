@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "AdImpact race totals: NY-7-2026: D $840,839 / R $0 · NY-13-2026: D $5.6M / R $0 · PA-7-2026: D $12.9M / R $9.5M · PA-8-2026: D $10.0M / R $4.6M · TX-Gov-2026: D $714,763 / R $7.5M"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdImpact race totals: NE-Sen-2026: D $30,137 / R $3.2M · AK-Sen-2026: D $15.3M / R $21.0M · ME-Sen-2026: D $52.8M / R $103.3M · MI-13-2026: D $110,834 / R $0"
     },
     {
@@ -101,7 +105,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Rob Bresnahan Jr. (R)",
       "notes": "Cognetti (Scranton mayor) challenging freshman R. Leans R.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 9958552,
+        "repSide": 4624831,
+        "total": 14583383,
+        "asOf": "2026-06-17"
+      }
     },
     "PA-7-2026": {
       "raceKey": "PA-7-2026",
@@ -113,7 +122,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Ryan Mackenzie (R)",
       "notes": "Toss-up. Freshman R flipped seat 2024 by ~1pt.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 12948632,
+        "repSide": 9519363,
+        "total": 22467995,
+        "asOf": "2026-06-17"
+      }
     },
     "CA-22-2026": {
       "raceKey": "CA-22-2026",
@@ -248,7 +262,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Adriano Espaillat (D)",
       "notes": "Main contest: incumbent Espaillat vs our DSA-backed Avila Chevalier. GOP nominee via parallel 6/23 primary (pending). Several minor Dem filers omitted.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 5571514,
+        "repSide": 0,
+        "total": 5571514,
+        "asOf": "2026-06-17"
+      }
     },
     "NY-Comptroller-2026": {
       "raceKey": "NY-Comptroller-2026",
@@ -284,7 +303,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Nydia Velázquez (D), retiring",
       "notes": "OPEN (Velázquez retiring). Valdez frontrunner vs Reynoso (Velázquez-backed). GOP opp pending. Safe-D.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 840839,
+        "repSide": 0,
+        "total": 840839,
+        "asOf": "2026-06-17"
+      }
     },
     "NY-12-2026": {
       "raceKey": "NY-12-2026",
@@ -455,7 +479,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Greg Abbott (R)",
       "notes": "Abbott 3-term incumbent.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 714763,
+        "repSide": 7488960,
+        "total": 8203723,
+        "asOf": "2026-06-17"
+      }
     },
     "TX-37-2026": {
       "raceKey": "TX-37-2026",
