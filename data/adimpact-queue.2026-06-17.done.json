@@ -1,3 +1,6 @@
 [
-  {"raceKey":"MI-Sen-2026","demSide":42960126,"repSide":35101579,"total":78061705,"asOf":"2026-06-17"}
+  {"raceKey":"NE-Sen-2026","demSide":30137,"repSide":3153407,"total":3612415,"asOf":"2026-06-17"},
+  {"raceKey":"AK-Sen-2026","demSide":15334048,"repSide":21022019,"total":36356068,"asOf":"2026-06-17"},
+  {"raceKey":"ME-Sen-2026","demSide":52770794,"repSide":103254634,"total":156025428,"asOf":"2026-06-17"},
+  {"raceKey":"MI-13-2026","demSide":110834,"repSide":0,"total":110834,"asOf":"2026-06-17"}
 ]

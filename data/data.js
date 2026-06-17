@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "AdImpact race totals: NE-Sen-2026: D $30,137 / R $3.2M · AK-Sen-2026: D $15.3M / R $21.0M · ME-Sen-2026: D $52.8M / R $103.3M · MI-13-2026: D $110,834 / R $0"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdImpact race totals: MI-Sen-2026: D $43.0M / R $35.1M"
     },
     {
@@ -174,7 +178,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Pete Ricketts (R), incumbent",
       "notes": "Dem nominee Burbank pledged to drop out and back Osborn. Effectively Osborn vs Ricketts.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 30137,
+        "repSide": 3153407,
+        "total": 3612415,
+        "asOf": "2026-06-17"
+      }
     },
     "PA-HD137-2026": {
       "raceKey": "PA-HD137-2026",
@@ -222,7 +231,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Susan Collins (R), incumbent",
       "notes": "Platner won June 9 primary; Mills withdrew pre-primary.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 52770794,
+        "repSide": 103254634,
+        "total": 156025428,
+        "asOf": "2026-06-17"
+      }
     },
     "NY-13-2026": {
       "raceKey": "NY-13-2026",
@@ -347,7 +361,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Shri Thanedar (D)",
       "notes": "McKinney (Sanders/Tlaib/WFP) vs incumbent Thanedar lead a 6-way primary. Safe-D.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 110834,
+        "repSide": 0,
+        "total": 110834,
+        "asOf": "2026-06-17"
+      }
     },
     "MI-SD1-2026": {
       "raceKey": "MI-SD1-2026",
@@ -395,7 +414,12 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Dan S. Sullivan (R), incumbent",
       "notes": "Top-4 nonpartisan primary → RCV general. Peltola vs incumbent Sullivan (R) the main contest.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 15334048,
+        "repSide": 21022019,
+        "total": 36356068,
+        "asOf": "2026-06-17"
+      }
     },
     "AK-Gov-2026": {
       "raceKey": "AK-Gov-2026",
