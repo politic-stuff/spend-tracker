@@ -64,6 +64,8 @@
   .spender .amt{font-variant-numeric:tabular-nums;font-weight:600}
   .spender.D .amt{color:var(--dem)} .spender.R .amt{color:var(--rep)} .spender.I .amt{color:var(--ind)}
   .spenders .more{font-size:11px;color:var(--muted);margin-top:3px;cursor:pointer}
+  .newbadge{font-size:9px;font-weight:800;letter-spacing:.3px;background:color-mix(in srgb,var(--warn) 28%,transparent);color:var(--warn);border-radius:5px;padding:0 5px}
+  .inboxnote{font-size:10px;color:var(--accent2);margin-left:14px}
   .cand{border-top:1px solid var(--line);padding:9px 0}
   .cand.tracked{background:color-mix(in srgb,var(--accent) 7%,transparent);margin:0 -16px;padding:9px 16px;border-top:1px solid var(--line)}
   .cand .top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
@@ -169,10 +171,15 @@ function raceCard({rk,race,cands}){
       <div class="adcell rep"><div class="lab">Rep side</div><div class="val">${fmt(ai.repSide)}</div></div>
     </div><div class="adsrc">race totals · AdImpact${ai.asOf?" · "+ai.asOf:""}</div>` : "";
   const statusLabel = race.status==="general" ? "General · Nov 3" : `Primary · ${race.primaryDate||"TBD"}`;
-  const sp = race.spenders||[];
-  const spenders = sp.length ? `<div class="spenders"><h4>Top spenders · ${sp.length} (AdImpact)</h4>`
-    + sp.slice(0,8).map(s=>`<div class="spender ${s.side}"><span class="dot"></span><span class="nm">${s.name}</span><span class="amt">${fmt(s.amount)}</span></div>`).join("")
-    + (sp.length>8?`<div class="more">+${sp.length-8} more</div>`:"")+`</div>` : "";
+  // show new (inbox-surfaced) spenders first so they never hide below the fold
+  const sp = [...(race.spenders||[])].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0) || (b.amount||0)-(a.amount||0));
+  const spRow = s => `<div class="spender ${s.side}"><span class="dot"></span>`
+    + `<span class="nm">${s.name}${s.isNew?' <span class="newbadge">NEW</span>':''}</span>`
+    + `<span class="amt">${fmt(s.amount)}</span></div>`
+    + (s.inbox?`<div class="inboxnote">inbox: ${fmt(s.inbox.amount)}${s.inbox.flight?' · '+s.inbox.flight:''}</div>`:'');
+  const spenders = sp.length ? `<div class="spenders"><h4>Top spenders · ${sp.length} · AdImpact + inbox</h4>`
+    + sp.slice(0,9).map(spRow).join("")
+    + (sp.length>9?`<div class="more">+${sp.length-9} more</div>`:"")+`</div>` : "";
   return `<div class="race">
     <div class="racehead"><span class="rtitle">${race.office}</span><span class="rmeta">· ${race.state} · ${statusLabel}</span></div>
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
