@@ -23,19 +23,15 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
-      "note": "AdMo import: 11 race(s) backfilled \u2014 AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
+      "note": "AdMo import: 11 race(s) backfilled — AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
     },
     {
       "ts": "2026-06-17",
-      "note": "AdMo import: 11 race(s) backfilled \u2014 AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
+      "note": "AdMo import: 11 race(s) backfilled — AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
     },
     {
       "ts": "2026-06-17",
-      "note": "AdMo import: 2 race(s) backfilled \u2014 AK-Sen-2026, MI-Sen-2026"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import MI-Sen-2026: 26 spenders, 1495 weekly buy-rows across 15 markets."
+      "note": "AdMo import: 2 race(s) backfilled — AK-Sen-2026, MI-Sen-2026"
     },
     {
       "ts": "2026-06-17",
@@ -47,7 +43,11 @@ window.TRACKER_DATA = {
     },
     {
       "ts": "2026-06-17",
-      "note": "Inbox: buys Ben McAdams (UT-1-2026): 4 flight(s) [revised] \u00b7 \u270e Ben McAdams (UT-1-2026) \u2192 $163,120 [correction]"
+      "note": "AdMo import MI-Sen-2026: 26 spenders, 1495 weekly buy-rows across 15 markets."
+    },
+    {
+      "ts": "2026-06-17",
+      "note": "Inbox: buys Ben McAdams (UT-1-2026): 4 flight(s) [revised] · ✎ Ben McAdams (UT-1-2026) → $163,120 [correction]"
     },
     {
       "ts": "2026-06-17",
@@ -55,7 +55,7 @@ window.TRACKER_DATA = {
     },
     {
       "ts": "2026-06-17",
-      "note": "Inbox/manual: Alex Bores: Alex Bores campaign \u2014 TV (WABC-TV) $112,400 (confirmed)"
+      "note": "Inbox/manual: Alex Bores: Alex Bores campaign — TV (WABC-TV) $112,400 (confirmed)"
     },
     {
       "ts": "2026-06-17",
@@ -67,11 +67,11 @@ window.TRACKER_DATA = {
     },
     {
       "ts": "2026-06-17",
-      "note": "AdImpact race totals: NY-7-2026: D $840,839 / R $0 \u00b7 NY-13-2026: D $5.6M / R $0 \u00b7 PA-7-2026: D $12.9M / R $9.5M \u00b7 PA-8-2026: D $10.0M / R $4.6M \u00b7 TX-Gov-2026: D $714,763 / R $7.5M"
+      "note": "AdImpact race totals: NY-7-2026: D $840,839 / R $0 · NY-13-2026: D $5.6M / R $0 · PA-7-2026: D $12.9M / R $9.5M · PA-8-2026: D $10.0M / R $4.6M · TX-Gov-2026: D $714,763 / R $7.5M"
     },
     {
       "ts": "2026-06-17",
-      "note": "AdImpact race totals: NE-Sen-2026: D $30,137 / R $3.2M \u00b7 AK-Sen-2026: D $15.3M / R $21.0M \u00b7 ME-Sen-2026: D $52.8M / R $103.3M \u00b7 MI-13-2026: D $110,834 / R $0"
+      "note": "AdImpact race totals: NE-Sen-2026: D $30,137 / R $3.2M · AK-Sen-2026: D $15.3M / R $21.0M · ME-Sen-2026: D $52.8M / R $103.3M · MI-13-2026: D $110,834 / R $0"
     },
     {
       "ts": "2026-06-17",
@@ -79,7 +79,7 @@ window.TRACKER_DATA = {
     },
     {
       "ts": "2026-06-17",
-      "note": "FEC: 30 race(s) moved. Angel Oakley (US House IL-3): $0 \u2192 $1,657.29 \u00b7 Max Miller (US House OH-7): $0 \u2192 $513,420.7 \u00b7 James Hayes (US House PA-12): $0 \u2192 $16,237.51 \u00b7 Ryan Mackenzie (US House PA-7): $0 \u2192 $203,333.61 \u00b7 David Valadao (US House CA-22): $0 \u2192 $1,187,808.57"
+      "note": "FEC: 30 race(s) moved. Angel Oakley (US House IL-3): $0 → $1,657.29 · Max Miller (US House OH-7): $0 → $513,420.7 · James Hayes (US House PA-12): $0 → $16,237.51 · Ryan Mackenzie (US House PA-7): $0 → $203,333.61 · David Valadao (US House CA-22): $0 → $1,187,808.57"
     },
     {
       "ts": "2026-06-17",
@@ -87,15 +87,15 @@ window.TRACKER_DATA = {
     },
     {
       "ts": "2026-06-17",
-      "note": "Inbox/manual: Randy Villegas: Dem side \u2014 race total (AdImpact, CA CD-22) $16,671,440 (confirmed) \u00b7 Randy Villegas: Rep side \u2014 race total (AdImpact, CA CD-22) $11,676,459 (confirmed)"
+      "note": "Inbox/manual: Randy Villegas: Dem side — race total (AdImpact, CA CD-22) $16,671,440 (confirmed) · Randy Villegas: Rep side — race total (AdImpact, CA CD-22) $11,676,459 (confirmed)"
     },
     {
       "ts": "2026-06-17",
-      "note": "FEC: 26 race(s) moved. Evan Turnage (US House, MS-2): $0 \u2192 $461,473.51 \u00b7 Dr. Thomas Fisher (US House, IL-7): $0 \u2192 $947,370.63 \u00b7 Delia Ramirez (US House, IL-3 (incumbent)): $0 \u2192 $793,478.13 \u00b7 Brian Poindexter (US House, OH-7): $0 \u2192 $125,937.12 \u00b7 Dan Osborn (US Senate (Independent)): $0 \u2192 $23,304,743.52"
+      "note": "FEC: 26 race(s) moved. Evan Turnage (US House, MS-2): $0 → $461,473.51 · Dr. Thomas Fisher (US House, IL-7): $0 → $947,370.63 · Delia Ramirez (US House, IL-3 (incumbent)): $0 → $793,478.13 · Brian Poindexter (US House, OH-7): $0 → $125,937.12 · Dan Osborn (US Senate (Independent)): $0 → $23,304,743.52"
     },
     {
       "ts": "2026-06-17",
-      "note": "New ad creatives: Eric Jones: 14 new (Congressional Candidate Eric Jones Makes) \u00b7 Graham Platner: 15 new (Donald Trump Said This About Me) \u00b7 Micah Lasher: 15 new (Welcome to the Upper West Side) \u00b7 David Seligman: 15 new (Seligman for AG - Compassion in Law) \u00b7 Abdul El-Sayed: 15 new (Our new ad, \u201cStopwatch.\u201d) \u00b7 Mandela Barnes: 10 new (Mandela Barnes on MSNOW's The Weekend)"
+      "note": "New ad creatives: Eric Jones: 14 new (Congressional Candidate Eric Jones Makes) · Graham Platner: 15 new (Donald Trump Said This About Me) · Micah Lasher: 15 new (Welcome to the Upper West Side) · David Seligman: 15 new (Seligman for AG - Compassion in Law) · Abdul El-Sayed: 15 new (Our new ad, “Stopwatch.”) · Mandela Barnes: 10 new (Mandela Barnes on MSNOW's The Weekend)"
     },
     {
       "ts": null,
@@ -93604,8 +93604,8 @@ window.TRACKER_DATA = {
       "primaryDate": "2026-06-23",
       "generalDate": "2026-11-03",
       "status": "primary",
-      "seatHeldBy": "Nydia Vel\u00e1zquez (D), retiring",
-      "notes": "OPEN (Vel\u00e1zquez retiring). Valdez frontrunner vs Reynoso (Vel\u00e1zquez-backed). GOP opp pending. Safe-D.",
+      "seatHeldBy": "Nydia Velázquez (D), retiring",
+      "notes": "OPEN (Velázquez retiring). Valdez frontrunner vs Reynoso (Velázquez-backed). GOP opp pending. Safe-D.",
       "confidence": "high",
       "adimpact": {
         "demSide": 840839,
@@ -93659,7 +93659,7 @@ window.TRACKER_DATA = {
       "generalDate": "2026-11-03",
       "status": "primary",
       "seatHeldBy": "Jerrold Nadler (D), retiring",
-      "notes": "OPEN (Nadler retiring, endorsed Lasher). ~10-way Dem primary; Lasher & Alex Bores lead. NOTE: Alex Bores already appears in the competitive inbox (Nexstar comp). GOP slate was a Ballotpedia cross-listing artifact \u2014 omitted pending recheck.",
+      "notes": "OPEN (Nadler retiring, endorsed Lasher). ~10-way Dem primary; Lasher & Alex Bores lead. NOTE: Alex Bores already appears in the competitive inbox (Nexstar comp). GOP slate was a Ballotpedia cross-listing artifact — omitted pending recheck.",
       "confidence": "med",
       "adimpact": null
     },
@@ -108912,8 +108912,8 @@ window.TRACKER_DATA = {
       "primaryDate": "2026-08-06",
       "generalDate": "2026-11-03",
       "status": "primary",
-      "seatHeldBy": "Steve Cohen (D), retiring \u2014 OPEN",
-      "notes": "OPEN seat \u2014 Cohen retiring after GOP redistricting (announced 5/15/26). Not a Cohen challenge. GOP primary pending.",
+      "seatHeldBy": "Steve Cohen (D), retiring — OPEN",
+      "notes": "OPEN seat — Cohen retiring after GOP redistricting (announced 5/15/26). Not a Cohen challenge. GOP primary pending.",
       "confidence": "high",
       "adimpact": null
     },
@@ -108924,7 +108924,7 @@ window.TRACKER_DATA = {
       "primaryDate": "2026-08-11",
       "generalDate": "2026-11-03",
       "status": "primary",
-      "seatHeldBy": "Tony Evers (D), retiring \u2014 OPEN",
+      "seatHeldBy": "Tony Evers (D), retiring — OPEN",
       "notes": "OPEN (Evers declining 3rd term). Barnes presumptive frontrunner. GOP: Tom Tiffany (Trump-endorsed) favorite.",
       "confidence": "high",
       "adimpact": null
@@ -108937,7 +108937,7 @@ window.TRACKER_DATA = {
       "generalDate": "2026-11-03",
       "status": "primary",
       "seatHeldBy": "Dan S. Sullivan (R), incumbent",
-      "notes": "Top-4 nonpartisan primary \u2192 RCV general. Peltola vs incumbent Sullivan (R) the main contest.",
+      "notes": "Top-4 nonpartisan primary → RCV general. Peltola vs incumbent Sullivan (R) the main contest.",
       "confidence": "high",
       "adimpact": {
         "demSide": 15329048,
@@ -121863,7 +121863,7 @@ window.TRACKER_DATA = {
       "primaryDate": "2026-08-18",
       "generalDate": "2026-11-03",
       "status": "primary",
-      "seatHeldBy": "Mike Dunleavy (R), term-limited \u2014 OPEN",
+      "seatHeldBy": "Mike Dunleavy (R), term-limited — OPEN",
       "notes": "Top-4 open seat (Dunleavy term-limited). 11 R / 3 D / 3 ind. Dahlstrom (R) dropped out 6/1.",
       "confidence": "med",
       "adimpact": null
@@ -128110,7 +128110,7 @@ window.TRACKER_DATA = {
       "generalDate": "2026-11-03",
       "status": "general",
       "seatHeldBy": "Greg Casar (D)",
-      "notes": "Pe\u00f1a won May 26 GOP runoff ~58%.",
+      "notes": "Peña won May 26 GOP runoff ~58%.",
       "confidence": "high",
       "adimpact": null
     },
@@ -128219,7 +128219,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "fecUpdated": "2026-06-17"
+      "fecUpdated": "2026-06-17",
+      "photo": "assets/photos/brian-poindexter.jpg"
     },
     {
       "name": "Max Miller",
@@ -128339,7 +128340,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-04-29"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 483.27,
@@ -128409,7 +128410,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-04-29"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 953734.84,
@@ -128418,7 +128419,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 5100,
@@ -128453,7 +128454,7 @@ window.TRACKER_DATA = {
           "asOf": "2018-12-31"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 12195.810000000001,
@@ -128496,7 +128497,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-05-13"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 92174.89,
@@ -128505,7 +128506,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 306873,
@@ -128541,7 +128542,7 @@ window.TRACKER_DATA = {
           "asOf": "2012-12-31"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 6695.67,
@@ -128607,14 +128608,14 @@ window.TRACKER_DATA = {
           "firstSeen": "2026-06-02"
         },
         {
-          "title": "Redeem the Dream \u2014 Eric Jones for Congress",
+          "title": "Redeem the Dream — Eric Jones for Congress",
           "url": "https://www.youtube.com/watch?v=pf_ogYmAUD8",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-05-31"
         },
         {
-          "title": "Mike Thompson \u2014 The Third Most Bought-Out Democrat in Congress",
+          "title": "Mike Thompson — The Third Most Bought-Out Democrat in Congress",
           "url": "https://www.youtube.com/watch?v=HVeOgZvHvZo",
           "platform": "YouTube",
           "source": "YouTube RSS",
@@ -128688,7 +128689,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-05-27"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 10000,
@@ -128821,7 +128822,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-04-22"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 12508808.56,
@@ -128830,7 +128831,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 8011606.419999999,
@@ -128866,7 +128867,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-04-22"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 808578.61,
@@ -128875,7 +128876,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 431.09,
@@ -129011,7 +129012,7 @@ window.TRACKER_DATA = {
       "fecId": null,
       "spend": [],
       "ads": [],
-      "photo": "assets/photos/jane-kim.jpg"
+      "photo": "assets/photos/jane-kim.png"
     },
     {
       "name": "Ben Allen",
@@ -129059,7 +129060,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-05-20"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 653.3,
@@ -129068,7 +129069,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 3999000,
@@ -129147,7 +129148,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-05-20"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 2005068.8399999996,
@@ -129156,7 +129157,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 15452.939999999999,
@@ -129199,7 +129200,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-03"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 111.97,
@@ -129415,7 +129416,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-03"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 1348.36,
@@ -129424,7 +129425,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 30000,
@@ -129634,7 +129635,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-03"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 2815525.95,
@@ -129713,7 +129714,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-03"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 2485698,
@@ -129722,7 +129723,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 2419559.08,
@@ -129731,7 +129732,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Alex Bores campaign \u2014 TV (WABC-TV)",
+          "actor": "Alex Bores campaign — TV (WABC-TV)",
           "type": "candidate",
           "bucket": "self",
           "amount": 112400,
@@ -129881,7 +129882,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-03"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 22809.44,
@@ -130225,7 +130226,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 5480.42,
@@ -130268,7 +130269,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 50,
@@ -130279,7 +130280,7 @@ window.TRACKER_DATA = {
       ],
       "ads": [
         {
-          "title": "Our new ad, \u201cStopwatch.\u201d",
+          "title": "Our new ad, “Stopwatch.”",
           "url": "https://www.youtube.com/shorts/QK6g_JwiaUs",
           "platform": "YouTube",
           "source": "YouTube RSS",
@@ -130347,7 +130348,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 50,
@@ -130383,7 +130384,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 76094.5,
@@ -130472,7 +130473,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 26391578.950000003,
@@ -130481,7 +130482,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 39086618.129999995,
@@ -130524,7 +130525,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 110,
@@ -130682,7 +130683,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 1234.13,
@@ -130961,7 +130962,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 5234.29,
@@ -131071,8 +131072,7 @@ window.TRACKER_DATA = {
       "links": {},
       "fecId": null,
       "spend": [],
-      "ads": [],
-      "photo": "assets/photos/bernadette-wilson.jpg"
+      "ads": []
     },
     {
       "name": "Adam Crum",
@@ -131308,7 +131308,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 37.5,
@@ -131364,7 +131364,7 @@ window.TRACKER_DATA = {
       "photo": "assets/photos/greg-casar.jpg"
     },
     {
-      "name": "Lauren B. Pe\u00f1a",
+      "name": "Lauren B. Peña",
       "party": "R",
       "relationship": "general-opp",
       "status": "nominee",
@@ -131408,7 +131408,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-03-31"
         },
         {
-          "actor": "Outside spending \u2014 supporting",
+          "actor": "Outside spending — supporting",
           "type": "outside",
           "bucket": "support",
           "amount": 9082588.17,
@@ -131417,7 +131417,7 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         },
         {
-          "actor": "Outside spending \u2014 opposing",
+          "actor": "Outside spending — opposing",
           "type": "outside",
           "bucket": "oppose",
           "amount": 10489100.92,

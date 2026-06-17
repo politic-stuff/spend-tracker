@@ -219,9 +219,10 @@ function mainOpp(rk){const cs=byRace(rk);const our=ourCand(rk);
   const opp=cs.filter(c=>c!==our&&c.party&&our&&c.party!==our.party);
   const pool=opp.length?opp:cs.filter(c=>c!==our);
   return pool.sort((a,b)=>candTotal(b)-candTotal(a))[0]||null;}
+window.imgFallback=(img,init)=>{const d=document.createElement("div");d.className=img.className;d.textContent=init;img.replaceWith(d);};
 function avatar(c,lg){const cls="av "+((c&&c.party||"O").replace(/[^A-Za-z]/g,"")||"O")+(lg?" lg":"");
-  if(c&&c.photo)return `<img class="${cls}" src="${c.photo}" alt="">`;
   const init=(c&&c.name||"?").split(" ").map(x=>x[0]).slice(0,2).join("").toUpperCase();
+  if(c&&c.photo)return `<img class="${cls}" src="${c.photo}" alt="" onerror="imgFallback(this,'${init}')">`;
   return `<div class="${cls}">${init}</div>`;}
 
 // ---------- OVERVIEW ----------
