@@ -7,108 +7,155 @@
 <link rel="icon" href="favicon.svg">
 <style>
   :root{
-    --bg:#0b0f17; --card:#141a26; --card2:#1b2230; --line:#26304a;
-    --txt:#e7ecf5; --muted:#9aa6bd; --accent:#5b8cff; --accent2:#7aa2ff;
-    --dem:#5b8cff; --rep:#e0606b; --ind:#c08adb;
-    --fed:#3fb98a; --state:#c08adb; --warn:#e6a23c; --good:#3fb98a; --info:#5b8cff; --sample:#6b7689;
+    --bg:#0a0d14; --surface:#121722; --surface2:#1a212e; --line:#222b3b; --line2:#2c3750;
+    --txt:#eef2f8; --txt2:#aab4c6; --muted:#7d8aa0;
+    --dem:#5b8cff; --rep:#f0606e; --ind:#c08adb;
+    --good:#38c39a; --warn:#e8a93c; --accent:#6e8bff; --accent2:#8aa4ff;
+    --radius:16px; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.18);
   }
-  [data-theme="light"]{ --bg:#f4f6fb; --card:#fff; --card2:#eef2fa; --line:#dde3ef; --txt:#10151f; --muted:#5a6577; }
+  [data-theme="light"]{
+    --bg:#f5f7fb; --surface:#ffffff; --surface2:#f1f4fa; --line:#e4e9f2; --line2:#d4dbe8;
+    --txt:#0e1422; --txt2:#48536a; --muted:#7a869c; --accent:#3a5bd9; --accent2:#3a5bd9;
+    --shadow:0 1px 2px rgba(16,28,60,.06),0 8px 24px rgba(16,28,60,.06);
+  }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  a{color:var(--accent2);text-decoration:none} a:hover{text-decoration:underline}
-  .wrap{max-width:1180px;margin:0 auto;padding:20px 18px 80px}
-  header{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
-  h1{font-size:22px;margin:0}
-  .sub{color:var(--muted);font-size:13px;margin:2px 0 16px}
-  .spacer{flex:1}
-  .btn{background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:9px;padding:7px 11px;font-size:13px;cursor:pointer}
-  .btn:hover{border-color:var(--accent)}
-  .controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
-  .controls input,.controls select{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:9px;padding:8px 10px;font-size:13px}
-  .controls input{flex:1;min-width:200px}
-  .legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin-bottom:16px;align-items:center}
-  .legend b{color:var(--txt);font-weight:600}
-  .pill{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;border:1px solid var(--line);white-space:nowrap}
-  .conf{font-size:10px;padding:1px 6px;border-radius:6px;font-weight:700;text-transform:uppercase;letter-spacing:.3px}
-  .conf.fec{background:color-mix(in srgb,var(--fed) 20%,transparent);color:var(--fed)}
-  .conf.confirmed{background:color-mix(in srgb,var(--info) 22%,transparent);color:var(--accent2)}
-  .conf.adimpact{background:color-mix(in srgb,var(--accent) 26%,transparent);color:var(--accent2)}
-  .conf.estimate{background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn)}
-  .conf.sample{background:color-mix(in srgb,var(--sample) 22%,transparent);color:var(--sample)}
-  .party{font-size:10px;font-weight:800;padding:1px 6px;border-radius:5px}
-  .party.D{background:color-mix(in srgb,var(--dem) 22%,transparent);color:var(--dem)}
-  .party.R{background:color-mix(in srgb,var(--rep) 22%,transparent);color:var(--rep)}
-  .party.I,.party.Independent,.party.O{background:color-mix(in srgb,var(--ind) 22%,transparent);color:var(--ind)}
-  .changelog{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:18px}
-  .changelog h3{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
-  .changelog li{font-size:13px;margin-bottom:4px} .changelog .t{color:var(--muted);font-size:11px}
-  .race{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px;margin-bottom:14px}
-  .racehead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;margin-bottom:2px}
-  .rtitle{font-size:17px;font-weight:700}
-  .rmeta{color:var(--muted);font-size:12.5px}
-  .seat{color:var(--muted);font-size:12px;margin:2px 0 0}
-  .adbar{display:flex;gap:10px;margin:12px 0;border:1px solid var(--line);border-radius:10px;overflow:hidden}
-  .adcell{flex:1;text-align:center;padding:9px 6px}
-  .adcell .lab{font-size:10px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
-  .adcell .val{font-size:19px;font-weight:800;font-variant-numeric:tabular-nums}
-  .adcell.dem{background:color-mix(in srgb,var(--dem) 12%,transparent)} .adcell.dem .val{color:var(--dem)}
-  .adcell.rep{background:color-mix(in srgb,var(--rep) 12%,transparent)} .adcell.rep .val{color:var(--rep)}
-  .adcell.tot .val{color:var(--txt)}
-  .adsrc{font-size:10px;color:var(--muted);text-align:right;margin:-6px 0 8px}
-  .spenders{margin:8px 0 4px;border-top:1px solid var(--line);padding-top:8px}
-  .spenders h4{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
-  .spender{display:flex;align-items:center;gap:7px;font-size:12.5px;padding:2px 0}
-  .spender .dot{width:7px;height:7px;border-radius:2px;flex:none}
-  .spender.D .dot{background:var(--dem)} .spender.R .dot{background:var(--rep)} .spender.I .dot{background:var(--ind)}
-  .spender .nm{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .spender .amt{font-variant-numeric:tabular-nums;font-weight:600}
-  .spender.D .amt{color:var(--dem)} .spender.R .amt{color:var(--rep)} .spender.I .amt{color:var(--ind)}
-  .spenders .more{font-size:11px;color:var(--muted);margin-top:3px;cursor:pointer}
-  .newbadge{font-size:9px;font-weight:800;letter-spacing:.3px;background:color-mix(in srgb,var(--warn) 28%,transparent);color:var(--warn);border-radius:5px;padding:0 5px}
-  .inboxnote{font-size:10px;color:var(--accent2);margin-left:14px}
-  .cand{border-top:1px solid var(--line);padding:9px 0}
-  .cand.tracked{background:color-mix(in srgb,var(--accent) 7%,transparent);margin:0 -16px;padding:9px 16px;border-top:1px solid var(--line)}
-  .cand .top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-  .cand .nm{font-weight:600}
-  .rel{font-size:10px;text-transform:uppercase;letter-spacing:.3px;color:var(--muted)}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px 90px}
+  /* top bar */
+  .topbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 88%,transparent);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .topbar .inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:14px}
+  .brand{font-size:19px;font-weight:800;letter-spacing:-.2px;display:flex;align-items:center;gap:9px;white-space:nowrap}
+  .brand .logo{width:26px;height:26px}
+  .search{flex:1;min-width:0;display:flex;align-items:center;gap:9px;background:var(--surface);
+    border:1px solid var(--line);border-radius:12px;padding:9px 13px}
+  .search input{flex:1;background:none;border:none;outline:none;color:var(--txt);font-size:15px}
+  .search svg{flex:none;opacity:.6}
+  .iconbtn{background:var(--surface);border:1px solid var(--line);color:var(--txt2);border-radius:11px;
+    padding:9px 12px;font-size:14px;cursor:pointer;white-space:nowrap}
+  .iconbtn:hover{border-color:var(--accent);color:var(--txt)}
+  /* updates drawer */
+  .updates{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    margin:16px 0;box-shadow:var(--shadow);overflow:hidden}
+  .updates summary{list-style:none;cursor:pointer;padding:14px 18px;display:flex;align-items:center;gap:10px;font-weight:600}
+  .updates summary::-webkit-details-marker{display:none}
+  .updates summary .chev{margin-left:auto;transition:transform .2s;color:var(--muted)}
+  .updates[open] summary .chev{transform:rotate(90deg)}
+  .updates .latest{color:var(--txt2);font-weight:400;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .updates ul{margin:0;padding:0 18px 14px 38px;border-top:1px solid var(--line)}
+  .updates li{font-size:14px;color:var(--txt2);margin:8px 0;line-height:1.45}
+  .updates .t{color:var(--muted);font-size:12px;margin-right:6px}
+  .sub{color:var(--muted);font-size:13.5px;margin:14px 2px}
+  /* controls */
+  .controls{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 20px}
+  .controls select{background:var(--surface);border:1px solid var(--line);color:var(--txt);
+    border-radius:11px;padding:9px 13px;font-size:14px;cursor:pointer}
+  .seg{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:11px;overflow:hidden}
+  .seg button{background:none;border:none;color:var(--muted);padding:9px 14px;font-size:13.5px;cursor:pointer}
+  .seg button.on{background:var(--surface2);color:var(--txt);font-weight:600}
+  .counthd{font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);margin:6px 2px 12px}
+  /* race rows (overview) */
+  .rrow{display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--line);
+    border-radius:14px;padding:15px 18px;margin-bottom:11px;cursor:pointer;transition:border-color .15s,transform .05s;box-shadow:var(--shadow)}
+  .rrow:hover{border-color:var(--line2);transform:translateY(-1px)}
+  .rrow .rinfo{flex:1;min-width:0}
+  .rrow .rt{font-size:17px;font-weight:700;letter-spacing:-.2px}
+  .rrow .rmeta{font-size:13px;color:var(--muted);margin-top:2px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .chip{font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px;border:1px solid var(--line2)}
+  .chip.gen{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,transparent)}
+  .chip.pri{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,transparent)}
+  .barwrap{flex:1.2;min-width:170px;max-width:320px}
+  .bar{height:9px;border-radius:6px;background:var(--surface2);display:flex;overflow:hidden}
+  .bar .d{background:var(--dem)} .bar .r{background:var(--rep)} .bar .i{background:var(--ind)}
+  .barlbl{display:flex;justify-content:space-between;font-size:12px;margin-top:5px;color:var(--txt2)}
+  .barlbl .dem{color:var(--dem)} .barlbl .rep{color:var(--rep)} .barlbl b{color:var(--txt)}
+  .who{display:flex;align-items:center;gap:9px;flex:none;width:188px}
+  .who .nm{font-size:14px;font-weight:600;line-height:1.2}
+  .who .role{font-size:11.5px;color:var(--muted)}
+  .chev{color:var(--muted);flex:none}
+  /* avatar */
+  .av{width:38px;height:38px;border-radius:50%;flex:none;object-fit:cover;background:var(--surface2);
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;border:2px solid var(--line2)}
+  .av.D{border-color:var(--dem);color:var(--dem)} .av.R{border-color:var(--rep);color:var(--rep)} .av.I{border-color:var(--ind);color:var(--ind)}
+  .av.lg{width:72px;height:72px;font-size:24px;border-width:3px}
+  /* detail */
+  .back{display:inline-flex;align-items:center;gap:7px;color:var(--txt2);font-size:14px;margin:18px 0 10px;cursor:pointer}
+  .back:hover{color:var(--txt)}
+  .dhead{font-size:30px;font-weight:800;letter-spacing:-.5px;margin:4px 0 2px}
+  .dmeta{color:var(--muted);font-size:14.5px;margin-bottom:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .seat{color:var(--txt2);font-size:13.5px;margin-bottom:18px}
+  .matchup{display:flex;align-items:stretch;gap:14px;margin:18px 0}
+  .mcard{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;gap:13px;align-items:center;box-shadow:var(--shadow)}
+  .mcard .nm{font-size:17px;font-weight:700}
+  .mcard .role{font-size:13px;color:var(--muted);margin-top:1px}
+  .mcard .amt{font-size:15px;font-weight:700;margin-top:5px}
+  .mcard.D .amt{color:var(--dem)} .mcard.R .amt{color:var(--rep)} .mcard.I .amt{color:var(--ind)}
+  .vs{align-self:center;font-weight:800;color:var(--muted);font-size:14px}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:14px 0;box-shadow:var(--shadow)}
+  .panel h3{margin:0 0 14px;font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}
+  /* big spend bar */
+  .bigbar{display:flex;gap:0;border-radius:12px;overflow:hidden;height:44px;margin-bottom:8px}
+  .bigbar .seg2{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:16px;min-width:48px}
+  .bigbar .d{background:var(--dem)} .bigbar .r{background:var(--rep)} .bigbar .i{background:var(--ind)}
+  .bbnum{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+  /* spenders */
+  .sp{display:flex;align-items:center;gap:11px;padding:9px 0;border-top:1px solid var(--line)}
+  .sp:first-child{border-top:none}
+  .sp .dot{width:9px;height:9px;border-radius:3px;flex:none}
+  .sp.D .dot{background:var(--dem)} .sp.R .dot{background:var(--rep)} .sp.I .dot{background:var(--ind)}
+  .sp .nm{flex:1;font-size:15px}
+  .sp .amt{font-weight:700;font-variant-numeric:tabular-nums}
+  .sp.D .amt{color:var(--dem)} .sp.R .amt{color:var(--rep)} .sp.I .amt{color:var(--ind)}
+  .newbadge{font-size:10px;font-weight:800;letter-spacing:.4px;background:color-mix(in srgb,var(--warn) 26%,transparent);color:var(--warn);border-radius:6px;padding:1px 6px;margin-left:7px}
+  .buys{margin:2px 0 4px 20px;font-size:13px;color:var(--txt2)}
+  .buy{display:flex;justify-content:space-between;padding:2px 0;border-bottom:1px dashed var(--line)}
+  .buy .meta{color:var(--muted)}
+  /* candidate block */
+  .cand{display:flex;gap:13px;padding:14px 0;border-top:1px solid var(--line)}
+  .cand:first-child{border-top:none}
+  .cand .body{flex:1;min-width:0}
+  .cand .top{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .cand .nm{font-size:16px;font-weight:700}
+  .rel{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
   .rel.tracked{color:var(--accent2);font-weight:700}
-  .candtot{margin-left:auto;font-weight:800;font-variant-numeric:tabular-nums}
-  .srow{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);padding:2px 0 2px 12px}
-  .srow .amt{font-variant-numeric:tabular-nums;color:var(--txt)}
-  .srow.sec{opacity:.5;font-size:11px}
-  .bkt{text-transform:uppercase;font-size:10px;letter-spacing:.3px}
-  .ads{font-size:12px;color:var(--muted);padding:2px 0 0 12px}
-  .ads a{margin-right:2px}
-  .empty{color:var(--muted);font-style:italic;font-size:12px}
-  .sectionhead{margin:18px 0 10px;font-size:13px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+  .cand .tot{margin-left:auto;font-weight:800;font-variant-numeric:tabular-nums}
+  .srow{display:flex;justify-content:space-between;font-size:13.5px;color:var(--txt2);padding:2px 0 2px 4px}
+  .srow .amt{color:var(--txt);font-variant-numeric:tabular-nums}
+  .srow.sec{opacity:.55;font-size:12px}
+  .conf{font-size:10px;padding:1px 6px;border-radius:6px;font-weight:700;text-transform:uppercase}
+  .conf.fec{background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good)}
+  .conf.confirmed,.conf.inbox{background:color-mix(in srgb,var(--accent) 22%,transparent);color:var(--accent2)}
+  .conf.adimpact{background:color-mix(in srgb,var(--ind) 22%,transparent);color:var(--ind)}
+  .conf.estimate{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+  .ads{margin-top:9px}
+  .adsrc{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:8px 0 4px}
+  .ad{display:flex;gap:8px;align-items:baseline;font-size:13.5px;padding:2px 0}
+  .ad .pl{font-size:10px;color:var(--muted);border:1px solid var(--line2);border-radius:5px;padding:0 5px;flex:none}
+  .ad a{color:var(--accent2)} .ad a:hover{text-decoration:underline}
+  .coming{font-size:12.5px;color:var(--muted);font-style:italic}
+  .empty{color:var(--muted);font-size:13px;font-style:italic}
+  .legend{display:flex;flex-wrap:wrap;gap:13px;font-size:12.5px;color:var(--muted);margin:6px 2px 4px;align-items:center}
+  @media(max-width:680px){
+    .barwrap{display:none} .who{width:140px}
+    .dhead{font-size:24px} .matchup{flex-direction:column}
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header><h1>🎯 Race Spend Tracker</h1><span class="spacer"></span><button class="btn" id="theme">◐ Theme</button></header>
-  <div class="sub" id="updated">Loading…</div>
+<div class="topbar"><div class="inner">
+  <a class="brand" href="#/"><img class="logo" src="favicon.svg" alt=""> Race Spend Tracker</a>
+  <label class="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3-3"/></svg>
+    <input id="q" placeholder="Search race, candidate, office, state…" autocomplete="off">
+  </label>
+  <button class="iconbtn" id="theme">◐</button>
+</div></div>
 
-  <div class="changelog" id="changelog" hidden><h3>What changed</h3><ul id="changelist"></ul></div>
-
-  <div class="controls">
-    <input id="q" placeholder="Search race, candidate, office, state…">
-    <select id="status"><option value="all">All races</option><option value="primary">In primary</option><option value="general">General election</option></select>
-    <select id="level"><option value="all">Federal + State</option><option value="federal">Federal</option><option value="state">State</option></select>
-    <select id="sort"><option value="spend">Sort: race spend</option><option value="date">Sort: next election</option><option value="state">Sort: state</option></select>
-  </div>
-
-  <div class="legend">
-    <span><b>Who:</b></span>
-    <span><span class="rel tracked">Our candidate</span></span>
-    <span>primary rival</span><span>general opponent</span>
-    <span><span class="party D">D</span><span class="party R">R</span><span class="party I">I</span></span>
-    <span style="margin-left:8px"><b>Source:</b></span>
-    <span><span class="conf confirmed">Inbox</span></span><span><span class="conf adimpact">AdImpact</span></span>
-    <span><span class="conf fec">FEC</span></span><span><span class="conf estimate">Est</span></span>
-  </div>
-
-  <div id="board"></div>
-</div>
+<div class="wrap"><div id="view"></div></div>
 
 <script src="data/data.js"></script>
 <script>
@@ -116,105 +163,135 @@ const D = window.TRACKER_DATA || {races:{},candidates:[]};
 const $ = s => document.querySelector(s);
 const PRI={"confirmed-inbox":5,adimpact:4,FEC:3,"FEC Schedule E":3,estimate:2,sample:0};
 const BUCKETS=[["self","Self"],["support","Supporting"],["oppose","Opposing"],["other","Other"]];
+const isFed=o=>/\bU\.?S\.?\s+(House|Senate)\b/i.test(o||"");
+const slug=n=>(n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
-function fmt(n){ if(n==null) return "—"; if(!n) return "$0";
-  if(n>=1e6) return "$"+(n/1e6).toFixed(n>=1e7?1:2)+"M";
-  if(n>=1e3) return "$"+(n/1e3).toFixed(0)+"K"; return "$"+Math.round(n).toLocaleString(); }
-
+function fmt(n){ if(n==null)return"—"; if(!n)return"$0";
+  if(n>=1e6)return"$"+(n/1e6).toFixed(n>=1e7?1:2)+"M";
+  if(n>=1e3)return"$"+(n/1e3).toFixed(0)+"K"; return"$"+Math.round(n).toLocaleString(); }
 function reconcile(c){
   const g={}; for(const r of c.spend||[]){const b=r.bucket||(r.type==="candidate"?"self":"support");(g[b]=g[b]||[]).push(r);}
   let total=0; const out=[];
-  for(const [b,lbl] of BUCKETS){const arr=g[b]; if(!arr) continue;
-    arr.sort((a,z)=>(PRI[z.confidence]||1)-(PRI[a.confidence]||1)||(z.amount||0)-(a.amount||0));
-    if(arr[0].confidence!=="sample") total+=arr[0].amount||0;
-    out.push({lbl,chosen:arr[0],others:arr.slice(1)});}
-  return {total,groups:out};
+  for(const[b,lbl]of BUCKETS){const a=g[b];if(!a)continue;
+    a.sort((x,z)=>(PRI[z.confidence]||1)-(PRI[x.confidence]||1)||(z.amount||0)-(x.amount||0));
+    if(a[0].confidence!=="sample")total+=a[0].amount||0; out.push({lbl,chosen:a[0],others:a.slice(1)});}
+  return{total,groups:out};
 }
 const candTotal=c=>reconcile(c).total;
-function raceTotal(rk,cands){const r=D.races[rk]; if(r&&r.adimpact&&r.adimpact.total) return r.adimpact.total;
-  return cands.reduce((s,c)=>s+candTotal(c),0);}
-const isFed=office=>/\bU\.?S\.?\s+(House|Senate)\b/i.test(office||"");
+const byRace=rk=>D.candidates.filter(c=>c.raceKey===rk);
+function raceTotal(rk){const r=D.races[rk];if(r&&r.adimpact&&r.adimpact.total)return r.adimpact.total;return byRace(rk).reduce((s,c)=>s+candTotal(c),0);}
+function sides(rk){const r=D.races[rk];if(r&&r.adimpact)return{d:r.adimpact.demSide||0,rp:r.adimpact.repSide||0,t:r.adimpact.total||0,src:"AdImpact"};
+  let d=0,rp=0;for(const c of byRace(rk)){const t=candTotal(c);if(c.party==="R")rp+=t;else d+=t;}return{d,rp,t:d+rp,src:"FEC/inbox"};}
+function ourCand(rk){return byRace(rk).find(c=>c.relationship==="tracked");}
+function mainOpp(rk){const cs=byRace(rk);const our=ourCand(rk);
+  const opp=cs.filter(c=>c!==our&&c.party&&our&&c.party!==our.party);
+  const pool=opp.length?opp:cs.filter(c=>c!==our);
+  return pool.sort((a,b)=>candTotal(b)-candTotal(a))[0]||null;}
+function avatar(c,lg){const cls="av "+((c&&c.party||"O").replace(/[^A-Za-z]/g,"")||"O")+(lg?" lg":"");
+  if(c&&c.photo)return `<img class="${cls}" src="${c.photo}" alt="">`;
+  const init=(c&&c.name||"?").split(" ").map(x=>x[0]).slice(0,2).join("").toUpperCase();
+  return `<div class="${cls}">${init}</div>`;}
 
-$("#updated").textContent = (D.lastUpdated?`Last updated ${D.lastUpdated} · `:"")+
-  `${D.counts?.races||Object.keys(D.races).length} races · ${D.counts?.candidates||D.candidates.length} candidates (incl. opponents) · cycle 2026`;
-if(D.changelog&&D.changelog.length){$("#changelog").hidden=false;
-  $("#changelist").innerHTML=D.changelog.slice(0,7).map(e=>`<li><span class="t">${e.ts||"—"}</span> · ${e.note}</li>`).join("");}
-
-function render(){
-  const q=$("#q").value.toLowerCase().trim(), status=$("#status").value, level=$("#level").value, sort=$("#sort").value;
-  const byRace={}; for(const c of D.candidates){(byRace[c.raceKey]=byRace[c.raceKey]||[]).push(c);}
-  let list=Object.keys(D.races).map(rk=>({rk,race:D.races[rk],cands:byRace[rk]||[]}));
+// ---------- OVERVIEW ----------
+function overview(){
+  const q=($("#q").value||"").toLowerCase().trim();
+  const status=state.status,level=state.level,sort=state.sort;
+  let list=Object.keys(D.races).map(rk=>({rk,race:D.races[rk],cands:byRace(rk)}));
   list=list.filter(({race,cands})=>{
-    if(status!=="all"&&race.status!==status) return false;
-    if(level!=="all"){const fed=isFed(race.office); if(level==="federal"&&!fed)return false; if(level==="state"&&fed)return false;}
-    if(q){const hay=(race.office+" "+race.state+" "+cands.map(c=>c.name).join(" ")).toLowerCase(); if(!hay.includes(q))return false;}
+    if(status!=="all"&&race.status!==status)return false;
+    if(level!=="all"){const f=isFed(race.office);if(level==="federal"&&!f)return false;if(level==="state"&&f)return false;}
+    if(q){const hay=(race.office+" "+race.state+" "+cands.map(c=>c.name).join(" ")).toLowerCase();if(!hay.includes(q))return false;}
     return true;
   });
-  list.sort((a,b)=>{
-    if(sort==="spend")return raceTotal(b.rk,b.cands)-raceTotal(a.rk,a.cands);
-    if(sort==="date")return (a.race.primaryDate||a.race.generalDate||"").localeCompare(b.race.primaryDate||b.race.generalDate||"");
-    return (a.race.state||"").localeCompare(b.race.state||"");
-  });
-  const board=$("#board");
-  if(!list.length){board.innerHTML='<p class="empty">No races match.</p>';return;}
-  board.innerHTML=`<div class="sectionhead">${list.length} race${list.length>1?"s":""} · sorted by ${sort}</div>`+list.map(raceCard).join("");
+  list.sort((a,b)=>sort==="spend"?raceTotal(b.rk)-raceTotal(a.rk):sort==="date"?(a.race.primaryDate||a.race.generalDate||"").localeCompare(b.race.primaryDate||b.race.generalDate||""):(a.race.state||"").localeCompare(b.race.state||""));
+
+  const cl=D.changelog||[];
+  const updates=`<details class="updates"><summary>📣 What changed
+    <span class="latest">${cl[0]?cl[0].note:""}</span><span class="chev">›</span></summary>
+    <ul>${cl.slice(0,10).map(e=>`<li><span class="t">${e.ts||"—"}</span>${e.note}</li>`).join("")}</ul></details>`;
+  const sub=`<div class="sub">${D.lastUpdated?"Updated "+D.lastUpdated+" · ":""}${Object.keys(D.races).length} races · cycle 2026 · <span style="color:var(--dem)">■</span> Dem <span style="color:var(--rep)">■</span> Rep — bar shows spending advantage</div>`;
+  const controls=`<div class="controls">
+    <div class="seg" id="segStatus">${[["all","All"],["primary","In primary"],["general","General"]].map(([v,l])=>`<button class="${state.status===v?'on':''}" data-v="${v}">${l}</button>`).join("")}</div>
+    <select id="selLevel">${[["all","Federal + State"],["federal","Federal"],["state","State"]].map(([v,l])=>`<option value="${v}" ${state.level===v?'selected':''}>${l}</option>`).join("")}</select>
+    <select id="selSort">${[["spend","Sort: race spend"],["date","Sort: next election"],["state","Sort: state"]].map(([v,l])=>`<option value="${v}" ${state.sort===v?'selected':''}>${l}</option>`).join("")}</select>
+  </div>`;
+  const rows=list.map(({rk,race,cands})=>{
+    const s=sides(rk),our=ourCand(rk);const tot=s.t||raceTotal(rk);
+    const dPct=tot?Math.max(2,Math.round(s.d/tot*100)):50,rPct=tot?Math.max(2,Math.round(s.rp/tot*100)):0;
+    const statusChip=race.status==="general"?`<span class="chip gen">GENERAL</span>`:`<span class="chip pri">PRIMARY · ${race.primaryDate||"TBD"}</span>`;
+    return `<a class="rrow" href="#/race/${rk}">
+      <div class="rinfo"><div class="rt">${race.office}</div>
+        <div class="rmeta">${race.state} ${statusChip}</div></div>
+      <div class="barwrap"><div class="bar"><div class="d" style="width:${dPct}%"></div><div class="r" style="width:${rPct}%"></div></div>
+        <div class="barlbl"><span class="dem">${fmt(s.d)}</span><b>${fmt(tot)}</b><span class="rep">${fmt(s.rp)}</span></div></div>
+      <div class="who">${avatar(our)}<div><div class="nm">${our?our.name:"—"}</div><div class="role">your candidate</div></div></div>
+      <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 6 6 6-6 6"/></svg>
+    </a>`;
+  }).join("");
+  $("#view").innerHTML=updates+sub+controls+`<div class="counthd">${list.length} race${list.length!==1?"s":""} · sorted by ${sort}</div>`+(rows||`<p class="empty">No races match.</p>`);
+  $("#segStatus").onclick=e=>{const b=e.target.closest("button");if(b){state.status=b.dataset.v;render();}};
+  $("#selLevel").onchange=e=>{state.level=e.target.value;render();};
+  $("#selSort").onchange=e=>{state.sort=e.target.value;render();};
 }
 
-function raceCard({rk,race,cands}){
+// ---------- DETAIL ----------
+function detail(rk){
+  const race=D.races[rk]; if(!race){location.hash="#/";return;}
+  const cands=byRace(rk),our=ourCand(rk),opp=mainOpp(rk),s=sides(rk),tot=s.t||raceTotal(rk);
+  const statusLbl=race.status==="general"?`General · Nov 3`:`Primary · ${race.primaryDate||"TBD"}`;
+  const mcard=(c,lbl)=>c?`<div class="mcard ${c.party||'O'}">${avatar(c,true)}<div><div class="nm">${c.name}</div>
+    <div class="role">${lbl} · ${c.party||"?"}</div><div class="amt">${fmt(candTotal(c))}</div></div></div>`:`<div class="mcard"><div class="role">—</div></div>`;
+  const dPct=tot?Math.round(s.d/tot*100):50,rPct=tot?Math.round(s.rp/tot*100):0;
+  const bigbar=`<div class="bigbar"><div class="seg2 d" style="width:${Math.max(8,dPct)}%">${fmt(s.d)}</div><div class="seg2 r" style="width:${Math.max(8,rPct)}%">${fmt(s.rp)}</div></div>
+    <div class="bbnum"><span>Dem side</span><span>Total <b style="color:var(--txt)">${fmt(tot)}</b> · ${s.src}${race.adimpact&&race.adimpact.asOf?" · "+race.adimpact.asOf:""}</span><span>Rep side</span></div>`;
+
+  const sp=[...(race.spenders||[])].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0)||(b.amount||0)-(a.amount||0));
+  const spenders=sp.length?`<div class="panel"><h3>Spenders · ${sp.length} (AdImpact${sp.some(x=>x.source==='inbox')?' + inbox':''})</h3>`
+    +sp.map(x=>`<div class="sp ${x.side}"><span class="dot"></span><span class="nm">${x.name}${x.isNew?'<span class="newbadge">NEW</span>':''}</span><span class="amt">${fmt(x.amount)}</span></div>`
+      +(x.inbox?`<div class="buys"><div class="buy"><span class="meta">inbox${x.inbox.flight?' · '+x.inbox.flight:''}</span><span>${fmt(x.inbox.amount)}</span></div></div>`:"")).join("")
+    +`</div>`:"";
+
+  const candBlock=c=>{
+    const rec=reconcile(c),relTxt={tracked:"Your candidate","primary-opp":"Primary rival","general-opp":"General opponent"}[c.relationship]||c.relationship;
+    const spend=rec.groups.length?rec.groups.map(g=>{const x=g.chosen;
+      return `<div class="srow"><span>${g.lbl} · ${x.actor||""} <span class="conf ${cls(x.confidence)}">${lab(x.confidence)}</span>${x.flight?' · '+x.flight:''}</span><span class="amt">${fmt(x.amount)}</span></div>`
+        +g.others.map(o=>`<div class="srow sec"><span>also ${o.actor||""} <span class="conf ${cls(o.confidence)}">${lab(o.confidence)}</span></span><span class="amt">${fmt(o.amount)}</span></div>`).join("");}).join("")
+      :`<div class="empty">no spend recorded yet</div>`;
+    const yt=(c.ads||[]).filter(a=>a.platform==="YouTube");
+    const ads=`<div class="ads"><div class="adsrc">YouTube ads ${yt.length?`(${yt.length})`:''}</div>`
+      +(yt.length?yt.slice(0,4).map(a=>`<div class="ad"><span class="pl">YT</span><a href="${a.url}" target="_blank" rel="noopener">${(a.title||'ad').slice(0,52)}</a></div>`).join(""):`<div class="coming">none detected yet</div>`)
+      +`<div class="adsrc">Meta · Google ads</div><div class="coming">digital tracking — coming</div></div>`;
+    return `<div class="cand">${avatar(c)}<div class="body">
+      <div class="top"><span class="nm">${c.name}</span><span class="rel ${c.relationship==='tracked'?'tracked':''}">${relTxt}</span><span class="conf" style="background:none;color:var(--muted)">${c.party||""}</span><span class="tot">${fmt(rec.total)}</span></div>
+      ${spend}${ads}</div></div>`;
+  };
   const order={tracked:0,"general-opp":1,"primary-opp":2};
-  cands=[...cands].sort((a,b)=>(order[a.relationship]??3)-(order[b.relationship]??3)||candTotal(b)-candTotal(a));
-  const ai=race.adimpact;
-  const adbar = ai && (ai.demSide!=null||ai.repSide!=null) ? `
-    <div class="adbar">
-      <div class="adcell dem"><div class="lab">Dem side</div><div class="val">${fmt(ai.demSide)}</div></div>
-      <div class="adcell tot"><div class="lab">Total</div><div class="val">${fmt(ai.total)}</div></div>
-      <div class="adcell rep"><div class="lab">Rep side</div><div class="val">${fmt(ai.repSide)}</div></div>
-    </div><div class="adsrc">race totals · AdImpact${ai.asOf?" · "+ai.asOf:""}</div>` : "";
-  const statusLabel = race.status==="general" ? "General · Nov 3" : `Primary · ${race.primaryDate||"TBD"}`;
-  // show new (inbox-surfaced) spenders first so they never hide below the fold
-  const sp = [...(race.spenders||[])].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0) || (b.amount||0)-(a.amount||0));
-  const spRow = s => `<div class="spender ${s.side}"><span class="dot"></span>`
-    + `<span class="nm">${s.name}${s.isNew?' <span class="newbadge">NEW</span>':''}</span>`
-    + `<span class="amt">${fmt(s.amount)}</span></div>`
-    + (s.inbox?`<div class="inboxnote">inbox: ${fmt(s.inbox.amount)}${s.inbox.flight?' · '+s.inbox.flight:''}</div>`:'');
-  const spenders = sp.length ? `<div class="spenders"><h4>Top spenders · ${sp.length} · AdImpact + inbox</h4>`
-    + sp.slice(0,9).map(spRow).join("")
-    + (sp.length>9?`<div class="more">+${sp.length-9} more</div>`:"")+`</div>` : "";
-  return `<div class="race">
-    <div class="racehead"><span class="rtitle">${race.office}</span><span class="rmeta">· ${race.state} · ${statusLabel}</span></div>
+  const field=`<div class="panel"><h3>Full field · ${cands.length}</h3>`
+    +[...cands].sort((a,b)=>(order[a.relationship]??3)-(order[b.relationship]??3)||candTotal(b)-candTotal(a)).map(candBlock).join("")+`</div>`;
+
+  $("#view").innerHTML=`<div class="back" onclick="history.length>1?history.back():location.hash='#/'">‹ All races</div>
+    <div class="dhead">${race.office}</div>
+    <div class="dmeta">${race.state} · ${statusLbl}</div>
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
-    ${adbar}
-    ${spenders}
-    ${cands.map(candRow).join("")}
-  </div>`;
+    <div class="matchup">${mcard(our,"Your candidate")}<div class="vs">vs</div>${mcard(opp,opp&&opp.relationship==='general-opp'?'General opponent':'Top rival')}</div>
+    <div class="panel"><h3>Spending advantage</h3>${bigbar}</div>
+    ${spenders}${field}`;
 }
+function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"estimate"})[c]||"estimate";}
+function lab(c){return({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
-function candRow(c){
-  const rec=reconcile(c), t=rec.total;
-  const relTxt={tracked:"Our candidate","primary-opp":"primary rival","general-opp":"general opponent"}[c.relationship]||c.relationship;
-  const spend = rec.groups.length ? rec.groups.map(g=>{
-    const s=g.chosen;
-    return `<div class="srow"><span><span class="bkt">${g.lbl}</span> ${s.actor||""} <span class="conf ${cls(s.confidence)}">${lab(s.confidence)}</span></span><span class="amt">${fmt(s.amount)}</span></div>`
-      + g.others.map(o=>`<div class="srow sec"><span>also: ${o.actor||""} <span class="conf ${cls(o.confidence)}">${lab(o.confidence)}</span></span><span class="amt">${fmt(o.amount)}</span></div>`).join("");
-  }).join("") : `<div class="srow"><span class="empty">no spend recorded${c.level==='state'?' (state race — via inbox/AdImpact)':' yet'}</span></div>`;
-  const ads=(c.ads||[]).length?`<div class="ads">ads: ${c.ads.slice(0,3).map(a=>`<a href="${a.url}" target="_blank" rel="noopener">${(a.title||'ad').slice(0,34)}</a>`).join(" · ")}</div>`:"";
-  return `<div class="cand ${c.relationship==='tracked'?'tracked':''}">
-    <div class="top">
-      <span class="party ${(c.party||'O').replace(/[^A-Za-z]/g,'')}">${(c.party||'?').slice(0,1)}</span>
-      <span class="nm">${c.name}</span>
-      <span class="rel ${c.relationship==='tracked'?'tracked':''}">${relTxt}</span>
-      <span class="candtot">${fmt(t)}</span>
-    </div>${spend}${ads}
-  </div>`;
+// ---------- router ----------
+const state={status:"all",level:"all",sort:"spend"};
+function render(){
+  const h=location.hash||"#/";
+  const m=h.match(/#\/race\/(.+)/);
+  if(m){detail(decodeURIComponent(m[1]));window.scrollTo(0,0);}
+  else overview();
 }
-function cls(c){return ({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"sample"})[c]||"estimate";}
-function lab(c){return ({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
-
-["q","status","level","sort"].forEach(id=>$("#"+id).addEventListener("input",render));
-const th=$("#theme");
-const applyTheme=t=>{document.documentElement.dataset.theme=t;localStorage.spendTheme=t;};
-th.addEventListener("click",()=>applyTheme(document.documentElement.dataset.theme==="light"?"dark":"light"));
-applyTheme(localStorage.spendTheme||"dark");
+window.addEventListener("hashchange",render);
+$("#q").addEventListener("input",()=>{ if(location.hash&&location.hash!=="#/")location.hash="#/"; else overview(); });
+$("#theme").addEventListener("click",()=>{const t=document.documentElement.dataset.theme==="light"?"dark":"light";document.documentElement.dataset.theme=t;localStorage.spendTheme=t;});
+document.documentElement.dataset.theme=localStorage.spendTheme||"dark";
 render();
 </script>
 </body>
