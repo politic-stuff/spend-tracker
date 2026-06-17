@@ -281,7 +281,10 @@ function detail(rk){
   const buys=race.buys||[]; let weekgrid="";
   if(buys.length){
     const dim=state.gridDim||"market";
-    const weeks=[...new Set(buys.map(b=>b.week).filter(w=>w!=null))].sort((a,z)=>a-z);
+    const allWeeks=[...new Set(buys.map(b=>b.week).filter(w=>w!=null))].sort((a,z)=>a-z);
+    const WINDOW=state.gridAll?999:24; // default: last ~6 months to Nov; toggle shows all
+    const weeks=allWeeks.filter(w=>w>=0&&w<=WINDOW);
+    const earlier=allWeeks.filter(w=>w>WINDOW).length;
     const wkDates={}; for(const b of buys){if(b.week!=null&&!wkDates[b.week]&&b.flightStart)wkDates[b.week]={s:b.flightStart,e:b.flightEnd};}
     const md=s=>s?s.slice(5).replace('-','/'):"";
     const wlab=w=>w<=0?"Elec wk":("W"+w);
@@ -301,7 +304,7 @@ function detail(rk){
     weekgrid=`<div class="panel"><h3>Media-week spend by ${dim}
       <span class="gridtoggle" onclick="window.toggleGrid()">↔ by ${dim==="market"?"advertiser":"market"}</span></h3>
       <div class="wgridwrap"><table class="wgrid">${head}${body}${totrow}</table></div>
-      <div class="wknote">Media weeks run Tue–Mon · W1 = week before election (${elecDate(race)||"TBD"}), counting back.</div></div>`;
+      <div class="wknote">Media weeks run Tue–Mon · W1 = week before the Nov 3 general, counting back.${earlier?` <span class="gridtoggle" onclick="window.toggleGridAll()">${state.gridAll?'show recent only':'+ '+earlier+' earlier weeks'}</span>`:''}</div></div>`;
   }
 
   const sp=[...(race.spenders||[])].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0)||(b.amount||0)-(a.amount||0));
@@ -341,8 +344,9 @@ function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"conf
 function lab(c){return({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
 // ---------- router ----------
-const state={status:"all",level:"all",sort:"spend",gridDim:"market"};
+const state={status:"all",level:"all",sort:"spend",gridDim:"market",gridAll:false};
 window.toggleGrid=()=>{state.gridDim=state.gridDim==="advertiser"?"market":"advertiser";render();};
+window.toggleGridAll=()=>{state.gridAll=!state.gridAll;render();};
 function render(){
   const h=location.hash||"#/";
   const m=h.match(/#\/race\/(.+)/);
