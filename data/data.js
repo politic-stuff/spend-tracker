@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox TV-buy backfill: NY-12-2026"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdMo creatives: 354 ad creatives across 10 races (click a spender to watch)"
     },
     {
@@ -95409,7 +95413,83 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Jerrold Nadler (D), retiring",
       "notes": "OPEN (Nadler retiring, endorsed Lasher). ~10-way Dem primary; Lasher & Alex Bores lead. NOTE: Alex Bores already appears in the competitive inbox (Nexstar comp). GOP slate was a Ballotpedia cross-listing artifact — omitted pending recheck.",
       "confidence": "med",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 315180,
+        "repSide": 0,
+        "total": 315180,
+        "asOf": "2026-06-17",
+        "source": "Inbox (station buys)"
+      },
+      "buys": [
+        {
+          "advertiser": "Bores for NY",
+          "side": "D",
+          "market": "New York",
+          "station": "WABC-TV",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-23",
+          "amount": 112400,
+          "source": "confirmed-inbox",
+          "note": "Disney/WABC",
+          "week": 20
+        },
+        {
+          "advertiser": "Bores for NY",
+          "side": "D",
+          "market": "New York",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 133305,
+          "source": "confirmed-inbox",
+          "note": "Ampersand cable",
+          "week": 20
+        },
+        {
+          "advertiser": "Bores for NY",
+          "side": "D",
+          "market": "New York",
+          "station": "WCBS-TV",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-23",
+          "amount": 37425,
+          "source": "confirmed-inbox",
+          "note": "CBS",
+          "week": 20
+        },
+        {
+          "advertiser": "Bores for NY",
+          "side": "D",
+          "market": "New York",
+          "station": "WNYW",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-23",
+          "amount": 16400,
+          "source": "confirmed-inbox",
+          "note": "Fox",
+          "week": 20
+        },
+        {
+          "advertiser": "Bores for NY",
+          "side": "D",
+          "market": "New York",
+          "station": "WNBC",
+          "flightStart": "2026-06-18",
+          "flightEnd": "2026-06-23",
+          "amount": 15650,
+          "source": "confirmed-inbox",
+          "note": "NBC",
+          "week": 19
+        }
+      ],
+      "spenders": [
+        {
+          "name": "Bores for NY",
+          "side": "D",
+          "amount": 315180,
+          "source": "inbox"
+        }
+      ]
     },
     "UT-1-2026": {
       "raceKey": "UT-1-2026",
