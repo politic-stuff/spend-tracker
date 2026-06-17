@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "AdImpact race totals: CA-4-2026: D $7.6M / R $5,230"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdImpact race totals: NY-7-2026: D $840,839 / R $0 · NY-13-2026: D $5.6M / R $0 · PA-7-2026: D $12.9M / R $9.5M · PA-8-2026: D $10.0M / R $4.6M · TX-Gov-2026: D $714,763 / R $7.5M"
     },
     {
@@ -155,7 +159,12 @@
       "seatHeldBy": "Mike Thompson (D)",
       "notes": "DEM-vs-DEM general. Jones self-funded ~$5.35M.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 7606775,
+        "repSide": 5230,
+        "total": 7612005,
+        "asOf": "2026-06-17"
+      }
     },
     "DC-Delegate-2026": {
       "raceKey": "DC-Delegate-2026",
