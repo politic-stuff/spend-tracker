@@ -5,5 +5,20 @@
     {"advertiser":"Bores for NY","side":"D","market":"New York","station":"WCBS-TV","flightStart":"2026-06-16","flightEnd":"2026-06-23","amount":37425,"source":"confirmed-inbox","note":"CBS"},
     {"advertiser":"Bores for NY","side":"D","market":"New York","station":"WNYW","flightStart":"2026-06-16","flightEnd":"2026-06-23","amount":16400,"source":"confirmed-inbox","note":"Fox"},
     {"advertiser":"Bores for NY","side":"D","market":"New York","station":"WNBC","flightStart":"2026-06-18","flightEnd":"2026-06-23","amount":15650,"source":"confirmed-inbox","note":"NBC"}
+  ],
+  "NY-10-2026": [
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-01-13","flightEnd":"2026-01-19","amount":34136,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-01-20","flightEnd":"2026-01-26","amount":33306,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-02-19","flightEnd":"2026-02-23","amount":23772,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-03-10","flightEnd":"2026-03-16","amount":33304,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-03-24","flightEnd":"2026-03-30","amount":33304,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-04-21","flightEnd":"2026-04-27","amount":33304,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-05-05","flightEnd":"2026-05-11","amount":33304,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-05-26","flightEnd":"2026-06-01","amount":33303,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-06-02","flightEnd":"2026-06-08","amount":33033,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Daniel Goldman","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-06-11","flightEnd":"2026-06-15","amount":22837,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Brad Lander","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-05-27","flightEnd":"2026-06-01","amount":46518,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Brad Lander","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-06-16","flightEnd":"2026-06-22","amount":15000,"source":"confirmed-inbox","note":"cable"},
+    {"advertiser":"Brad Lander","side":"D","market":"NYC — Ampersand cable","station":"Ampersand (cable)","flightStart":"2026-06-02","flightEnd":"2026-06-03","amount":1054,"source":"confirmed-inbox","note":"cable 15s"}
   ]
 }

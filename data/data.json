@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "Inbox TV-buy backfill: NY-12-2026, NY-10-2026"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "Inbox spending-recap backfill: NY-7-2026"
     },
     {
@@ -95350,7 +95354,185 @@
       "seatHeldBy": "Daniel Goldman (D)",
       "notes": "Lander leading incumbent Goldman by ~19-34pts in polls. GOP general opp pending (6/23 primary). Safe-D.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": {
+        "demSide": 376175,
+        "repSide": 0,
+        "total": 376175,
+        "asOf": "2026-06-17",
+        "source": "Inbox (station buys)"
+      },
+      "buys": [
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 34136,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 42
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 33306,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 41
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-02-19",
+          "flightEnd": "2026-02-23",
+          "amount": 23772,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 36
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 33304,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 34
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 33304,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 32
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 33304,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 28
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 33304,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 26
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 33303,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 23
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 33033,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 22
+        },
+        {
+          "advertiser": "Daniel Goldman",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-06-11",
+          "flightEnd": "2026-06-15",
+          "amount": 22837,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 20
+        },
+        {
+          "advertiser": "Brad Lander",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-05-27",
+          "flightEnd": "2026-06-01",
+          "amount": 46518,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 22
+        },
+        {
+          "advertiser": "Brad Lander",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 15000,
+          "source": "confirmed-inbox",
+          "note": "cable",
+          "week": 20
+        },
+        {
+          "advertiser": "Brad Lander",
+          "side": "D",
+          "market": "NYC — Ampersand cable",
+          "station": "Ampersand (cable)",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-03",
+          "amount": 1054,
+          "source": "confirmed-inbox",
+          "note": "cable 15s",
+          "week": 22
+        }
+      ],
+      "spenders": [
+        {
+          "name": "Daniel Goldman",
+          "side": "D",
+          "amount": 313603,
+          "source": "inbox"
+        },
+        {
+          "name": "Brad Lander",
+          "side": "D",
+          "amount": 62572,
+          "source": "inbox"
+        }
+      ]
     },
     "NY-7-2026": {
       "raceKey": "NY-7-2026",
