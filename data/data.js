@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-17",
+      "note": "AdMo import: 2 race(s) backfilled \u2014 AK-Sen-2026, MI-Sen-2026"
+    },
+    {
+      "ts": "2026-06-17",
       "note": "AdMo import MI-Sen-2026: 26 spenders, 1495 weekly buy-rows across 15 markets."
     },
     {
@@ -1011,7 +1015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 839258,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1021,7 +1025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 854308,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1031,7 +1035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 869008,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1041,7 +1045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 1243822,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1051,7 +1055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 1141372,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1061,7 +1065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 1162172,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1071,7 +1075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 1136772,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1081,7 +1085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 1005105,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1091,7 +1095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 167517,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1101,7 +1105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 175522,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1111,7 +1115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 177822,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1121,7 +1125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 177731,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1131,7 +1135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 258263,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1141,7 +1145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 261063,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1151,7 +1155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 261663,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1161,7 +1165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 262963,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1171,7 +1175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 223490,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1181,7 +1185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 37248,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1191,7 +1195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 263325,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1201,7 +1205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 262325,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1211,7 +1215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 262325,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1221,7 +1225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 283250,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1231,7 +1235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 314100,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1241,7 +1245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 52350,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1251,7 +1255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 78367,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1261,7 +1265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 78367,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1271,7 +1275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 78367,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1281,7 +1285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 78367,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1291,7 +1295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 78367,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1301,7 +1305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 78367,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1311,7 +1315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 78367,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1321,7 +1325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 78367,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1331,7 +1335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 13061,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1341,7 +1345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 91930,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1351,7 +1355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 84930,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1361,7 +1365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 91930,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1371,7 +1375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 89930,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1381,7 +1385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 77118,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1391,7 +1395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 12812,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1401,7 +1405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 31700,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1411,7 +1415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 31700,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1421,7 +1425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 32300,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1431,7 +1435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 31700,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1441,7 +1445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 18480,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1451,7 +1455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 3080,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1461,7 +1465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 14500,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1471,7 +1475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 14500,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1481,7 +1485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 14500,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "WinSenate",
@@ -1491,7 +1495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 14500,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1501,7 +1505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 194,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1511,7 +1515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 256107,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1521,7 +1525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 789534,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1531,7 +1535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 821612,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1541,7 +1545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 665260,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1551,7 +1555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1389,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1561,7 +1565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 352,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1571,7 +1575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 44,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1581,7 +1585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 30,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1591,7 +1595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 75027,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1601,7 +1605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 240210,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1611,7 +1615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 250288,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1621,7 +1625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 205471,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1631,7 +1635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 727,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1641,7 +1645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 43,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1651,7 +1655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 3,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1661,7 +1665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 27,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1671,7 +1675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 64923,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1681,7 +1685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 201858,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1691,7 +1695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 208020,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1701,7 +1705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 167592,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1711,7 +1715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1802,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1721,7 +1725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 17,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1731,7 +1735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1741,7 +1745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 21,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1751,7 +1755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 46251,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1761,7 +1765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 144550,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1771,7 +1775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 149036,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1781,7 +1785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 133524,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1791,7 +1795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 43203,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1801,7 +1805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 24,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1811,7 +1815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 4,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1821,7 +1825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 62793,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1831,7 +1835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 75351,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1841,7 +1845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 62793,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1851,7 +1855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 63287,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1861,7 +1865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 63287,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1871,7 +1875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 52739,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1881,7 +1885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 27571,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1891,7 +1895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 83586,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1901,7 +1905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 36643,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1911,7 +1915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 37765,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1921,7 +1925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 37765,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1931,7 +1935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 31471,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1941,7 +1945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 6,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1951,7 +1955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 426,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1961,7 +1965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1812,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1971,7 +1975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2860,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1981,7 +1985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 2260,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -1991,7 +1995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 61,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2001,7 +2005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2011,7 +2015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 181,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2021,7 +2025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1194,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2031,7 +2035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2601,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2041,7 +2045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1827,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2051,7 +2055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 18,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2061,7 +2065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 4,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2071,7 +2075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 233,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2081,7 +2085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1258,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2091,7 +2095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2413,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2101,7 +2105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1678,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2111,7 +2115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 46,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2121,7 +2125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2131,7 +2135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 0,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2141,7 +2145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 3,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2151,7 +2155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 184,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2161,7 +2165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 786,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2171,7 +2175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 1239,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2181,7 +2185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 952,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2191,7 +2195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 26,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2201,7 +2205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 0,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2211,7 +2215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 51,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2221,7 +2225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 269,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2231,7 +2235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 454,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2241,7 +2245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 242,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2251,7 +2255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2261,7 +2265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2271,7 +2275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 19,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2281,7 +2285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 101,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2291,7 +2295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 211,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2301,7 +2305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 143,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center for Democratic Priorities",
@@ -2311,7 +2315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2321,7 +2325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 18379,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2331,7 +2335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1064123,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2341,7 +2345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 987480,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2351,7 +2355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 939385,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2361,7 +2365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 3341,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2371,7 +2375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 163547,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2381,7 +2385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 175220,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2391,7 +2395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 174065,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2401,7 +2405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2576,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2411,7 +2415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 149194,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2421,7 +2425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 137872,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2431,7 +2435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 132990,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2441,7 +2445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 23886,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2451,7 +2455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 59714,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2461,7 +2465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 299,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2471,7 +2475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1615,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2481,7 +2485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 434,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2491,7 +2495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 279,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2501,7 +2505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1493,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2511,7 +2515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 399,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2521,7 +2525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 140,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2531,7 +2535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 678,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2541,7 +2545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 164,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2551,7 +2555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 36,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2561,7 +2565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 195,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2571,7 +2575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 52,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2581,7 +2585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 8,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2591,7 +2595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 64,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2601,7 +2605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 22,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2611,7 +2615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 9,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2621,7 +2625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 39,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2631,7 +2635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 8,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2641,7 +2645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 3,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2651,7 +2655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 19,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Yes MI Action Committee",
@@ -2661,7 +2665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 5,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2671,7 +2675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 59368,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2681,7 +2685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 998781,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2691,7 +2695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 815601,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2701,7 +2705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 11953,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2711,7 +2715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 419783,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2721,7 +2725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 422602,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2731,7 +2735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 10057,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2741,7 +2745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 257021,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2751,7 +2755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 229075,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2761,7 +2765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 3065,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2771,7 +2775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 235785,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2781,7 +2785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 227883,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2791,7 +2795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 35921,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2801,7 +2805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 89803,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2811,7 +2815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 36715,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2821,7 +2825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 42445,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2831,7 +2835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1466,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2841,7 +2845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 4523,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2851,7 +2855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 429,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2861,7 +2865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1353,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2871,7 +2875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 3998,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2881,7 +2885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 307,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2891,7 +2895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 717,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2901,7 +2905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2158,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2911,7 +2915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 182,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2921,7 +2925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 495,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2931,7 +2935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1508,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2941,7 +2945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 136,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2951,7 +2955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 34,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2961,7 +2965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 93,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2971,7 +2975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 4,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2981,7 +2985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 12,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -2991,7 +2995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 34,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "United Democracy Project",
@@ -3001,7 +3005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3011,7 +3015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 270833,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3021,7 +3025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 429717,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3031,7 +3035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 424950,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3041,7 +3045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 137250,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3051,7 +3055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 76667,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3061,7 +3065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 172707,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3071,7 +3075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 200102,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3081,7 +3085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 66010,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3091,7 +3095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 104833,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3101,7 +3105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 175023,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3111,7 +3115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 192051,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan",
@@ -3121,7 +3125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 42067,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3131,7 +3135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 14508,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3141,7 +3145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 551683,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3151,7 +3155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 546970,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3161,7 +3165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 87008,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3171,7 +3175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 36672,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3181,7 +3185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 26,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3191,7 +3195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 3,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3201,7 +3205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 2967,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3211,7 +3215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 139186,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3221,7 +3225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 21338,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3231,7 +3235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 15230,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3241,7 +3245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 6562,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3251,7 +3255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 21,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3261,7 +3265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 5,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3271,7 +3275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 3883,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3281,7 +3285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 109950,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3291,7 +3295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 15040,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3301,7 +3305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 9685,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3311,7 +3315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4309,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3321,7 +3325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 10,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3331,7 +3335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3341,7 +3345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 44500,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3351,7 +3355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 873,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3361,7 +3365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 3977,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3371,7 +3375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 5989,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3381,7 +3385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 4470,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3391,7 +3395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1800,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3401,7 +3405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 4,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3411,7 +3415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3421,7 +3425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 371,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3431,7 +3435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1682,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3441,7 +3445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2494,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3451,7 +3455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1799,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3461,7 +3465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 719,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3471,7 +3475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 3,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3481,7 +3485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3491,7 +3495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 343,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3501,7 +3505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1559,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3511,7 +3515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2341,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3521,7 +3525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1778,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3531,7 +3535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 772,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3541,7 +3545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3551,7 +3555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 290,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3561,7 +3565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1500,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3571,7 +3575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2412,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3581,7 +3585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1480,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3591,7 +3595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 750,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3601,7 +3605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 82,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3611,7 +3615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 361,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3621,7 +3625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 495,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3631,7 +3635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 320,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3641,7 +3645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 145,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3651,7 +3655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 25,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3661,7 +3665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 134,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3671,7 +3675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 213,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3681,7 +3685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 106,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3691,7 +3695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 43,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3701,7 +3705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 4,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3711,7 +3715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 23,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3721,7 +3725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 92,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3731,7 +3735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 123,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3741,7 +3745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 97,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3751,7 +3755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 22,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3761,7 +3765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward Committee",
@@ -3771,7 +3775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3781,7 +3785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-03-31",
           "amount": 10062,
           "week": 84,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3791,7 +3795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-07",
           "amount": 29722,
           "week": 83,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3801,7 +3805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-14",
           "amount": 13905,
           "week": 82,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3811,7 +3815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-21",
           "amount": 7126,
           "week": 81,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3821,7 +3825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-28",
           "amount": 2429,
           "week": 80,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3831,7 +3835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-05",
           "amount": 357,
           "week": 79,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3841,7 +3845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-19",
           "amount": 57,
           "week": 77,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3851,7 +3855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-26",
           "amount": 143,
           "week": 76,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3861,7 +3865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-09",
           "amount": 2522,
           "week": 74,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3871,7 +3875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-16",
           "amount": 13073,
           "week": 73,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3881,7 +3885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-23",
           "amount": 18910,
           "week": 72,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3891,7 +3895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-30",
           "amount": 7000,
           "week": 71,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3901,7 +3905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-07",
           "amount": 6639,
           "week": 70,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3911,7 +3915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-14",
           "amount": 4450,
           "week": 69,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3921,7 +3925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-21",
           "amount": 3939,
           "week": 68,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3931,7 +3935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-28",
           "amount": 8802,
           "week": 67,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3941,7 +3945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-04",
           "amount": 7219,
           "week": 66,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3951,7 +3955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-11",
           "amount": 8792,
           "week": 65,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3961,7 +3965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-18",
           "amount": 13372,
           "week": 64,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3971,7 +3975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-25",
           "amount": 13169,
           "week": 63,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3981,7 +3985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-01",
           "amount": 9192,
           "week": 62,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -3991,7 +3995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-08",
           "amount": 7899,
           "week": 61,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4001,7 +4005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-15",
           "amount": 8334,
           "week": 60,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4011,7 +4015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-22",
           "amount": 26085,
           "week": 59,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4021,7 +4025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-29",
           "amount": 57017,
           "week": 58,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4031,7 +4035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-06",
           "amount": 24606,
           "week": 57,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4041,7 +4045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-13",
           "amount": 6543,
           "week": 56,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4051,7 +4055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-20",
           "amount": 9428,
           "week": 55,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4061,7 +4065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-27",
           "amount": 12493,
           "week": 54,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4071,7 +4075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-03",
           "amount": 12691,
           "week": 53,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4081,7 +4085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-10",
           "amount": 12098,
           "week": 52,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4091,7 +4095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-17",
           "amount": 15106,
           "week": 51,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4101,7 +4105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-24",
           "amount": 24857,
           "week": 50,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4111,7 +4115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-01",
           "amount": 29299,
           "week": 49,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4121,7 +4125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 38109,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4131,7 +4135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 40420,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4141,7 +4145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 25741,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4151,7 +4155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 21959,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4161,7 +4165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 21082,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4171,7 +4175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 20508,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4181,7 +4185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 61164,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4191,7 +4195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 109728,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4201,7 +4205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 85864,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4211,7 +4215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 45712,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4221,7 +4225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 36503,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4231,7 +4235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 72084,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4241,7 +4245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 112734,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4251,7 +4255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 69925,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4261,7 +4265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 34236,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4271,7 +4275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 31645,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4281,7 +4285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 70751,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4291,7 +4295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 83362,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4301,7 +4305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 43690,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4311,7 +4315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 37918,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4321,7 +4325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 38534,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4331,7 +4335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 36324,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4341,7 +4345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 40674,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4351,7 +4355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 47572,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4361,7 +4365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 47204,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4371,7 +4375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 41291,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4381,7 +4385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 39752,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "McMorrow for MI Senate",
@@ -4391,7 +4395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 28670,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4401,7 +4405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-14",
           "amount": 1767,
           "week": 82,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4411,7 +4415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-21",
           "amount": 6693,
           "week": 81,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4421,7 +4425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-28",
           "amount": 6981,
           "week": 80,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4431,7 +4435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-05",
           "amount": 4031,
           "week": 79,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4441,7 +4445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-12",
           "amount": 2746,
           "week": 78,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4451,7 +4455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-19",
           "amount": 2635,
           "week": 77,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4461,7 +4465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-26",
           "amount": 3200,
           "week": 76,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4471,7 +4475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-02",
           "amount": 4688,
           "week": 75,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4481,7 +4485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-09",
           "amount": 5655,
           "week": 74,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4491,7 +4495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-16",
           "amount": 5418,
           "week": 73,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4501,7 +4505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-23",
           "amount": 6521,
           "week": 72,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4511,7 +4515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-30",
           "amount": 9276,
           "week": 71,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4521,7 +4525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-07",
           "amount": 11107,
           "week": 70,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4531,7 +4535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-14",
           "amount": 8297,
           "week": 69,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4541,7 +4545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-21",
           "amount": 6122,
           "week": 68,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4551,7 +4555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-28",
           "amount": 3505,
           "week": 67,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4561,7 +4565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-04",
           "amount": 2076,
           "week": 66,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4571,7 +4575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-11",
           "amount": 1939,
           "week": 65,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4581,7 +4585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-18",
           "amount": 2997,
           "week": 64,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4591,7 +4595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-25",
           "amount": 3725,
           "week": 63,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4601,7 +4605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-01",
           "amount": 2510,
           "week": 62,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4611,7 +4615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-08",
           "amount": 4045,
           "week": 61,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4621,7 +4625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-15",
           "amount": 11317,
           "week": 60,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4631,7 +4635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-22",
           "amount": 17011,
           "week": 59,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4641,7 +4645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-29",
           "amount": 13865,
           "week": 58,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4651,7 +4655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-06",
           "amount": 9488,
           "week": 57,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4661,7 +4665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-13",
           "amount": 4242,
           "week": 56,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4671,7 +4675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-20",
           "amount": 5953,
           "week": 55,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4681,7 +4685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-27",
           "amount": 5603,
           "week": 54,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4691,7 +4695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-03",
           "amount": 9129,
           "week": 53,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4701,7 +4705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-10",
           "amount": 10169,
           "week": 52,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4711,7 +4715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-17",
           "amount": 7835,
           "week": 51,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4721,7 +4725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-24",
           "amount": 5123,
           "week": 50,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4731,7 +4735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-01",
           "amount": 4297,
           "week": 49,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4741,7 +4745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 4397,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4751,7 +4755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 5310,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4761,7 +4765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 8776,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4771,7 +4775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 16442,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4781,7 +4785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 12508,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4791,7 +4795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 1393,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4801,7 +4805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 2633,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4811,7 +4815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 6471,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4821,7 +4825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 11492,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4831,7 +4835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 8555,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4841,7 +4845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 8978,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4851,7 +4855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 13189,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4861,7 +4865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 14503,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4871,7 +4875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 13166,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4881,7 +4885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 10382,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4891,7 +4895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 8428,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4901,7 +4905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 19222,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4911,7 +4915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 12143,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4921,7 +4925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 8468,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4931,7 +4935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 29845,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4941,7 +4945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 52393,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4951,7 +4955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 33056,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4961,7 +4965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 36959,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4971,7 +4975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 35552,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4981,7 +4985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 29716,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -4991,7 +4995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 23780,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5001,7 +5005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 24826,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5011,7 +5015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 13008,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5021,7 +5025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 259,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5031,7 +5035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 1557,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5041,7 +5045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 1359,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5051,7 +5055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 60136,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5061,7 +5065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 2,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5071,7 +5075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 1,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5081,7 +5085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 2,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5091,7 +5095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 3,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5101,7 +5105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 3,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5111,7 +5115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 2,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5121,7 +5125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 3,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5131,7 +5135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 3,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5141,7 +5145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5151,7 +5155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5161,7 +5165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 2,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5171,7 +5175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 1,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5181,7 +5185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 5,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5191,7 +5195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 3,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5201,7 +5205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 1,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5211,7 +5215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 2,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5221,7 +5225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 2,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5231,7 +5235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 4,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5241,7 +5245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 0,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5251,7 +5255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5261,7 +5265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5271,7 +5275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 283319,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5281,7 +5285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 256,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5291,7 +5295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 1536,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5301,7 +5305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 1293,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5311,7 +5315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 15027,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5321,7 +5325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 2,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5331,7 +5335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 1,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5341,7 +5345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 1,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5351,7 +5355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5361,7 +5365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 2,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5371,7 +5375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5381,7 +5385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 0,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5391,7 +5395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5401,7 +5405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 13200,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5411,7 +5415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 36,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5421,7 +5425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 216,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5431,7 +5435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 203,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5441,7 +5445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 1558,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5451,7 +5455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 0,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5461,7 +5465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 1,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5471,7 +5475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 1,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5481,7 +5485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 2,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5491,7 +5495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 6896,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5501,7 +5505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 190,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5511,7 +5515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 1141,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5521,7 +5525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 973,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5531,7 +5535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 53,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5541,7 +5545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 63,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5551,7 +5555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 380,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5561,7 +5565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 321,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5571,7 +5575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 611,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5581,7 +5585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 1,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5591,7 +5595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5601,7 +5605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 17,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5611,7 +5615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 100,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5621,7 +5625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 83,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5631,7 +5635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 500,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5641,7 +5645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 50,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5651,7 +5655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 301,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5661,7 +5665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 252,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5671,7 +5675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 2,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5681,7 +5685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 0,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5691,7 +5695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 2,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5701,7 +5705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 1,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5711,7 +5715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 26,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5721,7 +5725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 155,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5731,7 +5735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 140,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5741,7 +5745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 27,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5751,7 +5755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5761,7 +5765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 2,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5771,7 +5775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 1,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5781,7 +5785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 1,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5791,7 +5795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 13,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5801,7 +5805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 77,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5811,7 +5815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 65,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5821,7 +5825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 3,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5831,7 +5835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 0,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5841,7 +5845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5851,7 +5855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 0,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5861,7 +5865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 1,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5871,7 +5875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 8,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5881,7 +5885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 51,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5891,7 +5895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 43,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5901,7 +5905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 1,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5911,7 +5915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "El-Sayed for MI Senate",
@@ -5921,7 +5925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5931,7 +5935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 735,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5941,7 +5945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 192903,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5951,7 +5955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 392586,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5961,7 +5965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 194523,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5971,7 +5975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 73,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5981,7 +5985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 16,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -5991,7 +5995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1819,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6001,7 +6005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 17624,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6011,7 +6015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 41833,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6021,7 +6025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 22849,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6031,7 +6035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 100,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6041,7 +6045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 768,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6051,7 +6055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1646,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6061,7 +6065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 879,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6071,7 +6075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 62,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6081,7 +6085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 459,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6091,7 +6095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 939,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6101,7 +6105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 456,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6111,7 +6115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 50,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6121,7 +6125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 397,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6131,7 +6135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 871,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6141,7 +6145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 485,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6151,7 +6155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 15,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6161,7 +6165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 150,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6171,7 +6175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 326,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6181,7 +6185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 119,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6191,7 +6195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 3,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6201,7 +6205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 35,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6211,7 +6215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 80,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6221,7 +6225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 36,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6231,7 +6235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 5,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6241,7 +6245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 33,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6251,7 +6255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 64,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6261,7 +6265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 34,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6271,7 +6275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 2,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6281,7 +6285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 14,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6291,7 +6295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 29,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6301,7 +6305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 10,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6311,7 +6315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6321,7 +6325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 3,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6331,7 +6335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 8,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6341,7 +6345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 13,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6351,7 +6355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6361,7 +6365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6371,7 +6375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6381,7 +6385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 4,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6391,7 +6395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 8,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fight for Michigan",
@@ -6401,7 +6405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6411,7 +6415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 22332,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6421,7 +6425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 100859,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6431,7 +6435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 112574,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6441,7 +6445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 25263,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6451,7 +6455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 84312,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6461,7 +6465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 10577,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6471,7 +6475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4874,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6481,7 +6485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 16880,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6491,7 +6495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2348,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6501,7 +6505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4520,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6511,7 +6515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 16712,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6521,7 +6525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2706,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6531,7 +6535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1764,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6541,7 +6545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 6000,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6551,7 +6555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 795,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6561,7 +6565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 583,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6571,7 +6575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2070,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6581,7 +6585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 307,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6591,7 +6595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 608,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6601,7 +6605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1973,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6611,7 +6615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 226,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6621,7 +6625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 425,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6631,7 +6635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1449,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6641,7 +6645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 193,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6651,7 +6655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 218,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6661,7 +6665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 759,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6671,7 +6675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 107,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6681,7 +6685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 30,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6691,7 +6695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 95,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6701,7 +6705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 11,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6711,7 +6715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 15,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6721,7 +6725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 53,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "A Stronger Michigan (D)",
@@ -6731,7 +6735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 7,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6741,7 +6745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 3279,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6751,7 +6755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 19938,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6761,7 +6765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 55471,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6771,7 +6775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 71470,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6781,7 +6785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 15444,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6791,7 +6795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 27503,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6801,7 +6805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 41421,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6811,7 +6815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 9347,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6821,7 +6825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 300,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6831,7 +6835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 108,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6841,7 +6845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 10,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6851,7 +6855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 52000,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6861,7 +6865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 979,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6871,7 +6875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2742,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6881,7 +6885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 742,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6891,7 +6895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 6,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6901,7 +6905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 0,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6911,7 +6915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 575,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6921,7 +6925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 1581,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6931,7 +6935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 360,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6941,7 +6945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 0,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6951,7 +6955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 462,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6961,7 +6965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 1270,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6971,7 +6975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 290,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6981,7 +6985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -6991,7 +6995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 6,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7001,7 +7005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 384,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7011,7 +7015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 1067,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7021,7 +7025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 266,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7031,7 +7035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 3,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7041,7 +7045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 0,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7051,7 +7055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 114,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7061,7 +7065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 301,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7071,7 +7075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 44,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7081,7 +7085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7091,7 +7095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 81,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7101,7 +7105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 223,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7111,7 +7115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 47,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7121,7 +7125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 37,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7131,7 +7135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 104,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7141,7 +7145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 31,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7151,7 +7155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 0,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7161,7 +7165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 8,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7171,7 +7175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 22,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7181,7 +7185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 6,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7191,7 +7195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7201,7 +7205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 10,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7211,7 +7215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 25,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7221,7 +7225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7231,7 +7235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 0,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Center Forward",
@@ -7241,7 +7245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 0,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7251,7 +7255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-21",
           "amount": 2347,
           "week": 81,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7261,7 +7265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-28",
           "amount": 7525,
           "week": 80,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7271,7 +7275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-05",
           "amount": 5345,
           "week": 79,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7281,7 +7285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-12",
           "amount": 3897,
           "week": 78,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7291,7 +7295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-19",
           "amount": 2800,
           "week": 77,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7301,7 +7305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-26",
           "amount": 2793,
           "week": 76,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7311,7 +7315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-02",
           "amount": 5678,
           "week": 75,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7321,7 +7325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-09",
           "amount": 8088,
           "week": 74,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7331,7 +7335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-16",
           "amount": 8464,
           "week": 73,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7341,7 +7345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-23",
           "amount": 7808,
           "week": 72,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7351,7 +7355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-30",
           "amount": 7914,
           "week": 71,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7361,7 +7365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-07",
           "amount": 6318,
           "week": 70,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7371,7 +7375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-14",
           "amount": 4650,
           "week": 69,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7381,7 +7385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-21",
           "amount": 5237,
           "week": 68,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7391,7 +7395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-28",
           "amount": 6312,
           "week": 67,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7401,7 +7405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-04",
           "amount": 6358,
           "week": 66,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7411,7 +7415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-11",
           "amount": 3703,
           "week": 65,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7421,7 +7425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-18",
           "amount": 3009,
           "week": 64,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7431,7 +7435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-25",
           "amount": 3956,
           "week": 63,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7441,7 +7445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-01",
           "amount": 6106,
           "week": 62,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7451,7 +7455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-08",
           "amount": 3935,
           "week": 61,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7461,7 +7465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-15",
           "amount": 3763,
           "week": 60,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7471,7 +7475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-22",
           "amount": 5729,
           "week": 59,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7481,7 +7485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-29",
           "amount": 5098,
           "week": 58,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7491,7 +7495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-06",
           "amount": 7163,
           "week": 57,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7501,7 +7505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-13",
           "amount": 5648,
           "week": 56,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7511,7 +7515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-20",
           "amount": 4025,
           "week": 55,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7521,7 +7525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-27",
           "amount": 4705,
           "week": 54,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7531,7 +7535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-03",
           "amount": 4275,
           "week": 53,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7541,7 +7545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-10",
           "amount": 3131,
           "week": 52,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7551,7 +7555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-17",
           "amount": 1612,
           "week": 51,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7561,7 +7565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-24",
           "amount": 2139,
           "week": 50,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7571,7 +7575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-01",
           "amount": 3049,
           "week": 49,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7581,7 +7585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 1878,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7591,7 +7595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 796,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7601,7 +7605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 533,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7611,7 +7615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 583,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7621,7 +7625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 1099,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7631,7 +7635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 1113,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7641,7 +7645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 1207,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7651,7 +7655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 1462,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7661,7 +7665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 2282,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7671,7 +7675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 2028,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7681,7 +7685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1607,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7691,7 +7695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 1768,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7701,7 +7705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1243,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7711,7 +7715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 757,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7721,7 +7725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 780,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7731,7 +7735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 1486,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7741,7 +7745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2675,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7751,7 +7755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 2623,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7761,7 +7765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 2437,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7771,7 +7775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 2441,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7781,7 +7785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 1353,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7791,7 +7795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1207,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7801,7 +7805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 1468,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7811,7 +7815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 2290,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7821,7 +7825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 4297,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7831,7 +7835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 4188,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7841,7 +7845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2883,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Stevens for MI Senate",
@@ -7851,7 +7855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1103,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7861,7 +7865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-03-10",
           "amount": 93,
           "week": 87,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7871,7 +7875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-03-17",
           "amount": 233,
           "week": 86,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7881,7 +7885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-12",
           "amount": 131,
           "week": 78,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7891,7 +7895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-19",
           "amount": 420,
           "week": 77,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7901,7 +7905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-26",
           "amount": 234,
           "week": 76,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7911,7 +7915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-23",
           "amount": 32,
           "week": 72,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7921,7 +7925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-30",
           "amount": 1328,
           "week": 71,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7931,7 +7935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-07",
           "amount": 3518,
           "week": 70,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7941,7 +7945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-14",
           "amount": 1243,
           "week": 69,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7951,7 +7955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-21",
           "amount": 606,
           "week": 68,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7961,7 +7965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-17",
           "amount": 3,
           "week": 51,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7971,7 +7975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-24",
           "amount": 6152,
           "week": 50,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7981,7 +7985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-01",
           "amount": 17338,
           "week": 49,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -7991,7 +7995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 4939,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -8001,7 +8005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 461,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -8011,7 +8015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 1153,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -8021,7 +8025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 23120,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -8031,7 +8035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 73668,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Slotkin for MI Senate",
@@ -8041,7 +8045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 39673,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8051,7 +8055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 5820,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8061,7 +8065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2910,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8071,7 +8075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1053,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8081,7 +8085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 526,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8091,7 +8095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 632,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8101,7 +8105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 316,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8111,7 +8115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 474,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8121,7 +8125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 237,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8131,7 +8135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 148,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8141,7 +8145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 74,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8151,7 +8155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 140,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8161,7 +8165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 70,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8171,7 +8175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 132,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8181,7 +8185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 66,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8191,7 +8195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 55,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8201,7 +8205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 28,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8211,7 +8215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 19,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8221,7 +8225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 10,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8231,7 +8235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 18,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Fighting for Michigan",
@@ -8241,7 +8245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 9,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sierra Club",
@@ -8251,7 +8255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-19",
           "amount": 129,
           "week": 77,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sierra Club",
@@ -8261,7 +8265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-26",
           "amount": 323,
           "week": 76,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Blue Senate PAC",
@@ -8271,7 +8275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-02-10",
           "amount": 14,
           "week": 91,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Blue Senate PAC",
@@ -8281,7 +8285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-02-17",
           "amount": 70,
           "week": 90,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Blue Senate PAC",
@@ -8291,7 +8295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-02-24",
           "amount": 142,
           "week": 89,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Blue Senate PAC",
@@ -8301,7 +8305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-03-03",
           "amount": 130,
           "week": 88,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Berrien Forward",
@@ -8311,7 +8315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-14",
           "amount": 17,
           "week": 69,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Berrien Forward",
@@ -8321,7 +8325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-21",
           "amount": 43,
           "week": 68,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8331,7 +8335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-07",
           "amount": 615036,
           "week": 9,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8341,7 +8345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 1266828,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8351,7 +8355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 1266835,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8361,7 +8365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 1376258,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8371,7 +8375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 1650540,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8381,7 +8385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 1650540,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8391,7 +8395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 1649786,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8401,7 +8405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 1641680,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8411,7 +8415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 1410927,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8421,7 +8425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 230346,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8431,7 +8435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-07",
           "amount": 161933,
           "week": 9,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8441,7 +8445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 333771,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8451,7 +8455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 333764,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8461,7 +8465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 361841,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8471,7 +8475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 391508,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8481,7 +8485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 391508,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8491,7 +8495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 392304,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8501,7 +8505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 394830,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8511,7 +8515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 340382,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8521,7 +8525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 54384,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8531,7 +8535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-07",
           "amount": 700,
           "week": 9,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8541,7 +8545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 1470,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8551,7 +8555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 1470,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8561,7 +8565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 1470,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8571,7 +8575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 304856,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8581,7 +8585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 304856,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8591,7 +8595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 317014,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8601,7 +8605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 393076,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8611,7 +8615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 337134,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8621,7 +8625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 56189,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8631,7 +8635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-07",
           "amount": 54379,
           "week": 9,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8641,7 +8645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 108758,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8651,7 +8655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 108758,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8661,7 +8665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 108758,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8671,7 +8675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 108758,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8681,7 +8685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 108758,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8691,7 +8695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 108758,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8701,7 +8705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 108758,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8711,7 +8715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 108758,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8721,7 +8725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 120000,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8731,7 +8735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 120000,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8741,7 +8745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 126383,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8751,7 +8755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 157239,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8761,7 +8765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 134446,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8771,7 +8775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 22408,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8781,7 +8785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-07",
           "amount": 12857,
           "week": 9,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8791,7 +8795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 25714,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8801,7 +8805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 25714,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8811,7 +8815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 25714,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8821,7 +8825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 14400,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8831,7 +8835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 14400,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8841,7 +8845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 14400,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8851,7 +8855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 14400,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8861,7 +8865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 14400,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8871,7 +8875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-07",
           "amount": 15180,
           "week": 9,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8881,7 +8885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-14",
           "amount": 2100,
           "week": 8,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8891,7 +8895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-21",
           "amount": 2100,
           "week": 7,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8901,7 +8905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-09-28",
           "amount": 2100,
           "week": 6,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8911,7 +8915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 4662,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8921,7 +8925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 4662,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8931,7 +8935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 4662,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8941,7 +8945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 4662,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8951,7 +8955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 3411,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8961,7 +8965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 569,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8971,7 +8975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-05",
           "amount": 1700,
           "week": 5,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8981,7 +8985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-12",
           "amount": 1700,
           "week": 4,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -8991,7 +8995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-19",
           "amount": 1700,
           "week": 3,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -9001,7 +9005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-10-26",
           "amount": 1662,
           "week": 2,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -9011,7 +9015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-02",
           "amount": 1440,
           "week": 1,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "SLF PAC",
@@ -9021,7 +9025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-11-09",
           "amount": 240,
           "week": 0,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9031,7 +9035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 59621,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9041,7 +9045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 229437,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9051,7 +9055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 285578,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9061,7 +9065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 348595,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9071,7 +9075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 342610,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9081,7 +9085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 73302,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9091,7 +9095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 284014,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9101,7 +9105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 335666,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9111,7 +9115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 230469,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9121,7 +9125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 108575,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9131,7 +9135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 235272,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9141,7 +9145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 315522,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9151,7 +9155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 241206,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9161,7 +9165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 126288,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9171,7 +9175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 4686,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9181,7 +9185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 8,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9191,7 +9195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 10320,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9201,7 +9205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 192138,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9211,7 +9215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 266885,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9221,7 +9225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 210602,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9231,7 +9235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 32703,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9241,7 +9245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 17090,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9251,7 +9255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 65040,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9261,7 +9265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 80936,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9271,7 +9275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 96763,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9281,7 +9285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 84752,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9291,7 +9295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 20617,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9301,7 +9305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 77905,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9311,7 +9315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 87085,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9321,7 +9325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 59195,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9331,7 +9335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 33913,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9341,7 +9345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 70785,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9351,7 +9355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 83865,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9361,7 +9365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 63377,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9371,7 +9375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 31850,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9381,7 +9385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 1263,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9391,7 +9395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 2,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9401,7 +9405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 3163,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9411,7 +9415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 73736,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9421,7 +9425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 93858,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9431,7 +9435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 76906,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9441,7 +9445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 12137,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9451,7 +9455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 7959,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9461,7 +9465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 30369,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9471,7 +9475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 38612,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9481,7 +9485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 46608,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9491,7 +9495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 38815,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9501,7 +9505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 8752,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9511,7 +9515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 36337,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9521,7 +9525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 48761,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9531,7 +9535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 35767,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9541,7 +9545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 18805,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9551,7 +9555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 32699,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9561,7 +9565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 41469,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9571,7 +9575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 33799,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9581,7 +9585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 14029,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9591,7 +9595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 625,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9601,7 +9605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9611,7 +9615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9621,7 +9625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1642,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9631,7 +9635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 47938,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9641,7 +9645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 60161,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9651,7 +9655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 51357,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9661,7 +9665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 8224,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9671,7 +9675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 11390,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9681,7 +9685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 40441,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9691,7 +9695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 40367,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9701,7 +9705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 42131,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9711,7 +9715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 39998,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9721,7 +9725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 11087,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9731,7 +9735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 42674,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9741,7 +9745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 53432,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9751,7 +9755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 43938,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9761,7 +9765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 19976,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9771,7 +9775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 40001,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9781,7 +9785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 48823,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9791,7 +9795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 40713,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9801,7 +9805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 19186,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9811,7 +9815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 664,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9821,7 +9825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 0,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9831,7 +9835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1585,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9841,7 +9845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 6630,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9851,7 +9855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 10757,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9861,7 +9865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2044,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9871,7 +9875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 2020,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9881,7 +9885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 8404,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9891,7 +9895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 11731,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9901,7 +9905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 11565,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9911,7 +9915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 8940,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9921,7 +9925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 6666,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9931,7 +9935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 16775,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9941,7 +9945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 21870,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9951,7 +9955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 19361,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9961,7 +9965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 11186,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9971,7 +9975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 16816,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9981,7 +9985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 21700,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -9991,7 +9995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 19186,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10001,7 +10005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 12351,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10011,7 +10015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 11586,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10021,7 +10025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 16540,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10031,7 +10035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 16243,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10041,7 +10045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 18255,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10051,7 +10055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 25426,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10061,7 +10065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 20344,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10071,7 +10075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 6857,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10081,7 +10085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 41143,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10091,7 +10095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 41143,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10101,7 +10105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 28457,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10111,7 +10115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 43200,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10121,7 +10125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 43200,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10131,7 +10135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 36000,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10141,7 +10145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 3051,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10151,7 +10155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 11270,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10161,7 +10165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 12890,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10171,7 +10175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 14533,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10181,7 +10185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 12668,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10191,7 +10195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 3196,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10201,7 +10205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 14116,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10211,7 +10215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 20370,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10221,7 +10225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 13987,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10231,7 +10235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 7663,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10241,7 +10245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 16211,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10251,7 +10255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 18270,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10261,7 +10265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 12999,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10271,7 +10275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 5014,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10281,7 +10285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 159,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10291,7 +10295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 499,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10301,7 +10305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2155,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10311,7 +10315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 3415,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10321,7 +10325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 572,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10331,7 +10335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 2462,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10341,7 +10345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 9464,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10351,7 +10355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 12500,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10361,7 +10365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 16384,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10371,7 +10375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 14526,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10381,7 +10385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2974,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10391,7 +10395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 11653,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10401,7 +10405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 14741,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10411,7 +10415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 11232,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10421,7 +10425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 4331,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10431,7 +10435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 10729,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10441,7 +10445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 14747,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10451,7 +10455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 10251,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10461,7 +10465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 4994,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10471,7 +10475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 184,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10481,7 +10485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 0,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10491,7 +10495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 462,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10501,7 +10505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1926,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10511,7 +10515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 3122,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10521,7 +10525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 597,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10531,7 +10535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 2404,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10541,7 +10545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 8903,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10551,7 +10555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 10135,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10561,7 +10565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 11675,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10571,7 +10575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 11061,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10581,7 +10585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2147,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10591,7 +10595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 8632,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10601,7 +10605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 11131,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10611,7 +10615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 8140,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10621,7 +10625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 4387,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10631,7 +10635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 9928,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10641,7 +10645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 11398,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10651,7 +10655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 8161,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10661,7 +10665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 3132,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10671,7 +10675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 170,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10681,7 +10685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 3,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10691,7 +10695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 4,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10701,7 +10705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 362,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10711,7 +10715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1642,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10721,7 +10725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2860,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10731,7 +10735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 505,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10741,7 +10745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 753,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10751,7 +10755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 2978,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10761,7 +10765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 4776,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10771,7 +10775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 7020,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10781,7 +10785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 4812,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10791,7 +10795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 1207,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10801,7 +10805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 4222,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10811,7 +10815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 3931,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10821,7 +10825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2461,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10831,7 +10835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 1758,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10841,7 +10845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 4705,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10851,7 +10855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 4301,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10861,7 +10865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 2956,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10871,7 +10875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1240,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10881,7 +10885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 73,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10891,7 +10895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 181,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10901,7 +10905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 742,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10911,7 +10915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 1201,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10921,7 +10925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 238,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10931,7 +10935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 159,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10941,7 +10945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 823,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10951,7 +10955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1496,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10961,7 +10965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 1616,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10971,7 +10975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1343,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10981,7 +10985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 570,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -10991,7 +10995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 2145,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11001,7 +11005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 2322,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11011,7 +11015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 1353,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11021,7 +11025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 908,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11031,7 +11035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 2174,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11041,7 +11045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 848,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11051,7 +11055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 829,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11061,7 +11065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 351,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11071,7 +11075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 21,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11081,7 +11085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 0,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11091,7 +11095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 46,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11101,7 +11105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 200,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11111,7 +11115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 336,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11121,7 +11125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 62,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11131,7 +11135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 324,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11141,7 +11145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 1074,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11151,7 +11155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1291,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11161,7 +11165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 2071,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11171,7 +11175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1219,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11181,7 +11185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 238,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11191,7 +11195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1104,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11201,7 +11205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 1642,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11211,7 +11215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 1008,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11221,7 +11225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 509,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11231,7 +11235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 910,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11241,7 +11245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 830,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11251,7 +11255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 1238,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11261,7 +11265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 503,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11271,7 +11275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 12,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11281,7 +11285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 63,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11291,7 +11295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 245,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11301,7 +11305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 394,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity Action",
@@ -11311,7 +11315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 86,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11321,7 +11325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 80838,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11331,7 +11335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 125228,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11341,7 +11345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-07-06",
           "amount": 80309,
           "week": 18,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11351,7 +11355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 41274,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11361,7 +11365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 61911,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11371,7 +11375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-07-06",
           "amount": 41274,
           "week": 18,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11381,7 +11385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 21234,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11391,7 +11395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-29",
           "amount": 31851,
           "week": 19,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11401,7 +11405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-07-06",
           "amount": 21234,
           "week": 18,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11411,7 +11415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-14",
           "amount": 3886,
           "week": 82,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11421,7 +11425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-21",
           "amount": 12057,
           "week": 81,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Great Lakes Conservative Fund",
@@ -11431,7 +11435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-28",
           "amount": 5857,
           "week": 80,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11441,7 +11445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 2978,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11451,7 +11455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 20901,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11461,7 +11465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 44622,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11471,7 +11475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 37223,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11481,7 +11485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 33058,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11491,7 +11495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 21603,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11501,7 +11505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 0,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11511,7 +11515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1321,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11521,7 +11525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 9224,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11531,7 +11535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 19537,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11541,7 +11545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 15501,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11551,7 +11555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 12915,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11561,7 +11565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 9320,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11571,7 +11575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 325,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11581,7 +11585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2836,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11591,7 +11595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 7476,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11601,7 +11605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 9183,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11611,7 +11615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 10579,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11621,7 +11625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 6819,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11631,7 +11635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 81,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11641,7 +11645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 583,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11651,7 +11655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1110,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11661,7 +11665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 537,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11671,7 +11675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 462,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11681,7 +11685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 281,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11691,7 +11695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 17,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11701,7 +11705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 217,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11711,7 +11715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 516,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11721,7 +11725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 263,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11731,7 +11735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 239,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11741,7 +11745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 196,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11751,7 +11755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 12,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11761,7 +11765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 93,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11771,7 +11775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 179,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11781,7 +11785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 73,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11791,7 +11795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 68,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11801,7 +11805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 48,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11811,7 +11815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 0,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11821,7 +11825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11831,7 +11835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 0,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11841,7 +11845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11851,7 +11855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 117,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11861,7 +11865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 279,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11871,7 +11875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11881,7 +11885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 19,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11891,7 +11895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 64,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11901,7 +11905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 53,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11911,7 +11915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 48,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11921,7 +11925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 53,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11931,7 +11935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 33,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11941,7 +11945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 2,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11951,7 +11955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 39,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11961,7 +11965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 111,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11971,7 +11975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 70,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11981,7 +11985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 10,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -11991,7 +11995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 14,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12001,7 +12005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12011,7 +12015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 10,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12021,7 +12025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 43,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12031,7 +12035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 72,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12041,7 +12045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 19,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12051,7 +12055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 17,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12061,7 +12065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 0,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12071,7 +12075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 21,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12081,7 +12085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 53,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12091,7 +12095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 5,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12101,7 +12105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Senate Opportunity Fund",
@@ -12111,7 +12115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 0,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12121,7 +12125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 1,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12131,7 +12135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 1,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12141,7 +12145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 1,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12151,7 +12155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12161,7 +12165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12171,7 +12175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 1,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12181,7 +12185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 0,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12191,7 +12195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 4862,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12201,7 +12205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 25778,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12211,7 +12215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 42090,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12221,7 +12225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 20069,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12231,7 +12235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 14,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12241,7 +12245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 9,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12251,7 +12255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 0,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12261,7 +12265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12271,7 +12275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 1,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12281,7 +12285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12291,7 +12295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 1,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12301,7 +12305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 2233,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12311,7 +12315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 12088,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12321,7 +12325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 20026,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12331,7 +12335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 9414,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12341,7 +12345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 4,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12351,7 +12355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12361,7 +12365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12371,7 +12375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-14",
           "amount": 881,
           "week": 82,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12381,7 +12385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-21",
           "amount": 2399,
           "week": 81,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12391,7 +12395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-04-28",
           "amount": 611,
           "week": 80,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12401,7 +12405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-05",
           "amount": 413,
           "week": 79,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12411,7 +12415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-12",
           "amount": 370,
           "week": 78,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12421,7 +12425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-19",
           "amount": 370,
           "week": 77,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12431,7 +12435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-05-26",
           "amount": 459,
           "week": 76,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12441,7 +12445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-02",
           "amount": 572,
           "week": 75,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12451,7 +12455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-09",
           "amount": 300,
           "week": 74,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12461,7 +12465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-16",
           "amount": 300,
           "week": 73,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12471,7 +12475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-23",
           "amount": 271,
           "week": 72,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12481,7 +12485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-06-30",
           "amount": 200,
           "week": 71,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12491,7 +12495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-07",
           "amount": 200,
           "week": 70,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12501,7 +12505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-14",
           "amount": 200,
           "week": 69,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12511,7 +12515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-21",
           "amount": 209,
           "week": 68,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12521,7 +12525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-07-28",
           "amount": 287,
           "week": 67,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12531,7 +12535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-04",
           "amount": 367,
           "week": 66,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12541,7 +12545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-11",
           "amount": 210,
           "week": 65,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12551,7 +12555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-18",
           "amount": 200,
           "week": 64,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12561,7 +12565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-08-25",
           "amount": 200,
           "week": 63,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12571,7 +12575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-01",
           "amount": 200,
           "week": 62,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12581,7 +12585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-08",
           "amount": 200,
           "week": 61,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12591,7 +12595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-15",
           "amount": 200,
           "week": 60,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12601,7 +12605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-22",
           "amount": 200,
           "week": 59,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12611,7 +12615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-09-29",
           "amount": 200,
           "week": 58,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12621,7 +12625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-06",
           "amount": 200,
           "week": 57,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12631,7 +12635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-13",
           "amount": 200,
           "week": 56,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12641,7 +12645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-20",
           "amount": 200,
           "week": 55,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12651,7 +12655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-10-27",
           "amount": 200,
           "week": 54,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12661,7 +12665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-03",
           "amount": 211,
           "week": 53,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12671,7 +12675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-10",
           "amount": 345,
           "week": 52,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12681,7 +12685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-17",
           "amount": 491,
           "week": 51,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12691,7 +12695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-11-24",
           "amount": 200,
           "week": 50,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12701,7 +12705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-01",
           "amount": 200,
           "week": 49,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12711,7 +12715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 229,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12721,7 +12725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 271,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12731,7 +12735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 200,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12741,7 +12745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 200,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12751,7 +12755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 200,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12761,7 +12765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 200,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12771,7 +12775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 200,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12781,7 +12785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 200,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12791,7 +12795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 229,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12801,7 +12805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 300,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12811,7 +12815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 271,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12821,7 +12825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 200,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12831,7 +12835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 200,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12841,7 +12845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 200,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12851,7 +12855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 229,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12861,7 +12865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 271,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12871,7 +12875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 200,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12881,7 +12885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 200,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12891,7 +12895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 229,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12901,7 +12905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 300,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12911,7 +12915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 271,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12921,7 +12925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 200,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12931,7 +12935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 209,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12941,7 +12945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 256,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12951,7 +12955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 286,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12961,7 +12965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 200,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12971,7 +12975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 229,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12981,7 +12985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 214,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -12991,7 +12995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 1,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13001,7 +13005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 3,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13011,7 +13015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 1,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13021,7 +13025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 2,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13031,7 +13035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 3,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13041,7 +13045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 3,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13051,7 +13055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 1,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13061,7 +13065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 2,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13071,7 +13075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 2,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13081,7 +13085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 2,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13091,7 +13095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 3,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13101,7 +13105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 3,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13111,7 +13115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 226,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13121,7 +13125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1277,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13131,7 +13135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2250,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13141,7 +13145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 1186,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13151,7 +13155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 35,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13161,7 +13165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13171,7 +13175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 227,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13181,7 +13185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1090,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13191,7 +13195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 1611,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13201,7 +13205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 769,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13211,7 +13215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13221,7 +13225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13231,7 +13235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13241,7 +13245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13251,7 +13255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 62,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13261,7 +13265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 353,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13271,7 +13275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 600,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13281,7 +13285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 266,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13291,7 +13295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13301,7 +13305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 0,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13311,7 +13315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13321,7 +13325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 10,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13331,7 +13335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 49,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13341,7 +13345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 79,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13351,7 +13355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 40,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13361,7 +13365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-16",
           "amount": 1,
           "week": 38,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13371,7 +13375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 2,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13381,7 +13385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13391,7 +13395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13401,7 +13405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 1,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13411,7 +13415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 5,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13421,7 +13425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 23,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13431,7 +13435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 46,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13441,7 +13445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 45,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13451,7 +13455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 2,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13461,7 +13465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 2,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13471,7 +13475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 4,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13481,7 +13485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 19,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13491,7 +13495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 32,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13501,7 +13505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 27,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13511,7 +13515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 2,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13521,7 +13525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 7,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13531,7 +13535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 11,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13541,7 +13545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 8,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13551,7 +13555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13561,7 +13565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-23",
           "amount": 1,
           "week": 37,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13571,7 +13575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13581,7 +13585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 1,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13591,7 +13595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13601,7 +13605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 1,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13611,7 +13615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 5,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Rogers for MI Senate",
@@ -13621,7 +13625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 7,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13631,7 +13635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 5677,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13641,7 +13645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 20856,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13651,7 +13655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 20495,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13661,7 +13665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 12869,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13671,7 +13675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 11138,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13681,7 +13685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 9318,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13691,7 +13695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 7893,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13701,7 +13705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 10808,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13711,7 +13715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 10567,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13721,7 +13725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 10384,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13731,7 +13735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 8005,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Sentinel Action Fund",
@@ -13741,7 +13745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1034,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13751,7 +13755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 72,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13761,7 +13765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 227,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13771,7 +13775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 25379,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13781,7 +13785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 728,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13791,7 +13795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 232,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13801,7 +13805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 192,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13811,7 +13815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 253,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13821,7 +13825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 208,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13831,7 +13835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 153,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13841,7 +13845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 185,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13851,7 +13855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 143,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13861,7 +13865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 169,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13871,7 +13875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 142,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13881,7 +13885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 139,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13891,7 +13895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 151,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13901,7 +13905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 151,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13911,7 +13915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 27,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13921,7 +13925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 9,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13931,7 +13935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 55,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13941,7 +13945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 250,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13951,7 +13955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 433,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13961,7 +13965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 24,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13971,7 +13975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 49,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13981,7 +13985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 94,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -13991,7 +13995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 13,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14001,7 +14005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 21,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14011,7 +14015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 21,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14021,7 +14025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 19,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14031,7 +14035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 18,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14041,7 +14045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 20,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14051,7 +14055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 19,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14061,7 +14065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 11,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14071,7 +14075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 13,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14081,7 +14085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14091,7 +14095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 14,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14101,7 +14105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 48,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14111,7 +14115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 135,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14121,7 +14125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 264,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14131,7 +14135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 38,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14141,7 +14145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 35,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14151,7 +14155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 60,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14161,7 +14165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 82,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14171,7 +14175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 30,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14181,7 +14185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 40,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14191,7 +14195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 28,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14201,7 +14205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 30,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14211,7 +14215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 36,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14221,7 +14225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 31,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14231,7 +14235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 29,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14241,7 +14245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 37,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14251,7 +14255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 7,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14261,7 +14265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 12,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14271,7 +14275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 45,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14281,7 +14285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 55,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14291,7 +14295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 71,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14301,7 +14305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 66,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14311,7 +14315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 31,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14321,7 +14325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 57,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14331,7 +14335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 81,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14341,7 +14345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 27,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14351,7 +14355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 27,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14361,7 +14365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 25,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14371,7 +14375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 27,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14381,7 +14385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 24,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14391,7 +14395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 25,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14401,7 +14405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 30,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14411,7 +14415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 30,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14421,7 +14425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 5,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14431,7 +14435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 7,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14441,7 +14445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 28,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14451,7 +14455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 33,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14461,7 +14465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 23,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14471,7 +14475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 26,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14481,7 +14485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 24,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14491,7 +14495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 27,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14501,7 +14505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 47,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14511,7 +14515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 72,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14521,7 +14525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 19,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14531,7 +14535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 19,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14541,7 +14545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 23,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14551,7 +14555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 20,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14561,7 +14565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 14,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14571,7 +14575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 20,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14581,7 +14585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 23,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14591,7 +14595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 3,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14601,7 +14605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 6,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14611,7 +14615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 23,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14621,7 +14625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 27,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14631,7 +14635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 27,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14641,7 +14645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 20,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14651,7 +14655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 33,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14661,7 +14665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 51,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14671,7 +14675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 17,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14681,7 +14685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 13,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14691,7 +14695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 16,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14701,7 +14705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 15,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14711,7 +14715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 22,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14721,7 +14725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 29,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14731,7 +14735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 28,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14741,7 +14745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 19,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14751,7 +14755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 33,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14761,7 +14765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 5,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14771,7 +14775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 2,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14781,7 +14785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 8,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14791,7 +14795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 88,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14801,7 +14805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 212,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14811,7 +14815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 4,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14821,7 +14825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 6,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14831,7 +14835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 8,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14841,7 +14845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 2,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14851,7 +14855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 2,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14861,7 +14865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 5,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14871,7 +14875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 8,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14881,7 +14885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 10,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14891,7 +14895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 8,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14901,7 +14905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 9,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14911,7 +14915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 5,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14921,7 +14925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 5,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14931,7 +14935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 4,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14941,7 +14945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 21,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14951,7 +14955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 38,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14961,7 +14965,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 54,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14971,7 +14975,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 82,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14981,7 +14985,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 20,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -14991,7 +14995,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 19,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15001,7 +15005,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 15,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15011,7 +15015,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 8,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15021,7 +15025,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 10,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15031,7 +15035,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 15,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15041,7 +15045,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 10,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15051,7 +15055,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 10,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15061,7 +15065,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 14,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15071,7 +15075,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 14,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15081,7 +15085,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 12,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15091,7 +15095,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 1,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15101,7 +15105,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 5,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15111,7 +15115,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 18,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15121,7 +15125,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 17,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15131,7 +15135,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 5,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15141,7 +15145,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 9,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15151,7 +15155,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 11,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15161,7 +15165,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 14,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15171,7 +15175,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 17,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15181,7 +15185,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 12,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15191,7 +15195,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 8,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15201,7 +15205,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 11,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15211,7 +15215,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 17,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15221,7 +15225,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 19,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15231,7 +15235,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 13,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15241,7 +15245,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 8,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15251,7 +15255,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 5,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15261,7 +15265,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-22",
           "amount": 2,
           "week": 20,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15271,7 +15275,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15281,7 +15285,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 6,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15291,7 +15295,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 2,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15301,7 +15305,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15311,7 +15315,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 3,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15321,7 +15325,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 2,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15331,7 +15335,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 1,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15341,7 +15345,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 2,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15351,7 +15355,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 0,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15361,7 +15365,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15371,7 +15375,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 2,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15381,7 +15385,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Prosperity",
@@ -15391,7 +15395,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-15",
           "amount": 0,
           "week": 21,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Pharma Reform",
@@ -15401,7 +15405,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 614,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "Americans for Pharma Reform",
@@ -15411,7 +15415,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 1536,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15421,7 +15425,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 31,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15431,7 +15435,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 111,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15441,7 +15445,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 82,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15451,7 +15455,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 1,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15461,7 +15465,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 2,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15471,7 +15475,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 1,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15481,7 +15485,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 2,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15491,7 +15495,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-26",
           "amount": 1,
           "week": 41,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15501,7 +15505,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 2,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15511,7 +15515,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 0,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15521,7 +15525,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 1,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15531,7 +15535,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 2,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15541,7 +15545,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15551,7 +15555,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-11",
           "amount": 3,
           "week": 26,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15561,7 +15565,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-18",
           "amount": 1,
           "week": 25,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15571,7 +15575,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-25",
           "amount": 2,
           "week": 24,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15581,7 +15585,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-01",
           "amount": 0,
           "week": 23,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15591,7 +15595,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-06-08",
           "amount": 1,
           "week": 22,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15601,7 +15605,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-01",
           "amount": 14,
           "week": 49,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15611,7 +15615,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 52,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15621,7 +15625,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 54,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15631,7 +15635,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 36,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15641,7 +15645,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 0,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15651,7 +15655,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15661,7 +15665,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 18,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15671,7 +15675,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 46,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15681,7 +15685,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 1,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15691,7 +15695,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 1,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15701,7 +15705,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 0,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15711,7 +15715,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-16",
           "amount": 1,
           "week": 34,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15721,7 +15725,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-23",
           "amount": 1,
           "week": 33,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15731,7 +15735,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-30",
           "amount": 1,
           "week": 32,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15741,7 +15745,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-06",
           "amount": 1,
           "week": 31,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15751,7 +15755,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-13",
           "amount": 2,
           "week": 30,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15761,7 +15765,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-20",
           "amount": 1,
           "week": 29,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15771,7 +15775,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-02",
           "amount": 0,
           "week": 40,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15781,7 +15785,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-02-09",
           "amount": 1,
           "week": 39,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15791,7 +15795,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-02",
           "amount": 1,
           "week": 36,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15801,7 +15805,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-03-09",
           "amount": 2,
           "week": 35,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15811,7 +15815,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 1,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15821,7 +15825,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 2,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15831,7 +15835,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 1,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15841,7 +15845,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 3,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15851,7 +15855,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-22",
           "amount": 1,
           "week": 46,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15861,7 +15865,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 0,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15871,7 +15875,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 0,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15881,7 +15885,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-08",
           "amount": 1,
           "week": 48,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15891,7 +15895,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-15",
           "amount": 1,
           "week": 47,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15901,7 +15905,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2025-12-29",
           "amount": 1,
           "week": 45,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15911,7 +15915,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-05",
           "amount": 2,
           "week": 44,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15921,7 +15925,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-04-27",
           "amount": 1,
           "week": 28,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15931,7 +15935,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-05-04",
           "amount": 1,
           "week": 27,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15941,7 +15945,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-12",
           "amount": 0,
           "week": 43,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         },
         {
           "advertiser": "NRSC",
@@ -15951,7 +15955,7 @@ window.TRACKER_DATA = {
           "flightEnd": "2026-01-19",
           "amount": 0,
           "week": 42,
-          "source": "AdImpact (AdMo export)"
+          "source": "AdImpact (AdMo)"
         }
       ]
     },
@@ -16044,58 +16048,12910 @@ window.TRACKER_DATA = {
       "spenders": [
         {
           "name": "SLF PAC",
-          "amount": 7845849,
-          "side": "R"
+          "side": "R",
+          "amount": 7845849
         },
         {
           "name": "Last Frontier PAC",
-          "amount": 6834929,
-          "side": "R"
+          "side": "R",
+          "amount": 6834929
         },
         {
           "name": "WinSenate",
-          "amount": 6100372,
-          "side": "D"
+          "side": "D",
+          "amount": 6100372
         },
         {
           "name": "One Nation",
-          "amount": 4143009,
-          "side": "R"
+          "side": "R",
+          "amount": 4143009
         },
         {
           "name": "Majority Forward",
-          "amount": 3949736,
-          "side": "D"
+          "side": "D",
+          "amount": 3944736
         },
         {
           "name": "Peltola for AK Senate",
-          "amount": 2874660,
-          "side": "D"
+          "side": "D",
+          "amount": 2874660
         },
         {
           "name": "The 907 Initiative",
-          "amount": 1447442,
-          "side": "D"
+          "side": "D",
+          "amount": 1447442
         },
         {
           "name": "Last Frontier Action",
-          "amount": 1046105,
-          "side": "R"
+          "side": "R",
+          "amount": 1046105
         },
         {
           "name": "American Advancement Inc",
-          "amount": 799649,
-          "side": "R"
+          "side": "R",
+          "amount": 799649
         },
         {
           "name": "Families Over Billionaires",
-          "amount": 542507,
-          "side": "D"
+          "side": "D",
+          "amount": 542507
         },
         {
           "name": "Duty and Honor",
-          "amount": 323031,
-          "side": "D"
+          "side": "D",
+          "amount": 323031
+        },
+        {
+          "name": "American Chemistry Council",
+          "side": "R",
+          "amount": 147480
+        },
+        {
+          "name": "Senate Opportunity Fund",
+          "side": "R",
+          "amount": 139114
+        },
+        {
+          "name": "Sullivan for AK Senate",
+          "side": "R",
+          "amount": 64580
+        },
+        {
+          "name": "Save My Care",
+          "side": "D",
+          "amount": 32962
+        },
+        {
+          "name": "Sixteen Thirty Fund",
+          "side": "D",
+          "amount": 26197
+        },
+        {
+          "name": "Alaska Medicaid Coalition",
+          "side": "D",
+          "amount": 21776
+        },
+        {
+          "name": "Inseparable Action",
+          "side": "D",
+          "amount": 8571
+        },
+        {
+          "name": "Forward Blue",
+          "side": "D",
+          "amount": 4036
+        },
+        {
+          "name": "Alaska Children's Trust",
+          "side": "D",
+          "amount": 2250
+        },
+        {
+          "name": "Stand With Crypto",
+          "side": "R",
+          "amount": 1061
+        },
+        {
+          "name": "MomsRising Together",
+          "side": "D",
+          "amount": 508
+        },
+        {
+          "name": "NRSC",
+          "side": "R",
+          "amount": 244
+        }
+      ],
+      "buys": [
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 265621,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 259981,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 281100,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 350023,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 376192,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 374250,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 416012,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 408737,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 406183,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 404467,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 419017,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 70333,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 149688,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 142438,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 162267,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 176587,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 190327,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 202587,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 232320,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 233622,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 233502,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 232968,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 229052,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 38049,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 57550,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 55260,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 61567,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 69601,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 75203,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 84585,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 102468,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 105837,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 106412,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 105270,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 99378,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 16375,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 68504,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 84333,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 48310,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 38716,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 43972,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 43972,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 64209,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 44636,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 39912,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 39912,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 39912,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 6652,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 4280,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 5136,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 7039,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 8941,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 8941,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 8941,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 8941,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 8941,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 8941,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 8941,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "SLF PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 8941,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 5908,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 117015,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 178517,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 193578,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 162985,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 135140,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 148775,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 145675,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 147700,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 142155,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 148250,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 140735,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 149430,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 246335,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 334437,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 357490,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 380131,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 378071,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 382887,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 384857,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 386789,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 387171,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 64528,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 953,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 37737,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 54721,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 54663,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 51620,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 46875,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 46955,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 48680,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 46060,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 48205,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 47500,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 48465,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 49125,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 68365,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 57663,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 61310,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 65744,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 69679,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 69363,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 69643,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 69961,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 69836,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 11639,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 667,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 11781,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 19227,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 18075,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 22771,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 20008,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 20000,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 20000,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 20000,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 20020,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 20005,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 20000,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 20000,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 15295,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 15295,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 15295,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 15295,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 15295,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 15295,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 15295,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 15295,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 13110,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-11-03",
+          "flightEnd": "2026-11-09",
+          "amount": 2185,
+          "week": 0,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 2432,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 2918,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 4072,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 4303,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 4303,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 4303,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 4303,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 4303,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 4303,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 4303,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 4303,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 4303,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 4661,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 4661,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 4661,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 4661,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 4661,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 4661,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 4661,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 4661,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Satellite",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 4661,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 1000,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 10957,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 29200,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier PAC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 20143,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-04-22",
+          "flightEnd": "2025-04-28",
+          "amount": 31424,
+          "week": 80,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-04-29",
+          "flightEnd": "2025-05-05",
+          "amount": 91902,
+          "week": 79,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-05-06",
+          "flightEnd": "2025-05-12",
+          "amount": 33356,
+          "week": 78,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-05-13",
+          "flightEnd": "2025-05-19",
+          "amount": 2,
+          "week": 77,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-05-20",
+          "flightEnd": "2025-05-26",
+          "amount": 1,
+          "week": 76,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-05-27",
+          "flightEnd": "2025-06-02",
+          "amount": 2,
+          "week": 75,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 1,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 3,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 2,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 1,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 3,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 4927,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 22382,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 30330,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 12884,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 2,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 6,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 1,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 2,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 2,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 4,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 1,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 4,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 5,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 3,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 3,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 1,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 1,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 3,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 48,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 115,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 2,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 5,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 0,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 0,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1186,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 33967,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 70662,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 54707,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 52972,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 254578,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 309072,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 257751,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 247596,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 248142,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 247767,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 188870,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-04-22",
+          "flightEnd": "2025-04-28",
+          "amount": 5398,
+          "week": 80,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-04-29",
+          "flightEnd": "2025-05-05",
+          "amount": 16253,
+          "week": 79,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-05-06",
+          "flightEnd": "2025-05-12",
+          "amount": 6892,
+          "week": 78,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-05-13",
+          "flightEnd": "2025-05-19",
+          "amount": 4,
+          "week": 77,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-05-20",
+          "flightEnd": "2025-05-26",
+          "amount": 4,
+          "week": 76,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 678,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 3151,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 4216,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 1442,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 1,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 2,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 1,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 2,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 1,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 2,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 192,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 2929,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 8483,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 8653,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 8802,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 73861,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 90623,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 81358,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 79898,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 80385,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 80852,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 59003,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 53620,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 74596,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 74569,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 74569,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 74569,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 74569,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 53323,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-04-22",
+          "flightEnd": "2025-04-28",
+          "amount": 3788,
+          "week": 80,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-04-29",
+          "flightEnd": "2025-05-05",
+          "amount": 10986,
+          "week": 79,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-05-06",
+          "flightEnd": "2025-05-12",
+          "amount": 3789,
+          "week": 78,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 1,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 2,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 2,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 603,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 2618,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 3304,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 1318,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 1,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 2,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 119,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 1878,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 5584,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 6059,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 6291,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 52585,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 63847,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 57922,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 57015,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 57003,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 55667,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 42078,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-04-15",
+          "flightEnd": "2025-04-21",
+          "amount": 4559,
+          "week": 81,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-04-22",
+          "flightEnd": "2025-04-28",
+          "amount": 21396,
+          "week": 80,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-04-29",
+          "flightEnd": "2025-05-05",
+          "amount": 33386,
+          "week": 79,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-05-06",
+          "flightEnd": "2025-05-12",
+          "amount": 20968,
+          "week": 78,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 7374,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 38723,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 61140,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 26055,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 6223,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 20192,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 18815,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 26471,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 31088,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 48165,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 57879,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "One Nation",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 515,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 9062,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 42744,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 132529,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 148513,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 133824,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 69248,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 12555,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 5627,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 8468,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 6941,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 5407,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 3206,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 78,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 2518,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 14906,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 30708,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 4368,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 1954,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 9173,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 39919,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 47513,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 44473,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 20787,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 3451,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 1058,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 1725,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1372,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 1043,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 473,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 10,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 405,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 2463,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 4968,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 642,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2714,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 11927,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 16257,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 11482,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 9391,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 6096,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 4300,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 4243,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 4043,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 4014,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 4671,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 9160,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 18551,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 20070,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 18710,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 9643,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 954,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 4159,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 16040,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 18456,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 17833,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 9255,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 1571,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 540,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 944,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1113,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 943,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 518,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 2,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 310,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 1822,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 3702,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Last Frontier Action",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 537,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 1062,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 56356,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 56497,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 56916,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 59330,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 57843,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 15906,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 25512,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 21071,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 20751,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 9362,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 2,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 1,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 2,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 3,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 18037,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 26219,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 25533,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 34451,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 30251,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 32747,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 37851,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 29429,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 682,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 195,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 207,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 189,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 175,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 122,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 265,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 108,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 101,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 40,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 27,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 25,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 58,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 70,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 22,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 38,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 25,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 12,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 10,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 26,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 9,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 12,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 5,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 49,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 27560,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 27621,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 27946,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 27928,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 27573,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 21,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 4,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 1,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 2,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 2,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 6,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 6,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 12,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 11,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 14,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 32,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 32,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 8,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 0,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 2,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 6,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 7,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 6,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 2,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 6,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 4,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 0,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 1,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 5,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 5,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 77,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 8523,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 8445,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 8482,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 8733,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 8763,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 64,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 2,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 2,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 1,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 2,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 1,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 4,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 8,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 13,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 11,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 16,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 22,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 8,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 1,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 0,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 2,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 2,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 2,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 2,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 1,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 3,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 2,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 5,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 3,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 4,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 3,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 7,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 4,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Advancement Inc",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 2,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Chemistry Council",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 35587,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Chemistry Council",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 91699,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "American Chemistry Council",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 20194,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 635,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 4034,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 15019,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 27812,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 18831,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 12368,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 1482,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 8894,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 15566,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 24390,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 1648,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 18,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 14,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 6,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 9,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 15,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 15,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 12,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 13,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 14,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 9,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 8,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 9,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 13,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 9,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 9,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 11,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 14,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 11,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 11,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 10,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 7,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 12,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 14,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 9,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 5,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 9,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 8,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 8,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 8,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 12,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 8,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 7,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 13,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 11,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 3,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 6,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 8,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 10,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 7,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 7,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 3,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 4,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 9,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 8,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 5,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 8,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 1,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 1437,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 3685,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 232,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 5,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 4,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 5,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 2,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 2,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 7,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 4,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 4,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 2,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 6,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 3,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 2,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 5,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 4,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 4,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 1,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 2,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 1,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 1,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 2,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 1,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 2,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 1,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 1,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 2,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 1,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 2,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 3,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 2,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 656,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 1678,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 96,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 3,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 5,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 2,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 2,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 1,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 3,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 0,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 2,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 3,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 2,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 0,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 2,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 1,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 0,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 2,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 3,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 23,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 58,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 1,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 2,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 1,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 3,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 3,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 1,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 1,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Senate Opportunity Fund",
+          "side": "R",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 2,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 1570,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 3109,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 1551,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 6486,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 12971,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Non Metro",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 8647,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 1549,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 3157,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 1584,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 5401,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 10803,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 7202,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 14,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 56,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 70,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 70,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 70,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 70,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 70,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 70,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 53,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sullivan for AK Senate",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 7,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Stand With Crypto",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 84,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Stand With Crypto",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 344,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Stand With Crypto",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 420,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Stand With Crypto",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 213,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "NRSC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 32,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "NRSC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 102,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "NRSC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 70,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "NRSC",
+          "side": "R",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 40,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 193380,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 189880,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 183880,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 182880,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 181880,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 371220,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 324695,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 323945,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 323905,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 403310,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 405565,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 417525,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 368775,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 387565,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 74100,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 76950,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 75050,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 74125,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 74600,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 87000,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 85500,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 84750,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 84000,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 84425,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 83250,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 83250,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 84000,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 83250,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 48450,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 48925,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 48450,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 48150,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 48925,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 36940,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 42030,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 43405,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 42795,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 48775,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 48260,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 48000,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 50075,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 49515,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 4168,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 5002,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 5836,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 5002,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 5002,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 5002,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 5002,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 5002,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 5002,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 5002,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "WinSenate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 5002,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-05-27",
+          "flightEnd": "2025-06-02",
+          "amount": 13376,
+          "week": 75,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 63342,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 105144,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 94550,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 56855,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 25985,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 4,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 2,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 2,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 6,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 1,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 2,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 1,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 6237,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 33680,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 58342,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 44216,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 39152,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 35962,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 37043,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 49283,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 51057,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 29388,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 21394,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 22441,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 5423,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 5,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 6,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 9,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 0,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 5584,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 28262,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 44938,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 37498,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 52945,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 44629,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 8053,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 883,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 988,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 5850,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 29152,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 58513,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 237034,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 181252,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 170950,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-03-18",
+          "flightEnd": "2025-03-24",
+          "amount": 744,
+          "week": 85,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-03-25",
+          "flightEnd": "2025-03-31",
+          "amount": 3390,
+          "week": 84,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-04-01",
+          "flightEnd": "2025-04-07",
+          "amount": 5067,
+          "week": 83,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-04-08",
+          "flightEnd": "2025-04-14",
+          "amount": 3099,
+          "week": 82,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-05-27",
+          "flightEnd": "2025-06-02",
+          "amount": 1148,
+          "week": 75,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 4380,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 5264,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 43244,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 116197,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 56859,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 47307,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 43488,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 28648,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 23073,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 17152,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 1834,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 11819,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 53913,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 79180,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 52950,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 23218,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 18250,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 19378,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 18120,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 18121,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 22854,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 30490,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 19311,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 14321,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 3328,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 8746,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 29689,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 25341,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 21897,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 31423,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 48804,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 54611,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 43198,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 52635,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 69362,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 40358,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 57712,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 59641,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 78111,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 76704,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 68677,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-05-27",
+          "flightEnd": "2025-06-02",
+          "amount": 2721,
+          "week": 75,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 13615,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 22457,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 16964,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 10524,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 5064,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 1203,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 7067,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 12672,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 8518,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 7836,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 8147,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 8435,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 10095,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 11590,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 5783,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 3205,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 3912,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 810,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 1287,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 6165,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 9924,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 9302,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 10696,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 9145,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1666,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 179,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 170,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 1066,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 5547,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 10965,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 77599,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 73712,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 61200,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-05-27",
+          "flightEnd": "2025-06-02",
+          "amount": 1744,
+          "week": 75,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 8435,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 13741,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 11569,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 8035,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 3327,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 603,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 3194,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 5210,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 3621,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 3610,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 3005,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 3892,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 4715,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 4567,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 2823,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 2645,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 1989,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 766,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 0,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 1,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 670,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 3247,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 4965,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 4042,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 5171,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 4198,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 923,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 115,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 95,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 618,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 3046,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 6192,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 20651,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 39053,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 42515,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 5296,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 5296,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 5296,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-30",
+          "flightEnd": "2026-07-06",
+          "amount": 5296,
+          "week": 18,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 5296,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 3531,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 54914,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 166523,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 91684,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 51316,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 15849,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 13256,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 15296,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 20310,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 21170,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 16881,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 25835,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 58998,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 58378,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 21780,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 19672,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 29836,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 32836,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 31210,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 41181,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 86502,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 113499,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 121319,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 82499,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 1,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 2,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 1,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 3,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 6,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 1,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 2,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 2,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 4,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 0,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 15718,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 120828,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 124022,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 141464,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 213405,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 128426,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 2225,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 24880,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 25195,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 18800,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 18920,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 18720,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 19715,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 20210,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 20160,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 19210,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 19190,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 19690,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 19555,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 19905,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 19855,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 19175,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 18475,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 22395,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 1,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 2,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 0,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 2805,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 26391,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 26454,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 28469,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 34573,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 26094,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 10952,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 10717,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 10952,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 11067,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 11422,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 11582,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 11702,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 11522,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 12655,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 17085,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 15245,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 13440,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 11680,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 11310,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 11160,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 11390,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 13200,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 1,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 1,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 2,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 1,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 2,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 1854,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 18086,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 15668,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 17431,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 19317,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 13179,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-07",
+          "flightEnd": "2026-07-13",
+          "amount": 7810,
+          "week": 17,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-14",
+          "flightEnd": "2026-07-20",
+          "amount": 8696,
+          "week": 16,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-21",
+          "flightEnd": "2026-07-27",
+          "amount": 4330,
+          "week": 15,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-07-28",
+          "flightEnd": "2026-08-03",
+          "amount": 4006,
+          "week": 14,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-04",
+          "flightEnd": "2026-08-10",
+          "amount": 4072,
+          "week": 13,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-11",
+          "flightEnd": "2026-08-17",
+          "amount": 4198,
+          "week": 12,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-18",
+          "flightEnd": "2026-08-24",
+          "amount": 4038,
+          "week": 11,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-08-25",
+          "flightEnd": "2026-08-31",
+          "amount": 4068,
+          "week": 10,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-01",
+          "flightEnd": "2026-09-07",
+          "amount": 6280,
+          "week": 9,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-08",
+          "flightEnd": "2026-09-14",
+          "amount": 8105,
+          "week": 8,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-15",
+          "flightEnd": "2026-09-21",
+          "amount": 7580,
+          "week": 7,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-22",
+          "flightEnd": "2026-09-28",
+          "amount": 7320,
+          "week": 6,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-09-29",
+          "flightEnd": "2026-10-05",
+          "amount": 7500,
+          "week": 5,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-06",
+          "flightEnd": "2026-10-12",
+          "amount": 7250,
+          "week": 4,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-13",
+          "flightEnd": "2026-10-19",
+          "amount": 7150,
+          "week": 3,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-20",
+          "flightEnd": "2026-10-26",
+          "amount": 7360,
+          "week": 2,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-10-27",
+          "flightEnd": "2026-11-02",
+          "amount": 7490,
+          "week": 1,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 4628,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 35174,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 2875,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-06-29",
+          "amount": 412,
+          "week": 19,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Peltola for AK Senate",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 6000,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 1292,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 16429,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 44453,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 42291,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 46428,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 45248,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 56715,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 70728,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 65406,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 49039,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 19955,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 169,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 24,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 11,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 14,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 8,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 787,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 3113,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 2933,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 2365,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 10809,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 16658,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 15183,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 12292,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 3042,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 5,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 4,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 5,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 1870,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 160056,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 203762,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 72373,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 10527,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 209,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 2906,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 7620,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 6329,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 8914,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 12028,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 11950,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 13074,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 13409,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 11075,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 5613,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 33,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 7,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 5,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 8,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2080,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 7049,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 4622,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 667,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 2485,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 2990,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 3229,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 2453,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 550,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 2,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 282,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 26446,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 34026,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 11837,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 1634,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 143,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 700,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 1200,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 914,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 400,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 1871,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 4500,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 4000,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 1071,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 206,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 2092,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 6191,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 7996,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 8809,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 9460,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 8162,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 9537,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 12384,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 13114,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 13732,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 12414,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 6489,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 9032,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 14447,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 2929,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 3323,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 7271,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 7200,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 7114,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 5699,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 2467,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 1881,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 1689,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 1471,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 1517,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 423,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 77,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 59,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 21,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 232,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 2273,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 5672,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 4982,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 4936,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 5098,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 5318,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 6252,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 5303,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 4156,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 1630,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 2,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 2,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 2,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 0,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 1,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 597,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 2251,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 1894,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 298,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 1208,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 1701,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 1802,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 1433,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 361,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 166,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 6991,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 8426,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 5043,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-16",
+          "flightEnd": "2026-06-22",
+          "amount": 1015,
+          "week": 20,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 3223,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 4834,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "The 907 Initiative",
+          "side": "D",
+          "market": "Satellite",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 806,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 23356,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 131405,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 187174,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 89983,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 35,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 20,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 33,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 6,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 5,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 6,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 3,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 3,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 0,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 1,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 4,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-18",
+          "flightEnd": "2025-11-24",
+          "amount": 11,
+          "week": 50,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 2,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 2,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 4,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 1,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 4,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 4,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 1,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 2,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 2,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 1,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 2,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 3438,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 16859,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 24954,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 10728,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-20",
+          "flightEnd": "2026-01-26",
+          "amount": 1,
+          "week": 41,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 2,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 1,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 2,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 2351,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 11766,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 18008,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 8217,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 1,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 2,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Regional Sports Network",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 2667,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Regional Sports Network",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 3333,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Regional Sports Network",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 2000,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 1745,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Families Over Billionaires",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 4363,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 8125,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 37770,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 56539,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 42034,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 29867,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 18180,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 16330,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 15096,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 12153,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-11-11",
+          "flightEnd": "2025-11-17",
+          "amount": 4231,
+          "week": 51,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 3,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 6205,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 24339,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 24256,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 5342,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 326,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 1322,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 1269,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 2,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 3,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 8,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-06",
+          "flightEnd": "2026-01-12",
+          "amount": 2,
+          "week": 43,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-13",
+          "flightEnd": "2026-01-19",
+          "amount": 4,
+          "week": 42,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-01-27",
+          "flightEnd": "2026-02-02",
+          "amount": 1,
+          "week": 40,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-03",
+          "flightEnd": "2026-02-09",
+          "amount": 2,
+          "week": 39,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 1,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 3,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 3,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 1,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 2,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-28",
+          "flightEnd": "2026-05-04",
+          "amount": 1,
+          "week": 27,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-05",
+          "flightEnd": "2026-05-11",
+          "amount": 4,
+          "week": 26,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-12",
+          "flightEnd": "2026-05-18",
+          "amount": 5,
+          "week": 25,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 3,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-07",
+          "flightEnd": "2025-10-13",
+          "amount": 8,
+          "week": 56,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 1155,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 4304,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 3819,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 686,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 43,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 168,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 153,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 1,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 2,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-10-14",
+          "flightEnd": "2025-10-20",
+          "amount": 982,
+          "week": 55,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-10-21",
+          "flightEnd": "2025-10-27",
+          "amount": 3639,
+          "week": 54,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-10-28",
+          "flightEnd": "2025-11-03",
+          "amount": 3379,
+          "week": 53,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-04",
+          "flightEnd": "2025-11-10",
+          "amount": 1038,
+          "week": 52,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-11-25",
+          "flightEnd": "2025-12-01",
+          "amount": 4,
+          "week": 49,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-02",
+          "flightEnd": "2025-12-08",
+          "amount": 70,
+          "week": 48,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-09",
+          "flightEnd": "2025-12-15",
+          "amount": 146,
+          "week": 47,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-16",
+          "flightEnd": "2025-12-22",
+          "amount": 1,
+          "week": 46,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-23",
+          "flightEnd": "2025-12-29",
+          "amount": 2,
+          "week": 45,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Duty and Honor",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-12-30",
+          "flightEnd": "2026-01-05",
+          "amount": 2,
+          "week": 44,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Save My Care",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 1932,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Save My Care",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 12315,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Save My Care",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 18714,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-03",
+          "flightEnd": "2025-06-09",
+          "amount": 1329,
+          "week": 74,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-10",
+          "flightEnd": "2025-06-16",
+          "amount": 6379,
+          "week": 73,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 10593,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 7375,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 81,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 271,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Sixteen Thirty Fund",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 169,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 940,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 7043,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 5295,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 88,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 67,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 60,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 69,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 48,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 43,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 68,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 127,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 37,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 38,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 35,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 21,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 17,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 3,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 8,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-02-24",
+          "flightEnd": "2026-03-02",
+          "amount": 43,
+          "week": 36,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 96,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 1,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 2,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 1,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 3,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 3,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-04-21",
+          "flightEnd": "2026-04-27",
+          "amount": 2,
+          "week": 28,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-19",
+          "flightEnd": "2026-05-25",
+          "amount": 1,
+          "week": 24,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2026-05-26",
+          "flightEnd": "2026-06-01",
+          "amount": 2,
+          "week": 23,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 425,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 2950,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 2301,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 11,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 17,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 22,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 54,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 87,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 5,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 5,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 11,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 13,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 8,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 10,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 8,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 4,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-10",
+          "flightEnd": "2026-02-16",
+          "amount": 1,
+          "week": 38,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Fairbanks, AK",
+          "flightStart": "2026-02-17",
+          "flightEnd": "2026-02-23",
+          "amount": 2,
+          "week": 37,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 187,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 940,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 486,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 15,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 7,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 3,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 6,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-05",
+          "flightEnd": "2025-08-11",
+          "amount": 7,
+          "week": 65,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-12",
+          "flightEnd": "2025-08-18",
+          "amount": 5,
+          "week": 64,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-19",
+          "flightEnd": "2025-08-25",
+          "amount": 9,
+          "week": 63,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-08-26",
+          "flightEnd": "2025-09-01",
+          "amount": 2,
+          "week": 62,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-02",
+          "flightEnd": "2025-09-08",
+          "amount": 1,
+          "week": 61,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-09",
+          "flightEnd": "2025-09-15",
+          "amount": 4,
+          "week": 60,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-16",
+          "flightEnd": "2025-09-22",
+          "amount": 5,
+          "week": 59,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-23",
+          "flightEnd": "2025-09-29",
+          "amount": 4,
+          "week": 58,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2025-09-30",
+          "flightEnd": "2025-10-06",
+          "amount": 1,
+          "week": 57,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-02",
+          "flightEnd": "2026-06-08",
+          "amount": 1,
+          "week": 22,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Medicaid Coalition",
+          "side": "D",
+          "market": "Juneau, AK",
+          "flightStart": "2026-06-09",
+          "flightEnd": "2026-06-15",
+          "amount": 2,
+          "week": 21,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Inseparable Action",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 1071,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Inseparable Action",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 3213,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Inseparable Action",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 1071,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Inseparable Action",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 643,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Inseparable Action",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 1930,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Inseparable Action",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2025-07-01",
+          "flightEnd": "2025-07-07",
+          "amount": 643,
+          "week": 70,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-03",
+          "flightEnd": "2026-03-09",
+          "amount": 180,
+          "week": 35,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-10",
+          "flightEnd": "2026-03-16",
+          "amount": 536,
+          "week": 34,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-17",
+          "flightEnd": "2026-03-23",
+          "amount": 621,
+          "week": 33,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-24",
+          "flightEnd": "2026-03-30",
+          "amount": 1218,
+          "week": 32,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-03-31",
+          "flightEnd": "2026-04-06",
+          "amount": 631,
+          "week": 31,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-07",
+          "flightEnd": "2026-04-13",
+          "amount": 500,
+          "week": 30,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Forward Blue",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2026-04-14",
+          "flightEnd": "2026-04-20",
+          "amount": 350,
+          "week": 29,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Children's Trust",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 498,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Children's Trust",
+          "side": "D",
+          "market": "Anchorage, AK",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 996,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Children's Trust",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2025-06-17",
+          "flightEnd": "2025-06-23",
+          "amount": 252,
+          "week": 72,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Alaska Children's Trust",
+          "side": "D",
+          "market": "Non Metro",
+          "flightStart": "2025-06-24",
+          "flightEnd": "2025-06-30",
+          "amount": 504,
+          "week": 71,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "MomsRising Together",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-08",
+          "flightEnd": "2025-07-14",
+          "amount": 22,
+          "week": 69,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "MomsRising Together",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-15",
+          "flightEnd": "2025-07-21",
+          "amount": 129,
+          "week": 68,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "MomsRising Together",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-22",
+          "flightEnd": "2025-07-28",
+          "amount": 235,
+          "week": 67,
+          "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "MomsRising Together",
+          "side": "D",
+          "market": "Desktop/Mobile",
+          "flightStart": "2025-07-29",
+          "flightEnd": "2025-08-04",
+          "amount": 123,
+          "week": 66,
+          "source": "AdImpact (AdMo)"
         }
       ]
     },
