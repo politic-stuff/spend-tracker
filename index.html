@@ -352,11 +352,19 @@ function detail(rk){
       return `<div class="srow"><span>${g.lbl} · ${x.actor||""} <span class="conf ${cls(x.confidence)}">${lab(x.confidence)}</span>${x.flight?' · '+x.flight:''}</span><span class="amt">${fmt(x.amount)}</span></div>`
         +g.others.map(o=>`<div class="srow sec"><span>also ${o.actor||""} <span class="conf ${cls(o.confidence)}">${lab(o.confidence)}</span></span><span class="amt">${fmt(o.amount)}</span></div>`).join("");}).join("")
       :`<div class="empty">no spend recorded yet</div>`;
-    const yt=(c.ads||[]).filter(a=>a.platform==="YouTube");
-    const ytCards=yt.slice(0,8).map(a=>{const id=ytId(a.url);return{thumb:id?`https://i.ytimg.com/vi/${id}/hqdefault.jpg`:"",title:a.title||'YouTube ad',type:'Video',link:a.url,sub:'YouTube'};});
-    const ads=`<div class="ads"><div class="adsrc">YouTube ads ${yt.length?`(${yt.length})`:''}</div>`
-      +(yt.length?`<div class="crstrip open">${ytCards.map(crCard).join("")}</div>`:`<div class="coming">none detected yet</div>`)
-      +`<div class="adsrc">Meta · Google ads</div><div class="coming">digital tracking — coming</div></div>`;
+    const adGroup=(platform)=>{
+      const items=(c.ads||[]).filter(a=>a.platform===platform);
+      const cards=items.slice(0,8).map(a=>{let thumb=a.thumb||"";if(platform==="YouTube"){const id=ytId(a.url);thumb=id?`https://i.ytimg.com/vi/${id}/hqdefault.jpg`:"";}
+        return{thumb,title:a.title||(platform+" ad"),type:a.type||(platform==="YouTube"?"Video":"Digital"),link:a.url,sub:a.sub||a.spend||platform};});
+      return {n:items.length,html:cards.length?`<div class="crstrip open">${cards.map(crCard).join("")}</div>`:""};
+    };
+    const ytG=adGroup("YouTube"),metaG=adGroup("Meta"),googG=adGroup("Google");
+    const ads=`<div class="ads"><div class="adsrc">YouTube ads ${ytG.n?`(${ytG.n})`:''}</div>`
+      +(ytG.n?ytG.html:`<div class="coming">none detected yet</div>`)
+      +(metaG.n?`<div class="adsrc">Meta ads (${metaG.n})</div>${metaG.html}`:"")
+      +(googG.n?`<div class="adsrc">Google ads (${googG.n})</div>${googG.html}`:"")
+      +(!metaG.n&&!googG.n?`<div class="adsrc">Meta · Google ads</div><div class="coming">digital tracking — coming</div>`:"")
+      +`</div>`;
     return `<div class="cand">${avatar(c)}<div class="body">
       <div class="top"><span class="nm">${c.name}</span><span class="rel ${c.relationship==='tracked'?'tracked':''}">${relTxt}</span><span class="conf" style="background:none;color:var(--muted)">${c.party||""}</span><span class="tot">${fmt(rec.total)}</span></div>
       ${spend}${ads}</div></div>`;
