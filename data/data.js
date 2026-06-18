@@ -133299,6 +133299,13 @@ window.TRACKER_DATA = {
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-15"
+        },
+        {
+          "platform": "Meta",
+          "title": "13 active Meta/Instagram ads",
+          "sub": "top ad: $10K–$15K · 300K–350K impressions",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Abdul%20El-Sayed&search_type=keyword_unordered",
+          "type": "Meta"
         }
       ],
       "fecUpdated": "2026-06-17",
