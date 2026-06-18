@@ -133301,8 +133301,8 @@
         },
         {
           "platform": "Meta",
-          "title": "13 active Meta/Instagram ads",
-          "sub": "top ad: $10K–$15K · 300K–350K impressions",
+          "title": "~78 Meta/Instagram political ads",
+          "sub": "ads mentioning El-Sayed · top 300K-350K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Abdul%20El-Sayed&search_type=keyword_unordered",
           "type": "Meta"
         }
@@ -134094,6 +134094,13 @@
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-06"
+        },
+        {
+          "platform": "Meta",
+          "title": "~140 Meta/Instagram political ads",
+          "sub": "ads mentioning Peltola · top 175K-200K impressions",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Mary%20Peltola&search_type=keyword_unordered",
+          "type": "Meta"
         }
       ],
       "photo": "assets/photos/mary-peltola.jpg",
