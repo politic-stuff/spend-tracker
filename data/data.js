@@ -1,6 +1,6 @@
 // AUTO-GENERATED from data.json by scripts/wrap.js. Do not edit by hand.
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "cycle": "2026",
   "sources": {
     "federalSpend": "FEC OpenFEC API (api.open.fec.gov)",
@@ -133848,22 +133848,6 @@ window.TRACKER_DATA = {
       "spend": [],
       "ads": [],
       "photo": "assets/photos/angie-nixon.jpg"
-    },
-    {
-      "name": "Jennifer Jenkins",
-      "party": "D",
-      "relationship": "primary-opp",
-      "status": "running",
-      "raceKey": "FL-Sen-2026",
-      "office": "US Senate (special)",
-      "state": "Florida",
-      "level": "federal",
-      "result": null,
-      "links": {},
-      "fecId": null,
-      "spend": [],
-      "ads": [],
-      "photo": "assets/photos/jennifer-jenkins.jpg"
     },
     {
       "name": "Ashley Moody",
