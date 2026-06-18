@@ -22,6 +22,10 @@ window.TRACKER_DATA = {
   },
   "changelog": [
     {
+      "ts": "2026-06-18",
+      "note": "New ad creatives: Max Miller: 3 new (TANF Floor Remarks | Rep. Max Miller) · Rob Bresnahan Jr.: 1 new (Rep. Bresnahan and Rep. Meuser Honor the) · Ryan Mackenzie: 1 new (Mackenzie 2026) · David Valadao: 3 new (Congressman Valadao Delivers Floor Remar) · Eric Jones: 8 new (Eric Jones' Platforms Explained) · Mike Thompson: 1 new (Jill Techel)"
+    },
+    {
       "ts": "2026-06-17",
       "note": "Inbox TV-buy backfill: NY-12-2026, NY-10-2026"
     },
@@ -130891,7 +130895,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://poindexterforcongress.com/",
         "x": "https://x.com/bpforcongress",
-        "yt": null,
+        "yt": "https://www.youtube.com/@poindexterforcongress",
         "fb": "https://www.facebook.com/PoindexterForCongress",
         "ig": "https://www.instagram.com/PoindexterForCongress/",
         "tk": "https://www.tiktok.com/@poindexterforcongress"
@@ -130910,7 +130914,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/brian-poindexter.jpg"
+      "photo": "assets/photos/brian-poindexter.jpg",
+      "ytChannelId": "UCeb28trX-awRyf6Qs8UWYhQ"
     },
     {
       "name": "Max Miller",
@@ -130922,7 +130927,9 @@ window.TRACKER_DATA = {
       "state": "Ohio",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/channel/UC7XmOqXKLsDirQGS5VDM9OA"
+      },
       "fecId": "H4OH15083",
       "spend": [
         {
@@ -130935,9 +130942,32 @@ window.TRACKER_DATA = {
           "asOf": "2026-04-15"
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "TANF Floor Remarks | Rep. Max Miller",
+          "url": "https://www.youtube.com/watch?v=hWWk9Hi94to",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        },
+        {
+          "title": "Sec. Rubio | Rep. Max Miller",
+          "url": "https://www.youtube.com/watch?v=rRLzYHXeNFQ",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        },
+        {
+          "title": "Secretary Bessent | Rep. Max Miller",
+          "url": "https://www.youtube.com/watch?v=kFH6SjoRptE",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/max-miller.jpg"
+      "photo": "assets/photos/max-miller.jpg",
+      "ytChannelId": "UC7XmOqXKLsDirQGS5VDM9OA"
     },
     {
       "name": "Summer Lee",
@@ -130971,7 +131001,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/summer-lee.jpg"
+      "photo": "assets/photos/summer-lee.jpg",
+      "ytChannelId": "UCqQJ44qlkVxWV5N12YeacyA"
     },
     {
       "name": "James Hayes",
@@ -131053,7 +131084,9 @@ window.TRACKER_DATA = {
       "state": "Pennsylvania",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@RepBresnahan"
+      },
       "fecId": "H6PA09101",
       "spend": [
         {
@@ -131066,9 +131099,18 @@ window.TRACKER_DATA = {
           "asOf": null
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "Rep. Bresnahan and Rep. Meuser Honor the Life of Dr. Richard Alley on the House Floor",
+          "url": "https://www.youtube.com/watch?v=RafpKGsdm7A",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-11"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/rob-bresnahan-jr.jpg"
+      "photo": "assets/photos/rob-bresnahan-jr.jpg",
+      "ytChannelId": "UCZGEZI1PukX15WPjMcZxYtw"
     },
     {
       "name": "Bob Brooks",
@@ -131132,7 +131174,9 @@ window.TRACKER_DATA = {
       "state": "Pennsylvania",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@MackenzieForCongress"
+      },
       "fecId": "H8PA15195",
       "spend": [
         {
@@ -131154,9 +131198,18 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "Mackenzie 2026",
+          "url": "https://www.youtube.com/watch?v=SYdInG4Uuck",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/ryan-mackenzie.jpg"
+      "photo": "assets/photos/ryan-mackenzie.jpg",
+      "ytChannelId": "UCDeQ5nc3szCejSq2E6dyYSw"
     },
     {
       "name": "Randy Villegas",
@@ -131220,7 +131273,9 @@ window.TRACKER_DATA = {
       "state": "California",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@congressmandavidg.valadao6121"
+      },
       "fecId": "H2CA20094",
       "spend": [
         {
@@ -131242,9 +131297,32 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "Congressman Valadao Delivers Floor Remarks on the Glassy-Winged Sharpshooter Infestation",
+          "url": "https://www.youtube.com/watch?v=-s6BMTnMnoY",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        },
+        {
+          "title": "Congressman Valadao Questions USDA Secretary Rollins at House Agriculture Committee Hearing",
+          "url": "https://www.youtube.com/watch?v=6oM1bl7rhbk",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        },
+        {
+          "title": "Rep. Valadao Delivers Opening Remarks for Legislative Branch House Appropriations Markup",
+          "url": "https://www.youtube.com/watch?v=FcOt8wQCvTE",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-21"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/david-valadao.jpg"
+      "photo": "assets/photos/david-valadao.jpg",
+      "ytChannelId": "UCS06SweuYPD-E57jRytHLTw"
     },
     {
       "name": "Eric Jones",
@@ -131278,50 +131356,51 @@ window.TRACKER_DATA = {
       ],
       "ads": [
         {
-          "title": "Congressional Candidate Eric Jones Makes Speech at Election Night Party",
-          "url": "https://www.youtube.com/shorts/gFkActcAmos",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-05"
-        },
-        {
-          "title": "Congressional Candidate Eric Jones Knocks on Doors on Election Day",
-          "url": "https://www.youtube.com/shorts/OMc2nuFAhwU",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-03"
-        },
-        {
-          "title": "Congressional Candidate Eric Jones Casts Vote on Primary Election Day",
-          "url": "https://www.youtube.com/shorts/3X-mXMva3e4",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-02"
-        },
-        {
-          "title": "Redeem the Dream — Eric Jones for Congress",
-          "url": "https://www.youtube.com/watch?v=pf_ogYmAUD8",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-05-31"
-        },
-        {
-          "title": "Mike Thompson — The Third Most Bought-Out Democrat in Congress",
-          "url": "https://www.youtube.com/watch?v=HVeOgZvHvZo",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-05-29"
-        },
-        {
-          "title": "I'm Running for Congress to Give Back",
-          "url": "https://www.youtube.com/shorts/LdXiQT-a-ko",
+          "title": "Eric Jones' Platforms Explained",
+          "url": "https://www.youtube.com/watch?v=5nV3oh3b1ac",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-05-28"
+        },
+        {
+          "title": "I'm Eric Jones — Here's My Story",
+          "url": "https://www.youtube.com/shorts/OcK9xjrKvgE",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-28"
+        },
+        {
+          "title": "The American Dream is Dying",
+          "url": "https://www.youtube.com/watch?v=MDfPov-AggY",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-22"
+        },
+        {
+          "title": "America's Identity is the American Dream",
+          "url": "https://www.youtube.com/shorts/7zvmb-Q844g",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-22"
+        },
+        {
+          "title": "We've knocked on 238,000 doors!",
+          "url": "https://www.youtube.com/shorts/zXbVn18jTSA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-21"
+        },
+        {
+          "title": "3 weeks until we bring change.",
+          "url": "https://www.youtube.com/shorts/dfOlSFxHjn4",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-15"
         }
       ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/eric-jones.jpg"
+      "photo": "assets/photos/eric-jones.jpg",
+      "ytChannelId": "UCWsGjvUpP9m755WIIoVry8g"
     },
     {
       "name": "Mike Thompson",
@@ -131333,7 +131412,9 @@ window.TRACKER_DATA = {
       "state": "California",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@mikethompsonforcongress"
+      },
       "fecId": "H4CA37102",
       "spend": [
         {
@@ -131346,9 +131427,18 @@ window.TRACKER_DATA = {
           "asOf": null
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "Jill Techel",
+          "url": "https://www.youtube.com/shorts/NFIbEPlwgD4",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-20"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/mike-thompson.jpg"
+      "photo": "assets/photos/mike-thompson.jpg",
+      "ytChannelId": "UCu5u3-NCcIl7XjHb5Vypthg"
     },
     {
       "name": "Robert White",
@@ -131497,7 +131587,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://www.osbornforsenate.com/",
         "x": "https://x.com/osbornforne",
-        "yt": null,
+        "yt": "https://www.youtube.com/@OsbornforNE",
         "fb": "https://www.facebook.com/osbornforne",
         "ig": "https://www.instagram.com/osbornforne/",
         "tk": "https://www.tiktok.com/@osbornforne"
@@ -131532,9 +131622,53 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "The Return of the Railroad Robber Barons",
+          "url": "https://www.youtube.com/watch?v=CXGxYAmepiM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-15"
+        },
+        {
+          "title": "Pete Ricketts and Ted Cruz",
+          "url": "https://www.youtube.com/watch?v=nw2uQ3oDOkU",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-13"
+        },
+        {
+          "title": "Signatures submitted ✅",
+          "url": "https://www.youtube.com/shorts/yQUltOTfehU",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-12"
+        },
+        {
+          "title": "I’m NOT a Democrat. I’m NOT a Republican.",
+          "url": "https://www.youtube.com/shorts/WpnSEpDntto",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-10"
+        },
+        {
+          "title": "Government by, and for the people. Not the corporations and the 1%.",
+          "url": "https://www.youtube.com/shorts/iw01WAnH78A",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-08"
+        },
+        {
+          "title": "Private Equity",
+          "url": "https://www.youtube.com/shorts/4v-h79NyXdo",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-06"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/dan-osborn.jpg"
+      "photo": "assets/photos/dan-osborn.jpg",
+      "ytChannelId": "UCd5HDJNylAJsBXRQO0E9fbw"
     },
     {
       "name": "Pete Ricketts",
@@ -131546,7 +131680,9 @@ window.TRACKER_DATA = {
       "state": "Nebraska",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@rickettsforsenate"
+      },
       "fecId": "S6NE00129",
       "spend": [
         {
@@ -131579,7 +131715,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/pete-ricketts.jpg"
+      "photo": "assets/photos/pete-ricketts.jpg",
+      "ytChannelId": "UCuHNxbQaJ46CixNNoHs7Qow"
     },
     {
       "name": "Cindy Burbank",
@@ -131717,11 +131854,14 @@ window.TRACKER_DATA = {
       "state": "California",
       "level": "state",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@SenatorBenAllen"
+      },
       "fecId": null,
       "spend": [],
       "ads": [],
-      "photo": "assets/photos/ben-allen.jpg"
+      "photo": "assets/photos/ben-allen.jpg",
+      "ytChannelId": "UCy3WvbRzV2c1r53LuZwZMwA"
     },
     {
       "name": "Graham Platner",
@@ -131773,50 +131913,51 @@ window.TRACKER_DATA = {
       ],
       "ads": [
         {
-          "title": "Donald Trump Said This About Me",
-          "url": "https://www.youtube.com/shorts/Yh0XUCsgmOQ",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-12"
-        },
-        {
-          "title": "Thank you, Maine",
-          "url": "https://www.youtube.com/watch?v=JAlJAkDYLKA",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-11"
-        },
-        {
-          "title": "We Just Won Our Primary",
-          "url": "https://www.youtube.com/shorts/YQRH_gHgWBU",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-10"
-        },
-        {
-          "title": "Graham Platner Accepts Democratic Nomination for Senate",
-          "url": "https://www.youtube.com/watch?v=IQmBHWAzgbQ",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-10"
-        },
-        {
-          "title": "Graham Platner Accepts Democratic Nomination for Senate",
-          "url": "https://www.youtube.com/watch?v=vop_OwO_CjI",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-10"
-        },
-        {
-          "title": "How We Got Here",
-          "url": "https://www.youtube.com/watch?v=LlqcLoe3bjM",
+          "title": "Last Minute Door Knocking",
+          "url": "https://www.youtube.com/shorts/5K0Zg8RE8vM",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-09"
+        },
+        {
+          "title": "They Don’t Know Us",
+          "url": "https://www.youtube.com/shorts/_-aBWv0GjLs",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-08"
+        },
+        {
+          "title": "Graham Platner on MS NOW",
+          "url": "https://www.youtube.com/watch?v=MxuQh9_YOWM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        },
+        {
+          "title": "We do not need ICE.",
+          "url": "https://www.youtube.com/shorts/wsGVQsF1s3Y",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-04"
+        },
+        {
+          "title": "No billionaire should dodge their taxes.",
+          "url": "https://www.youtube.com/shorts/OYtETs3RFJ8",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-03"
+        },
+        {
+          "title": "Super PACs Should Be Outlawed",
+          "url": "https://www.youtube.com/shorts/S8bM5huM4L0",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-01"
         }
       ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/graham-platner.jpg"
+      "photo": "assets/photos/graham-platner.jpg",
+      "ytChannelId": "UCa_t4_O0On6PXNdXPciiyVw"
     },
     {
       "name": "Susan Collins",
@@ -131828,7 +131969,9 @@ window.TRACKER_DATA = {
       "state": "Maine",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/channel/UCfckAbdnDdhSPwX-0lfK9uw"
+      },
       "fecId": "S6ME00159",
       "spend": [
         {
@@ -131861,7 +132004,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/susan-collins.jpg"
+      "photo": "assets/photos/susan-collins.jpg",
+      "ytChannelId": "UCfckAbdnDdhSPwX-0lfK9uw"
     },
     {
       "name": "Darializa Avila Chevalier",
@@ -132024,15 +132168,59 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://www.drewwarshaw.com/",
         "x": "https://x.com/drewforny",
-        "yt": null,
+        "yt": "https://www.youtube.com/channel/UCN6FQPvthOHx90khCNeEEIQ",
         "fb": "https://www.facebook.com/drewforny/",
         "ig": "https://www.instagram.com/drewforny/",
         "tk": "https://www.tiktok.com/@drewforny"
       },
       "fecId": null,
       "spend": [],
-      "ads": [],
-      "photo": "assets/photos/drew-warshaw.avif"
+      "ads": [
+        {
+          "title": "Drew Warshaw, Candidate for NY State Comptroller, on Bloomberg Radio",
+          "url": "https://www.youtube.com/watch?v=Sn9TWH0lNXA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "It’s your money. So, why is it leaving New York? #shorts #newyork",
+          "url": "https://www.youtube.com/shorts/SKTYxfyApxY",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "Our taxes fund ICE collusion. The person in charge of watching our taxes refuses to do something.",
+          "url": "https://www.youtube.com/shorts/0AhervckzHg",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-15"
+        },
+        {
+          "title": "We have the power. And we have the money. It’s time we go get it - and use it for NYers. #shorts",
+          "url": "https://www.youtube.com/shorts/lQ9ZqLz7GqM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-14"
+        },
+        {
+          "title": "Make sure you cast your ballot by Primary Day June 23. #shorts #newyork",
+          "url": "https://www.youtube.com/shorts/m4r2snMJk4M",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-10"
+        },
+        {
+          "title": "Early voting begins June 13. Make sure you vote by Primary Day June 23. #shorts #newyork",
+          "url": "https://www.youtube.com/shorts/CK4uJ5mnW4Y",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-09"
+        }
+      ],
+      "photo": "assets/photos/drew-warshaw.avif",
+      "ytChannelId": "UCN6FQPvthOHx90khCNeEEIQ"
     },
     {
       "name": "Thomas DiNapoli",
@@ -132094,7 +132282,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://www.bradlanderforcongress.com/",
         "x": "https://x.com/bradlander",
-        "yt": null,
+        "yt": "https://www.youtube.com/@landerfornyc",
         "fb": "https://www.facebook.com/BradLander/",
         "ig": "https://www.instagram.com/brad.lander/",
         "tk": "https://www.tiktok.com/@bradlandernyc"
@@ -132129,9 +132317,53 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "Brad the Builder",
+          "url": "https://www.youtube.com/shorts/FIrXgRt9FHA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-17"
+        },
+        {
+          "title": "&quot;Mega Master Calendar&quot; Hearings",
+          "url": "https://www.youtube.com/shorts/6fJehOqJSwI",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-17"
+        },
+        {
+          "title": "Supporting Palestinian human rights doesn’t make us any less Jewish",
+          "url": "https://www.youtube.com/shorts/ZbXnOwQ1lt4",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-17"
+        },
+        {
+          "title": "Alphabet Lesson from Mayor Z",
+          "url": "https://www.youtube.com/watch?v=AxOTtI5bY1c",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "People First",
+          "url": "https://www.youtube.com/watch?v=sRw9cSpVbKM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "Gave Us Hope",
+          "url": "https://www.youtube.com/watch?v=gA1umxvwCc4",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/brad-lander.jpg"
+      "photo": "assets/photos/brad-lander.jpg",
+      "ytChannelId": "UC4SVkaG6iFMaKrrdr8-l0Qw"
     },
     {
       "name": "Daniel Goldman",
@@ -132199,7 +132431,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://clairevaldezforcongress.com/",
         "x": "https://x.com/claireforny",
-        "yt": null,
+        "yt": "https://www.youtube.com/@claireforny",
         "fb": "https://www.facebook.com/claireforqueens/",
         "ig": "https://www.instagram.com/claireforny/",
         "tk": "https://www.tiktok.com/@claireforny"
@@ -132216,9 +132448,53 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-03"
         }
       ],
-      "ads": [],
+      "ads": [
+        {
+          "title": "Bernie says it’s time to vote",
+          "url": "https://www.youtube.com/shorts/BqXTRYXpiro",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-17"
+        },
+        {
+          "title": "It’s all on the ballot. Go vote.",
+          "url": "https://www.youtube.com/shorts/2IaDr5q-S2c",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "If Hasan Piker can phonebank, you can too",
+          "url": "https://www.youtube.com/shorts/x3Df5HnirX0",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-15"
+        },
+        {
+          "title": "Claire was there. And the time is now.",
+          "url": "https://www.youtube.com/shorts/7FiiPLIaVKg",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-13"
+        },
+        {
+          "title": "Art by and for the many",
+          "url": "https://www.youtube.com/watch?v=rHnMoQVl41g",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-11"
+        },
+        {
+          "title": "A good night in Ridgewood. Let’s go Knicks.",
+          "url": "https://www.youtube.com/shorts/YgRo63R-yGQ",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-11"
+        }
+      ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/claire-valdez.jpg"
+      "photo": "assets/photos/claire-valdez.jpg",
+      "ytChannelId": "UCjKWI4lW_PJceOxohbtPJsQ"
     },
     {
       "name": "Antonio Reynoso",
@@ -132341,50 +132617,51 @@ window.TRACKER_DATA = {
       ],
       "ads": [
         {
-          "title": "Welcome to the Upper West Side",
-          "url": "https://www.youtube.com/watch?v=dmyzKnHzLGM",
+          "title": "A 21st Century New Deal",
+          "url": "https://www.youtube.com/watch?v=b7C9crX3MyE",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-16"
+          "firstSeen": "2026-06-02"
         },
         {
-          "title": "Dear Phoebe, Ben, and Nate",
-          "url": "https://www.youtube.com/watch?v=Aku1q7M0ogM",
+          "title": "The Best",
+          "url": "https://www.youtube.com/watch?v=mqufie53IOI",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-16"
+          "firstSeen": "2026-06-02"
         },
         {
-          "title": "Park Politics Episode 6: The New York Project",
-          "url": "https://www.youtube.com/watch?v=TY_Yoo6b-ao",
+          "title": "Democrats need to protect our country — not just from Trump, but from Trumpism in the future.",
+          "url": "https://www.youtube.com/watch?v=97r-PZtiHKE",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-12"
+          "firstSeen": "2026-06-01"
         },
         {
-          "title": "Debate #2 is tonight. Tune in.",
-          "url": "https://www.youtube.com/shorts/26ZlQUnNOS8",
+          "title": "Get Me Micah Lasher",
+          "url": "https://www.youtube.com/watch?v=x7tFXkqjaJw",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-09"
+          "firstSeen": "2026-06-01"
         },
         {
-          "title": "Mandy Patinkin and Kathryn Grody endorse Micah Lasher for Congress",
-          "url": "https://www.youtube.com/watch?v=CEsHi4h4UQo",
+          "title": "May 29, 2026",
+          "url": "https://www.youtube.com/shorts/XB8d3zstypM",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-09"
+          "firstSeen": "2026-05-29"
         },
         {
-          "title": "June 3, 2026",
-          "url": "https://www.youtube.com/shorts/LXf7q7JZnkg",
+          "title": "We just passed my legislation to protect tenants.",
+          "url": "https://www.youtube.com/shorts/AEnVWJ1K1NI",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-03"
+          "firstSeen": "2026-05-28"
         }
       ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/micah-lasher.jpg"
+      "photo": "assets/photos/micah-lasher.jpg",
+      "ytChannelId": "UCnqbg2q9AmBNZUxZl-YNlAw"
     },
     {
       "name": "Alex Bores",
@@ -132704,49 +132981,50 @@ window.TRACKER_DATA = {
       "spend": [],
       "ads": [
         {
-          "title": "Seligman for AG - Compassion in Law",
-          "url": "https://www.youtube.com/shorts/kKASO50F8aI",
+          "title": "Seligman for AG - Activist AG",
+          "url": "https://www.youtube.com/shorts/cLVcsFjrjXQ",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-16"
+          "firstSeen": "2026-06-17"
         },
         {
-          "title": "Selligman for AG - An Unjust Medical System",
-          "url": "https://www.youtube.com/shorts/qqDNWSHsMoE",
+          "title": "Seligman for AG - Is Jena Griswold Qualified to be AG?",
+          "url": "https://www.youtube.com/shorts/lFwj92T_ieE",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-14"
+          "firstSeen": "2026-06-17"
         },
         {
-          "title": "Seligman for AG - Treating people with dignity",
-          "url": "https://www.youtube.com/shorts/XvyuvgVbOVI",
+          "title": "Seligman for AG - What does Pride mean for you?",
+          "url": "https://www.youtube.com/shorts/RF8l1ZxohG8",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-13"
+          "firstSeen": "2026-06-17"
         },
         {
-          "title": "Seligman for AG - Polis vetos bill for firefighters",
-          "url": "https://www.youtube.com/shorts/pqdP4tvf8Dk",
+          "title": "Seligman for AG - Celebrating Pride Month",
+          "url": "https://www.youtube.com/shorts/0gWrr1xbL4M",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-11"
+          "firstSeen": "2026-06-08"
         },
         {
-          "title": "Seligman for AG - Consumer Surveillance Pricing",
-          "url": "https://www.youtube.com/shorts/YMGuTpQVb8g",
+          "title": "Seligman for AG- Ballot Drop Day!",
+          "url": "https://www.youtube.com/shorts/62yodrSsbyY",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-10"
+          "firstSeen": "2026-06-08"
         },
         {
-          "title": "Seligman for AG - What politican do you admire?",
-          "url": "https://www.youtube.com/shorts/RIaj9tx8avo",
+          "title": "Seligman for AG - How the AG's office can protect Black and Bown communities",
+          "url": "https://www.youtube.com/shorts/ThMj8fL33sQ",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-09"
+          "firstSeen": "2026-06-07"
         }
       ],
-      "photo": "assets/photos/david-seligman.png"
+      "photo": "assets/photos/david-seligman.png",
+      "ytChannelId": "UC0XztOj8xw1UP-ZxjaDHouw"
     },
     {
       "name": "Jena Griswold",
@@ -132911,7 +133189,9 @@ window.TRACKER_DATA = {
       "state": "Colorado",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/channel/UC_qMWp1bSt0G8iAVDgXJINw"
+      },
       "fecId": "H0CO03165",
       "spend": [
         {
@@ -132935,7 +133215,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/lauren-boebert.jpg"
+      "photo": "assets/photos/lauren-boebert.jpg",
+      "ytChannelId": "UC_qMWp1bSt0G8iAVDgXJINw"
     },
     {
       "name": "Abdul El-Sayed",
@@ -132978,50 +133259,51 @@ window.TRACKER_DATA = {
       ],
       "ads": [
         {
-          "title": "Our new ad, “Stopwatch.”",
-          "url": "https://www.youtube.com/shorts/QK6g_JwiaUs",
+          "title": "What Medicare for All would feel like in your day-to-day life.",
+          "url": "https://www.youtube.com/shorts/kANB_JFWhPQ",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-17"
         },
         {
-          "title": "Stopwatch | Abdul for Senate",
-          "url": "https://www.youtube.com/watch?v=JJxT57Sq5s4",
+          "title": "Abolish ICE.",
+          "url": "https://www.youtube.com/shorts/5zjQL7AeIhM",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-17"
         },
         {
-          "title": "Splash!",
-          "url": "https://www.youtube.com/shorts/Vcb7kHXQAjI",
+          "title": "The question I was asked at my college graduation | Abdul for Senate",
+          "url": "https://www.youtube.com/watch?v=n7_bfku8RUk",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-16"
         },
         {
-          "title": "Sign up for a volunteer shift at go.abdulforsenate.com!",
-          "url": "https://www.youtube.com/shorts/GJTuOU_rgxc",
+          "title": "We can solve big problems but not if we're sending our money to help a foreign gov’t commit genocide",
+          "url": "https://www.youtube.com/shorts/VxaEpTCe_Ms",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-16"
         },
         {
-          "title": "Chorus | Abdul for Senate",
-          "url": "https://www.youtube.com/shorts/4FAiHd9v1Z8",
+          "title": "Imagine you’re diagnosed with cancer. And then you find out the cancer center is 3 hours away.",
+          "url": "https://www.youtube.com/watch?v=zUzADjjZtwo",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-16"
+          "firstSeen": "2026-06-15"
         },
         {
-          "title": "Chorus | Abdul for Senate",
-          "url": "https://www.youtube.com/watch?v=fE5GretXBmE",
+          "title": "Imagine you’re diagnosed with cancer. And then you find out the cancer center is 3 hours away.",
+          "url": "https://www.youtube.com/shorts/rb_0hHAriyo",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-16"
+          "firstSeen": "2026-06-15"
         }
       ],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/abdul-el-sayed.jpg"
+      "photo": "assets/photos/abdul-el-sayed.jpg",
+      "ytChannelId": "UC0Arr9_NIOkWt-hyuhQpx1Q"
     },
     {
       "name": "Mallory McMorrow",
@@ -133158,7 +133440,9 @@ window.TRACKER_DATA = {
       "state": "Michigan",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@MikeRogersForMI"
+      },
       "fecId": "S4MI00595",
       "spend": [
         {
@@ -133191,7 +133475,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/mike-rogers.jpg"
+      "photo": "assets/photos/mike-rogers.jpg",
+      "ytChannelId": "UCQbGRbv8qSQWyxS2w97bqSQ"
     },
     {
       "name": "Donavan McKinney",
@@ -133234,7 +133519,8 @@ window.TRACKER_DATA = {
       ],
       "ads": [],
       "fecUpdated": "2026-06-17",
-      "photo": "assets/photos/donavan-mckinney.jpg"
+      "photo": "assets/photos/donavan-mckinney.jpg",
+      "ytChannelId": "UChIs0S3I0QcCaYcVPe9zyig"
     },
     {
       "name": "Shri Thanedar",
@@ -133364,7 +133650,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://www.votejustinj.com/",
         "x": "https://twitter.com/justinjpearson",
-        "yt": null,
+        "yt": "https://www.youtube.com/channel/UCkMrGD2zuSJ7B5A9oTpQWUA",
         "fb": "https://www.facebook.com/VoteJustinJ",
         "ig": "https://www.instagram.com/justinjpearson/",
         "tk": "https://www.tiktok.com/@realjustinjpearson"
@@ -133390,8 +133676,52 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
-      "photo": "assets/photos/justin-pearson.jpg"
+      "ads": [
+        {
+          "title": "Rep. Pearson speaks to Pulaski TN on Day #3 of his 5-day, 15-county Listening Tour.",
+          "url": "https://www.youtube.com/watch?v=Dkd9F2nzAcw",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-12"
+        },
+        {
+          "title": "East Memphis Democrats Speech May 26, 2026",
+          "url": "https://www.youtube.com/shorts/sWhiItwYtUA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-27"
+        },
+        {
+          "title": "2026 Williamson County Democratic Party Meet the Candidates",
+          "url": "https://www.youtube.com/watch?v=A2I3Ue6GGqU",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-18"
+        },
+        {
+          "title": "Our Fight for Voting Rights (with Vice President Kamala D. Harris)",
+          "url": "https://www.youtube.com/shorts/mKVdLRAOSYA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-15"
+        },
+        {
+          "title": "&quot;We are still here!&quot; District 9 Campaign Re-launch Video May 12, 2026",
+          "url": "https://www.youtube.com/watch?v=O8P-XRIRDFw",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-12"
+        },
+        {
+          "title": "'These are racist maps,&quot; Rep. Justin J. Pearson declares to the Tennessee General Assembly",
+          "url": "https://www.youtube.com/watch?v=CdERH8MC5-c",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-08"
+        }
+      ],
+      "photo": "assets/photos/justin-pearson.jpg",
+      "ytChannelId": "UCkMrGD2zuSJ7B5A9oTpQWUA"
     },
     {
       "name": "London Lamar",
@@ -133492,6 +133822,34 @@ window.TRACKER_DATA = {
       "spend": [],
       "ads": [
         {
+          "title": "Mandela Barnes speaks at the Forward for Our Future Forum",
+          "url": "https://www.youtube.com/watch?v=1AWB3REgQjE",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-11"
+        },
+        {
+          "title": "Mandela Barnes visits We Grow Farms in Taylor County",
+          "url": "https://www.youtube.com/watch?v=B2TH-twlHKE",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-11"
+        },
+        {
+          "title": "Mandela Barnes' Freeze the Rates Tour",
+          "url": "https://www.youtube.com/shorts/DFshWJ5xnao",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-05"
+        },
+        {
+          "title": "Mandela Barnes Fires up the Crowd on No Kings Day",
+          "url": "https://www.youtube.com/shorts/gwekpvEnkBU",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-05"
+        },
+        {
           "title": "Mandela Barnes on MSNOW's The Weekend",
           "url": "https://www.youtube.com/watch?v=fQqFNvyuhJk",
           "platform": "YouTube",
@@ -133504,37 +133862,10 @@ window.TRACKER_DATA = {
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-10"
-        },
-        {
-          "title": "Mandela Barnes on CNN The Source",
-          "url": "https://www.youtube.com/watch?v=TjcQG0VTDnY",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-06"
-        },
-        {
-          "title": "Mandela Barnes Turns in Signatures to Get on the Ballot for Governor of WIsconsin",
-          "url": "https://www.youtube.com/shorts/qIgfgo6-kUs",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-05-28"
-        },
-        {
-          "title": "Mandela Barnes Announces Plan To Ban AI Price Gouging",
-          "url": "https://www.youtube.com/watch?v=v0FlDx9Wfm8",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-05-20"
-        },
-        {
-          "title": "Mandela Barnes talks bipartisanship with Brian Tyler Cohen.",
-          "url": "https://www.youtube.com/watch?v=k7hEKJMIgEU",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-05-13"
         }
       ],
-      "photo": "assets/photos/mandela-barnes.jpg"
+      "photo": "assets/photos/mandela-barnes.jpg",
+      "ytChannelId": "UC0Tu6MYHYWZ61RUNzxiy6GQ"
     },
     {
       "name": "David Crowley",
@@ -133624,11 +133955,57 @@ window.TRACKER_DATA = {
       "state": "Wisconsin",
       "level": "state",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/channel/UCaOte_ojPfwzT0GA9seUjaA"
+      },
       "fecId": null,
       "spend": [],
-      "ads": [],
-      "photo": "assets/photos/tom-tiffany.jpg"
+      "ads": [
+        {
+          "title": "Did you know the first Flag Day celebration began right here in Wisconsin?",
+          "url": "https://www.youtube.com/shorts/V77lj4Dr8r8",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-15"
+        },
+        {
+          "title": "Tom Tiffany: End the 400-Year Property Tax Increase, Lower Utility Rates",
+          "url": "https://www.youtube.com/shorts/7p_2iYqG5NM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-12"
+        },
+        {
+          "title": "Tom Tiffany: Milk Cows, Not Taxpayers",
+          "url": "https://www.youtube.com/shorts/BB3Zo4eMxTw",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-11"
+        },
+        {
+          "title": "Stop the “Udderly Ridiculous” Cost of Living. Vote Tom Tiffany for Governor.",
+          "url": "https://www.youtube.com/watch?v=FCrBZX909UM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-10"
+        },
+        {
+          "title": "Tom Tiffany: Getting State Government Out of Your Way",
+          "url": "https://www.youtube.com/shorts/4_-Cq_wVTv8",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-09"
+        },
+        {
+          "title": "Tom Tiffany: Voters Will Choose Common Sense Over Crazy This November",
+          "url": "https://www.youtube.com/watch?v=V2idX0YWWyo",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-05"
+        }
+      ],
+      "photo": "assets/photos/tom-tiffany.jpg",
+      "ytChannelId": "UCaOte_ojPfwzT0GA9seUjaA"
     },
     {
       "name": "Mary Peltola",
@@ -133643,7 +134020,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://marypeltola.com/",
         "x": "https://x.com/MaryPeltola",
-        "yt": null,
+        "yt": "https://www.youtube.com/@mary_peltola",
         "fb": "https://www.facebook.com/marypeltola",
         "ig": "https://www.instagram.com/marypeltola/",
         "tk": "https://www.tiktok.com/@mary_peltola"
@@ -133669,8 +134046,52 @@ window.TRACKER_DATA = {
           "asOf": "2026-06-17"
         }
       ],
-      "ads": [],
-      "photo": "assets/photos/mary-peltola.jpg"
+      "ads": [
+        {
+          "title": "I’m making my way across Alaska to reach every village, every voter #alaska #bushplane #seaplanes",
+          "url": "https://www.youtube.com/shorts/neytbIVVsyA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "In a state as vast and remote as Alaska, every community depends on public media and broadcasting.",
+          "url": "https://www.youtube.com/shorts/ewkNZi3eHyM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-11"
+        },
+        {
+          "title": "Hearing directly from Alaskans never gets old. Honored to have their support!  #alaska #juneau",
+          "url": "https://www.youtube.com/shorts/XvaKfsGf0XA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-09"
+        },
+        {
+          "title": "Sitka making noise for Mary 🔥 #alaska #sitka #alaskalife #senate #politicsnews",
+          "url": "https://www.youtube.com/shorts/Wg8FQ6MrooA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-09"
+        },
+        {
+          "title": "🎬 WATCH: Mary Peltola drops new ad",
+          "url": "https://www.youtube.com/shorts/9sChVOwDtNA",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-08"
+        },
+        {
+          "title": "It’s time Alaska had two fighters in the U.S. Senate to stand up to this BS #alaska #fema #senate",
+          "url": "https://www.youtube.com/shorts/eK8IK-pUBoI",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-06"
+        }
+      ],
+      "photo": "assets/photos/mary-peltola.jpg",
+      "ytChannelId": "UCXHT0c_Cqdvp6UAfXDxuGow"
     },
     {
       "name": "Carol Hafner",
@@ -133712,11 +134133,14 @@ window.TRACKER_DATA = {
       "state": "Alaska",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@DanSullivanforAlaska"
+      },
       "fecId": null,
       "spend": [],
       "ads": [],
-      "photo": "assets/photos/dan-s-sullivan.jpg"
+      "photo": "assets/photos/dan-s-sullivan.jpg",
+      "ytChannelId": "UCJnr8Cmbawlndb9xoTYXJuw"
     },
     {
       "name": "Scott Kohlhaas",
@@ -133766,10 +134190,56 @@ window.TRACKER_DATA = {
       "state": "Alaska",
       "level": "state",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@Bernadette4gov"
+      },
       "fecId": null,
       "spend": [],
-      "ads": []
+      "ads": [
+        {
+          "title": "The Comeback Tour Continued",
+          "url": "https://www.youtube.com/shorts/iayx_1OMfGw",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-17"
+        },
+        {
+          "title": "It’s time to END the discrimination and income inequality in education!",
+          "url": "https://www.youtube.com/watch?v=nXWrfLzrmAo",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-16"
+        },
+        {
+          "title": "Spending problem!!",
+          "url": "https://www.youtube.com/watch?v=wVLrK0il-ek",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-15"
+        },
+        {
+          "title": "Happy flag day!",
+          "url": "https://www.youtube.com/shorts/jMaNJGKUfLQ",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-14"
+        },
+        {
+          "title": "Happy flag day",
+          "url": "https://www.youtube.com/shorts/N28ztnfuGNs",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-14"
+        },
+        {
+          "title": "Elections should be FAIR, TRANSPARENT &amp; have TIMELY results! August 18, 2026, WE VOTE!",
+          "url": "https://www.youtube.com/shorts/3KAiJWssU_o",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-12"
+        }
+      ],
+      "ytChannelId": "UCT98NvC81xaafSgUZyOh8Yg"
     },
     {
       "name": "Adam Crum",
@@ -133811,11 +134281,14 @@ window.TRACKER_DATA = {
       "state": "Alaska",
       "level": "state",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@ClickBishopForGovernor"
+      },
       "fecId": null,
       "spend": [],
       "ads": [],
-      "photo": "assets/photos/click-bishop.jpg"
+      "photo": "assets/photos/click-bishop.jpg",
+      "ytChannelId": "UCT0IL74Cd7PS7BYHSlDplUQ"
     },
     {
       "name": "Alexander Vindman",
@@ -133859,7 +134332,9 @@ window.TRACKER_DATA = {
       "state": "Florida",
       "level": "federal",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@SenAshleyMoody"
+      },
       "fecId": null,
       "spend": [],
       "ads": [],
@@ -133878,15 +134353,59 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://ginafortexas.com/",
         "x": "https://x.com/GinaHinojosaTX",
-        "yt": null,
+        "yt": "https://www.youtube.com/@GinaHinojosaTX",
         "fb": "https://www.facebook.com/GinaForTexas/",
         "ig": "https://www.instagram.com/ginafortexas/",
         "tk": "https://www.tiktok.com/@ginafortexas"
       },
       "fecId": null,
       "spend": [],
-      "ads": [],
-      "photo": "assets/photos/gina-hinojosa.jpg"
+      "ads": [
+        {
+          "title": "Greg Abbott’s policies have failed our public schools",
+          "url": "https://www.youtube.com/shorts/qg5b1LyccrI",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-15"
+        },
+        {
+          "title": "Greg Abbott is flip-flopping on data centers because it's an election year",
+          "url": "https://www.youtube.com/shorts/ugPePFYPtow",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-14"
+        },
+        {
+          "title": "Gina Hinojosa: Don't let them tell you it can't happen in Texas, because it already is",
+          "url": "https://www.youtube.com/shorts/ZgB_nLWK4Ew",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-13"
+        },
+        {
+          "title": "Property taxes have gone up 75% under Greg Abbott but schools are in crisis.",
+          "url": "https://www.youtube.com/shorts/Zw_Hj9dbGbU",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-13"
+        },
+        {
+          "title": "June 9, 2026",
+          "url": "https://www.youtube.com/shorts/2ZnlWGrkwcM",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-09"
+        },
+        {
+          "title": "Gina Hinojosa: Go Texas Go",
+          "url": "https://www.youtube.com/watch?v=jfRMSy4no8s",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-06-03"
+        }
+      ],
+      "photo": "assets/photos/gina-hinojosa.jpg",
+      "ytChannelId": "UCyWwWNZzrnVMkNhJJLwE7tg"
     },
     {
       "name": "Greg Abbott",
@@ -133898,7 +134417,9 @@ window.TRACKER_DATA = {
       "state": "Texas",
       "level": "state",
       "result": null,
-      "links": {},
+      "links": {
+        "yt": "https://www.youtube.com/@TexansForGregAbbott"
+      },
       "fecId": null,
       "spend": [],
       "ads": [],
@@ -133960,49 +134481,50 @@ window.TRACKER_DATA = {
       ],
       "ads": [
         {
-          "title": "Congressman Greg Casar: Breaking News About KUT",
-          "url": "https://www.youtube.com/shorts/3R1IudyTIqk",
+          "title": "Congressman Greg Casar: Helping Revitalize Palm Park",
+          "url": "https://www.youtube.com/shorts/849qkgj1Wqs",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-16"
+          "firstSeen": "2026-06-17"
         },
         {
-          "title": "Why should any of us care that Donald Trump is hosting a UFC fight on the White House lawn?",
-          "url": "https://www.youtube.com/shorts/RvkcjH3dk3w",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-14"
-        },
-        {
-          "title": "June 13, 2026",
-          "url": "https://www.youtube.com/shorts/JpOvH0webHg",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-13"
-        },
-        {
-          "title": "Congressman Casar: News About AI and Your Job You Need to Know",
-          "url": "https://www.youtube.com/shorts/afMmPZHUU9w",
-          "platform": "YouTube",
-          "source": "YouTube RSS",
-          "firstSeen": "2026-06-04"
-        },
-        {
-          "title": "BREAKING: The House just passed a War Powers Resolution to end Trump's illegal war.",
-          "url": "https://www.youtube.com/shorts/ld9au5N_OC4",
+          "title": "Congress could give Trump's henchman power to spy on you without a warrant. We have to stop it.",
+          "url": "https://www.youtube.com/shorts/MDoKjSV0qBQ",
           "platform": "YouTube",
           "source": "YouTube RSS",
           "firstSeen": "2026-06-03"
         },
         {
-          "title": "Congressman Greg Casar to Congresswoman AOC: Go Spurs Go!",
-          "url": "https://www.youtube.com/shorts/_OTt85LXKQc",
+          "title": "Ban Surveillance Pricing.",
+          "url": "https://www.youtube.com/shorts/AwWJeaJ-ayM",
           "platform": "YouTube",
           "source": "YouTube RSS",
-          "firstSeen": "2026-06-03"
+          "firstSeen": "2026-06-01"
+        },
+        {
+          "title": "Congressman Greg Casar: Go Spurs Go!",
+          "url": "https://www.youtube.com/watch?v=l8yKjQJTurQ",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-30"
+        },
+        {
+          "title": "Congressman Greg Casar on His New AI Plan",
+          "url": "https://www.youtube.com/watch?v=HahPYLYoG9U",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-29"
+        },
+        {
+          "title": "Congressman Greg Casar: Our Government is Doing NOTHING on AI",
+          "url": "https://www.youtube.com/watch?v=89QrmEl9nak",
+          "platform": "YouTube",
+          "source": "YouTube RSS",
+          "firstSeen": "2026-05-29"
         }
       ],
-      "photo": "assets/photos/greg-casar.jpg"
+      "photo": "assets/photos/greg-casar.jpg",
+      "ytChannelId": "UCyct8J6LAICeOl0vZyhXD8A"
     },
     {
       "name": "Lauren B. Peña",
@@ -134032,7 +134554,7 @@ window.TRACKER_DATA = {
       "links": {
         "web": "https://www.julianastratton.com/",
         "x": "https://x.com/JulianaStratton",
-        "yt": null,
+        "yt": "https://www.youtube.com/@Juliana_Stratton",
         "fb": "https://www.facebook.com/JulianaForIL/",
         "ig": "https://www.instagram.com/julianastratton/",
         "tk": null
@@ -134068,7 +134590,8 @@ window.TRACKER_DATA = {
         }
       ],
       "ads": [],
-      "photo": "assets/photos/juliana-stratton.jpg"
+      "photo": "assets/photos/juliana-stratton.jpg",
+      "ytChannelId": "UCg2J2b8zbOVr36gdt7PYMAA"
     },
     {
       "name": "Don Tracy",
