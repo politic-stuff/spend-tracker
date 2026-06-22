@@ -6,3 +6,8 @@ data/races.seed.json
 *.log
 .DS_Store
 index.v1-backup.html
+
+# inbox loop (dedicated machine, holds delegation token — never commit)
+.inbox-url
+data/.inbox-last
+data/newads-queue.json
