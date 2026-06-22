@@ -155,6 +155,10 @@
   .themes{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
   .theme{font-size:12.5px;background:var(--surface2);border:1px solid var(--line);border-radius:8px;padding:4px 9px;color:var(--txt2);display:flex;align-items:center;gap:6px}
   .theme b{color:var(--accent2);font-variant-numeric:tabular-nums}
+  .tclick{cursor:pointer;transition:filter .12s,box-shadow .12s} .tclick:hover{filter:brightness(1.1)}
+  .tonebar .tclick.on{box-shadow:inset 0 0 0 2px #fff,0 0 0 2px var(--accent2)} .theme.tclick.on{border-color:var(--accent2);background:color-mix(in srgb,var(--accent) 16%,transparent)}
+  .tonestrip{display:none;margin-top:12px} .tonestrip.open{display:block}
+  .tslabel{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);font-weight:600;margin-bottom:5px}
   /* candidate block */
   .cand{padding:14px 0;border-top:1px solid var(--line)}
   .cand:first-child{border-top:none}
@@ -423,7 +427,7 @@ function detail(rk){
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
     <div class="matchup">${mcard(our,"Your candidate")}<div class="vs">vs</div>${mcard(opp,opp&&opp.relationship==='general-opp'?'General opponent':'Top rival')}</div>
     <div class="panel"><h3>Total spent to date</h3>${bigbar}</div>
-    ${adBreakdown(race)}
+    ${adBreakdown(race,rk)}
     ${weekgrid}
     ${field}${outsidePanel}`;
 }
@@ -434,19 +438,31 @@ function crCard(c){const t=(c.type||"").toUpperCase();const isVid=/VIDEO|TV|YOUT
   return `<a class="crcard" href="${c.link||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><div class="crthumb" ${thumb}>${c.type?`<span class="crtype">${c.type}</span>`:""}${inner}</div><div class="crmeta"><div class="crtitle">${(c.title||'Ad creative')}</div>${c.sub?`<div class="crsub">${c.sub}</div>`:""}</div></a>`;}
 window.toggleCr=(el)=>{el.classList.toggle("open");const s=el.nextElementSibling;if(s&&s.classList.contains("crstrip"))s.classList.toggle("open");};
 function allCreatives(race){const out=[];const by=race.creativesByAdvertiser||{};for(const k in by)out.push(...by[k]);return out;}
-function adBreakdown(race){
+function adBreakdown(race,rk){
   const cr=allCreatives(race);
   const wt=cr.filter(c=>c.tone);
   if(!wt.length)return "";
   const cnt=t=>wt.filter(c=>(c.tone||"").toLowerCase()===t).length;
   const pos=cnt("positive"),neg=cnt("negative"),con=cnt("contrast")+cnt("comparison");
-  const seg=(n,cls,lbl)=>n?`<div class="${cls}" style="flex:${n}">${n} ${lbl}</div>`:"";
-  const bar=`<div class="tonebar">${seg(pos,"pos","positive")}${seg(con,"con","contrast")}${seg(neg,"neg","negative")}</div>`;
+  const seg=(n,cls,key,lbl)=>n?`<div class="${cls} tclick" onclick="window.crFilter('${rk}','tone','${key}',this)" style="flex:${n}">${n} ${lbl}</div>`:"";
+  const bar=`<div class="tonebar">${seg(pos,"pos","positive","positive")}${seg(con,"con","contrast","contrast")}${seg(neg,"neg","negative","negative")}</div>`;
   const th={};cr.forEach(c=>(c.themes||[]).forEach(t=>{if(t)th[t]=(th[t]||0)+1;}));
   const themes=Object.entries(th).sort((a,b)=>b[1]-a[1]);
-  const chips=themes.length?`<div class="themes">`+themes.map(([t,n])=>`<span class="theme">${t}<b>${n}</b></span>`).join("")+`</div>`:"";
-  return `<div class="panel"><h3>Ad messaging <span class="crhint">${wt.length} ad${wt.length>1?"s":""} analyzed by AdImpact</span></h3>${bar}${chips}</div>`;
+  const chips=themes.length?`<div class="themes">`+themes.map(([t,n])=>`<span class="theme tclick" data-t="${t.replace(/"/g,'')}" onclick="window.crFilter('${rk}','theme',this.dataset.t,this)">${t}<b>${n}</b></span>`).join("")+`</div>`:"";
+  return `<div class="panel"><h3>Ad messaging <span class="crhint">${wt.length} ad${wt.length>1?"s":""} analyzed by AdImpact · tap a bar or theme to watch those ads</span></h3>${bar}${chips}<div class="tonestrip"></div></div>`;
 }
+window.__flatCr=rk=>{const r=(window.TRACKER_DATA||window.D||{races:{}}).races[rk]||{};const out=[];const by=r.creativesByAdvertiser||{};for(const adv in by)for(const c of by[adv])out.push({...c,advertiser:adv});return out;};
+window.crFilter=(rk,kind,val,el)=>{
+  const panel=el.closest(".panel"),strip=panel.querySelector(".tonestrip"),wasOn=el.classList.contains("on");
+  panel.querySelectorAll(".tclick.on").forEach(x=>x.classList.remove("on"));
+  if(wasOn){strip.classList.remove("open");strip.innerHTML="";return;}
+  el.classList.add("on");
+  const all=window.__flatCr(rk);
+  const items=kind==="tone"?all.filter(c=>{const t=(c.tone||"").toLowerCase();return val==="contrast"?/contrast|comparison/.test(t):t===val;}):all.filter(c=>(c.themes||[]).includes(val));
+  const lbl=kind==="tone"?items.length+" "+val+" ad"+(items.length!==1?"s":""):items.length+" ad"+(items.length!==1?"s":"")+" on “"+val+"”";
+  strip.innerHTML=`<div class="tslabel">${lbl}</div><div class="crstrip open">`+items.map(c=>crCard({thumb:c.thumb,title:c.title,type:c.type,link:c.link,sub:c.advertiser})).join("")+`</div>`;
+  strip.classList.add("open");
+};
 function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"estimate"})[c]||"estimate";}
 function lab(c){return({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
