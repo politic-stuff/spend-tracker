@@ -96835,13 +96835,21 @@
         {
           "name": "American Priorities",
           "side": "D",
-          "amount": 50000,
-          "source": "inbox",
+          "amount": 512712,
+          "source": "AdImpact 2026-06-22",
           "metaAds": {
             "n": 22,
             "imp": "200K - 250K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Priorities&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact"
+        },
+        {
+          "name": "Justice Democrats",
+          "amount": 212694,
+          "side": "d",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22"
         }
       ],
       "affiliations": {
@@ -96852,6 +96860,9 @@
           "supports": "Claire Valdez"
         },
         "American Priorities": {
+          "supports": "Claire Valdez"
+        },
+        "Justice Democrats": {
           "supports": "Claire Valdez"
         }
       }
