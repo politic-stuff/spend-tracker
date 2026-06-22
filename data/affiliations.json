@@ -1,0 +1,14 @@
+{
+  "_note": "Researched support/oppose attribution for primary outside groups (side alone can't tell which same-party candidate a PAC backs). advertiser -> {supports|opposes: candidate name}. The UI affiliate() checks this before the side heuristic.",
+  "MI-Sen-2026": {
+    "United Democracy Project": {"supports": "Haley Stevens", "src": "AIPAC super PAC, pro-Stevens (Jewish Insider 2026)"},
+    "Center for Democratic Priorities": {"supports": "Haley Stevens", "src": "$5.3M pro-Stevens (Metro Times 2026)"},
+    "A Stronger Michigan": {"supports": "Haley Stevens"},
+    "A Stronger Michigan (D)": {"supports": "Haley Stevens"},
+    "Center Forward": {"supports": "Haley Stevens"},
+    "Center Forward Committee": {"supports": "Haley Stevens", "src": "corporate-funded pro-Stevens (The Intercept 2026)"},
+    "Yes MI Action Committee": {"supports": "Mallory McMorrow", "src": "~$5M pro-McMorrow (WLNS 2026)"},
+    "Fight for Michigan": {"supports": "Abdul El-Sayed", "src": "progressive coalition PAC (Axios 2026)"},
+    "Fighting for Michigan": {"supports": "Abdul El-Sayed"}
+  }
+}

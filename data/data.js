@@ -111075,6 +111075,35 @@ window.TRACKER_DATA = {
             "type": "Video"
           }
         ]
+      },
+      "affiliations": {
+        "United Democracy Project": {
+          "supports": "Haley Stevens"
+        },
+        "Center for Democratic Priorities": {
+          "supports": "Haley Stevens"
+        },
+        "A Stronger Michigan": {
+          "supports": "Haley Stevens"
+        },
+        "A Stronger Michigan (D)": {
+          "supports": "Haley Stevens"
+        },
+        "Center Forward": {
+          "supports": "Haley Stevens"
+        },
+        "Center Forward Committee": {
+          "supports": "Haley Stevens"
+        },
+        "Yes MI Action Committee": {
+          "supports": "Mallory McMorrow"
+        },
+        "Fight for Michigan": {
+          "supports": "Abdul El-Sayed"
+        },
+        "Fighting for Michigan": {
+          "supports": "Abdul El-Sayed"
+        }
       }
     },
     "MI-13-2026": {

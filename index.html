@@ -166,6 +166,8 @@
   .cand .tot{margin-left:auto;font-weight:800;font-variant-numeric:tabular-nums;text-align:right;line-height:1.1}
   .cand .tot small{display:block;font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
   .afftag{font-size:10px;font-weight:700;letter-spacing:.3px;background:color-mix(in srgb,var(--accent) 18%,transparent);color:var(--accent2);border-radius:6px;padding:1px 6px;margin-left:7px;text-transform:uppercase}
+  .afftag.oppt{background:color-mix(in srgb,var(--rep) 20%,transparent);color:var(--rep)}
+  .adsub.opp{color:var(--rep)}
   .rel{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
   .rel.tracked{color:var(--accent2);font-weight:700}
   .cand .tot{margin-left:auto;font-weight:800;font-variant-numeric:tabular-nums}
@@ -315,6 +317,9 @@ function detail(rk){
   const lastNm=c=>c.name.replace(/\b(Jr|Sr|III|II|Dr)\.?\b/g,"").trim().split(/\s+/).pop();
   const isCommittee=n=>/\bfor\s+(congress|us\b|u\.s|senate|governor|gov\b|attorney|comptroller|insurance|assembly|state|delegate|mayor|county|[a-z]{2}\b)/i.test(n);
   function affiliate(adv){
+    const ex=(race.affiliations||{})[adv.name];           // explicit researched support/oppose wins
+    if(ex){if(ex.supports&&cands.some(c=>c.name===ex.supports))return {candName:ex.supports,kind:"support"};
+           if(ex.opposes&&cands.some(c=>c.name===ex.opposes))return {candName:ex.opposes,kind:"oppose"};}
     const a=" "+adv.name.toLowerCase()+" ";
     for(const c of cands){const ln=lastNm(c).toLowerCase();if(ln.length>=4&&a.includes(ln))return {candName:c.name,kind:"own"};}
     if(isCommittee(adv.name))return {kind:"othercand"};            // another candidate's committee — don't side-attribute
@@ -324,8 +329,9 @@ function detail(rk){
   }
   const advList=(race.spenders||[]).map(s=>({...s,aff:affiliate(s)}));
   const byCand={},outside=[],othercand=[];
-  advList.forEach(a=>{const k=a.aff.kind;if(k==="own"||k==="support"){(byCand[a.aff.candName]=byCand[a.aff.candName]||{own:[],support:[]})[k].push(a);}else if(k==="othercand")othercand.push(a);else outside.push(a);});
+  advList.forEach(a=>{const k=a.aff.kind;if(k==="own"||k==="support"||k==="oppose"){(byCand[a.aff.candName]=byCand[a.aff.candName]||{own:[],support:[],oppose:[]})[k].push(a);}else if(k==="othercand")othercand.push(a);else outside.push(a);});
   const suppTotal=c=>{const g=byCand[c.name];return g?[...g.own,...g.support].reduce((s,a)=>s+(a.amount||0),0):0;};
+  const oppTotal=c=>{const g=byCand[c.name];return g?g.oppose.reduce((s,a)=>s+(a.amount||0),0):0;};
   const mcard=(c,lbl)=>c?`<div class="mcard ${c.party||'O'}">${avatar(c,true)}<div><div class="nm">${c.name}</div>
     <div class="role">${lbl} · ${c.party||"?"}</div><div class="amt">${fmt(suppTotal(c)||candTotal(c))}</div></div></div>`:`<div class="mcard"><div class="role">—</div></div>`;
   const dPct=tot?Math.round(s.d/tot*100):50,rPct=tot?Math.round(s.rp/tot*100):0;
@@ -363,12 +369,12 @@ function detail(rk){
   }
 
   const advRow=(adv,tag)=>{const cr=crBy[adv.name]||[];const has=cr.length>0;
-    return `<div class="sp ${adv.side}${has?' hascr':''}"${has?' onclick="window.toggleCr(this)"':''}><span class="dot"></span><span class="nm">${adv.name}${adv.isNew?'<span class="newbadge">NEW</span>':''}${tag?`<span class="afftag">${tag}</span>`:''}${has?`<span class="crcount"><span class="car">▸</span> ${cr.length} ad${cr.length>1?'s':''}</span>`:''}</span><span class="amt">${fmt(adv.amount)}</span></div>`
+    return `<div class="sp ${adv.side}${has?' hascr':''}"${has?' onclick="window.toggleCr(this)"':''}><span class="dot"></span><span class="nm">${adv.name}${adv.isNew?'<span class="newbadge">NEW</span>':''}${tag?`<span class="afftag${tag==='opposing'?' oppt':''}">${tag}</span>`:''}${has?`<span class="crcount"><span class="car">▸</span> ${cr.length} ad${cr.length>1?'s':''}</span>`:''}</span><span class="amt">${fmt(adv.amount)}</span></div>`
       +(has?`<div class="crstrip">${cr.map(crCard).join("")}</div>`:"");};
 
   const candBlock=c=>{
-    const g=byCand[c.name]||{own:[],support:[]};
-    const rec=reconcile(c), total=suppTotal(c)||rec.total||0;
+    const g=byCand[c.name]||{own:[],support:[],oppose:[]};
+    const rec=reconcile(c), total=suppTotal(c)||rec.total||0, against=oppTotal(c);
     const relTxt={tracked:"Your candidate","primary-opp":"Primary rival","general-opp":"General opponent"}[c.relationship]||c.relationship;
     const first=c.name.split(" ")[0];
     const adGroup=(platform)=>{const items=(c.ads||[]).filter(a=>a.platform===platform);
@@ -378,11 +384,12 @@ function detail(rk){
     const ytG=adGroup("YouTube"),metaG=adGroup("Meta"),googG=adGroup("Google");
     const own=g.own.length?`<div class="adsub">${first}’s own ads</div>`+g.own.slice().sort((a,b)=>b.amount-a.amount).map(a=>advRow(a)).join(""):"";
     const sup=g.support.length?`<div class="adsub">Outside groups supporting ${first}</div>`+g.support.slice().sort((a,b)=>b.amount-a.amount).map(a=>advRow(a,"supporting")).join(""):"";
+    const opp=g.oppose.length?`<div class="adsub opp">Groups spending against ${first} · ${fmt(against)}</div>`+g.oppose.slice().sort((a,b)=>b.amount-a.amount).map(a=>advRow(a,"opposing")).join(""):"";
     const digital=(ytG.n||metaG.n||googG.n)?`<div class="adsub">Digital${ytG.n?` · YouTube ${ytG.n}`:''}${metaG.n?` · Meta ${metaG.n}`:''}${googG.n?` · Google ${googG.n}`:''}</div>`+ytG.html+metaG.html+googG.html:"";
     const fec=(!g.own.length&&rec.groups.length)?`<div class="adsub">FEC-reported spend</div>`+rec.groups.map(grp=>{const x=grp.chosen;return `<div class="srow"><span>${grp.lbl} · ${x.actor||""} <span class="conf ${cls(x.confidence)}">${lab(x.confidence)}</span></span><span class="amt">${fmt(x.amount)}</span></div>`;}).join(""):"";
-    const empty=(!own&&!sup&&!digital&&!fec)?`<div class="empty">no ads attributed yet</div>`:"";
-    return `<div class="cand"><div class="candhd">${avatar(c)}<div class="ctop"><span class="nm">${c.name}</span><span class="rel ${c.relationship==='tracked'?'tracked':''}">${relTxt} · ${c.party||"?"}</span></div><span class="tot">${fmt(total)}<small>to date</small></span></div>
-      <div class="candbody">${own}${sup}${digital}${fec}${empty}</div></div>`;
+    const empty=(!own&&!sup&&!opp&&!digital&&!fec)?`<div class="empty">no ads attributed yet</div>`:"";
+    return `<div class="cand"><div class="candhd">${avatar(c)}<div class="ctop"><span class="nm">${c.name}</span><span class="rel ${c.relationship==='tracked'?'tracked':''}">${relTxt} · ${c.party||"?"}</span></div><span class="tot">${fmt(total)}<small>${against?"for · "+fmt(against)+" against":"to date"}</small></span></div>
+      <div class="candbody">${own}${sup}${opp}${digital}${fec}${empty}</div></div>`;
   };
   const order={tracked:0,"general-opp":1,"primary-opp":2};
   const field=`<div class="panel"><h3>Ads by candidate <span class="crhint">each candidate’s own ads + the groups backing them — tap an advertiser to watch its ads</span></h3>`
