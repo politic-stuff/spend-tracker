@@ -116,6 +116,10 @@
   .wgrid tr.tot td{font-weight:800;border-top:2px solid var(--line2)}
   .wgrid td.rtot{font-weight:800;border-left:1px solid var(--line2)}
   .wgrid th.wk small{display:block;font-weight:400;color:var(--muted);font-size:9.5px;text-transform:none;letter-spacing:0}
+  .wgrid th.wk em{display:block;font-style:normal;font-size:8.5px;font-weight:700;color:var(--warn);letter-spacing:.3px}
+  .wgrid th.fut,.wgrid td.fut{background:color-mix(in srgb,var(--warn) 7%,transparent)} .wgrid td.fut{color:var(--txt2)}
+  .airedbar{font-size:13px;color:var(--txt2);margin:0 2px 9px} .airedbar b{color:var(--txt);font-size:15px}
+  .bk{color:var(--warn)}
   .wknote{font-size:12px;color:var(--muted);margin:4px 2px 0}
   .gridtoggle{float:right;font-size:12px;color:var(--accent2);cursor:pointer;font-weight:600}
   /* spenders */
@@ -371,6 +375,10 @@ function detail(rk){
     const wkDates={}; for(const b of buys){if(b.week!=null&&!wkDates[b.week]&&b.flightStart)wkDates[b.week]={s:b.flightStart,e:b.flightEnd};}
     const md=s=>s?s.slice(5).replace('-','/'):"";
     const wlab=w=>w<=0?"Elec wk":("W"+w);
+    const today=new Date();today.setHours(0,0,0,0);
+    const isFut=w=>{const d=wkDates[w];return !!(d&&d.s&&new Date(d.s)>today);};      // week not yet started = booked/reserved
+    const aired=buys.filter(b=>!(b.flightStart&&new Date(b.flightStart)>today)).reduce((s,b)=>s+(b.amount||0),0);
+    const booked=buys.filter(b=>b.flightStart&&new Date(b.flightStart)>today).reduce((s,b)=>s+(b.amount||0),0);
     const keyOf=b=>dim==="market"?(b.market||"?"):(b.advertiser||"?");
     const rows=[...new Set(buys.map(keyOf))];
     const cell=(r,w)=>buys.filter(b=>keyOf(b)===r&&b.week===w).reduce((s,b)=>s+(b.amount||0),0);
@@ -378,16 +386,17 @@ function detail(rk){
     const colTot=w=>buys.filter(b=>b.week===w).reduce((s,b)=>s+(b.amount||0),0);
     rows.sort((a,b)=>rowTot(b)-rowTot(a));
     const head=`<tr><th class="mkt">${dim==="market"?"Market":"Advertiser"}</th>`
-      +weeks.map(w=>`<th class="wk">${wlab(w)}${wkDates[w]?`<small>${md(wkDates[w].s)}–${md(wkDates[w].e)}</small>`:""}</th>`).join("")
+      +weeks.map(w=>`<th class="wk${isFut(w)?" fut":""}">${wlab(w)}${isFut(w)?'<em>booked</em>':''}${wkDates[w]?`<small>${md(wkDates[w].s)}–${md(wkDates[w].e)}</small>`:""}</th>`).join("")
       +`<th class="rtot">Total</th></tr>`;
     const body=rows.map(r=>`<tr><td class="mkt">${r}</td>`
-      +weeks.map(w=>{const v=cell(r,w);return `<td class="${v?"cell":"zero"}">${v?fmt(v):"·"}</td>`}).join("")
+      +weeks.map(w=>{const v=cell(r,w);return `<td class="${v?"cell":"zero"}${isFut(w)?" fut":""}">${v?fmt(v):"·"}</td>`}).join("")
       +`<td class="rtot">${fmt(rowTot(r))}</td></tr>`).join("");
-    const totrow=`<tr class="tot"><td class="mkt">All</td>`+weeks.map(w=>`<td>${fmt(colTot(w))}</td>`).join("")+`<td class="rtot">${fmt(buys.reduce((s,b)=>s+(b.amount||0),0))}</td></tr>`;
+    const totrow=`<tr class="tot"><td class="mkt">All</td>`+weeks.map(w=>`<td class="${isFut(w)?"fut":""}">${fmt(colTot(w))}</td>`).join("")+`<td class="rtot">${fmt(buys.reduce((s,b)=>s+(b.amount||0),0))}</td></tr>`;
     weekgrid=`<div class="panel"><h3>Week-by-week spend by ${dim}
       <span class="gridtoggle" onclick="window.toggleGrid()">↔ by ${dim==="market"?"advertiser":"market"}</span></h3>
+      <div class="airedbar"><b>${fmt(aired)}</b> aired so far${booked?` · <span class="bk">${fmt(booked)} booked ahead</span>`:""}</div>
       <div class="wgridwrap"><table class="wgrid">${head}${body}${totrow}</table></div>
-      <div class="wknote">Media weeks run Tue–Mon · W1 = week before the Nov 3 general, counting back.${earlier?` <span class="gridtoggle" onclick="window.toggleGridAll()">${state.gridAll?'show recent only':'+ '+earlier+' earlier weeks'}</span>`:''}</div></div>`;
+      <div class="wknote">Weeks run Tue–Mon, counting back from the Nov 3 general (W1 = the week before). <b class="bk">Shaded “booked” weeks</b> are future airtime AdImpact shows reserved/ordered — not yet aired.${earlier?` <span class="gridtoggle" onclick="window.toggleGridAll()">${state.gridAll?'show recent only':'+ '+earlier+' earlier weeks'}</span>`:''}</div></div>`;
   }
 
   const advRow=(adv,tag)=>{const cr=crBy[adv.name]||[];const has=cr.length>0;
