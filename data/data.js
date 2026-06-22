@@ -11826,43 +11826,71 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c334f900-8c4a-4cfd-9d04-bffae05d4d5e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c334f900-8c4a-4cfd-9d04-bffae05d4d5e.mp4",
             "title": "Rising Costs - Bresnahan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-02",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/2 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/394027a2-a679-4787-bf20-ea18e38037c9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/394027a2-a679-4787-bf20-ea18e38037c9.mp4",
             "title": "Outbreak - PA08",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2026-06-13",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 6/13"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cf9c9eb9-43b2-4c21-be5f-d676c712debd.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cf9c9eb9-43b2-4c21-be5f-d676c712debd.mp4",
             "title": "Economic Chaos - Bresnahan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-23",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 9/23/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d7d63bd7-3364-46d8-b6c0-9a400111de45.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d7d63bd7-3364-46d8-b6c0-9a400111de45.mp4",
             "title": "Big Ugly Bill - PA-08",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-05-28",
+            "flightEnd": "2026-05-29",
+            "flightPresent": false,
+            "aired": "Aired 5/28/25 – 5/29"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3c71a11f-c980-44ac-8e50-f21ae3116611.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3c71a11f-c980-44ac-8e50-f21ae3116611.mp4",
             "title": "Cut Costs - Bresnahan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-07",
+            "flightEnd": "2026-05-13",
+            "flightPresent": false,
+            "aired": "Aired 3/7/25 – 5/13"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c6b7345f-8899-487e-9ee0-ee6b3822607a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c6b7345f-8899-487e-9ee0-ee6b3822607a.mp4",
             "title": "Could Cost More - PA08",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2025-11-02",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 11/2/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b04f14bc-c5a1-4170-b6ff-242fea343021.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b04f14bc-c5a1-4170-b6ff-242fea343021.mp4",
             "title": "Even More 15s - PA-08",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-31",
+            "flightEnd": "2025-04-24",
+            "flightPresent": false,
+            "aired": "Aired 1/31/25 – 4/24/25"
           }
         ],
         "Affordable PA": [
@@ -11870,19 +11898,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d21a22dc-7bb0-4a68-8d3c-6a57ff6c2e3e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d21a22dc-7bb0-4a68-8d3c-6a57ff6c2e3e.mp4",
             "title": "Steve",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-26",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/26 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/817a5618-e5b8-4cd6-a82f-87e0356b7bd6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/817a5618-e5b8-4cd6-a82f-87e0356b7bd6.mp4",
             "title": "Jennifer",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-17",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 2/17 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ff3fe34b-e6b2-4b60-9935-6ac91c5109da.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ff3fe34b-e6b2-4b60-9935-6ac91c5109da.mp4",
             "title": "Grace",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-17",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 3/17 – 6/18"
           }
         ],
         "Republican Main Street Partnership PAC": [
@@ -11890,7 +11930,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4117d109-faff-4804-8a25-4bbdb64ba45d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4117d109-faff-4804-8a25-4bbdb64ba45d.mp4",
             "title": "Green Light",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-25",
+            "flightEnd": "2026-06-14",
+            "flightPresent": false,
+            "aired": "Aired 3/25/25 – 6/14"
           }
         ],
         "Unrig Our Economy": [
@@ -11898,43 +11942,71 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bb2b99e6-1026-4b7a-a989-20ce696ffe42.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bb2b99e6-1026-4b7a-a989-20ce696ffe42.mp4",
             "title": "Roxanne",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-12",
+            "flightEnd": "2026-06-12",
+            "flightPresent": false,
+            "aired": "Aired 11/12/25 – 6/12"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a3e93fb7-ced0-48bf-9f78-b3052298fa74.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a3e93fb7-ced0-48bf-9f78-b3052298fa74.mp4",
             "title": "Molly",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-12",
+            "flightEnd": "2026-06-07",
+            "flightPresent": false,
+            "aired": "Aired 8/12/25 – 6/7"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f03d8d00-772e-4ea0-9f66-d510a835a36c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f03d8d00-772e-4ea0-9f66-d510a835a36c.mp4",
             "title": "Medicaid Cuts",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-08",
+            "flightEnd": "2026-06-05",
+            "flightPresent": false,
+            "aired": "Aired 10/8/25 – 6/5"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b114bc5d-524f-4f13-8e23-b7ef37d6601d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b114bc5d-524f-4f13-8e23-b7ef37d6601d.mp4",
             "title": "Krysten",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-07-08",
+            "flightEnd": "2026-05-26",
+            "flightPresent": false,
+            "aired": "Aired 7/8/25 – 5/26"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f6dc53ae-9674-44bb-94cc-e2e5c05d9830.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f6dc53ae-9674-44bb-94cc-e2e5c05d9830.mp4",
             "title": "Krysten 15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-07-23",
+            "flightEnd": "2026-04-24",
+            "flightPresent": false,
+            "aired": "Aired 7/23/25 – 4/24"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/250d7c0b-8345-4578-9bb7-d166c95b839b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/250d7c0b-8345-4578-9bb7-d166c95b839b.mp4",
             "title": "Tax Scam",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-11",
+            "flightEnd": "2026-04-06",
+            "flightPresent": false,
+            "aired": "Aired 4/11/25 – 4/6"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9b77285f-40f8-499d-8f9f-9456ffc52d93.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9b77285f-40f8-499d-8f9f-9456ffc52d93.mp4",
             "title": "Molly 15s",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-22",
+            "flightEnd": "2025-12-04",
+            "flightPresent": false,
+            "aired": "Aired 9/22/25 – 12/4/25"
           }
         ],
         "Save My Care": [
@@ -11942,19 +12014,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bdd80300-4049-499c-879e-f0fddc908d46.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bdd80300-4049-499c-879e-f0fddc908d46.mp4",
             "title": "Stop These Cuts PA 08 15sec Master Web 16x9",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/940ca20a-0036-4510-b120-af5a430b069b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/940ca20a-0036-4510-b120-af5a430b069b.mp4",
             "title": "Biggest Cut - PA-08",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-05-29",
+            "flightEnd": "2026-05-28",
+            "flightPresent": false,
+            "aired": "Aired 5/29/25 – 5/28"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7604c121-67ca-477d-9300-86dc0d21dd81.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7604c121-67ca-477d-9300-86dc0d21dd81.mp4",
             "title": "Big Cuts - Bresnahan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-13",
+            "flightEnd": "2026-04-20",
+            "flightPresent": false,
+            "aired": "Aired 3/13/25 – 4/20"
           }
         ],
         "NRDC Action Fund": [
@@ -11962,7 +12046,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/420183b8-4304-49fd-9200-b8fa5540b460.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/420183b8-4304-49fd-9200-b8fa5540b460.mp4",
             "title": "Trader Rob",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-08",
+            "flightEnd": "2026-05-06",
+            "flightPresent": false,
+            "aired": "Aired 8/8/25 – 5/6"
           }
         ],
         "American Action Network": [
@@ -11970,13 +12058,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6bc0699c-531d-4d48-a98e-b1fb8bb5fb95.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6bc0699c-531d-4d48-a98e-b1fb8bb5fb95.mp4",
             "title": "PA-08: Looking Out For Us 15s",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-01",
+            "flightEnd": "2026-04-23",
+            "flightPresent": false,
+            "aired": "Aired 8/1/25 – 4/23"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6fdb8046-a31f-4834-8fd3-c8e40c67eeb5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6fdb8046-a31f-4834-8fd3-c8e40c67eeb5.mp4",
             "title": "PA-08: Looking Out For Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-01",
+            "flightEnd": "2026-03-14",
+            "flightPresent": false,
+            "aired": "Aired 8/1/25 – 3/14"
           }
         ],
         "Securing American Greatness": [
@@ -11984,13 +12080,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/db50b196-77b6-4f52-b9c8-be40b9e90182.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/db50b196-77b6-4f52-b9c8-be40b9e90182.mp4",
             "title": "Good News - Bresnahan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-17",
+            "flightEnd": "2026-03-22",
+            "flightPresent": false,
+            "aired": "Aired 6/17/25 – 3/22"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c35f4074-6d99-45ce-938d-20457ebf51ff.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c35f4074-6d99-45ce-938d-20457ebf51ff.mp4",
             "title": "Good News - Bresnahan :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-18",
+            "flightEnd": "2025-09-06",
+            "flightPresent": false,
+            "aired": "Aired 6/18/25 – 9/6/25"
           }
         ]
       }
@@ -27302,7 +27406,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e1e66b08-ed7b-46ab-ab3f-ecb914009f4c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e1e66b08-ed7b-46ab-ab3f-ecb914009f4c.mp4",
             "title": "One Of Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-30",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/30 – 6/21"
           }
         ],
         "Save My Care": [
@@ -27310,19 +27418,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f6224a00-3bf2-4772-85b1-d8804d04c5b2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f6224a00-3bf2-4772-85b1-d8804d04c5b2.mp4",
             "title": "Hands Off - Mackenzie",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-13",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/13/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/56b4c960-e50a-40ca-b150-3eb7777448e8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/56b4c960-e50a-40ca-b150-3eb7777448e8.mp4",
             "title": "Stop These Cuts PA 07 15sec Master Web 16x9",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2026-06-08",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 6/8"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/672bae2a-0f88-41b4-b115-13ee7f38697f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/672bae2a-0f88-41b4-b115-13ee7f38697f.mp4",
             "title": "Big Cuts - Mackenzie",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-13",
+            "flightEnd": "2026-04-01",
+            "flightPresent": false,
+            "aired": "Aired 3/13/25 – 4/1"
           }
         ],
         "Lead Left PAC": [
@@ -27330,13 +27450,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7c3fbead-d343-454f-a14e-da21b2865dc5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7c3fbead-d343-454f-a14e-da21b2865dc5.mp4",
             "title": "Tough Enough",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-13",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/13 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cf17f331-9f17-45a9-a063-fd8ede255bae.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cf17f331-9f17-45a9-a063-fd8ede255bae.mp4",
             "title": "Take On Trump",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-07",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 5/7 – 6/20"
           }
         ],
         "Stronger Together  PA": [
@@ -27344,19 +27472,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b486ade3-126b-43b2-b56c-8c440df14029.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b486ade3-126b-43b2-b56c-8c440df14029.mp4",
             "title": "Elect One Of Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-05",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/5 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ea18c53a-2f07-47ff-82db-d0d94ae69ed7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ea18c53a-2f07-47ff-82db-d0d94ae69ed7.mp4",
             "title": "Uniforms",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-27",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/27 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b3e7d041-8785-4841-bb60-aceb2230f5b1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b3e7d041-8785-4841-bb60-aceb2230f5b1.mp4",
             "title": "Washington is a Casino",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/8 – 6/21"
           }
         ],
         "DCCC/Brooks": [
@@ -27364,7 +27504,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b31629af-e6d8-495f-9186-551922c3c1e6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b31629af-e6d8-495f-9186-551922c3c1e6.mp4",
             "title": "Dumpster Fire - DCCC",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/15 – 6/21"
           }
         ],
         "Brooks for PA CD-07": [
@@ -27372,25 +27516,41 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/27eee65b-4214-4a84-a6af-ebd9e3756c14.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/27eee65b-4214-4a84-a6af-ebd9e3756c14.mp4",
             "title": "Sets Progressive Agenda",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/15 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/79cb9b77-4272-4e1e-9d98-e1bb82d3de88.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/79cb9b77-4272-4e1e-9d98-e1bb82d3de88.mp4",
             "title": "Dumpster Fire",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/15 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/21f0e045-a322-44fd-807d-42f30fc7e28f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/21f0e045-a322-44fd-807d-42f30fc7e28f.mp4",
             "title": "Backing Bob :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/21 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c4eff3dc-9363-4db9-936d-dff66b8522a0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c4eff3dc-9363-4db9-936d-dff66b8522a0.mp4",
             "title": "Backing Bob",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 6/21"
           }
         ],
         "House Majority Forward": [
@@ -27398,31 +27558,51 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d76e648f-0792-4400-a614-ad893e087d9d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d76e648f-0792-4400-a614-ad893e087d9d.mp4",
             "title": "Outbreak - PA07",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2026-06-15",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 6/15"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3414df96-e573-4a79-963d-d15c612785c4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3414df96-e573-4a79-963d-d15c612785c4.mp4",
             "title": "Cut Costs - Mackenzie",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-07",
+            "flightEnd": "2026-05-31",
+            "flightPresent": false,
+            "aired": "Aired 3/7/25 – 5/31"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b3d40dd0-11fc-4e2d-aa5a-915bce8854f1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b3d40dd0-11fc-4e2d-aa5a-915bce8854f1.mp4",
             "title": "Even More 15s - PA-07",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-31",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 1/31/25 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/472624a3-58fc-45d0-904b-8260dd185f4e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/472624a3-58fc-45d0-904b-8260dd185f4e.mp4",
             "title": "Even More 30s - PA-07",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-31",
+            "flightEnd": "2025-05-01",
+            "flightPresent": false,
+            "aired": "Aired 1/31/25 – 5/1/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/91737baf-e3c1-4e88-9ca1-dd0288bf8f3e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/91737baf-e3c1-4e88-9ca1-dd0288bf8f3e.mp4",
             "title": "Costos Por Las Nubes - PA07",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2025-02-24",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 2/24/25"
           }
         ],
         "American Prosperity Alliance": [
@@ -27430,19 +27610,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bc81c02e-9b2b-4546-a763-f9a5f859c4ab.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bc81c02e-9b2b-4546-a763-f9a5f859c4ab.mp4",
             "title": "Keep More",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-02",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 12/2/25 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/58eac17e-b030-4a73-a8ed-364cba5838a7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/58eac17e-b030-4a73-a8ed-364cba5838a7.mp4",
             "title": "Strengthening Medicaid",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-02",
+            "flightEnd": "2026-05-27",
+            "flightPresent": false,
+            "aired": "Aired 12/2/25 – 5/27"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b960e62c-d076-4e78-b40e-b0027eeff4cf.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b960e62c-d076-4e78-b40e-b0027eeff4cf.mp4",
             "title": "Real Positive Change",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-02",
+            "flightEnd": "2026-03-23",
+            "flightPresent": false,
+            "aired": "Aired 12/2/25 – 3/23"
           }
         ],
         "NRDC Action Fund": [
@@ -27450,7 +27642,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cb413a25-9baf-44d9-87ee-9ce5341a5ef8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cb413a25-9baf-44d9-87ee-9ce5341a5ef8.mp4",
             "title": "It's Our Life",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-07-20",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 7/20/25 – 6/20"
           }
         ],
         "Securing American Greatness": [
@@ -27458,13 +27654,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ab568fb1-7c5c-476c-b4dd-0fb77713d5b6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ab568fb1-7c5c-476c-b4dd-0fb77713d5b6.mp4",
             "title": "Good News - Mackenzie",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-18",
+            "flightEnd": "2026-05-31",
+            "flightPresent": false,
+            "aired": "Aired 6/18/25 – 5/31"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e80e8420-f2ac-482c-87fe-bf7490bd0be9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e80e8420-f2ac-482c-87fe-bf7490bd0be9.mp4",
             "title": "Good News - Mackenzie :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-17",
+            "flightEnd": "2026-01-06",
+            "flightPresent": false,
+            "aired": "Aired 6/17/25 – 1/6"
           }
         ],
         "Crosswell for PA CD-07": [
@@ -27472,7 +27676,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bddd84e3-6a45-41bb-8b1b-2aa14f5e22e5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bddd84e3-6a45-41bb-8b1b-2aa14f5e22e5.mp4",
             "title": "Suing ICE :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-20",
+            "flightEnd": "2026-05-19",
+            "flightPresent": false,
+            "aired": "Aired 4/20 – 5/19"
           }
         ],
         "Affordable PA": [
@@ -27480,13 +27688,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/170dff07-dee6-4e8a-abac-722f9f39b62a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/170dff07-dee6-4e8a-abac-722f9f39b62a.mp4",
             "title": "Michelle 15s",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-16",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 1/16 – 6/17"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4a9416b0-42d7-417d-a359-bd713ae2cecf.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4a9416b0-42d7-417d-a359-bd713ae2cecf.mp4",
             "title": "Everything Costs 15s",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-06",
+            "flightEnd": "2026-04-20",
+            "flightPresent": false,
+            "aired": "Aired 3/6 – 4/20"
           }
         ],
         "American Action Network": [
@@ -27494,13 +27710,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b1610649-e4f0-4368-9ee4-1b8fa57f82d2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b1610649-e4f0-4368-9ee4-1b8fa57f82d2.mp4",
             "title": "PA-07: Looking Out For Us 15s",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-01",
+            "flightEnd": "2026-04-22",
+            "flightPresent": false,
+            "aired": "Aired 8/1/25 – 4/22"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1d291f38-0943-45b4-8e3a-9622a03eb64e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1d291f38-0943-45b4-8e3a-9622a03eb64e.mp4",
             "title": "PA-07: Looking Out For Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-01",
+            "flightEnd": "2025-09-05",
+            "flightPresent": false,
+            "aired": "Aired 8/1/25 – 9/5/25"
           }
         ]
       }
@@ -58922,25 +59146,41 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c6596ecc-557c-4add-a00a-6726d07c6727.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c6596ecc-557c-4add-a00a-6726d07c6727.mp4",
             "title": "Spending",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5abc33e4-bc44-4ac1-bb8e-f3dd04d81eb4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5abc33e4-bc44-4ac1-bb8e-f3dd04d81eb4.mp4",
             "title": "Bajar Los Costos",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/700cf22e-922b-46a1-8c74-7c0dedb1d7d9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/700cf22e-922b-46a1-8c74-7c0dedb1d7d9.mp4",
             "title": "Big Ugly Bill - CA-22",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-05-29",
+            "flightEnd": "2026-05-26",
+            "flightPresent": false,
+            "aired": "Aired 5/29/25 – 5/26"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ae75d6b9-a8b0-4f4c-8f93-5c329e112a32.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ae75d6b9-a8b0-4f4c-8f93-5c329e112a32.mp4",
             "title": "Economic Chaos - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-23",
+            "flightEnd": "2026-04-30",
+            "flightPresent": false,
+            "aired": "Aired 9/23/25 – 4/30"
           }
         ],
         "Save My Care": [
@@ -58948,25 +59188,41 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/02fc340c-2aa5-4538-a1c8-e33eafa5f2e0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/02fc340c-2aa5-4538-a1c8-e33eafa5f2e0.mp4",
             "title": "Rep. David Valadao: Stop These Cuts",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-23",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 1/23/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3652608e-e9bf-4dbe-a129-60a70e4aeeab.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3652608e-e9bf-4dbe-a129-60a70e4aeeab.mp4",
             "title": "Hands Off - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-04",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/4/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3cac5d42-850c-4e84-90fd-370ba4a904cf.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3cac5d42-850c-4e84-90fd-370ba4a904cf.mp4",
             "title": "Big Cuts - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-13",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 3/13/25 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9eb68705-64f8-4d1c-af2d-b5775e626cce.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9eb68705-64f8-4d1c-af2d-b5775e626cce.mp4",
             "title": "SMC STOP THESE CUTS CA 22 VALADAO 15SEC MASTER WEB 16x9",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-01-28",
+            "flightEnd": "2026-05-05",
+            "flightPresent": false,
+            "aired": "Aired 1/28/25 – 5/5"
           }
         ],
         "Progressive Progress": [
@@ -58974,7 +59230,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d08f2c46-d66c-478c-af8b-92dc90137c40.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d08f2c46-d66c-478c-af8b-92dc90137c40.mp4",
             "title": "Follow The Money",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-11",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 5/11 – 6/20"
           }
         ],
         "Cooperative Of American Physicians Independent Expenditure Committee": [
@@ -58982,7 +59242,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d42cf6c4-b3b3-4009-a695-46393e712fed.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d42cf6c4-b3b3-4009-a695-46393e712fed.mp4",
             "title": "Manipulando El Sistema",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-21",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 5/21 – 6/19"
           }
         ],
         "Healthcare Saves Lives": [
@@ -58990,13 +59254,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0f11dcf5-720b-46b9-9e8e-c10127f7a5e1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0f11dcf5-720b-46b9-9e8e-c10127f7a5e1.mp4",
             "title": "Ninos",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-05",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/5 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4a8294c1-fdb2-4939-98fd-0e9db9ea00f5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4a8294c1-fdb2-4939-98fd-0e9db9ea00f5.mp4",
             "title": "Stop Medi-Cal Cuts",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-05-14",
+            "flightEnd": "2026-03-24",
+            "flightPresent": false,
+            "aired": "Aired 5/14/25 – 3/24"
           }
         ],
         "House Franked Spending": [
@@ -59004,13 +59276,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cb40dfab-212f-4baa-b386-b9dc563788dd.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cb40dfab-212f-4baa-b386-b9dc563788dd.mp4",
             "title": "Congressman David Valadao is Fighting for Your Healthcare",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-05",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 1/5 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1891ebd4-78b1-444d-bc1e-fb517e9498ce.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1891ebd4-78b1-444d-bc1e-fb517e9498ce.mp4",
             "title": "Congressman Valadao is Fighting For You",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-23",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 12/23/25 – 6/17"
           }
         ],
         "Project 218": [
@@ -59018,7 +59298,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/62b69e2b-1b80-4ed3-9082-fddbad92ec0c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/62b69e2b-1b80-4ed3-9082-fddbad92ec0c.mp4",
             "title": "She Fight For Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-27",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/27 – 6/21"
           }
         ],
         "Blue Dog Action PAC": [
@@ -59026,7 +59310,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f0b4038b-81e5-4aa9-bc37-1172389966da.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f0b4038b-81e5-4aa9-bc37-1172389966da.mp4",
             "title": "Cover Up",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           }
         ],
         "Working Families Party": [
@@ -59034,7 +59322,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/88643511-2a89-4875-aaaa-bc67c828a890.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/88643511-2a89-4875-aaaa-bc67c828a890.mp4",
             "title": "Randy Is Different",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           }
         ],
         "American Priorities": [
@@ -59042,7 +59334,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b07caeb7-e87c-46ee-9a39-bf98c933080a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b07caeb7-e87c-46ee-9a39-bf98c933080a.mp4",
             "title": "Waiting",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-27",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/27 – 6/21"
           }
         ],
         "New Democrat Majority": [
@@ -59050,13 +59346,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/50612694-a919-41b6-95bc-2975c9496af0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/50612694-a919-41b6-95bc-2975c9496af0.mp4",
             "title": "Dirty Money",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-22",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/22 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9e237152-6f57-4963-94bf-e715b71b0172.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9e237152-6f57-4963-94bf-e715b71b0172.mp4",
             "title": "Victims Of Abuse",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           }
         ],
         "314 Action": [
@@ -59064,19 +59368,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0c5bdf90-f0da-4c33-a2dd-7693ee3503b9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0c5bdf90-f0da-4c33-a2dd-7693ee3503b9.mp4",
             "title": "Frontlines 2",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/21 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0634bab8-2dd7-4585-b5ff-23fb69439be2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0634bab8-2dd7-4585-b5ff-23fb69439be2.mp4",
             "title": "Who Do You Trust",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-06",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/6 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/434eb755-e95b-4f98-89de-08cced7e3d43.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/434eb755-e95b-4f98-89de-08cced7e3d43.mp4",
             "title": "Frontlines",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-20",
+            "flightEnd": "2026-06-13",
+            "flightPresent": false,
+            "aired": "Aired 5/20 – 6/13"
           }
         ],
         "DCCC/Bains": [
@@ -59084,7 +59400,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f5fccd69-cf9c-4d3c-8318-e000fceaa67f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f5fccd69-cf9c-4d3c-8318-e000fceaa67f.mp4",
             "title": "Stop Trump's Cuts - DCCC",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-27",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 5/27 – 6/18"
           }
         ],
         "Villegas for CA CD-22": [
@@ -59092,61 +59412,101 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8953296f-9b32-432d-b461-dae3713865c6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8953296f-9b32-432d-b461-dae3713865c6.mp4",
             "title": "Who You Are",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-28",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/28 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f1fc5a28-416f-42e4-842e-f58f17551b7d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f1fc5a28-416f-42e4-842e-f58f17551b7d.mp4",
             "title": "Truth Matters",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-16",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/16 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/474f594a-0227-460c-9520-e848adaf9ff1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/474f594a-0227-460c-9520-e848adaf9ff1.mp4",
             "title": "Won't Sell Us Out",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/8 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dd7469cc-caa3-4526-b372-1f1266f69141.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dd7469cc-caa3-4526-b372-1f1266f69141.mp4",
             "title": "Medicare For All",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-08",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 5/8 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d011e2bb-9989-45a1-83ea-ded868e38d62.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d011e2bb-9989-45a1-83ea-ded868e38d62.mp4",
             "title": "Stand Up To Trump",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-05",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/5 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2eef21ef-0758-4244-bf66-6a43a400ba8b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2eef21ef-0758-4244-bf66-6a43a400ba8b.mp4",
             "title": "Repairs",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/21 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f40ca50e-90c1-49fe-9d5c-c3043c1489e2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f40ca50e-90c1-49fe-9d5c-c3043c1489e2.mp4",
             "title": "Hard Work",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-14",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/14 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/247a4945-0bbd-44af-b410-ed5fa53f558f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/247a4945-0bbd-44af-b410-ed5fa53f558f.mp4",
             "title": "Cares",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-14",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 4/14 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/eaf804fc-5d8e-469f-8b2b-6e4d9d5db8e4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/eaf804fc-5d8e-469f-8b2b-6e4d9d5db8e4.mp4",
             "title": "Work Hard",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-22",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 4/22 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/08fb60aa-fd33-4dc9-b344-b3abd5c872c0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/08fb60aa-fd33-4dc9-b344-b3abd5c872c0.mp4",
             "title": "Un Luchador",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-29",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 4/29 – 6/17"
           }
         ],
         "Bains for CA CD-22": [
@@ -59154,7 +59514,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b45f33c6-35b6-496d-bbaa-05e7d2f8bf12.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b45f33c6-35b6-496d-bbaa-05e7d2f8bf12.mp4",
             "title": "Family Doctor",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-21",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 5/21 – 6/20"
           }
         ],
         "DMFI PAC": [
@@ -59162,7 +59526,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0dfff257-fb83-4f90-b3d4-ff929634c724.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0dfff257-fb83-4f90-b3d4-ff929634c724.mp4",
             "title": "Failed Our Kids",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/8 – 6/21"
           }
         ],
         "American Action Network": [
@@ -59170,13 +59538,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2a6f18cc-4095-4013-885e-4cdbe75f9336.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2a6f18cc-4095-4013-885e-4cdbe75f9336.mp4",
             "title": "Flow",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/15 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a6a92bbd-2974-455b-a857-9768bfb6b9ac.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a6a92bbd-2974-455b-a857-9768bfb6b9ac.mp4",
             "title": "Flow (Subtitles)",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/15 – 6/21"
           }
         ],
         "American Energy Action": [
@@ -59184,13 +59560,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/27953b70-f9be-42f8-9565-6e970f408646.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/27953b70-f9be-42f8-9565-6e970f408646.mp4",
             "title": "All Of The Above - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-10",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/10/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/37441f6b-03a1-4299-a5ae-a087d242edb5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/37441f6b-03a1-4299-a5ae-a087d242edb5.mp4",
             "title": "Tax Credits - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-08",
+            "flightEnd": "2026-04-07",
+            "flightPresent": false,
+            "aired": "Aired 4/8/25 – 4/7"
           }
         ],
         "National Nurses United for Patient Protection": [
@@ -59198,7 +59582,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8edb26f2-d68f-4e1b-83a2-da099ce41f0f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8edb26f2-d68f-4e1b-83a2-da099ce41f0f.mp4",
             "title": "Sides With Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           }
         ],
         "SEIU": [
@@ -59206,7 +59594,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cf4015e8-92d6-4f94-b10b-b080a9bf15a1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cf4015e8-92d6-4f94-b10b-b080a9bf15a1.mp4",
             "title": "Rep. David Valadao voted to gut Medicaid, hospitals, and good union jobs",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-29",
+            "flightEnd": "2026-06-10",
+            "flightPresent": false,
+            "aired": "Aired 12/29/25 – 6/10"
           }
         ],
         "VetVoice Foundation": [
@@ -59214,7 +59606,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ee6d6510-bd61-4bcf-b0e1-ff32e5f6a8b9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ee6d6510-bd61-4bcf-b0e1-ff32e5f6a8b9.mp4",
             "title": "VVF WCF Public Lands Campaign   Local D15 CA22 Updated",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-05-13",
+            "flightEnd": "2026-05-12",
+            "flightPresent": false,
+            "aired": "Aired 5/13/25 – 5/12"
           }
         ],
         "House Majority Forward/League of Conservation Voters": [
@@ -59222,7 +59618,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cbf0bbfb-c19b-4d05-acb0-0a315f4895a2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cbf0bbfb-c19b-4d05-acb0-0a315f4895a2.mp4",
             "title": "David Valadao: Soon",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-13",
+            "flightEnd": "2026-04-17",
+            "flightPresent": false,
+            "aired": "Aired 8/13/25 – 4/17"
           }
         ],
         "IFPTE Union Local 21": [
@@ -59230,7 +59630,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1b64a936-9e0a-46aa-9d28-263727dea904.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1b64a936-9e0a-46aa-9d28-263727dea904.mp4",
             "title": "Save Our Hospital - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-14",
+            "flightEnd": "2026-04-12",
+            "flightPresent": false,
+            "aired": "Aired 4/14/25 – 4/12"
           }
         ],
         "National HOPE Alliance": [
@@ -59238,7 +59642,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/09b8d5ab-9cfe-41e6-9744-776be27e10a4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/09b8d5ab-9cfe-41e6-9744-776be27e10a4.mp4",
             "title": "Getting Squeezed - Valadao",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-23",
+            "flightEnd": "2026-03-14",
+            "flightPresent": false,
+            "aired": "Aired 4/23/25 – 3/14"
           }
         ],
         "Fight For Our Health": [
@@ -59246,7 +59654,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4ee710b5-40e8-4b84-b276-0ecf886c5ce5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4ee710b5-40e8-4b84-b276-0ecf886c5ce5.mp4",
             "title": "Not Too Late",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-07-02",
+            "flightEnd": "2026-01-01",
+            "flightPresent": false,
+            "aired": "Aired 7/2/25 – 1/1"
           }
         ]
       }
@@ -66683,13 +67095,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/68b49ed5-afae-4739-90b5-e4301682a077.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/68b49ed5-afae-4739-90b5-e4301682a077.mp4",
             "title": "Past Expiration Date",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-09",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 5/9 – 6/17"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1c5a6b6d-d005-4c00-a583-e50d4cd9b8c0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1c5a6b6d-d005-4c00-a583-e50d4cd9b8c0.mp4",
             "title": "Wrong Direction",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/2 – 6/21"
           }
         ],
         "Blue Dog Action PAC": [
@@ -66697,7 +67117,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fade586f-6d28-4f41-8835-bef23d1a10f9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fade586f-6d28-4f41-8835-bef23d1a10f9.mp4",
             "title": "Disturbing",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           }
         ],
         "Jones for CA CD-04": [
@@ -66705,49 +67129,81 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c227080e-4105-4263-aef3-5898c72925b7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c227080e-4105-4263-aef3-5898c72925b7.mp4",
             "title": "New Leadership",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/2 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/acfd9fee-adc4-48aa-9705-7bb2923d7fad.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/acfd9fee-adc4-48aa-9705-7bb2923d7fad.mp4",
             "title": "Untrue",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-18",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/18 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9573e475-f289-4f20-9b4b-acade502bc65.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9573e475-f289-4f20-9b4b-acade502bc65.mp4",
             "title": "Big Plans",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-29",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/29 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1b049875-7c65-4c80-900a-58f0b56e8205.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1b049875-7c65-4c80-900a-58f0b56e8205.mp4",
             "title": "Give Back 2",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-30",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/30 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d5673e95-ff45-471b-9e03-84ec48b491f5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d5673e95-ff45-471b-9e03-84ec48b491f5.mp4",
             "title": "Working People",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-11",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/11 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dabb56ed-f3af-4ce2-b59d-873184870623.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dabb56ed-f3af-4ce2-b59d-873184870623.mp4",
             "title": "Give Back",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-23",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/23 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0f07c815-05c2-4d91-8ea5-8c04c8f6455c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0f07c815-05c2-4d91-8ea5-8c04c8f6455c.mp4",
             "title": "Put You First",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-03",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/3 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3e3b22da-b372-41c4-91a6-7fd95ca2d71d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3e3b22da-b372-41c4-91a6-7fd95ca2d71d.mp4",
             "title": "Country In Crisis",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-10",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 9/10/25 – 6/21"
           }
         ],
         "Thompson for CA CD-04": [
@@ -66755,19 +67211,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6315150d-fc85-4312-9bf3-e35461bbef2a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6315150d-fc85-4312-9bf3-e35461bbef2a.mp4",
             "title": "Bite Back",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/21 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/87f4d823-2ee5-418d-af48-32a8d9d72606.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/87f4d823-2ee5-418d-af48-32a8d9d72606.mp4",
             "title": "Fetch",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-07",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/7 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/05d276c0-3a18-41e4-8cb0-c97ba0289b7c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/05d276c0-3a18-41e4-8cb0-c97ba0289b7c.mp4",
             "title": "Don't Roll On",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/21 – 6/21"
           }
         ]
       },
@@ -73516,43 +73984,71 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/64b112de-9c1d-497d-8037-b0eff83c9b93.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/64b112de-9c1d-497d-8037-b0eff83c9b93.mp4",
             "title": "PR0125TVH Work Digital.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-07-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 7/21/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ef6eef3a-305a-4aa4-a424-ff8077571b7f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ef6eef3a-305a-4aa4-a424-ff8077571b7f.mp4",
             "title": "Lineman",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-30",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 8/30/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9d3e7a2c-2ded-43fb-a261-bd2ed843deed.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9d3e7a2c-2ded-43fb-a261-bd2ed843deed.mp4",
             "title": "Help Now",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-01",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 10/1/25 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7ce8979f-5ce8-494e-b695-372ec35b48a0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7ce8979f-5ce8-494e-b695-372ec35b48a0.mp4",
             "title": "Delivers - 30s.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-21",
+            "flightEnd": "2026-05-30",
+            "flightPresent": false,
+            "aired": "Aired 8/21/25 – 5/30"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b8d15329-6e18-47a9-a59f-d7f4cd0f812d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b8d15329-6e18-47a9-a59f-d7f4cd0f812d.mp4",
             "title": "PRNES_Sounds Like_DIGI.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-05",
+            "flightEnd": "2026-05-07",
+            "flightPresent": false,
+            "aired": "Aired 12/5/25 – 5/7"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/54d24617-f8a7-482c-adae-234a36aaa319.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/54d24617-f8a7-482c-adae-234a36aaa319.mp4",
             "title": "Thanks, Pete",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-14",
+            "flightEnd": "2026-05-06",
+            "flightPresent": false,
+            "aired": "Aired 12/14/25 – 5/6"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3071cae4-4d52-4b73-8485-8404dfc97928.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3071cae4-4d52-4b73-8485-8404dfc97928.mp4",
             "title": "PRNES_Christmas_DIGI_30S.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-19",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 12/19/25 – 6/18"
           }
         ],
         "Defending Our Values PAC": [
@@ -73560,7 +74056,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1865f6b2-df04-49fd-9d91-c09192a3a939.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1865f6b2-df04-49fd-9d91-c09192a3a939.mp4",
             "title": "Keep it",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-13",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/13 – 6/21"
           }
         ],
         "Fellowship PAC": [
@@ -73568,13 +74068,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/795ae863-302a-4054-a15a-f1a838a8ead9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/795ae863-302a-4054-a15a-f1a838a8ead9.mp4",
             "title": "Complete And Total Endorsement",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-04",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 5/4 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7b0dae67-cead-4808-b646-a500915efbf1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7b0dae67-cead-4808-b646-a500915efbf1.mp4",
             "title": "Complete And Total Endorsement 2",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-04",
+            "flightEnd": "2026-05-26",
+            "flightPresent": false,
+            "aired": "Aired 5/4 – 5/26"
           }
         ],
         "NRSC": [
@@ -73582,7 +74090,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4ce46421-f124-4477-afed-b75af63246ff.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4ce46421-f124-4477-afed-b75af63246ff.mp4",
             "title": "Dirty Dan Osborn",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-14",
+            "flightEnd": "2026-06-11",
+            "flightPresent": false,
+            "aired": "Aired 9/14/25 – 6/11"
           }
         ],
         "Nebraska Appleseed Action Fund": [
@@ -73590,7 +74102,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b6b4a957-d8d6-40eb-bfe8-5b74387426d3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b6b4a957-d8d6-40eb-bfe8-5b74387426d3.mp4",
             "title": "Don't Cut Medicaid",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-24",
+            "flightEnd": "2026-06-02",
+            "flightPresent": false,
+            "aired": "Aired 6/24/25 – 6/2"
           }
         ],
         "One Nation": [
@@ -73598,13 +74114,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/87df0744-940f-42a8-842b-f8b13233f69d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/87df0744-940f-42a8-842b-f8b13233f69d.mp4",
             "title": "Corn Huskers",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-05-29",
+            "flightEnd": "2026-05-29",
+            "flightPresent": false,
+            "aired": "Aired 5/29/25 – 5/29"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f06f9322-03f3-481a-b4ef-40c2b0457929.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f06f9322-03f3-481a-b4ef-40c2b0457929.mp4",
             "title": "ON: \"Never\" 15s - NE",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-28",
+            "flightEnd": "2025-05-23",
+            "flightPresent": false,
+            "aired": "Aired 4/28/25 – 5/23/25"
           }
         ],
         "Osborn for NE Senate": [
@@ -73612,7 +74136,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8f5b32a6-bfb1-4db9-83cd-06b718858bb6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8f5b32a6-bfb1-4db9-83cd-06b718858bb6.mp4",
             "title": "Christmas",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-21",
+            "flightEnd": "2026-03-19",
+            "flightPresent": false,
+            "aired": "Aired 12/21/25 – 3/19"
           }
         ]
       }
@@ -92525,49 +93053,81 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0516b93d-4bfb-4b97-86f6-d795a60f95a0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0516b93d-4bfb-4b97-86f6-d795a60f95a0.mp4",
             "title": "No Respect",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-11",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/11 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/05f7d180-533d-48c2-9a72-df459b07bfc7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/05f7d180-533d-48c2-9a72-df459b07bfc7.mp4",
             "title": "Too Risky",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-11",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/11 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fb95b6ea-831b-4ddf-8193-ab7f0de16906.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fb95b6ea-831b-4ddf-8193-ab7f0de16906.mp4",
             "title": "Read More",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-26",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/26 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b80de543-75b1-4295-b468-490d16d59aa5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b80de543-75b1-4295-b468-490d16d59aa5.mp4",
             "title": "Bigotry And Hate",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-20",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/20 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ec4371db-9569-4d9b-bf76-28b891c88189.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ec4371db-9569-4d9b-bf76-28b891c88189.mp4",
             "title": "The Real Graham Platner",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-26",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/26 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/12be5632-5c97-4ac6-9fa2-092e76e717b3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/12be5632-5c97-4ac6-9fa2-092e76e717b3.mp4",
             "title": "The Real Platner 2",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-05",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 5/5 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f1b8afb6-e22b-48b3-8caa-4fa526a0c1e0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f1b8afb6-e22b-48b3-8caa-4fa526a0c1e0.mp4",
             "title": "Bigoted",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-26",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/26 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2c303e1b-17f9-4e80-bc7a-10ed8205cf51.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2c303e1b-17f9-4e80-bc7a-10ed8205cf51.mp4",
             "title": "The Real Platner",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-05",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 5/5 – 6/19"
           }
         ],
         "Platner for ME Senate": [
@@ -92575,163 +93135,271 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4d318983-cbc7-45a5-bfce-a7b8eb7677af.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4d318983-cbc7-45a5-bfce-a7b8eb7677af.mp4",
             "title": "Take Back Government",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d38c495e-ed0e-4826-aeb6-01cec5e00a44.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d38c495e-ed0e-4826-aeb6-01cec5e00a44.mp4",
             "title": "Boots",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-17",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/17 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0c4f263b-1f69-4fd8-8f15-677a8605cfbd.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0c4f263b-1f69-4fd8-8f15-677a8605cfbd.mp4",
             "title": "Democrat With Backbone",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-17",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/17 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ef1377e6-db32-47c0-9f11-cd07375b4127.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ef1377e6-db32-47c0-9f11-cd07375b4127.mp4",
             "title": "Political Scandal",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-17",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/17 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/62464872-9bdc-4213-8ef0-d5414c8ca9c5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/62464872-9bdc-4213-8ef0-d5414c8ca9c5.mp4",
             "title": "Doesn't Matter",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-17",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/17 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4d7a6d9a-ded7-4ee4-b11f-3fcbbf410bb6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4d7a6d9a-ded7-4ee4-b11f-3fcbbf410bb6.mp4",
             "title": "Vote No on Question 1",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-30",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 10/30/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d3872551-84cb-4837-a297-ae1cdc3507d8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d3872551-84cb-4837-a297-ae1cdc3507d8.mp4",
             "title": "Not On Our Side",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c2291ef1-287a-4cbd-a96d-130fe4dc00e4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c2291ef1-287a-4cbd-a96d-130fe4dc00e4.mp4",
             "title": "No Corporate Money",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-07",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/7 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/16f0a87a-5fe1-41ff-b82f-495677b7abab.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/16f0a87a-5fe1-41ff-b82f-495677b7abab.mp4",
             "title": "Regrets",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-18",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/18 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/908fb007-d117-43f1-beda-11327d8d4737.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/908fb007-d117-43f1-beda-11327d8d4737.mp4",
             "title": "Fighting A War",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/19 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f0814941-b293-45dd-94ad-2cc59df387b2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f0814941-b293-45dd-94ad-2cc59df387b2.mp4",
             "title": "We Have The Power",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-26",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/26 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/87744dd6-201d-452e-bc1f-be3678d610d8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/87744dd6-201d-452e-bc1f-be3678d610d8.mp4",
             "title": "The Road",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-17",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/17 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6bfc3840-1bb1-45d7-a5d1-14eda118b315.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6bfc3840-1bb1-45d7-a5d1-14eda118b315.mp4",
             "title": "Charade Is Over",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/8 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cb734cdb-3c88-4f9c-80cf-f1cf01104a2d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cb734cdb-3c88-4f9c-80cf-f1cf01104a2d.mp4",
             "title": "Maine Always",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f9a466ab-fadb-45af-be42-63634e5a833a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f9a466ab-fadb-45af-be42-63634e5a833a.mp4",
             "title": "Fights For Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/15 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e395272d-a5ad-4201-919a-7b99e78d0e2c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e395272d-a5ad-4201-919a-7b99e78d0e2c.mp4",
             "title": "Wars At Home",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-07",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/7 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/109e5d97-eb3f-4b96-b25f-5360b6c1adc8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/109e5d97-eb3f-4b96-b25f-5360b6c1adc8.mp4",
             "title": "Oyster Farmer",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-19",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 2/19 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f2dfc962-ddfc-4aba-8719-603aa6b013fb.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f2dfc962-ddfc-4aba-8719-603aa6b013fb.mp4",
             "title": "Mainers First",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-29",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/29 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2e51942c-dcfa-4fe9-a011-295ab30c072d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2e51942c-dcfa-4fe9-a011-295ab30c072d.mp4",
             "title": "Fair Deal",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-31",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/31 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c5cf15a9-e439-4828-8668-f30f0866b9b4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c5cf15a9-e439-4828-8668-f30f0866b9b4.mp4",
             "title": "Came Back Home",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-04",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/4 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e1485269-b7ce-4be8-bfbb-fe79b3698f5e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e1485269-b7ce-4be8-bfbb-fe79b3698f5e.mp4",
             "title": "Shut Down Big Pharma",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-17",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 3/17 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/47409f00-ccd5-4fde-b5f9-34109989b341.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/47409f00-ccd5-4fde-b5f9-34109989b341.mp4",
             "title": "Deeply Angry",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-27",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 1/27 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/127342ba-1f1a-4934-803f-63aa0b0db473.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/127342ba-1f1a-4934-803f-63aa0b0db473.mp4",
             "title": "Who I Am Today",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/19 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/097f659c-0e64-4707-88ce-3ea23ee362f7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/097f659c-0e64-4707-88ce-3ea23ee362f7.mp4",
             "title": "Vote To Win",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-17",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 3/17 – 6/17"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/67dc3958-6db5-437f-be7d-f1a6e7ff8fe3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/67dc3958-6db5-437f-be7d-f1a6e7ff8fe3.mp4",
             "title": "Vote To Win :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-18",
+            "flightEnd": "2026-06-08",
+            "flightPresent": false,
+            "aired": "Aired 3/18 – 6/8"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c158da97-9dde-4e37-a7c1-dba155addbaa.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c158da97-9dde-4e37-a7c1-dba155addbaa.mp4",
             "title": "Real Power",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-28",
+            "flightEnd": "2026-05-19",
+            "flightPresent": false,
+            "aired": "Aired 4/28 – 5/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5aa0312b-cf54-4103-b3f2-d20f6986853c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5aa0312b-cf54-4103-b3f2-d20f6986853c.mp4",
             "title": "Time For Change",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-15",
+            "flightEnd": "2025-10-22",
+            "flightPresent": false,
+            "aired": "Aired 10/15/25 – 10/22/25"
           }
         ],
         "One Nation": [
@@ -92739,73 +93407,121 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dd4f4eea-2d70-4dfc-b360-d35ef262829e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dd4f4eea-2d70-4dfc-b360-d35ef262829e.mp4",
             "title": "Champion Solutions",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6fe1fcf7-4473-4d1f-9a5c-e483a01e1e5a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6fe1fcf7-4473-4d1f-9a5c-e483a01e1e5a.mp4",
             "title": "Critical Funds",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-13",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/13 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a35f4f9a-f788-4764-bf27-93f5b4bf1ab7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a35f4f9a-f788-4764-bf27-93f5b4bf1ab7.mp4",
             "title": "Stop Fentanyl Trafficking",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-29",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 4/29 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0b687f95-a9c8-406e-8850-64bcd3fc7d38.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0b687f95-a9c8-406e-8850-64bcd3fc7d38.mp4",
             "title": "Cancer Survivors",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-30",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/30 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/aa535a1c-acf4-42a1-a562-a464c5e9838c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/aa535a1c-acf4-42a1-a562-a464c5e9838c.mp4",
             "title": "Life Sentence",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-16",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/16 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/de79a666-cb8f-4ee1-80a7-ef71b4033023.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/de79a666-cb8f-4ee1-80a7-ef71b4033023.mp4",
             "title": "For Rural Hospitals",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-17",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/17 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1d4317f0-96d0-4d21-bfd4-0ebb9f9b39e1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1d4317f0-96d0-4d21-bfd4-0ebb9f9b39e1.mp4",
             "title": "Everyone Agrees",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-18",
+            "flightEnd": "2026-06-16",
+            "flightPresent": false,
+            "aired": "Aired 10/18/25 – 6/16"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0b76a7fa-f2da-47f5-94ce-6e9f6d0741f1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0b76a7fa-f2da-47f5-94ce-6e9f6d0741f1.mp4",
             "title": "First Responders",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-05",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/5 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5a1ef776-018f-4318-b54b-54393ccfbaae.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5a1ef776-018f-4318-b54b-54393ccfbaae.mp4",
             "title": "Autism",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-04",
+            "flightEnd": "2026-06-08",
+            "flightPresent": false,
+            "aired": "Aired 4/4 – 6/8"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7ffc6a41-9aac-4340-879d-bdf18cadd92e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7ffc6a41-9aac-4340-879d-bdf18cadd92e.mp4",
             "title": "Collins Thank you Clean Water",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-23",
+            "flightEnd": "2026-04-25",
+            "flightPresent": false,
+            "aired": "Aired 1/23 – 4/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5d82d0d0-4c3d-439e-ae9d-c773a86742e7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5d82d0d0-4c3d-439e-ae9d-c773a86742e7.mp4",
             "title": "Protect 30s ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-07",
+            "flightEnd": "2025-12-03",
+            "flightPresent": false,
+            "aired": "Aired 4/7/25 – 12/3/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1219823e-901b-41f3-a8c6-20711ae06ae0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1219823e-901b-41f3-a8c6-20711ae06ae0.mp4",
             "title": "Protect 15s ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-07",
+            "flightEnd": "2025-10-04",
+            "flightPresent": false,
+            "aired": "Aired 4/7/25 – 10/4/25"
           }
         ],
         "Majority Forward": [
@@ -92813,127 +93529,211 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/80c43556-2bf9-4dc7-b69c-063d59c60bb3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/80c43556-2bf9-4dc7-b69c-063d59c60bb3.mp4",
             "title": "Blank Check",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-16",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/16 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ca6c8c12-9a0f-47ad-a690-9578e38f03c0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ca6c8c12-9a0f-47ad-a690-9578e38f03c0.mp4",
             "title": "Joel Iran ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-11",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/11 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bf959b7e-beed-47f5-a1d0-edc5fabc2360.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bf959b7e-beed-47f5-a1d0-edc5fabc2360.mp4",
             "title": "Greed - 30s (ME)",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 9/2/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6c6cc745-4509-430c-aa63-521e1073b2e0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6c6cc745-4509-430c-aa63-521e1073b2e0.mp4",
             "title": "Still Happening",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-03",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/3 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b8e746df-08b6-47f4-a0d5-e721dce8b1d9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b8e746df-08b6-47f4-a0d5-e721dce8b1d9.mp4",
             "title": "That Money",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/2 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1c82b050-1718-49f5-82e4-614bcf93eb7f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1c82b050-1718-49f5-82e4-614bcf93eb7f.mp4",
             "title": "Family Farm",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-11",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 6/11 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ff9f29f1-fd8c-46bc-bf78-48feb671a244.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ff9f29f1-fd8c-46bc-bf78-48feb671a244.mp4",
             "title": "On the Rise :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-24",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/24 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/402c5c5d-b922-457e-989d-8ca58eea4261.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/402c5c5d-b922-457e-989d-8ca58eea4261.mp4",
             "title": "On The Rise",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-20",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 4/20 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/19c0d9f0-caa6-4da6-bb04-512e88a49286.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/19c0d9f0-caa6-4da6-bb04-512e88a49286.mp4",
             "title": "Corruption 30s ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 11/21/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0c674067-094b-4aa5-b509-1a70be1db1e9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0c674067-094b-4aa5-b509-1a70be1db1e9.mp4",
             "title": "That Money :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-02",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 4/2 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/1541c595-a7f6-400b-aab4-054ade149eda.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/1541c595-a7f6-400b-aab4-054ade149eda.mp4",
             "title": "Joel Iran ME :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-11",
+            "flightEnd": "2026-06-02",
+            "flightPresent": false,
+            "aired": "Aired 5/11 – 6/2"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0fff7104-1b99-4010-9c3e-294176ab271c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0fff7104-1b99-4010-9c3e-294176ab271c.mp4",
             "title": "This Life (15A) - ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-15",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 9/15/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/36c737cf-97d3-422f-a524-eac7f40f184d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/36c737cf-97d3-422f-a524-eac7f40f184d.mp4",
             "title": "Your Premiums :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-07",
+            "flightEnd": "2026-04-28",
+            "flightPresent": false,
+            "aired": "Aired 4/7 – 4/28"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/edf14de4-150d-4a33-91fa-a1ecc173cbd5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/edf14de4-150d-4a33-91fa-a1ecc173cbd5.mp4",
             "title": "Your Premiums :30",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-07",
+            "flightEnd": "2026-04-20",
+            "flightPresent": false,
+            "aired": "Aired 4/7 – 4/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b5ad5c16-17ee-4e8e-9295-a77327cc8af3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b5ad5c16-17ee-4e8e-9295-a77327cc8af3.mp4",
             "title": "Terrified (15s) - Maine",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-17",
+            "flightEnd": "2026-04-02",
+            "flightPresent": false,
+            "aired": "Aired 4/17/25 – 4/2"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6b19cec0-abf4-41bc-a877-17d0f79837ff.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6b19cec0-abf4-41bc-a877-17d0f79837ff.mp4",
             "title": "Everywhere You Go",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-02",
+            "flightEnd": "2026-03-30",
+            "flightPresent": false,
+            "aired": "Aired 10/2/25 – 3/30"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a9da3759-4a13-462d-9e84-9fe957789765.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a9da3759-4a13-462d-9e84-9fe957789765.mp4",
             "title": "Official 30s ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-21",
+            "flightEnd": "2026-01-24",
+            "flightPresent": false,
+            "aired": "Aired 11/21/25 – 1/24"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/480e1048-a28c-418a-87ad-e976718d7d7c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/480e1048-a28c-418a-87ad-e976718d7d7c.mp4",
             "title": "This Life- 15s (ME)",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-02",
+            "flightEnd": "2026-01-12",
+            "flightPresent": false,
+            "aired": "Aired 9/2/25 – 1/12"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/61507f36-632f-4b50-8faa-4739858249ea.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/61507f36-632f-4b50-8faa-4739858249ea.mp4",
             "title": "Official ME",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-21",
+            "flightEnd": "2025-12-02",
+            "flightPresent": false,
+            "aired": "Aired 11/21/25 – 12/2/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/294b3885-ffdd-4538-a373-3a72d7bc8a7a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/294b3885-ffdd-4538-a373-3a72d7bc8a7a.mp4",
             "title": "Her Orders 15s",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-15",
+            "flightEnd": "2025-11-19",
+            "flightPresent": false,
+            "aired": "Aired 10/15/25 – 11/19/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3c698245-e129-40d9-999e-4f22902bcb36.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3c698245-e129-40d9-999e-4f22902bcb36.mp4",
             "title": "Everywhere You Go",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-28",
+            "flightEnd": "2025-11-13",
+            "flightPresent": false,
+            "aired": "Aired 10/28/25 – 11/13/25"
           }
         ],
         "League of Labor/Common Defense Action Fund": [
@@ -92941,7 +93741,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5855fe26-2163-4e71-a354-e2377f69639c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5855fe26-2163-4e71-a354-e2377f69639c.mp4",
             "title": "Jimmy",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-12",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/12 – 6/21"
           }
         ],
         "Stronger America": [
@@ -92949,31 +93753,51 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fd0062bb-f2e4-42b9-80f2-3722fe66320a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fd0062bb-f2e4-42b9-80f2-3722fe66320a.mp4",
             "title": "Critical Investments",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-12",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/12 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7775e590-1785-4d35-8b2f-edada00a2467.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7775e590-1785-4d35-8b2f-edada00a2467.mp4",
             "title": "Heating Assistance",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-06",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 10/6/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/aa71cf73-1f3b-4846-82ae-7a4672e10273.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/aa71cf73-1f3b-4846-82ae-7a4672e10273.mp4",
             "title": "No Matter What",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-06",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 11/6/25 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/795144ac-0ed4-4fa7-a53f-2ea2541300f3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/795144ac-0ed4-4fa7-a53f-2ea2541300f3.mp4",
             "title": "Grateful",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-08",
+            "flightEnd": "2026-03-10",
+            "flightPresent": false,
+            "aired": "Aired 9/8/25 – 3/10"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5a4570bb-09db-4baf-a147-245c5f0ce20f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5a4570bb-09db-4baf-a147-245c5f0ce20f.mp4",
             "title": "Fought For Retirees",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-08-01",
+            "flightEnd": "2026-02-13",
+            "flightPresent": false,
+            "aired": "Aired 8/1/25 – 2/13"
           }
         ],
         "Stronger Maine": [
@@ -92981,7 +93805,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/41473084-7599-4d3b-9241-2700c2ff7a68.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/41473084-7599-4d3b-9241-2700c2ff7a68.mp4",
             "title": "Lying Chuck",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-17",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 10/17/25 – 6/21"
           }
         ],
         "NRSC": [
@@ -92989,13 +93817,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bc1b8ec9-8c1a-4ac5-8d4f-bb5d8892eea3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bc1b8ec9-8c1a-4ac5-8d4f-bb5d8892eea3.mp4",
             "title": "ASMR Tax Trauma",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-18",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 11/18/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/df71863e-ca8a-4246-8f84-40b142d31b09.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/df71863e-ca8a-4246-8f84-40b142d31b09.mp4",
             "title": "No Thanks",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-02",
+            "flightEnd": "2026-05-27",
+            "flightPresent": false,
+            "aired": "Aired 5/2 – 5/27"
           }
         ],
         "Mills for ME Senate": [
@@ -93003,49 +93839,81 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d4af0a96-c899-438e-aa37-b7146da55a0d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d4af0a96-c899-438e-aa37-b7146da55a0d.mp4",
             "title": "JMFS - Officially Running YT.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-04",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 12/4/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/194533d4-3a15-4722-ba29-cae26db37d8b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/194533d4-3a15-4722-ba29-cae26db37d8b.mp4",
             "title": "JMFS - Stand Up DTC YT.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-07",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 12/7/25 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/89f100e9-bf87-4c59-93b6-0c15a0fedcd8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/89f100e9-bf87-4c59-93b6-0c15a0fedcd8.mp4",
             "title": "JMFS - Stand Up 2 YT.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-08",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 12/8/25 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/442a6ef3-4890-487a-877f-a1d2640fd630.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/442a6ef3-4890-487a-877f-a1d2640fd630.mp4",
             "title": "Blames The Victim",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-17",
+            "flightEnd": "2026-06-16",
+            "flightPresent": false,
+            "aired": "Aired 3/17 – 6/16"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f02afa5d-4ce3-444b-881a-245e37c85a9e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f02afa5d-4ce3-444b-881a-245e37c85a9e.mp4",
             "title": "Inacceptable",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-27",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 3/27 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e07b40b9-181e-4849-8463-bcfabdc250c1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e07b40b9-181e-4849-8463-bcfabdc250c1.mp4",
             "title": "Bully",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-18",
+            "flightEnd": "2026-06-15",
+            "flightPresent": false,
+            "aired": "Aired 2/18 – 6/15"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2d1ae42c-b19e-4b24-b32f-32a71144d9a8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2d1ae42c-b19e-4b24-b32f-32a71144d9a8.mp4",
             "title": "Fear",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-30",
+            "flightEnd": "2026-06-15",
+            "flightPresent": false,
+            "aired": "Aired 1/30 – 6/15"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e656b5f3-de1c-4b1f-be83-8a0b992d586a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e656b5f3-de1c-4b1f-be83-8a0b992d586a.mp4",
             "title": "JMFS Flip Maine Blue YT.mp4",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-01",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 12/1/25 – 6/17"
           }
         ],
         "Collins for ME Senate": [
@@ -93053,31 +93921,51 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/405b8af4-867d-43ee-aecf-91ae8f9f53f8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/405b8af4-867d-43ee-aecf-91ae8f9f53f8.mp4",
             "title": "Eastpoint Breakwater :30",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-07",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/7 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5df3f51d-6ef4-4bef-b42f-cef384230e19.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5df3f51d-6ef4-4bef-b42f-cef384230e19.mp4",
             "title": "Eastpoint Breakwater :60",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-07",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/7 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2f712f35-2895-4f6f-a5aa-4a987bcb056d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2f712f35-2895-4f6f-a5aa-4a987bcb056d.mp4",
             "title": "USDA Seafood",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-21",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/21 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bc80f6fb-49f7-4704-9be3-55823d59dc47.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bc80f6fb-49f7-4704-9be3-55823d59dc47.mp4",
             "title": "Never Missed A Vote",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-29",
+            "flightEnd": "2026-05-31",
+            "flightPresent": false,
+            "aired": "Aired 4/29 – 5/31"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8ca37158-f053-4a1d-805f-d6bd6afedb24.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8ca37158-f053-4a1d-805f-d6bd6afedb24.mp4",
             "title": "Social Security",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-12",
+            "flightEnd": "2026-05-04",
+            "flightPresent": false,
+            "aired": "Aired 4/12 – 5/4"
           }
         ],
         "Duty and Honor": [
@@ -93085,7 +93973,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d6c62bc1-4dab-4e2a-86a8-af5fc08f99e1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d6c62bc1-4dab-4e2a-86a8-af5fc08f99e1.mp4",
             "title": "Hold ICE Accountable",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-01",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/1 – 6/21"
           }
         ],
         "American Advancement Inc": [
@@ -93093,25 +93985,41 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4c1a0a85-fdc8-471a-9b31-82fe27d9d5d6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4c1a0a85-fdc8-471a-9b31-82fe27d9d5d6.mp4",
             "title": "Promise - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-20",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 12/20/25 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/37538e9b-d946-4280-a6f0-d7e091e3299e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/37538e9b-d946-4280-a6f0-d7e091e3299e.mp4",
             "title": "Keep Your Promise - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-07-29",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 7/29/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b1c9d50a-7173-4042-8632-3b4f8e60996b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b1c9d50a-7173-4042-8632-3b4f8e60996b.mp4",
             "title": "At Risk - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-09-03",
+            "flightEnd": "2026-03-16",
+            "flightPresent": false,
+            "aired": "Aired 9/3/25 – 3/16"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c257b854-9418-4ee5-b00b-153d781d2839.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c257b854-9418-4ee5-b00b-153d781d2839.mp4",
             "title": "Fix Obamacare - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-11-26",
+            "flightEnd": "2026-02-18",
+            "flightPresent": false,
+            "aired": "Aired 11/26/25 – 2/18"
           }
         ],
         "Unrig Our Economy": [
@@ -93119,31 +94027,51 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/676d4460-168f-4885-b82b-28bb22941414.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/676d4460-168f-4885-b82b-28bb22941414.mp4",
             "title": "Save Our Healthcare",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-12",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 10/12/25 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3d37625b-8814-4871-8d20-e5f944104a2a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3d37625b-8814-4871-8d20-e5f944104a2a.mp4",
             "title": "Insulin",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-19",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 2/19 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a19823b5-e8eb-4855-aa01-be6e2141feff.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a19823b5-e8eb-4855-aa01-be6e2141feff.mp4",
             "title": "Typical Family",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-18",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 12/18/25 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/769d9ddf-5089-4b76-8d51-d381a4989ca8.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/769d9ddf-5089-4b76-8d51-d381a4989ca8.mp4",
             "title": "Life Changing",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-25",
+            "flightEnd": "2026-05-24",
+            "flightPresent": false,
+            "aired": "Aired 6/25/25 – 5/24"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/07782359-d0e9-46ec-b2da-89f6e7210513.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/07782359-d0e9-46ec-b2da-89f6e7210513.mp4",
             "title": "Help Working Families - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-09",
+            "flightEnd": "2026-05-03",
+            "flightPresent": false,
+            "aired": "Aired 6/9/25 – 5/3"
           }
         ],
         "Maine Labor Climate Council": [
@@ -93151,13 +94079,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/782ec3f7-7079-41b1-beea-66411a765c95.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/782ec3f7-7079-41b1-beea-66411a765c95.mp4",
             "title": "Next Paycheck",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-16",
+            "flightEnd": "2026-06-17",
+            "flightPresent": false,
+            "aired": "Aired 6/16/25 – 6/17"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/57f85e0e-8316-4253-8911-2816fef0f308.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/57f85e0e-8316-4253-8911-2816fef0f308.mp4",
             "title": "Clean Energy Tax Credits",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-21",
+            "flightEnd": "2026-02-21",
+            "flightPresent": false,
+            "aired": "Aired 4/21/25 – 2/21"
           }
         ],
         "Protect Our Jobs": [
@@ -93165,13 +94101,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/569681aa-c569-41cc-a11a-bb5e2f562319.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/569681aa-c569-41cc-a11a-bb5e2f562319.mp4",
             "title": "Save Money",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-18",
+            "flightEnd": "2026-06-15",
+            "flightPresent": false,
+            "aired": "Aired 6/18/25 – 6/15"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fd2bd004-27ec-46e6-bb91-fb6c897178d9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fd2bd004-27ec-46e6-bb91-fb6c897178d9.mp4",
             "title": "Stop Clean Energy Cuts",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-20",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 6/20/25 – 6/20"
           }
         ],
         "American Energy Action": [
@@ -93179,19 +94123,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/adba4ae1-4012-4dfb-bb33-302294cf6459.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/adba4ae1-4012-4dfb-bb33-302294cf6459.mp4",
             "title": "All Of The Above - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-03-10",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 3/10/25 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a7af2aaa-bf00-4306-a0ca-ea0d1b174fdc.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a7af2aaa-bf00-4306-a0ca-ea0d1b174fdc.mp4",
             "title": "Tax Credits - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-04-08",
+            "flightEnd": "2026-03-24",
+            "flightPresent": false,
+            "aired": "Aired 4/8/25 – 3/24"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/36560434-83d5-4aa3-adc8-55af537d707b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/36560434-83d5-4aa3-adc8-55af537d707b.mp4",
             "title": "American Energy - Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-06-04",
+            "flightEnd": "2026-02-11",
+            "flightPresent": false,
+            "aired": "Aired 6/4/25 – 2/11"
           }
         ],
         "American Health Care Association": [
@@ -93199,7 +94155,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f2e969a6-475e-490b-a650-54fac016a179.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f2e969a6-475e-490b-a650-54fac016a179.mp4",
             "title": "Thank you, Senator Collins (30 secs)",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-05",
+            "flightEnd": "2026-05-14",
+            "flightPresent": false,
+            "aired": "Aired 5/5 – 5/14"
           }
         ],
         "DSCC": [
@@ -93207,7 +94167,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8088adf5-ce74-4ff9-b4b2-9f5a4e10e35e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8088adf5-ce74-4ff9-b4b2-9f5a4e10e35e.mp4",
             "title": "Magic Trick Collins",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-02",
+            "flightEnd": "2026-05-06",
+            "flightPresent": false,
+            "aired": "Aired 10/2/25 – 5/6"
           }
         ],
         "Senate Opportunity Fund": [
@@ -93215,13 +94179,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/868ce00a-6632-4545-8546-cba8ec79ee3d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/868ce00a-6632-4545-8546-cba8ec79ee3d.mp4",
             "title": "Re-Open Plan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-23",
+            "flightEnd": "2026-01-28",
+            "flightPresent": false,
+            "aired": "Aired 10/23/25 – 1/28"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/de8d2239-20ef-4e71-960f-50380437e023.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/de8d2239-20ef-4e71-960f-50380437e023.mp4",
             "title": "Putting ME Families First",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-10-23",
+            "flightEnd": "2025-12-06",
+            "flightPresent": false,
+            "aired": "Aired 10/23/25 – 12/6/25"
           }
         ]
       }
@@ -95228,25 +96200,41 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dfb7cb52-d083-4096-9efb-323157eccf42.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dfb7cb52-d083-4096-9efb-323157eccf42.mp4",
             "title": "Fighting For City",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-11",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/11 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/cef024e0-a421-4663-924d-71e408455fc1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/cef024e0-a421-4663-924d-71e408455fc1.mp4",
             "title": "No Estoy En Venta",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-27",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/27 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e8ad967f-0d5e-4bff-828f-f498b3832b0c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e8ad967f-0d5e-4bff-828f-f498b3832b0c.mp4",
             "title": "Housing Affordability",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-03",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/3 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/3048f448-be5c-4355-828b-ab77bed895b9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/3048f448-be5c-4355-828b-ab77bed895b9.mp4",
             "title": "Vivimos Con Fuerza",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-06",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/6 – 6/21"
           }
         ],
         "Progressive Unity Fund": [
@@ -95254,31 +96242,51 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ed7bd82e-eb2a-48c0-866e-3e3e80b9a189.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ed7bd82e-eb2a-48c0-866e-3e3e80b9a189.mp4",
             "title": "Heroes",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e997fbab-0660-4c8f-967f-ef59d6af2290.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e997fbab-0660-4c8f-967f-ef59d6af2290.mp4",
             "title": "Veteranos",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-13",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/13 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f8c3e652-58e7-4bb6-b4b4-52b2d87ca8e5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f8c3e652-58e7-4bb6-b4b4-52b2d87ca8e5.mp4",
             "title": "Not On Our Team",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-17",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/17 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/87396688-20d7-45c8-a9df-4af3a83486a2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/87396688-20d7-45c8-a9df-4af3a83486a2.mp4",
             "title": "War Crimes",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b5885423-60e8-4e03-8044-052d79aa1cb0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b5885423-60e8-4e03-8044-052d79aa1cb0.mp4",
             "title": "No Luchara Por Ellos",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-13",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/13 – present"
           }
         ],
         "BOLD America": [
@@ -95286,25 +96294,41 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5bd84297-9857-4873-b8ca-478304ac9fda.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5bd84297-9857-4873-b8ca-478304ac9fda.mp4",
             "title": "We Can't Trust",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/9 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/44687aeb-1070-4253-9674-81f9d9d231a7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/44687aeb-1070-4253-9674-81f9d9d231a7.mp4",
             "title": "Ocultando La Verdad",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-10",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/10 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/f92ecc7d-8e76-40ec-be74-f1689f51358d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/f92ecc7d-8e76-40ec-be74-f1689f51358d.mp4",
             "title": "Los Progresistas Confían En Espaillat",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-04",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/4 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8f216e4c-eb48-42fa-a137-a491d2e23abb.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8f216e4c-eb48-42fa-a137-a491d2e23abb.mp4",
             "title": "Proven Fighter",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-03",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/3 – 6/21"
           }
         ],
         "American Priorities": [
@@ -95312,7 +96336,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c00a13f5-2b39-4b7b-8d56-e14f7560ff3d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c00a13f5-2b39-4b7b-8d56-e14f7560ff3d.mp4",
             "title": "Warning",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-17",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/17 – present"
           }
         ],
         "Project 218": [
@@ -95320,7 +96348,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5e82be0f-34cc-4c5a-a2be-7b6eb327f226.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5e82be0f-34cc-4c5a-a2be-7b6eb327f226.mp4",
             "title": "Real Leadership",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-14",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/14 – present"
           }
         ],
         "Espaillat for NY CD-13": [
@@ -95328,19 +96360,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c977df4d-0ed5-40b0-ad4e-059c134ff0d6.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c977df4d-0ed5-40b0-ad4e-059c134ff0d6.mp4",
             "title": "Fin A La Detención",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-16",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/16 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fba617a3-6170-4ddf-84e8-5391cab2855f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fba617a3-6170-4ddf-84e8-5391cab2855f.mp4",
             "title": "Proteger Inmigrantes",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-16",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/16 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9a058ae4-94c0-493f-9e2c-c69cf4107d0f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9a058ae4-94c0-493f-9e2c-c69cf4107d0f.mp4",
             "title": "Let's Meet Darializa",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/9 – 6/21"
           }
         ]
       },
@@ -110917,61 +111961,101 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5550b703-a72a-4d64-bafc-17c92f848c5b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5550b703-a72a-4d64-bafc-17c92f848c5b.mp4",
             "title": "Now's The Time",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-02",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/2 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/13a11d53-298d-48c5-8fba-78d578ccb732.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/13a11d53-298d-48c5-8fba-78d578ccb732.mp4",
             "title": "Ready To Govern :30",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/2 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dfc9cf62-cc4a-4167-ab25-88173079d75e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dfc9cf62-cc4a-4167-ab25-88173079d75e.mp4",
             "title": "Now's The Time :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/2 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0a75c70a-16c8-4814-bc35-cc9a989143f3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0a75c70a-16c8-4814-bc35-cc9a989143f3.mp4",
             "title": "Ready To Govern :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-02",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/2 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/11438038-cc3b-4ed1-bbb0-643d4a042dd9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/11438038-cc3b-4ed1-bbb0-643d4a042dd9.mp4",
             "title": "Lying Awake :30",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/027afd9d-43ed-4c67-886e-f94dca29e7f7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/027afd9d-43ed-4c67-886e-f94dca29e7f7.mp4",
             "title": "Serious",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-03",
+            "flightEnd": "2026-06-04",
+            "flightPresent": false,
+            "aired": "Aired 2/3 – 6/4"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e9a3a739-0d63-4c5a-a215-ca2b23d7752f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e9a3a739-0d63-4c5a-a215-ca2b23d7752f.mp4",
             "title": "Lying Awake :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-05-11",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 5/11"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/434144f4-0d1f-41fd-93fd-62f589c94ab5.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/434144f4-0d1f-41fd-93fd-62f589c94ab5.mp4",
             "title": "Priority :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-10",
+            "flightEnd": "2026-05-04",
+            "flightPresent": false,
+            "aired": "Aired 3/10 – 5/4"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/67131520-826a-4819-be1a-9c66e1dc8103.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/67131520-826a-4819-be1a-9c66e1dc8103.mp4",
             "title": "Priority :30",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-10",
+            "flightEnd": "2026-04-29",
+            "flightPresent": false,
+            "aired": "Aired 3/10 – 4/29"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d0ba6ab4-0578-4e57-8161-88efd1be0e95.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d0ba6ab4-0578-4e57-8161-88efd1be0e95.mp4",
             "title": "Statesman :15",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-05",
+            "flightEnd": "2026-03-01",
+            "flightPresent": false,
+            "aired": "Aired 2/5 – 3/1"
           }
         ],
         "United Democracy Project": [
@@ -110979,7 +112063,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b6013db4-7a00-401b-ac9e-16b163189cb3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b6013db4-7a00-401b-ac9e-16b163189cb3.mp4",
             "title": "Obama's Team",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/9 – present"
           }
         ],
         "Yes MI Action Committee": [
@@ -110987,13 +112075,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/93f46cdf-3450-4631-ac46-1ed68e7f17dc.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/93f46cdf-3450-4631-ac46-1ed68e7f17dc.mp4",
             "title": "Keep Fighting Back",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/9 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9801e37f-6980-40e7-a79c-7f3634a35d59.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9801e37f-6980-40e7-a79c-7f3634a35d59.mp4",
             "title": "Protect Michigan Families",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/9 – present"
           }
         ],
         "A Stronger Michigan (D)": [
@@ -111001,7 +112097,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ddc63133-6e47-4cb2-85f1-3de6ec54e7d2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ddc63133-6e47-4cb2-85f1-3de6ec54e7d2.mp4",
             "title": "Most Effective Democrat",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-04",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/4 – present"
           }
         ],
         "El-Sayed for MI Senate": [
@@ -111009,13 +112109,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d9ba5d2e-db78-4493-a292-572a1d0042ce.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d9ba5d2e-db78-4493-a292-572a1d0042ce.mp4",
             "title": "Son Of Michigan",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-16",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/16 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/17a176f9-8224-4f5c-9b26-a4f04fab78c0.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/17a176f9-8224-4f5c-9b26-a4f04fab78c0.mp4",
             "title": "Football",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-19",
+            "flightEnd": "2026-06-16",
+            "flightPresent": false,
+            "aired": "Aired 12/19/25 – 6/16"
           }
         ],
         "Americans for Prosperity": [
@@ -111023,19 +112131,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/39435bef-5b3a-47f9-adbb-bca48f4b22cc.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/39435bef-5b3a-47f9-adbb-bca48f4b22cc.mp4",
             "title": "01 28 AFP Six Weeks Groceries 15 PICLOCK MIX 01 v01",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-02-03",
+            "flightEnd": "2026-06-16",
+            "flightPresent": false,
+            "aired": "Aired 2/3/25 – 6/16"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/de004ea9-e2fb-4300-af13-22bde9dc0ca2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/de004ea9-e2fb-4300-af13-22bde9dc0ca2.mp4",
             "title": "Michigan Families Can’t Afford This Tax Hike – Protect Prosperity Now",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-02-03",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/3/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4d2ec27c-d465-43e6-9c93-58159895ae21.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4d2ec27c-d465-43e6-9c93-58159895ae21.mp4",
             "title": "DHS Shutdown - Peters",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-15",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 3/15 – 6/18"
           }
         ],
         "Fighting for Michigan": [
@@ -111043,7 +112163,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fff2bfbd-f7a3-4c04-9157-55cafa36a863.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fff2bfbd-f7a3-4c04-9157-55cafa36a863.mp4",
             "title": "As Michigan As It Gets",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-16",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/16 – 6/21"
           }
         ],
         "Fight for Michigan": [
@@ -111051,7 +112175,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a66606b9-cbd7-4b44-885e-1659f5cf1b05.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a66606b9-cbd7-4b44-885e-1659f5cf1b05.mp4",
             "title": "Action Now",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-22",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 5/22 – 6/20"
           }
         ],
         "Center Forward": [
@@ -111059,7 +112187,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e2523e8c-8213-442a-a9c2-966e6c1d9791.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e2523e8c-8213-442a-a9c2-966e6c1d9791.mp4",
             "title": "Keep Fighting ICE",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-12",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/12 – 6/21"
           }
         ],
         "Center for Democratic Priorities": [
@@ -111067,13 +112199,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5061da34-a24b-43c4-8592-ec042ef80883.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5061da34-a24b-43c4-8592-ec042ef80883.mp4",
             "title": "Abuse Of Power",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-22",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/22 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9f97894b-001f-489b-9403-1ab8bc388d16.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9f97894b-001f-489b-9403-1ab8bc388d16.mp4",
             "title": "Hold ICE Accountable",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-09",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/9 – 6/21"
           }
         ],
         "Center Forward Committee": [
@@ -111081,7 +112221,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/78cfe589-5ca3-481e-a8eb-426b93c48683.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/78cfe589-5ca3-481e-a8eb-426b93c48683.mp4",
             "title": "The Most Effective",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-12",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/12 – 6/21"
           }
         ],
         "Rogers for MI Senate": [
@@ -111089,13 +112233,21 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/13757d76-c675-448a-88a0-6713a51cad10.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/13757d76-c675-448a-88a0-6713a51cad10.mp4",
             "title": "Dirty Hands",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-12",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/12 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/61e025fc-fdd6-4631-ba24-399c4559523f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/61e025fc-fdd6-4631-ba24-399c4559523f.mp4",
             "title": "Wrong On Safety",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-27",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 1/27 – 6/20"
           }
         ],
         "NRSC": [
@@ -111103,7 +112255,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a9cf82ec-6541-49b2-b005-c08f5c9bf90a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a9cf82ec-6541-49b2-b005-c08f5c9bf90a.mp4",
             "title": "Senate Smash MISEN",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2025-12-08",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 12/8/25 – 6/20"
           }
         ],
         "Senate Opportunity Fund": [
@@ -111111,7 +112267,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/427a8c7f-bc03-4f8c-9a7f-0212ea71bef2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/427a8c7f-bc03-4f8c-9a7f-0212ea71bef2.mp4",
             "title": "Keep Fighting MI",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-06",
+            "flightEnd": "2026-06-01",
+            "flightPresent": false,
+            "aired": "Aired 3/6 – 6/1"
           }
         ]
       },
@@ -124148,119 +125308,187 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/f7f32d02-6d12-45b5-b62e-c9d0c567aa28.mp4",
             "title": "Crushed",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-06-16",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/16 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/283fc77a-9e2e-4209-b41c-9d1784a20128.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/283fc77a-9e2e-4209-b41c-9d1784a20128.mp4",
             "title": "Cost of War :15",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-05-27",
+            "flightEnd": "2026-06-16",
+            "flightPresent": false,
+            "aired": "Aired 5/27 – 6/16"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/472cf7dd-5fe5-47db-93f7-c0a78539d05b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/472cf7dd-5fe5-47db-93f7-c0a78539d05b.mp4",
             "title": "You Name It",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-11-16",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 11/16/25 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2bf49c7c-15f7-48da-8dd3-26fda23f4b3d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2bf49c7c-15f7-48da-8dd3-26fda23f4b3d.mp4",
             "title": "New Year 15",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-01-20",
+            "flightEnd": "2026-06-15",
+            "flightPresent": false,
+            "aired": "Aired 1/20 – 6/15"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b8703539-8e22-45ba-b3bb-a0b3f37acefe.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b8703539-8e22-45ba-b3bb-a0b3f37acefe.mp4",
             "title": "Keeps :30",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-05-27",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 5/27"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/15f03c29-f55f-44c6-8392-f1b3b34f71b3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/15f03c29-f55f-44c6-8392-f1b3b34f71b3.mp4",
             "title": "Yes Health Care AK",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-03-27",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/27 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c0be5c2f-082a-4112-a955-6467a018b6b4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c0be5c2f-082a-4112-a955-6467a018b6b4.mp4",
             "title": "Corruption - 15s VERT (AK)",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-12-18",
+            "flightEnd": "2026-05-14",
+            "flightPresent": false,
+            "aired": "Aired 12/18/25 – 5/14"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/93d80f67-e6f2-48f6-9ab5-fb45c7790ed2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/93d80f67-e6f2-48f6-9ab5-fb45c7790ed2.mp4",
             "title": "Keeps  :15",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-04-08",
+            "flightEnd": "2026-04-27",
+            "flightPresent": false,
+            "aired": "Aired 4/8 – 4/27"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/63e84ded-3e92-4ffb-84b2-9709cc68bb1c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/63e84ded-3e92-4ffb-84b2-9709cc68bb1c.mp4",
             "title": "Stop Voting",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-06-04",
+            "flightEnd": "2026-04-23",
+            "flightPresent": false,
+            "aired": "Aired 6/4/25 – 4/23"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/db6f946c-2161-4db3-9635-5c2c55fa7eef.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/db6f946c-2161-4db3-9635-5c2c55fa7eef.mp4",
             "title": "Medicaid - 15s (AK)",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-06-16",
+            "flightEnd": "2026-04-11",
+            "flightPresent": false,
+            "aired": "Aired 6/16/25 – 4/11"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dcd1fab0-43a2-4706-80bc-8df03cb307d4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dcd1fab0-43a2-4706-80bc-8df03cb307d4.mp4",
             "title": "Yes Tariffs :15 AK",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-03-27",
+            "flightEnd": "2026-04-10",
+            "flightPresent": false,
+            "aired": "Aired 3/27 – 4/10"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4988f6e7-efba-4e73-82a6-4b5f3175c6f2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4988f6e7-efba-4e73-82a6-4b5f3175c6f2.mp4",
             "title": "Yes Tariffs :15 AK",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-03-25",
+            "flightEnd": "2026-04-06",
+            "flightPresent": false,
+            "aired": "Aired 3/25 – 4/6"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/87b60b21-ef13-4dfb-880b-203e9dec4f5f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/87b60b21-ef13-4dfb-880b-203e9dec4f5f.mp4",
             "title": "Yes Health Care :15 AK",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-03-27",
+            "flightEnd": "2026-04-06",
+            "flightPresent": false,
+            "aired": "Aired 3/27 – 4/6"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9b512540-1d88-4b4e-8f64-06156284ee13.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9b512540-1d88-4b4e-8f64-06156284ee13.mp4",
             "title": "Stop Voting 15s",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-06-06",
+            "flightEnd": "2026-01-26",
+            "flightPresent": false,
+            "aired": "Aired 6/6/25 – 1/26"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/22cb4734-8384-4a74-a782-19247cf07224.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/22cb4734-8384-4a74-a782-19247cf07224.mp4",
             "title": "Corruption 30s AK",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-11-21",
+            "flightEnd": "2026-01-14",
+            "flightPresent": false,
+            "aired": "Aired 11/21/25 – 1/14"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/dca877fe-e544-48f8-8695-579721faf24d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/dca877fe-e544-48f8-8695-579721faf24d.mp4",
             "title": "Official 30s AK",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-11-21",
+            "flightEnd": "2025-12-18",
+            "flightPresent": false,
+            "aired": "Aired 11/21/25 – 12/18/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/98b84e28-374e-4b85-be75-1600baa9a741.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/98b84e28-374e-4b85-be75-1600baa9a741.mp4",
             "title": "Official AK",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-11-21",
+            "flightEnd": "2025-12-18",
+            "flightPresent": false,
+            "aired": "Aired 11/21/25 – 12/18/25"
           }
         ],
         "Last Frontier PAC": [
@@ -124269,7 +125497,11 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/4122167d-5e3f-44e4-bf9a-a5fb94a64c7d.mp4",
             "title": "Fired",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-05-27",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 5/27 – present"
           }
         ],
         "Peltola for AK Senate": [
@@ -124278,49 +125510,77 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/30063021-8f0b-48df-94e6-f50009cbdbb0.mp4",
             "title": "Tough Life",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/9 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/32b82a2b-70ac-44a3-bbf8-c07f70d8be1f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/32b82a2b-70ac-44a3-bbf8-c07f70d8be1f.mp4",
             "title": "Alaska Pays",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-06-09",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/9 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2e97f76d-0780-4303-ac79-ac1ac9b3070a.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2e97f76d-0780-4303-ac79-ac1ac9b3070a.mp4",
             "title": "For The People",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2072557f-852a-4f46-a2f9-c034cd8eac5f.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2072557f-852a-4f46-a2f9-c034cd8eac5f.mp4",
             "title": "Together",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-05-19",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/19 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2bc98bb9-9977-4740-9b28-41952a39928b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2bc98bb9-9977-4740-9b28-41952a39928b.mp4",
             "title": "Become A Founding Donor",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-01-29",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 1/29 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/bd5c31a5-b41f-4608-a423-fcbd59e519e9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/bd5c31a5-b41f-4608-a423-fcbd59e519e9.mp4",
             "title": "Chip in to help us keep moving",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-03-11",
+            "flightEnd": "2026-05-24",
+            "flightPresent": false,
+            "aired": "Aired 3/11 – 5/24"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/c53d740b-9dd6-4a3b-abf1-1c397a4cba61.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/c53d740b-9dd6-4a3b-abf1-1c397a4cba61.mp4",
             "title": "Deadline",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-04-23",
+            "flightEnd": "2026-05-17",
+            "flightPresent": false,
+            "aired": "Aired 4/23 – 5/17"
           }
         ],
         "One Nation": [
@@ -124329,42 +125589,66 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/02042f8b-99d3-4725-a056-88c4631498b0.mp4",
             "title": "End Opioid Crisis",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-06-13",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/13 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9358df32-e099-4800-81e3-76eef64b75df.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9358df32-e099-4800-81e3-76eef64b75df.mp4",
             "title": "Call Of Duty",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-06-03",
+            "flightEnd": "2026-06-22",
+            "flightPresent": true,
+            "aired": "Aired 6/3 – present"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b465fbd3-1b00-40f0-b385-7862b70c099c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b465fbd3-1b00-40f0-b385-7862b70c099c.mp4",
             "title": "Fund Border Security",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-05-09",
+            "flightEnd": "2026-06-01",
+            "flightPresent": false,
+            "aired": "Aired 5/9 – 6/1"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/8c18dc94-d42b-4a5e-87c1-c05eea7988b3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/8c18dc94-d42b-4a5e-87c1-c05eea7988b3.mp4",
             "title": "Thank You Senator Sullivan",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-07-24",
+            "flightEnd": "2026-03-09",
+            "flightPresent": false,
+            "aired": "Aired 7/24/25 – 3/9"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/36385a7d-14fe-458c-8010-1d4c48754f27.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/36385a7d-14fe-458c-8010-1d4c48754f27.mp4",
             "title": "ON: \"Champion\" 30s - AK",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-04-28",
+            "flightEnd": "2026-02-28",
+            "flightPresent": false,
+            "aired": "Aired 4/28/25 – 2/28"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fddd3d46-28d6-4a49-baf5-8368231593f3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fddd3d46-28d6-4a49-baf5-8368231593f3.mp4",
             "title": "ON: \"Champion\" 15s - AK",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-04-28",
+            "flightEnd": "2026-01-22",
+            "flightPresent": false,
+            "aired": "Aired 4/28/25 – 1/22"
           }
         ],
         "The 907 Initiative": [
@@ -124373,56 +125657,88 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/bc88ebae-047c-4f37-a8c0-2e8cff5d87db.mp4",
             "title": "Stop Raising Costs",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-05-28",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 5/28 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/507df63c-b850-48e3-8f40-0f5e8d8e7bc1.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/507df63c-b850-48e3-8f40-0f5e8d8e7bc1.mp4",
             "title": "SWAMP PRICES 30",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-12-18",
+            "flightEnd": "2026-06-19",
+            "flightPresent": false,
+            "aired": "Aired 12/18/25 – 6/19"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/e7b22361-043b-4265-bd15-0c73daee7562.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/e7b22361-043b-4265-bd15-0c73daee7562.mp4",
             "title": "Higher Prices 30s",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-11-15",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 11/15/25 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d25384cc-1d97-48ea-85f4-f851b2ebfd0e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d25384cc-1d97-48ea-85f4-f851b2ebfd0e.mp4",
             "title": "Bobblehead :30",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-03-25",
+            "flightEnd": "2026-06-02",
+            "flightPresent": false,
+            "aired": "Aired 3/25 – 6/2"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/37ccb83c-9fce-402b-bae6-d9ee3d2d17ad.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/37ccb83c-9fce-402b-bae6-d9ee3d2d17ad.mp4",
             "title": "Yes Man Dan. Higher Prices 15sec",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-12-01",
+            "flightEnd": "2026-04-07",
+            "flightPresent": false,
+            "aired": "Aired 12/1/25 – 4/7"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/0379eabf-f8e4-42ad-8566-e96f01c4d06b.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/0379eabf-f8e4-42ad-8566-e96f01c4d06b.mp4",
             "title": "Public Radio",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-03-02",
+            "flightEnd": "2026-03-13",
+            "flightPresent": false,
+            "aired": "Aired 3/2 – 3/13"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/05c0fd13-916a-4548-bb57-2ca7ec15eade.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/05c0fd13-916a-4548-bb57-2ca7ec15eade.mp4",
             "title": "SWAMP PRICES",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2026-01-16",
+            "flightEnd": "2026-02-08",
+            "flightPresent": false,
+            "aired": "Aired 1/16 – 2/8"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/7d1e9843-be13-4770-9f09-050e6b0dec14.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/7d1e9843-be13-4770-9f09-050e6b0dec14.mp4",
             "title": "Higher Prices",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-01-16",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 1/16 – 6/21"
           }
         ],
         "Last Frontier Action": [
@@ -124431,21 +125747,33 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/92dea8ad-ede9-4331-983b-1bad45f44196.mp4",
             "title": "Delivering Big Investments",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-06-05",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/5 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/d81a6204-385f-4729-82e1-b18221be61d3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/d81a6204-385f-4729-82e1-b18221be61d3.mp4",
             "title": "Delivering for Alaska",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-03-10",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/10 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/6f773fcf-ea7c-41e1-8bae-441843adec29.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/6f773fcf-ea7c-41e1-8bae-441843adec29.mp4",
             "title": "Thank Senator Sullivan",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2026-03-04",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/4 – 6/21"
           }
         ],
         "Senate Opportunity Fund": [
@@ -124454,14 +125782,22 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/81881e27-9c9f-4faa-a17a-ff10f04654af.mp4",
             "title": "Doing What Is Right",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-07-17",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 7/17/25 – 6/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/34f3fbc0-084c-4a87-8e8b-0c5b1100d2e9.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/34f3fbc0-084c-4a87-8e8b-0c5b1100d2e9.mp4",
             "title": "Doing What is Right",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-08-01",
+            "flightEnd": "2026-04-25",
+            "flightPresent": false,
+            "aired": "Aired 8/1/25 – 4/25"
           }
         ],
         "American Advancement Inc": [
@@ -124470,28 +125806,44 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/d5d1b92d-cb83-4347-b349-d292931ec1ba.mp4",
             "title": "Fix Obamacare - Sullivan",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-11-26",
+            "flightEnd": "2026-06-13",
+            "flightPresent": false,
+            "aired": "Aired 11/26/25 – 6/13"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/869e3ac2-b678-4712-ab93-9916896c48df.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/869e3ac2-b678-4712-ab93-9916896c48df.mp4",
             "title": "Promise - Sullivan",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-12-20",
+            "flightEnd": "2026-06-18",
+            "flightPresent": false,
+            "aired": "Aired 12/20/25 – 6/18"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/4afdafc7-7179-4838-b6ed-51b76ad6a3b4.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/4afdafc7-7179-4838-b6ed-51b76ad6a3b4.mp4",
             "title": "Keep Your Promise - Sullivan",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-07-29",
+            "flightEnd": "2026-05-20",
+            "flightPresent": false,
+            "aired": "Aired 7/29/25 – 5/20"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9baa5440-8561-4984-81b3-e443a20e659d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9baa5440-8561-4984-81b3-e443a20e659d.mp4",
             "title": "At Risk - Sullivan",
             "type": "Video",
-            "tone": "positive"
+            "tone": "positive",
+            "flightStart": "2025-09-03",
+            "flightEnd": "2025-12-19",
+            "flightPresent": false,
+            "aired": "Aired 9/3/25 – 12/19/25"
           }
         ],
         "Families Over Billionaires": [
@@ -124500,14 +125852,22 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/7d99a838-87cb-40cb-810b-ea632af20c92.mp4",
             "title": "Hurts Us",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-06-16",
+            "flightEnd": "2026-06-07",
+            "flightPresent": false,
+            "aired": "Aired 6/16/25 – 6/7"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9152c13c-0c55-4f4f-938b-8fca56ac95a7.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9152c13c-0c55-4f4f-938b-8fca56ac95a7.mp4",
             "title": "Tax Scam",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-06-12",
+            "flightEnd": "2026-02-05",
+            "flightPresent": false,
+            "aired": "Aired 6/12/25 – 2/5"
           }
         ],
         "Alaska Medicaid Coalition": [
@@ -124516,7 +125876,11 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/df89cd4d-3206-4b43-ac0a-f5bf6fbbd4d0.mp4",
             "title": "Lose Care",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-06-25",
+            "flightEnd": "2026-06-07",
+            "flightPresent": false,
+            "aired": "Aired 6/25/25 – 6/7"
           }
         ],
         "Duty and Honor": [
@@ -124525,28 +125889,44 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/f38cc628-67b0-4955-a284-097987197788.mp4",
             "title": "AK - You Name It 30",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-12-05",
+            "flightEnd": "2026-05-30",
+            "flightPresent": false,
+            "aired": "Aired 12/5/25 – 5/30"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/5a7b14eb-14bc-42b1-b1c7-93a5fdc3a298.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/5a7b14eb-14bc-42b1-b1c7-93a5fdc3a298.mp4",
             "title": "AK - Making 15",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-12-01",
+            "flightEnd": "2025-12-01",
+            "flightPresent": false,
+            "aired": "Aired 12/1/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/61ccfdf6-2477-4bcc-bb47-e1582891465c.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/61ccfdf6-2477-4bcc-bb47-e1582891465c.mp4",
             "title": "Higher Prices",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-10-08",
+            "flightEnd": "2025-11-04",
+            "flightPresent": false,
+            "aired": "Aired 10/8/25 – 11/4/25"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/2f88a383-6986-4e02-ab2f-6c18665d1cf2.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/2f88a383-6986-4e02-ab2f-6c18665d1cf2.mp4",
             "title": "The Squeeze",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-10-21",
+            "flightEnd": "2025-11-03",
+            "flightPresent": false,
+            "aired": "Aired 10/21/25 – 11/3/25"
           }
         ],
         "DSCC": [
@@ -124555,7 +125935,11 @@ window.TRACKER_DATA = {
             "link": "https://pdfweb.s3.amazonaws.com/videos/a0572814-7c49-4cb8-b3c7-70389bb58f01.mp4",
             "title": "Magic Trick Sullivan",
             "type": "Video",
-            "tone": "negative"
+            "tone": "negative",
+            "flightStart": "2025-10-02",
+            "flightEnd": "2025-11-18",
+            "flightPresent": false,
+            "aired": "Aired 10/2/25 – 11/18/25"
           }
         ]
       },
@@ -130825,7 +132209,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/869a0a48-103f-4fd5-9654-87c537036e2e.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/869a0a48-103f-4fd5-9654-87c537036e2e.mp4",
             "title": "Not Playing For Us",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-06-04",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 6/4 – 6/21"
           }
         ],
         "Cornyn Lonestar Victory Fund": [
@@ -130833,7 +132221,11 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/a820bc12-57be-4d12-aeda-cff12828aebd.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/a820bc12-57be-4d12-aeda-cff12828aebd.mp4",
             "title": "Guinea Pigs",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-05-01",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 5/1 – 6/21"
           }
         ],
         "Abbott for TX Governor": [
@@ -130841,19 +132233,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/53330d62-2399-42f5-9446-986f5c308a17.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/53330d62-2399-42f5-9446-986f5c308a17.mp4",
             "title": "Socialists",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-03-24",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 3/24 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/33bad799-64e3-4d12-a506-b13ca149cd66.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/33bad799-64e3-4d12-a506-b13ca149cd66.mp4",
             "title": "New Radical Left",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-22",
+            "flightEnd": "2026-06-21",
+            "flightPresent": false,
+            "aired": "Aired 2/22 – 6/21"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/ea1b1af0-9fb0-4d2c-a813-dc1e20369240.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/ea1b1af0-9fb0-4d2c-a813-dc1e20369240.mp4",
             "title": "Stop Radical Democrats",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-12",
+            "flightEnd": "2026-06-20",
+            "flightPresent": false,
+            "aired": "Aired 2/12 – 6/20"
           }
         ],
         "Lone Star Project": [
@@ -130861,19 +132265,31 @@ window.TRACKER_DATA = {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/810eee7b-e44d-4fa4-8874-c0ec3e39bfba.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/810eee7b-e44d-4fa4-8874-c0ec3e39bfba.mp4",
             "title": "Abbott Uses TX Troops in MAGA Circus",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-24",
+            "flightEnd": "2026-06-15",
+            "flightPresent": false,
+            "aired": "Aired 1/24 – 6/15"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/fc55d8d2-7196-441a-8c69-d69fbdb21b95.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/fc55d8d2-7196-441a-8c69-d69fbdb21b95.mp4",
             "title": "MAGA Hate: Abbott's Silence Says It All",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-01-30",
+            "flightEnd": "2026-06-14",
+            "flightPresent": false,
+            "aired": "Aired 1/30 – 6/14"
           },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/9122c1e3-1c5a-437b-9f13-31e3e944d81d.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/9122c1e3-1c5a-437b-9f13-31e3e944d81d.mp4",
             "title": "While Texans struggle to pay their bills, Abbott is picking out new furniture.",
-            "type": "Video"
+            "type": "Video",
+            "flightStart": "2026-02-01",
+            "flightEnd": "2026-06-13",
+            "flightPresent": false,
+            "aired": "Aired 2/1 – 6/13"
           }
         ]
       }
@@ -134870,5 +136286,6 @@ window.TRACKER_DATA = {
       "spend": [],
       "ads": []
     }
-  ]
+  ],
+  "flightDataDate": "2026-06-22"
 };

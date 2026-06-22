@@ -119,6 +119,8 @@
   .wgrid th.wk em{display:block;font-style:normal;font-size:8.5px;font-weight:700;color:var(--warn);letter-spacing:.3px}
   .wgrid th.fut,.wgrid td.fut{background:color-mix(in srgb,var(--warn) 7%,transparent)} .wgrid td.fut{color:var(--txt2)}
   .airedbar{font-size:13px;color:var(--txt2);margin:0 2px 9px} .airedbar b{color:var(--txt);font-size:15px}
+  .craired{font-size:11px;color:var(--txt2);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .craired.live{color:#16a34a} .craired.live::before{content:"●";font-size:8px;vertical-align:middle;margin-right:3px}
   .bk{color:var(--warn)}
   .wknote{font-size:12px;color:var(--muted);margin:4px 2px 0}
   .gridtoggle{float:right;font-size:12px;color:var(--accent2);cursor:pointer;font-weight:600}
@@ -444,7 +446,7 @@ function ytId(u){if(!u)return"";const m=u.match(/(?:v=|youtu\.be\/|embed\/|short
 function crCard(c){const t=(c.type||"").toUpperCase();const isVid=/VIDEO|TV|YOUTUBE|BROADCAST|CABLE/.test(t);
   const thumb=c.thumb?`style="background-image:url('${c.thumb}')"`:"";
   const inner=c.thumb?(isVid?`<span class="play">▶</span>`:""):`<span class="ph">creative</span>`;
-  return `<a class="crcard" href="${c.link||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><div class="crthumb" ${thumb}>${c.type?`<span class="crtype">${c.type}</span>`:""}${inner}</div><div class="crmeta"><div class="crtitle">${(c.title||'Ad creative')}</div>${c.sub?`<div class="crsub">${c.sub}</div>`:""}</div></a>`;}
+  return `<a class="crcard" href="${c.link||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><div class="crthumb" ${thumb}>${c.type?`<span class="crtype">${c.type}</span>`:""}${inner}</div><div class="crmeta"><div class="crtitle">${(c.title||'Ad creative')}</div>${c.sub?`<div class="crsub">${c.sub}</div>`:""}${c.aired?`<div class="craired ${c.flightPresent?'live':''}">${c.aired}</div>`:""}</div></a>`;}
 window.toggleCr=(el)=>{el.classList.toggle("open");const s=el.nextElementSibling;if(s&&s.classList.contains("crstrip"))s.classList.toggle("open");};
 function allCreatives(race){const out=[];const by=race.creativesByAdvertiser||{};for(const k in by)out.push(...by[k]);return out;}
 function adBreakdown(race,rk){
@@ -469,7 +471,7 @@ window.crFilter=(rk,kind,val,el)=>{
   const all=window.__flatCr(rk);
   const items=kind==="tone"?all.filter(c=>{const t=(c.tone||"").toLowerCase();return val==="contrast"?/contrast|comparison/.test(t):t===val;}):all.filter(c=>(c.themes||[]).includes(val));
   const lbl=kind==="tone"?items.length+" "+val+" ad"+(items.length!==1?"s":""):items.length+" ad"+(items.length!==1?"s":"")+" on “"+val+"”";
-  strip.innerHTML=`<div class="tslabel">${lbl}</div><div class="crstrip open">`+items.map(c=>crCard({thumb:c.thumb,title:c.title,type:c.type,link:c.link,sub:c.advertiser})).join("")+`</div>`;
+  strip.innerHTML=`<div class="tslabel">${lbl}</div><div class="crstrip open">`+items.map(c=>crCard({thumb:c.thumb,title:c.title,type:c.type,link:c.link,sub:c.advertiser,aired:c.aired,flightPresent:c.flightPresent})).join("")+`</div>`;
   strip.classList.add("open");
 };
 function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"confirmed",adimpact:"adimpact",estimate:"estimate",sample:"estimate"})[c]||"estimate";}
