@@ -230,7 +230,9 @@ window.TRACKER_DATA = {
         {
           "name": "Save My Care",
           "side": "D",
-          "amount": 604214
+          "amount": 830407,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Securing American Greatness",
@@ -240,7 +242,9 @@ window.TRACKER_DATA = {
         {
           "name": "American Prosperity Alliance",
           "side": "R",
-          "amount": 189243
+          "amount": 371039,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "NRDC Action Fund",
@@ -255,12 +259,14 @@ window.TRACKER_DATA = {
         {
           "name": "American Action Network",
           "side": "R",
-          "amount": 82819,
+          "amount": 252998,
           "metaAds": {
             "n": 18,
             "imp": "80K - 90K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Action%20Network&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Bresnahan for PA CD-08",
@@ -12210,12 +12216,14 @@ window.TRACKER_DATA = {
         {
           "name": "House Majority Forward",
           "side": "D",
-          "amount": 379587,
+          "amount": 482392,
           "metaAds": {
             "n": 10,
             "imp": "60K - 70K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20Forward&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Congressional Progressive Caucus PAC",
@@ -12225,17 +12233,21 @@ window.TRACKER_DATA = {
         {
           "name": "Save My Care",
           "side": "D",
-          "amount": 266082
+          "amount": 432364,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Affordable PA",
           "side": "D",
-          "amount": 170032,
+          "amount": 444133,
           "metaAds": {
             "n": 33,
             "imp": "100K - 125K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Affordable%20PA&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "DCCC/Brooks",
@@ -12250,12 +12262,14 @@ window.TRACKER_DATA = {
         {
           "name": "American Action Network",
           "side": "R",
-          "amount": 74329,
+          "amount": 289851,
           "metaAds": {
             "n": 18,
             "imp": "80K - 90K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Action%20Network&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Forward Action Fund/Affordable PA",
@@ -59805,6 +59819,13 @@ window.TRACKER_DATA = {
           "name": "Riehle for CA CD-04",
           "side": "R",
           "amount": 5230
+        },
+        {
+          "name": "Article One PAC",
+          "amount": 104000,
+          "side": "",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         }
       ],
       "buys": [
@@ -67398,12 +67419,14 @@ window.TRACKER_DATA = {
         {
           "name": "One Nation",
           "side": "R",
-          "amount": 568028,
+          "amount": 1128861,
           "metaAds": {
             "n": 880,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Osborn for NE Senate",
@@ -74367,12 +74390,14 @@ window.TRACKER_DATA = {
         {
           "name": "Majority Forward",
           "side": "D",
-          "amount": 4904107,
+          "amount": 7329924,
           "metaAds": {
             "n": 110,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Unrig Our Economy",
@@ -74402,7 +74427,9 @@ window.TRACKER_DATA = {
         {
           "name": "Collins for ME Senate",
           "side": "R",
-          "amount": 1572449
+          "amount": 2049031,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "American Advancement Inc",
@@ -94394,7 +94421,9 @@ window.TRACKER_DATA = {
         {
           "name": "Progressive Unity Fund",
           "side": "D",
-          "amount": 970926
+          "amount": 1442242,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "American Priorities",
@@ -94419,12 +94448,16 @@ window.TRACKER_DATA = {
         {
           "name": "Justice Democrats",
           "side": "D",
-          "amount": 341400
+          "amount": 691464,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Latino Victory Fund",
           "side": "D",
-          "amount": 240698
+          "amount": 380543,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Valdez for NY CD-07/Lander for NY CD-10/Avila Chevalier for NY CD-13",
@@ -94434,7 +94467,9 @@ window.TRACKER_DATA = {
         {
           "name": "Espaillat for NY CD-13",
           "side": "D",
-          "amount": 20188
+          "amount": 131941,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         }
       ],
       "buys": [
@@ -97081,12 +97116,14 @@ window.TRACKER_DATA = {
         {
           "name": "WinSenate",
           "side": "D",
-          "amount": 12988384,
+          "amount": 16380884,
           "metaAds": {
             "n": 1200,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Americans for Prosperity Action",
@@ -97111,27 +97148,33 @@ window.TRACKER_DATA = {
         {
           "name": "Yes MI Action Committee",
           "side": "D",
-          "amount": 4037734,
+          "amount": 5814331,
           "metaAds": {
             "n": 1,
             "imp": "1K - 2K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Yes%20MI%20Action%20Committee&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "United Democracy Project",
           "side": "D",
-          "amount": 3913308,
+          "amount": 7721604,
           "metaAds": {
             "n": 10,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=United%20Democracy%20Project&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "A Stronger Michigan",
           "side": "D",
-          "amount": 2292209
+          "amount": 3795340,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "McMorrow for MI Senate",
@@ -97151,7 +97194,9 @@ window.TRACKER_DATA = {
         {
           "name": "El-Sayed for MI Senate",
           "side": "D",
-          "amount": 1068121
+          "amount": 1591964,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Fight for Michigan",
@@ -97166,7 +97211,9 @@ window.TRACKER_DATA = {
         {
           "name": "A Stronger Michigan (D)",
           "side": "D",
-          "amount": 421643
+          "amount": 696464,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Center Forward",
@@ -97232,6 +97279,13 @@ window.TRACKER_DATA = {
           "name": "Berrien Forward",
           "side": "D",
           "amount": 60
+        },
+        {
+          "name": "GLCF",
+          "amount": 1387953,
+          "side": "",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         }
       ],
       "buys": [
@@ -126300,6 +126354,13 @@ window.TRACKER_DATA = {
           "name": "Lone Star Project",
           "side": "D",
           "amount": 94
+        },
+        {
+          "name": "Huffines for TX Comptroller",
+          "amount": 519999,
+          "side": "",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         }
       ],
       "buys": [

@@ -1,0 +1,23 @@
+{
+  "_note": "AdImpact Race Overview advertiser totals (all media types), harvested 2026-06-22. {race:{total,advertisers:{name:spend}}}. NY-10/NY-12/MI-13 not tracked by AdImpact.",
+  "ME-Sen-2026": {"total": 154869027, "advertisers": {
+    "SLF PAC": 27394717, "WinSenate": 24805725, "Pine Tree Results PAC": 24335165, "One Nation": 21742429, "WFW Action Fund": 16211000, "Platner for ME Senate": 12257254, "Stronger America": 7966371, "Majority Forward": 7329924, "Unrig Our Economy": 2567927, "Duty and Honor": 2435435, "Collins for ME Senate": 2049031, "Mills for ME Senate": 1974332, "American Advancement Inc": 846559, "American Energy Action": 544762 }},
+  "MI-Sen-2026": {"total": 82749476, "advertisers": {
+    "SLF PAC": 23542987, "WinSenate": 16380884, "Americans for Prosperity Action": 9051731, "United Democracy Project": 7721604, "Center for Democratic Priorities": 6345278, "Yes MI Action Committee": 5814331, "A Stronger Michigan": 3795340, "McMorrow for MI Senate": 1967806, "Center Forward Committee": 1905514, "El-Sayed for MI Senate": 1591964, "GLCF": 1387953, "Fight for Michigan": 875028, "A Stronger Michigan (D)": 696464, "Senate Opportunity Fund": 349171 }},
+  "AK-Sen-2026": {"total": 34680966, "advertisers": {
+    "SLF PAC": 6925685, "Last Frontier PAC": 6416627, "WinSenate": 6045350, "Majority Forward": 4003783, "One Nation": 3693194, "Peltola for AK Senate": 3069810, "The 907 Initiative": 1438643, "Last Frontier Action": 1075073, "American Advancement Inc": 799655, "Families Over Billionaires": 542507, "Duty and Honor": 323031, "American Chemistry Council": 147480, "Senate Opportunity Fund": 112794, "Save My Care": 32962 }},
+  "CA-22-2026": {"total": 27994383, "advertisers": {
+    "CLF": 7913475, "House Majority PAC": 5824850, "American Action Network": 2739794, "House Majority Forward": 1587538, "314 Action": 1267251, "Villegas for CA CD-22": 1137005, "Save My Care": 1125327, "Project 218": 866858, "New Democrat Majority": 681348, "Blue Dog Action PAC": 599836, "DMFI PAC": 587818, "American Priorities": 486169, "Healthcare Saves Lives": 421028, "American Energy Action": 404486 }},
+  "PA-7-2026": {"total": 22345855, "advertisers": {
+    "CLF": 7758920, "House Majority PAC": 6562380, "Stronger Together  PA": 1514094, "Lead Left PAC": 1441506, "American Prosperity Alliance": 994585, "Brooks for PA CD-07": 541897, "House Majority Forward": 482392, "Affordable PA": 444133, "Save My Care": 432364, "Crosswell for PA CD-07": 420559, "Securing American Greatness": 399608, "Congressional Progressive Caucus PAC": 326849, "American Action Network": 289851, "NRDC Action Fund": 134503 }},
+  "PA-8-2026": {"total": 14599882, "advertisers": {
+    "House Majority PAC": 3666795, "CLF": 3487972, "Unrig Our Economy": 2480098, "Affordable PA": 1443002, "House Majority Forward": 1404132, "Save My Care": 830407, "American Prosperity Alliance": 371039, "Securing American Greatness": 254184, "American Action Network": 252998, "NRDC Action Fund": 126289, "Campaign for America First International Assistance": 117774, "Bresnahan for PA CD-08": 43499 }},
+  "TX-Gov-2026": {"total": 7650172, "advertisers": {
+    "Abbott for TX Governor": 6161770, "Hinojosa for TX Governor": 647102, "Huffines for TX Comptroller": 519999, "Texans for Greg Abbott": 234000, "Cole for TX Governor": 63195, "Lone Star Project": 6955, "Texas Majority PAC": 6680 }},
+  "CA-4-2026": {"total": 7589672, "advertisers": {
+    "Jones for CA CD-04": 3928032, "Thompson for CA CD-04": 1952277, "Blue Dog Action PAC": 1115889, "New Leadership Now": 489196, "Article One PAC": 104000 }},
+  "NY-13-2026": {"total": 7012327, "advertisers": {
+    "BOLD America": 2167756, "Progressive Unity Fund": 1442242, "American Priorities": 1080252, "Justice Democrats": 691464, "Avila Chevalier for NY CD-13": 541795, "Project 218": 500933, "Latino Victory Fund": 380543, "Espaillat for NY CD-13": 131941 }},
+  "NE-Sen-2026": {"total": 3150338, "advertisers": {
+    "One Nation": 1128861, "Ricketts for NE Senate": 1109934, "Osborn for NE Senate": 433136, "Defending Our Values PAC": 254103, "Fellowship PAC": 202955 }}
+}
