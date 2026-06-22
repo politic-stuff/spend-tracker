@@ -23,6 +23,14 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-22",
+      "note": "Inbox: + Graham Platner (ME-Sen-2026) $237,559 · + Susan Collins (ME-Sen-2026) $21,630 · ✎ WinSenate (ME-Sen-2026) inbox $267,169 [correction] · ✎ Pine Tree Results PAC (ME-Sen-2026) inbox $159,840 · ✎ Majority Forward (ME-Sen-2026) inbox $30,099 · ✎ Stronger America (ME-Sen-2026) inbox $70,700 · + Abdul El-Sayed (MI-Sen-2026) $291,055 · + Mallory McMorrow (MI-Sen-2026) $129,300"
+    },
+    {
+      "ts": "2026-06-22",
+      "note": "🆕 NEW spender(s) via inbox: Nebraska Groundswell in NE-Sen-2026 ($75,395, R) · Campaign for America First International Assistance in ME-Sen-2026 ($139,469, R)"
+    },
+    {
+      "ts": "2026-06-22",
       "note": "<b>NY-7</b>: corrected <b>American Priorities</b> to $513K (was $50K) and added <b>Justice Democrats</b> $213K — <b>Claire Valdez</b> now leads her side, not outspent."
     },
     {
@@ -67411,6 +67419,15 @@ window.TRACKER_DATA = {
           "amount": 141135
         },
         {
+          "name": "Nebraska Groundswell",
+          "amount": 75395,
+          "side": "R",
+          "source": "inbox",
+          "isNew": true,
+          "flight": "6/23-6/29",
+          "asOf": "2026-06-22"
+        },
+        {
           "name": "Nebraska Appleseed Action Fund",
           "side": "D",
           "amount": 27496
@@ -74312,12 +74329,24 @@ window.TRACKER_DATA = {
             "n": 1200,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 267169,
+            "flight": "6/16-8/10",
+            "source": "inbox",
+            "asOf": "2026-06-22"
           }
         },
         {
           "name": "Pine Tree Results PAC",
           "side": "R",
-          "amount": 23719244
+          "amount": 23719244,
+          "inbox": {
+            "amount": 159840,
+            "flight": "6/16-6/29",
+            "source": "inbox",
+            "asOf": "2026-06-22"
+          }
         },
         {
           "name": "One Nation",
@@ -74352,6 +74381,12 @@ window.TRACKER_DATA = {
             "n": 210,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Stronger%20America&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 70700,
+            "flight": "6/23-6/28",
+            "source": "inbox",
+            "asOf": "2026-06-22"
           }
         },
         {
@@ -74364,7 +74399,13 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
           },
           "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
+          "source": "AdImpact 2026-06-22 scrub",
+          "inbox": {
+            "amount": 30099,
+            "flight": "6/17-7/6",
+            "source": "inbox",
+            "asOf": "2026-06-22"
+          }
         },
         {
           "name": "Unrig Our Economy",
@@ -74387,16 +74428,16 @@ window.TRACKER_DATA = {
           }
         },
         {
-          "name": "Mills for ME Senate",
-          "side": "D",
-          "amount": 1974310
-        },
-        {
           "name": "Collins for ME Senate",
           "side": "R",
           "amount": 2049031,
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
+        },
+        {
+          "name": "Mills for ME Senate",
+          "side": "D",
+          "amount": 1974310
         },
         {
           "name": "American Advancement Inc",
@@ -74432,6 +74473,15 @@ window.TRACKER_DATA = {
           "name": "Protect Our Jobs",
           "side": "D",
           "amount": 165157
+        },
+        {
+          "name": "Campaign for America First International Assistance",
+          "amount": 139469,
+          "side": "R",
+          "source": "inbox",
+          "isNew": true,
+          "flight": "6/20-7/5",
+          "asOf": "2026-06-22"
         },
         {
           "name": "Common Defense Action Fund",
@@ -97134,14 +97184,26 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=United%20Democracy%20Project&search_type=keyword_unordered"
           },
           "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
+          "source": "AdImpact 2026-06-22 scrub",
+          "inbox": {
+            "amount": 1394277,
+            "flight": "6/23-6/29",
+            "source": "inbox",
+            "asOf": "2026-06-22"
+          }
         },
         {
           "name": "A Stronger Michigan",
           "side": "D",
           "amount": 3795340,
           "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
+          "source": "AdImpact 2026-06-22 scrub",
+          "inbox": {
+            "amount": 29500,
+            "flight": "6/18-6/24",
+            "source": "inbox",
+            "asOf": "2026-06-22"
+          }
         },
         {
           "name": "McMorrow for MI Senate",
@@ -133710,6 +133772,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:me-platner-jun22",
+          "actor": "Graham Platner",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 237559,
+          "source": "inbox",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-22",
+          "flight": "6/23-6/29"
         }
       ],
       "ads": [
@@ -133809,6 +133882,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:me-collins-jun22",
+          "actor": "Susan Collins",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 21630,
+          "source": "inbox",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-22",
+          "flight": "6/23-7/1"
         }
       ],
       "ads": [
@@ -135150,6 +135234,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:mi-elsayed-jun22",
+          "actor": "Abdul El-Sayed",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 291055,
+          "source": "inbox",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-22",
+          "flight": "6/23-6/29"
         }
       ],
       "ads": [
@@ -135238,6 +135333,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:mi-mcmorrow-jun22",
+          "actor": "Mallory McMorrow",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 129300,
+          "source": "inbox",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-22",
+          "flight": "6/23-6/29"
         }
       ],
       "ads": [
@@ -135445,6 +135551,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:mi13-mckinney-jun22",
+          "actor": "Donavan McKinney",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 67100,
+          "source": "inbox",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-22",
+          "flight": "6/23-6/29"
         }
       ],
       "ads": [],
@@ -135990,6 +136107,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:ak-peltola-jun22",
+          "actor": "Mary Peltola",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 57590,
+          "source": "inbox",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-22",
+          "flight": "6/23-6/29"
         }
       ],
       "ads": [
