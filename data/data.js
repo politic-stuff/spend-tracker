@@ -59823,7 +59823,7 @@ window.TRACKER_DATA = {
         {
           "name": "Article One PAC",
           "amount": 104000,
-          "side": "",
+          "side": "d",
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
         }
@@ -67366,6 +67366,9 @@ window.TRACKER_DATA = {
         },
         "New Leadership Now": {
           "supports": "Eric Jones"
+        },
+        "Article One PAC": {
+          "supports": "Mike Thompson"
         }
       }
     },
@@ -97283,7 +97286,7 @@ window.TRACKER_DATA = {
         {
           "name": "GLCF",
           "amount": 1387953,
-          "side": "",
+          "side": "r",
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
         }
@@ -112587,6 +112590,9 @@ window.TRACKER_DATA = {
         },
         "Fighting for Michigan": {
           "supports": "Abdul El-Sayed"
+        },
+        "GLCF": {
+          "supports": "Mike Rogers"
         }
       }
     },
@@ -126354,13 +126360,6 @@ window.TRACKER_DATA = {
           "name": "Lone Star Project",
           "side": "D",
           "amount": 94
-        },
-        {
-          "name": "Huffines for TX Comptroller",
-          "amount": 519999,
-          "side": "",
-          "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
         }
       ],
       "buys": [

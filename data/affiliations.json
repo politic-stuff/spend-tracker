@@ -1,38 +1,94 @@
 {
   "_note": "Researched support/oppose attribution for primary outside groups (side alone can't tell which same-party candidate a PAC backs). advertiser -> {supports|opposes: candidate name}. UI affiliate() checks this before the side heuristic. Sources in commit msgs / agent reports.",
   "MI-Sen-2026": {
-    "United Democracy Project": {"supports": "Haley Stevens"},
-    "Center for Democratic Priorities": {"supports": "Haley Stevens"},
-    "A Stronger Michigan": {"supports": "Haley Stevens"},
-    "A Stronger Michigan (D)": {"supports": "Haley Stevens"},
-    "Center Forward": {"supports": "Haley Stevens"},
-    "Center Forward Committee": {"supports": "Haley Stevens"},
-    "Yes MI Action Committee": {"supports": "Mallory McMorrow"},
-    "Fight for Michigan": {"supports": "Abdul El-Sayed"},
-    "Fighting for Michigan": {"supports": "Abdul El-Sayed"}
+    "United Democracy Project": {
+      "supports": "Haley Stevens"
+    },
+    "Center for Democratic Priorities": {
+      "supports": "Haley Stevens"
+    },
+    "A Stronger Michigan": {
+      "supports": "Haley Stevens"
+    },
+    "A Stronger Michigan (D)": {
+      "supports": "Haley Stevens"
+    },
+    "Center Forward": {
+      "supports": "Haley Stevens"
+    },
+    "Center Forward Committee": {
+      "supports": "Haley Stevens"
+    },
+    "Yes MI Action Committee": {
+      "supports": "Mallory McMorrow"
+    },
+    "Fight for Michigan": {
+      "supports": "Abdul El-Sayed"
+    },
+    "Fighting for Michigan": {
+      "supports": "Abdul El-Sayed"
+    },
+    "GLCF": {
+      "supports": "Mike Rogers"
+    }
   },
   "AK-Sen-2026": {
-    "WinSenate": {"supports": "Mary Peltola"},
-    "Majority Forward": {"supports": "Mary Peltola"},
-    "The 907 Initiative": {"opposes": "Dan S. Sullivan"},
-    "Save My Care": {"opposes": "Dan S. Sullivan"}
+    "WinSenate": {
+      "supports": "Mary Peltola"
+    },
+    "Majority Forward": {
+      "supports": "Mary Peltola"
+    },
+    "The 907 Initiative": {
+      "opposes": "Dan S. Sullivan"
+    },
+    "Save My Care": {
+      "opposes": "Dan S. Sullivan"
+    }
   },
   "NY-13-2026": {
-    "BOLD America": {"supports": "Adriano Espaillat"},
-    "Progressive Unity Fund": {"supports": "Adriano Espaillat"},
-    "Project 218": {"supports": "Adriano Espaillat"},
-    "Latino Victory Fund": {"supports": "Adriano Espaillat"},
-    "American Priorities": {"supports": "Darializa Avila Chevalier"},
-    "Justice Democrats": {"supports": "Darializa Avila Chevalier"}
+    "BOLD America": {
+      "supports": "Adriano Espaillat"
+    },
+    "Progressive Unity Fund": {
+      "supports": "Adriano Espaillat"
+    },
+    "Project 218": {
+      "supports": "Adriano Espaillat"
+    },
+    "Latino Victory Fund": {
+      "supports": "Adriano Espaillat"
+    },
+    "American Priorities": {
+      "supports": "Darializa Avila Chevalier"
+    },
+    "Justice Democrats": {
+      "supports": "Darializa Avila Chevalier"
+    }
   },
   "NY-7-2026": {
-    "Real Fight NYC": {"supports": "Antonio Reynoso"},
-    "Leaders We Deserve": {"supports": "Claire Valdez"},
-    "American Priorities": {"supports": "Claire Valdez"},
-    "Justice Democrats": {"supports": "Claire Valdez"}
+    "Real Fight NYC": {
+      "supports": "Antonio Reynoso"
+    },
+    "Leaders We Deserve": {
+      "supports": "Claire Valdez"
+    },
+    "American Priorities": {
+      "supports": "Claire Valdez"
+    },
+    "Justice Democrats": {
+      "supports": "Claire Valdez"
+    }
   },
   "CA-4-2026": {
-    "Blue Dog Action PAC": {"supports": "Mike Thompson"},
-    "New Leadership Now": {"supports": "Eric Jones"}
+    "Blue Dog Action PAC": {
+      "supports": "Mike Thompson"
+    },
+    "New Leadership Now": {
+      "supports": "Eric Jones"
+    },
+    "Article One PAC": {
+      "supports": "Mike Thompson"
+    }
   }
 }
