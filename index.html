@@ -122,6 +122,7 @@
   .bktoggle{cursor:pointer;user-select:none} .bktoggle:hover{text-decoration:underline}
   .craired{font-size:11px;color:var(--txt2);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .craired.live{color:#16a34a} .craired.live::before{content:"●";font-size:8px;vertical-align:middle;margin-right:3px}
+  .crcard.isnew .crthumb{outline:2px solid #16a34a;outline-offset:-2px} .crnew{position:absolute;top:6px;right:6px;background:#16a34a;color:#fff;font-size:9px;font-weight:800;letter-spacing:.4px;padding:1px 5px;border-radius:5px;z-index:2}
   .bk{color:var(--warn)}
   .wknote{font-size:12px;color:var(--muted);margin:4px 2px 0}
   .gridtoggle{float:right;font-size:12px;color:var(--accent2);cursor:pointer;font-weight:600}
@@ -451,7 +452,7 @@ function ytId(u){if(!u)return"";const m=u.match(/(?:v=|youtu\.be\/|embed\/|short
 function crCard(c){const t=(c.type||"").toUpperCase();const isVid=/VIDEO|TV|YOUTUBE|BROADCAST|CABLE/.test(t);
   const thumb=c.thumb?`style="background-image:url('${c.thumb}')"`:"";
   const inner=c.thumb?(isVid?`<span class="play">▶</span>`:""):`<span class="ph">creative</span>`;
-  return `<a class="crcard" href="${c.link||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><div class="crthumb" ${thumb}>${c.type?`<span class="crtype">${c.type}</span>`:""}${inner}</div><div class="crmeta"><div class="crtitle">${(c.title||'Ad creative')}</div>${c.sub?`<div class="crsub">${c.sub}</div>`:""}${c.aired?`<div class="craired ${c.flightPresent?'live':''}">${c.aired}</div>`:""}</div></a>`;}
+  return `<a class="crcard${c.isNew?' isnew':''}" href="${c.link||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><div class="crthumb" ${thumb}>${c.type?`<span class="crtype">${c.type}</span>`:""}${c.isNew?`<span class="crnew">NEW</span>`:""}${inner}</div><div class="crmeta"><div class="crtitle">${(c.title||'Ad creative')}</div>${c.sub?`<div class="crsub">${c.sub}</div>`:""}${c.aired?`<div class="craired ${c.flightPresent?'live':''}">${c.aired}</div>`:""}</div></a>`;}
 window.toggleCr=(el)=>{el.classList.toggle("open");const s=el.nextElementSibling;if(s&&s.classList.contains("crstrip"))s.classList.toggle("open");};
 function allCreatives(race){const out=[];const by=race.creativesByAdvertiser||{};for(const k in by)out.push(...by[k]);return out;}
 function adBreakdown(race,rk){
