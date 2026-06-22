@@ -102,6 +102,10 @@
   .bigbar .seg2{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:16px;min-width:48px}
   .bigbar .d{background:var(--dem)} .bigbar .r{background:var(--rep)} .bigbar .i{background:var(--ind)}
   .bbnum{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+  .bbnum2{display:flex;flex-wrap:wrap;align-items:center;gap:13px;font-size:13px;color:var(--txt2)}
+  .bbnum2 i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+  .bbnum2 .bbtot{margin-left:auto;color:var(--muted)} .bbnum2 .bbtot b{color:var(--txt)}
+  .bigbar .seg2{padding:0 6px;white-space:nowrap;overflow:hidden}
   /* media-week grid */
   .wgridwrap{overflow-x:auto;margin:0 -4px}
   .wgrid{border-collapse:collapse;font-size:13px;min-width:100%}
@@ -335,8 +339,22 @@ function detail(rk){
   const mcard=(c,lbl)=>c?`<div class="mcard ${c.party||'O'}">${avatar(c,true)}<div><div class="nm">${c.name}</div>
     <div class="role">${lbl} · ${c.party||"?"}</div><div class="amt">${fmt(suppTotal(c)||candTotal(c))}</div></div></div>`:`<div class="mcard"><div class="role">—</div></div>`;
   const dPct=tot?Math.round(s.d/tot*100):50,rPct=tot?Math.round(s.rp/tot*100):0;
-  const bigbar=`<div class="bigbar"><div class="seg2 d" style="width:${Math.max(8,dPct)}%">${fmt(s.d)}</div><div class="seg2 r" style="width:${Math.max(8,rPct)}%">${fmt(s.rp)}</div></div>
+  // single-party race (e.g. a blue-state Dem primary with no R) → break the bar out BY CANDIDATE, not Dem-vs-Rep
+  const hasD=cands.some(c=>partySide(c.party)==="D"),hasR=cands.some(c=>partySide(c.party)==="R");
+  const singleParty=(hasD&&!hasR)||(hasR&&!hasD);
+  const PAL=["#6c8cff","#e0823f","#2bb39a","#d2607f","#b07ce0","#c79a3a","#5aa9e6","#e0b03f"];
+  let bigbar;
+  if(singleParty){
+    const ranked=cands.map(c=>({c,amt:suppTotal(c)})).filter(x=>x.amt>0).sort((a,b)=>(b.c.relationship==="tracked")-(a.c.relationship==="tracked")||b.amt-a.amt);
+    const stot=ranked.reduce((x,y)=>x+y.amt,0)||1;
+    bigbar=ranked.length?`<div class="bigbar">`+ranked.map((x,i)=>`<div class="seg2" style="width:${Math.max(5,Math.round(x.amt/stot*100))}%;background:${PAL[i%PAL.length]}">${fmt(x.amt)}</div>`).join("")
+      +`</div><div class="bbnum2">`+ranked.map((x,i)=>`<span><i style="background:${PAL[i%PAL.length]}"></i>${x.c.name.split(" ").slice(-1)[0]}</span>`).join("")
+      +`<span class="bbtot">Total <b>${fmt(stot)}</b> · ${s.src}${race.adimpact&&race.adimpact.asOf?" · "+race.adimpact.asOf:""}</span></div>`
+      :`<div class="empty">no spend recorded yet</div>`;
+  } else {
+    bigbar=`<div class="bigbar"><div class="seg2 d" style="width:${Math.max(8,dPct)}%">${fmt(s.d)}</div><div class="seg2 r" style="width:${Math.max(8,rPct)}%">${fmt(s.rp)}</div></div>
     <div class="bbnum"><span>Dem side</span><span>Total <b style="color:var(--txt)">${fmt(tot)}</b> · ${s.src}${race.adimpact&&race.adimpact.asOf?" · "+race.adimpact.asOf:""}</span><span>Rep side</span></div>`;
+  }
 
   // ---- media-week × market grid (buyers' view) ----
   const buys=race.buys||[]; let weekgrid="";
@@ -391,7 +409,7 @@ function detail(rk){
     return `<div class="cand"><div class="candhd">${avatar(c)}<div class="ctop"><span class="nm">${c.name}</span><span class="rel ${c.relationship==='tracked'?'tracked':''}">${relTxt} · ${c.party||"?"}</span></div><span class="tot">${fmt(total)}<small>${against?"for · "+fmt(against)+" against":"to date"}</small></span></div>
       <div class="candbody">${own}${sup}${opp}${digital}${fec}${empty}</div></div>`;
   };
-  const order={tracked:0,"general-opp":1,"primary-opp":2};
+  const order={tracked:0,"primary-opp":1,"general-opp":2};
   const field=`<div class="panel"><h3>Ads by candidate <span class="crhint">each candidate’s own ads + the groups backing them — tap an advertiser to watch its ads</span></h3>`
     +[...cands].sort((a,b)=>(order[a.relationship]??3)-(order[b.relationship]??3)||suppTotal(b)-suppTotal(a)).map(candBlock).join("")+`</div>`;
   const outsidePanel=(outside.length||othercand.length)?`<div class="panel"><h3>Other outside spending <span class="crhint">not tied to one candidate</span></h3>`
