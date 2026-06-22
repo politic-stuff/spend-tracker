@@ -179,27 +179,52 @@
         {
           "name": "House Majority PAC",
           "side": "D",
-          "amount": 3666795
+          "amount": 3666795,
+          "metaAds": {
+            "n": 29,
+            "imp": "400K - 450K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20PAC&search_type=keyword_unordered"
+          }
         },
         {
           "name": "CLF",
           "side": "R",
-          "amount": 3487972
+          "amount": 3487972,
+          "metaAds": {
+            "n": 8,
+            "imp": "25K - 30K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Congressional%20Leadership%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Unrig Our Economy",
           "side": "D",
-          "amount": 2320079
+          "amount": 2320079,
+          "metaAds": {
+            "n": 1100,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Unrig%20Our%20Economy&search_type=keyword_unordered"
+          }
         },
         {
           "name": "House Majority Forward",
           "side": "D",
-          "amount": 1293675
+          "amount": 1293675,
+          "metaAds": {
+            "n": 10,
+            "imp": "60K - 70K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20Forward&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Affordable PA",
           "side": "D",
-          "amount": 1225299
+          "amount": 1225299,
+          "metaAds": {
+            "n": 33,
+            "imp": "100K - 125K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Affordable%20PA&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Save My Care",
@@ -229,7 +254,12 @@
         {
           "name": "American Action Network",
           "side": "R",
-          "amount": 82819
+          "amount": 82819,
+          "metaAds": {
+            "n": 18,
+            "imp": "80K - 90K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Action%20Network&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Bresnahan for PA CD-08",
@@ -12119,22 +12149,42 @@
         {
           "name": "CLF",
           "side": "R",
-          "amount": 7758920
+          "amount": 7758920,
+          "metaAds": {
+            "n": 8,
+            "imp": "25K - 30K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Congressional%20Leadership%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "House Majority PAC",
           "side": "D",
-          "amount": 6597380
+          "amount": 6597380,
+          "metaAds": {
+            "n": 29,
+            "imp": "400K - 450K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20PAC&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Stronger Together  PA",
           "side": "D",
-          "amount": 1437396
+          "amount": 1437396,
+          "metaAds": {
+            "n": 3,
+            "imp": "25K - 30K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Stronger%20Together%20PA&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Lead Left PAC",
           "side": "D",
-          "amount": 1376132
+          "amount": 1376132,
+          "metaAds": {
+            "n": 1,
+            "imp": "3K - 4K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Lead%20Left%20PAC&search_type=keyword_unordered"
+          }
         },
         {
           "name": "American Prosperity Alliance",
@@ -12159,7 +12209,12 @@
         {
           "name": "House Majority Forward",
           "side": "D",
-          "amount": 379587
+          "amount": 379587,
+          "metaAds": {
+            "n": 10,
+            "imp": "60K - 70K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20Forward&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Congressional Progressive Caucus PAC",
@@ -12174,7 +12229,12 @@
         {
           "name": "Affordable PA",
           "side": "D",
-          "amount": 170032
+          "amount": 170032,
+          "metaAds": {
+            "n": 33,
+            "imp": "100K - 125K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Affordable%20PA&search_type=keyword_unordered"
+          }
         },
         {
           "name": "DCCC/Brooks",
@@ -12189,7 +12249,12 @@
         {
           "name": "American Action Network",
           "side": "R",
-          "amount": 74329
+          "amount": 74329,
+          "metaAds": {
+            "n": 18,
+            "imp": "80K - 90K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Action%20Network&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Forward Action Fund/Affordable PA",
@@ -27749,22 +27814,42 @@
         {
           "name": "CLF",
           "side": "R",
-          "amount": 7913475
+          "amount": 7913475,
+          "metaAds": {
+            "n": 8,
+            "imp": "25K - 30K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Congressional%20Leadership%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "House Majority PAC",
           "side": "D",
-          "amount": 6094850
+          "amount": 6094850,
+          "metaAds": {
+            "n": 29,
+            "imp": "400K - 450K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20PAC&search_type=keyword_unordered"
+          }
         },
         {
           "name": "American Action Network",
           "side": "R",
-          "amount": 2265829
+          "amount": 2265829,
+          "metaAds": {
+            "n": 18,
+            "imp": "80K - 90K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Action%20Network&search_type=keyword_unordered"
+          }
         },
         {
           "name": "House Majority Forward",
           "side": "D",
-          "amount": 1489727
+          "amount": 1489727,
+          "metaAds": {
+            "n": 10,
+            "imp": "60K - 70K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20Forward&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Villegas for CA CD-22",
@@ -27794,7 +27879,12 @@
         {
           "name": "Blue Dog Action PAC",
           "side": "D",
-          "amount": 599796
+          "amount": 599796,
+          "metaAds": {
+            "n": 1,
+            "imp": "1K - 2K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Blue%20Dog%20Action&search_type=keyword_unordered"
+          }
         },
         {
           "name": "DMFI PAC",
@@ -27804,7 +27894,12 @@
         {
           "name": "American Priorities",
           "side": "D",
-          "amount": 486121
+          "amount": 486121,
+          "metaAds": {
+            "n": 22,
+            "imp": "200K - 250K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Priorities&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Healthcare Saves Lives",
@@ -59693,7 +59788,12 @@
         {
           "name": "Blue Dog Action PAC",
           "side": "D",
-          "amount": 953459
+          "amount": 953459,
+          "metaAds": {
+            "n": 1,
+            "imp": "1K - 2K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Blue%20Dog%20Action&search_type=keyword_unordered"
+          }
         },
         {
           "name": "New Leadership Now",
@@ -67297,7 +67397,12 @@
         {
           "name": "One Nation",
           "side": "R",
-          "amount": 568028
+          "amount": 568028,
+          "metaAds": {
+            "n": 880,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Osborn for NE Senate",
@@ -74201,12 +74306,22 @@
         {
           "name": "SLF PAC",
           "side": "R",
-          "amount": 28073001
+          "amount": 28073001,
+          "metaAds": {
+            "n": 36,
+            "imp": "250K - 300K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Senate%20Leadership%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "WinSenate",
           "side": "D",
-          "amount": 24345925
+          "amount": 24345925,
+          "metaAds": {
+            "n": 1200,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Pine Tree Results PAC",
@@ -74216,12 +74331,22 @@
         {
           "name": "One Nation",
           "side": "R",
-          "amount": 19677994
+          "amount": 19677994,
+          "metaAds": {
+            "n": 880,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
+          }
         },
         {
           "name": "WFW Action Fund",
           "side": "R",
-          "amount": 16066719
+          "amount": 16066719,
+          "metaAds": {
+            "n": 2,
+            "imp": "60K - 70K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WFW%20Action%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Platner for ME Senate",
@@ -74231,22 +74356,42 @@
         {
           "name": "Stronger America",
           "side": "R",
-          "amount": 7453676
+          "amount": 7453676,
+          "metaAds": {
+            "n": 210,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Stronger%20America&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Majority Forward",
           "side": "D",
-          "amount": 4904107
+          "amount": 4904107,
+          "metaAds": {
+            "n": 110,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Unrig Our Economy",
           "side": "D",
-          "amount": 2263866
+          "amount": 2263866,
+          "metaAds": {
+            "n": 1100,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Unrig%20Our%20Economy&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Duty and Honor",
           "side": "D",
-          "amount": 2243270
+          "amount": 2243270,
+          "metaAds": {
+            "n": 180,
+            "imp": "600K - 700K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Duty%20and%20Honor&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Mills for ME Senate",
@@ -74261,7 +74406,12 @@
         {
           "name": "American Advancement Inc",
           "side": "R",
-          "amount": 834149
+          "amount": 834149,
+          "metaAds": {
+            "n": 4,
+            "imp": "35K - 40K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Advancement&search_type=keyword_unordered"
+          }
         },
         {
           "name": "American Energy Action",
@@ -94218,7 +94368,12 @@
         {
           "name": "BOLD America",
           "side": "D",
-          "amount": 1790746
+          "amount": 1790746,
+          "metaAds": {
+            "n": 100,
+            "imp": "900K - 1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=BOLD%20America&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Progressive Unity Fund",
@@ -94228,7 +94383,12 @@
         {
           "name": "American Priorities",
           "side": "D",
-          "amount": 957480
+          "amount": 957480,
+          "metaAds": {
+            "n": 22,
+            "imp": "200K - 250K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Priorities&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Avila Chevalier for NY CD-13",
@@ -96606,7 +96766,12 @@
           "name": "Brad Lander",
           "side": "D",
           "amount": 62572,
-          "source": "inbox"
+          "source": "inbox",
+          "metaAds": {
+            "n": 22,
+            "imp": "350K - 400K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Brad%20Lander&search_type=keyword_unordered"
+          }
         }
       ]
     },
@@ -96656,7 +96821,12 @@
           "name": "American Priorities",
           "side": "D",
           "amount": 50000,
-          "source": "inbox"
+          "source": "inbox",
+          "metaAds": {
+            "n": 22,
+            "imp": "200K - 250K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Priorities&search_type=keyword_unordered"
+          }
         }
       ],
       "affiliations": {
@@ -96874,32 +97044,62 @@
         {
           "name": "SLF PAC",
           "side": "R",
-          "amount": 19452708
+          "amount": 19452708,
+          "metaAds": {
+            "n": 36,
+            "imp": "250K - 300K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Senate%20Leadership%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "WinSenate",
           "side": "D",
-          "amount": 12988384
+          "amount": 12988384,
+          "metaAds": {
+            "n": 1200,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Americans for Prosperity Action",
           "side": "R",
-          "amount": 7242286
+          "amount": 7242286,
+          "metaAds": {
+            "n": 1500,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Americans%20for%20Prosperity&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Center for Democratic Priorities",
           "side": "D",
-          "amount": 5125757
+          "amount": 5125757,
+          "metaAds": {
+            "n": 36,
+            "imp": "175K - 200K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Center%20for%20Democratic%20Priorities&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Yes MI Action Committee",
           "side": "D",
-          "amount": 4037734
+          "amount": 4037734,
+          "metaAds": {
+            "n": 1,
+            "imp": "1K - 2K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Yes%20MI%20Action%20Committee&search_type=keyword_unordered"
+          }
         },
         {
           "name": "United Democracy Project",
           "side": "D",
-          "amount": 3913308
+          "amount": 3913308,
+          "metaAds": {
+            "n": 10,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=United%20Democracy%20Project&search_type=keyword_unordered"
+          }
         },
         {
           "name": "A Stronger Michigan",
@@ -96914,7 +97114,12 @@
         {
           "name": "Center Forward Committee",
           "side": "D",
-          "amount": 1649255
+          "amount": 1649255,
+          "metaAds": {
+            "n": 110,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Center%20Forward&search_type=keyword_unordered"
+          }
         },
         {
           "name": "El-Sayed for MI Senate",
@@ -112395,27 +112600,52 @@
         {
           "name": "SLF PAC",
           "side": "R",
-          "amount": 7845849
+          "amount": 7845849,
+          "metaAds": {
+            "n": 36,
+            "imp": "250K - 300K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Senate%20Leadership%20Fund&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Last Frontier PAC",
           "side": "R",
-          "amount": 6834929
+          "amount": 6834929,
+          "metaAds": {
+            "n": 6,
+            "imp": "175K - 200K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Last%20Frontier%20PAC&search_type=keyword_unordered"
+          }
         },
         {
           "name": "WinSenate",
           "side": "D",
-          "amount": 6100372
+          "amount": 6100372,
+          "metaAds": {
+            "n": 1200,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
+          }
         },
         {
           "name": "One Nation",
           "side": "R",
-          "amount": 4143009
+          "amount": 4143009,
+          "metaAds": {
+            "n": 880,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Majority Forward",
           "side": "D",
-          "amount": 3944736
+          "amount": 3944736,
+          "metaAds": {
+            "n": 110,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Peltola for AK Senate",
@@ -112425,7 +112655,12 @@
         {
           "name": "The 907 Initiative",
           "side": "D",
-          "amount": 1447442
+          "amount": 1447442,
+          "metaAds": {
+            "n": 330,
+            "imp": ">1M",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=The%20907%20Initiative&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Last Frontier Action",
@@ -112435,7 +112670,12 @@
         {
           "name": "American Advancement Inc",
           "side": "R",
-          "amount": 799649
+          "amount": 799649,
+          "metaAds": {
+            "n": 4,
+            "imp": "35K - 40K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Advancement&search_type=keyword_unordered"
+          }
         },
         {
           "name": "Families Over Billionaires",
@@ -112445,7 +112685,12 @@
         {
           "name": "Duty and Honor",
           "side": "D",
-          "amount": 323031
+          "amount": 323031,
+          "metaAds": {
+            "n": 180,
+            "imp": "600K - 700K",
+            "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Duty%20and%20Honor&search_type=keyword_unordered"
+          }
         },
         {
           "name": "American Chemistry Council",

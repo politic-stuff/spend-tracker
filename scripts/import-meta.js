@@ -11,11 +11,12 @@ const adLib = q => 'https://www.facebook.com/ads/library/?active_status=active&a
 
 const byName = {};
 for (const c of data.candidates) (byName[c.name] = byName[c.name] || []).push(c);
-let set = 0, missing = [];
+let set = 0; const usedNames = new Set();
 for (const [name, m] of Object.entries(meta)) {
   if (name.startsWith('_')) continue;
   const cs = byName[name];
-  if (!cs) { missing.push(name); continue; }
+  if (!cs) continue;                        // not a candidate — may be a spender (handled below)
+  usedNames.add(name);
   if (!m.n) continue;                       // 0 active ads → no card
   const last = name.split(' ').slice(-1)[0];
   for (const c of cs) {
@@ -26,7 +27,20 @@ for (const [name, m] of Object.entries(meta)) {
   }
   set++;
 }
+
+// Attach to spender rows (PACs/outside groups render as advertiser rows, not
+// candidate blocks). Match meta.json key to spender.name; skip 0-ad entries.
+let spSet = 0;
+for (const rk in data.races) {
+  for (const s of (data.races[rk].spenders || [])) {
+    const m = meta[s.name];
+    if (m && m.n) { s.metaAds = { n: m.n, imp: m.imp, url: adLib(m.q || s.name) }; spSet++; usedNames.add(s.name); }
+    else if (s.metaAds) delete s.metaAds;
+    if (m) usedNames.add(s.name);
+  }
+}
+const missing = Object.keys(meta).filter(n => !n.startsWith('_') && !usedNames.has(n));
 data.lastUpdated = new Date().toISOString().slice(0, 10);
 fs.writeFileSync(path.join(dir, 'data.json'), JSON.stringify(data, null, 2));
 require('./wrap.js');
-console.log(`Meta cards set for ${set} candidates.${missing.length ? ' Name not found: ' + missing.join(', ') : ''}`);
+console.log(`Meta cards set for ${set} candidates + ${spSet} spender rows.${missing.length ? ' Name not found: ' + missing.join(', ') : ''}`);
