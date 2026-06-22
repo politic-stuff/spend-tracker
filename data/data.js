@@ -66770,6 +66770,14 @@ window.TRACKER_DATA = {
             "type": "Video"
           }
         ]
+      },
+      "affiliations": {
+        "Blue Dog Action PAC": {
+          "supports": "Mike Thompson"
+        },
+        "New Leadership Now": {
+          "supports": "Eric Jones"
+        }
       }
     },
     "DC-Delegate-2026": {
@@ -95335,6 +95343,26 @@ window.TRACKER_DATA = {
             "type": "Video"
           }
         ]
+      },
+      "affiliations": {
+        "BOLD America": {
+          "supports": "Adriano Espaillat"
+        },
+        "Progressive Unity Fund": {
+          "supports": "Adriano Espaillat"
+        },
+        "Project 218": {
+          "supports": "Adriano Espaillat"
+        },
+        "Latino Victory Fund": {
+          "supports": "Adriano Espaillat"
+        },
+        "American Priorities": {
+          "supports": "Darializa Avila Chevalier"
+        },
+        "Justice Democrats": {
+          "supports": "Darializa Avila Chevalier"
+        }
       }
     },
     "NY-Comptroller-2026": {
@@ -95587,7 +95615,18 @@ window.TRACKER_DATA = {
           "amount": 50000,
           "source": "inbox"
         }
-      ]
+      ],
+      "affiliations": {
+        "Real Fight NYC": {
+          "supports": "Antonio Reynoso"
+        },
+        "Leaders We Deserve": {
+          "supports": "Claire Valdez"
+        },
+        "American Priorities": {
+          "supports": "Claire Valdez"
+        }
+      }
     },
     "NY-12-2026": {
       "raceKey": "NY-12-2026",
@@ -124519,6 +124558,20 @@ window.TRACKER_DATA = {
             "tone": "negative"
           }
         ]
+      },
+      "affiliations": {
+        "WinSenate": {
+          "supports": "Mary Peltola"
+        },
+        "Majority Forward": {
+          "supports": "Mary Peltola"
+        },
+        "The 907 Initiative": {
+          "opposes": "Dan S. Sullivan"
+        },
+        "Save My Care": {
+          "opposes": "Dan S. Sullivan"
+        }
       }
     },
     "AK-Gov-2026": {
