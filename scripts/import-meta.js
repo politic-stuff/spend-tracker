@@ -21,7 +21,7 @@ for (const [name, m] of Object.entries(meta)) {
   const last = name.split(' ').slice(-1)[0];
   for (const c of cs) {
     c.ads = (c.ads || []).filter(a => a.platform !== 'Meta');
-    c.ads.push({ platform: 'Meta', title: m.n + ' Meta/Instagram political ads',
+    c.ads.push({ platform: 'Meta', title: m.n + ' Meta/Instagram political ads', count: m.n,
       sub: 'ads mentioning ' + last + (m.imp ? ' · top ' + m.imp + ' impressions' : ''),
       url: adLib(m.q || name), type: 'Meta' });
   }

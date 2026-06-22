@@ -133065,6 +133065,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "4 Meta/Instagram political ads",
+          "count": 4,
           "sub": "ads mentioning Valadao · top 2K - 3K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=David%20Valadao&search_type=keyword_unordered",
           "type": "Meta"
@@ -133707,6 +133708,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "97 Meta/Instagram political ads",
+          "count": 97,
           "sub": "ads mentioning Platner · top >1M impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Graham%20Platner&search_type=keyword_unordered",
           "type": "Meta"
@@ -133763,6 +133765,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "86 Meta/Instagram political ads",
+          "count": 86,
           "sub": "ads mentioning Collins · top >1M impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Susan%20Collins&search_type=keyword_unordered",
           "type": "Meta"
@@ -133815,6 +133818,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "14 Meta/Instagram political ads",
+          "count": 14,
           "sub": "ads mentioning Chevalier · top 90K - 100K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Avila%20Chevalier&search_type=keyword_unordered",
           "type": "Meta"
@@ -133850,6 +133854,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "37 Meta/Instagram political ads",
+          "count": 37,
           "sub": "ads mentioning Espaillat · top 500K - 600K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Adriano%20Espaillat&search_type=keyword_unordered",
           "type": "Meta"
@@ -134144,6 +134149,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "22 Meta/Instagram political ads",
+          "count": 22,
           "sub": "ads mentioning Lander · top 350K - 400K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Brad%20Lander&search_type=keyword_unordered",
           "type": "Meta"
@@ -134282,6 +134288,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "27 Meta/Instagram political ads",
+          "count": 27,
           "sub": "ads mentioning Valdez · top 200K - 250K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Claire%20Valdez&search_type=keyword_unordered",
           "type": "Meta"
@@ -134318,6 +134325,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "4 Meta/Instagram political ads",
+          "count": 4,
           "sub": "ads mentioning Reynoso · top 125K - 150K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Antonio%20Reynoso&search_type=keyword_unordered",
           "type": "Meta"
@@ -134464,6 +134472,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "24 Meta/Instagram political ads",
+          "count": 24,
           "sub": "ads mentioning Lasher · top 175K - 200K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Micah%20Lasher&search_type=keyword_unordered",
           "type": "Meta"
@@ -134528,6 +134537,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "180 Meta/Instagram political ads",
+          "count": 180,
           "sub": "ads mentioning Bores · top >1M impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Alex%20Bores&search_type=keyword_unordered",
           "type": "Meta"
@@ -134563,6 +134573,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "42 Meta/Instagram political ads",
+          "count": 42,
           "sub": "ads mentioning Conway · top 100K - 125K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=George%20Conway%20NY&search_type=keyword_unordered",
           "type": "Meta"
@@ -134851,6 +134862,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "6 Meta/Instagram political ads",
+          "count": 6,
           "sub": "ads mentioning Seligman · top 70K - 80K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=David%20Seligman%20Colorado&search_type=keyword_unordered",
           "type": "Meta"
@@ -135136,6 +135148,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "78 Meta/Instagram political ads",
+          "count": 78,
           "sub": "ads mentioning El-Sayed · top 300K - 350K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Abdul%20El-Sayed&search_type=keyword_unordered",
           "type": "Meta"
@@ -135181,6 +135194,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "61 Meta/Instagram political ads",
+          "count": 61,
           "sub": "ads mentioning McMorrow · top 700K - 800K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Mallory%20McMorrow&search_type=keyword_unordered",
           "type": "Meta"
@@ -135225,6 +135239,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "19 Meta/Instagram political ads",
+          "count": 19,
           "sub": "ads mentioning Stevens · top >1M impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Haley%20Stevens&search_type=keyword_unordered",
           "type": "Meta"
@@ -135333,6 +135348,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "81 Meta/Instagram political ads",
+          "count": 81,
           "sub": "ads mentioning Rogers · top 600K - 700K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Mike%20Rogers&search_type=keyword_unordered",
           "type": "Meta"
@@ -135730,6 +135746,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "74 Meta/Instagram political ads",
+          "count": 74,
           "sub": "ads mentioning Barnes · top 15K - 20K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Mandela%20Barnes&search_type=keyword_unordered",
           "type": "Meta"
@@ -135877,6 +135894,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "75 Meta/Instagram political ads",
+          "count": 75,
           "sub": "ads mentioning Tiffany · top >1M impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Tom%20Tiffany&search_type=keyword_unordered",
           "type": "Meta"
@@ -135970,6 +135988,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "140 Meta/Instagram political ads",
+          "count": 140,
           "sub": "ads mentioning Peltola · top 175K - 200K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Mary%20Peltola&search_type=keyword_unordered",
           "type": "Meta"
@@ -136027,6 +136046,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "57 Meta/Instagram political ads",
+          "count": 57,
           "sub": "ads mentioning Sullivan · top 700K - 800K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Dan%20Sullivan&search_type=keyword_unordered",
           "type": "Meta"
@@ -136200,6 +136220,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "4 Meta/Instagram political ads",
+          "count": 4,
           "sub": "ads mentioning Vindman · top 450K - 500K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Alexander%20Vindman&search_type=keyword_unordered",
           "type": "Meta"
@@ -136307,6 +136328,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "68 Meta/Instagram political ads",
+          "count": 68,
           "sub": "ads mentioning Hinojosa · top 200K - 250K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Gina%20Hinojosa&search_type=keyword_unordered",
           "type": "Meta"
@@ -136334,6 +136356,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "86 Meta/Instagram political ads",
+          "count": 86,
           "sub": "ads mentioning Abbott · top 200K - 250K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Greg%20Abbott&search_type=keyword_unordered",
           "type": "Meta"
@@ -136441,6 +136464,7 @@ window.TRACKER_DATA = {
         {
           "platform": "Meta",
           "title": "13 Meta/Instagram political ads",
+          "count": 13,
           "sub": "ads mentioning Casar · top 30K - 35K impressions",
           "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Greg%20Casar&search_type=keyword_unordered",
           "type": "Meta"
