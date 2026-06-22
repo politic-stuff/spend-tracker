@@ -383,7 +383,13 @@ function detail(rk){
     const earlier=allWeeks.filter(w=>w>WINDOW).length;
     const bookedWeeksN=allWeeks.filter(w=>inWin(w)&&isFut(w)).length;
     const md=s=>s?s.slice(5).replace('-','/'):"";
-    const wlab=w=>w<=0?"Elec wk":("W"+w);
+    const prim=race.primaryDate?new Date(race.primaryDate+"T00:00:00"):null;
+    const gen=new Date((race.generalDate&&race.generalDate.length>=10?race.generalDate:"2026-11-03")+"T00:00:00");
+    const WK=6048e5; // ms per week
+    const wlab=w=>{const ds=wkDates[w]&&wkDates[w].s?new Date(wkDates[w].s+"T00:00:00"):null;
+      if(!ds)return w<=0?"Elec wk":("W"+w);
+      if(prim&&ds<=prim){const n=Math.round((prim-ds)/WK);return n<=0?"Primary wk":("P-W"+n);}  // count down to the primary
+      const n=Math.round((gen-ds)/WK);return n<=0?"Elec wk":("W"+n);};                            // then restart toward the general
     const aired=buys.filter(b=>!(b.flightStart&&new Date(b.flightStart)>today)).reduce((s,b)=>s+(b.amount||0),0);
     const booked=buys.filter(b=>b.flightStart&&new Date(b.flightStart)>today).reduce((s,b)=>s+(b.amount||0),0);
     const keyOf=b=>dim==="market"?(b.market||"?"):(b.advertiser||"?");
@@ -403,7 +409,7 @@ function detail(rk){
       <span class="gridtoggle" onclick="window.toggleGrid()">↔ by ${dim==="market"?"advertiser":"market"}</span></h3>
       <div class="airedbar"><b>${fmt(aired)}</b> aired to date${booked?` · <span class="bk bktoggle" onclick="window.toggleBooked()">${state.showBooked?'▾ hide booked':'▸ +'+fmt(booked)+' booked ahead'+(bookedWeeksN?' ('+bookedWeeksN+' wk'+(bookedWeeksN>1?'s':'')+')':'')}</span>`:""}</div>
       <div class="wgridwrap"><table class="wgrid">${head}${body}${totrow}</table></div>
-      <div class="wknote">Weeks run Tue–Mon, counting back from the Nov 3 general (W1 = the week before).${state.showBooked?' <b class="bk">Shaded “booked” weeks</b> are future airtime AdImpact shows reserved/ordered — not yet aired.':''}${earlier?` <span class="gridtoggle" onclick="window.toggleGridAll()">${state.gridAll?'show recent only':'+ '+earlier+' earlier weeks'}</span>`:''}</div></div>`;
+      <div class="wknote">Weeks run Tue–Mon. ${prim?`<b>P-W</b> = weeks before the ${md(race.primaryDate)} primary; the count restarts (W1 = week before) for the Nov 3 general.`:`Counting back from the Nov 3 general (W1 = the week before).`}${state.showBooked?' <b class="bk">Shaded “booked” weeks</b> are future airtime AdImpact shows reserved/ordered — not yet aired.':''}${earlier?` <span class="gridtoggle" onclick="window.toggleGridAll()">${state.gridAll?'show recent only':'+ '+earlier+' earlier weeks'}</span>`:''}</div></div>`;
   }
 
   const advRow=(adv,tag)=>{const cr=crBy[adv.name]||[];const has=cr.length>0;
