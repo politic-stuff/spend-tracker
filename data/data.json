@@ -21,6 +21,26 @@
   },
   "changelog": [
     {
+      "ts": "2026-06-22",
+      "note": "<b>NY-7</b>: corrected <b>American Priorities</b> to $513K (was $50K) and added <b>Justice Democrats</b> $213K — <b>Claire Valdez</b> now leads her side, not outspent."
+    },
+    {
+      "ts": "2026-06-22",
+      "note": "<b>AdImpact scrub</b> across 10 races — biggest raises: <b>United Democracy Project</b> +$3.8M & <b>WinSenate</b> +$3.4M (MI-Sen), <b>Majority Forward</b> +$2.4M (ME-Sen), <b>One Nation</b> +$561K (NE-Sen)."
+    },
+    {
+      "ts": "2026-06-22",
+      "note": "New ad — <b>Pine Tree Results PAC</b> “Chris Kyle / Nazi tattoo” hitting <b>Graham Platner</b> (ME-Sen), spotted via @AdImpact_Pol."
+    },
+    {
+      "ts": "2026-06-22",
+      "note": "<b>Meta Ad Library</b> linked for 50 advertisers; <b>flight dates</b> (“Aired … – present”) now on every creative, with currently-airing ads first."
+    },
+    {
+      "ts": "2026-06-22",
+      "note": "Week-by-week now counts down to each race’s <b>primary</b> first (then resets toward the general); booked spend folds away by default."
+    },
+    {
       "ts": "2026-06-18",
       "note": "New ad creatives: Max Miller: 3 new (TANF Floor Remarks | Rep. Max Miller) · Rob Bresnahan Jr.: 1 new (Rep. Bresnahan and Rep. Meuser Honor the) · Ryan Mackenzie: 1 new (Mackenzie 2026) · David Valadao: 3 new (Congressman Valadao Delivers Floor Remar) · Eric Jones: 8 new (Eric Jones' Platforms Explained) · Mike Thompson: 1 new (Jill Techel)"
     },
@@ -39,30 +59,6 @@
     {
       "ts": "2026-06-17",
       "note": "AdMo creatives: 354 ad creatives across 10 races (click a spender to watch)"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import: 11 race(s) backfilled — AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import: 11 race(s) backfilled — AK-Sen-2026, ME-Sen-2026, CA-22-2026, PA-7-2026, PA-8-2026, TX-Gov-2026, CA-4-2026, NY-13-2026"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import: 2 race(s) backfilled — AK-Sen-2026, MI-Sen-2026"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import MI-Sen-2026: 26 spenders, 1495 weekly buy-rows across 15 markets."
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import MI-Sen-2026: 26 spenders, 1495 weekly buy-rows across 15 markets."
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdMo import MI-Sen-2026: 26 spenders, 1495 weekly buy-rows across 15 markets."
     },
     {
       "ts": "2026-06-17",
@@ -87,38 +83,6 @@
     {
       "ts": "2026-06-17",
       "note": "AdImpact race totals: NY-7-2026: D $840,839 / R $0 · NY-13-2026: D $5.6M / R $0 · PA-7-2026: D $12.9M / R $9.5M · PA-8-2026: D $10.0M / R $4.6M · TX-Gov-2026: D $714,763 / R $7.5M"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdImpact race totals: NE-Sen-2026: D $30,137 / R $3.2M · AK-Sen-2026: D $15.3M / R $21.0M · ME-Sen-2026: D $52.8M / R $103.3M · MI-13-2026: D $110,834 / R $0"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdImpact race totals: MI-Sen-2026: D $43.0M / R $35.1M"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "FEC: 30 race(s) moved. Angel Oakley (US House IL-3): $0 → $1,657.29 · Max Miller (US House OH-7): $0 → $513,420.7 · James Hayes (US House PA-12): $0 → $16,237.51 · Ryan Mackenzie (US House PA-7): $0 → $203,333.61 · David Valadao (US House CA-22): $0 → $1,187,808.57"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "Restructured to race-field model: 33 races, 115 candidates (tracked + opponents)."
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "Inbox/manual: Randy Villegas: Dem side — race total (AdImpact, CA CD-22) $16,671,440 (confirmed) · Randy Villegas: Rep side — race total (AdImpact, CA CD-22) $11,676,459 (confirmed)"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "FEC: 26 race(s) moved. Evan Turnage (US House, MS-2): $0 → $461,473.51 · Dr. Thomas Fisher (US House, IL-7): $0 → $947,370.63 · Delia Ramirez (US House, IL-3 (incumbent)): $0 → $793,478.13 · Brian Poindexter (US House, OH-7): $0 → $125,937.12 · Dan Osborn (US Senate (Independent)): $0 → $23,304,743.52"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "New ad creatives: Eric Jones: 14 new (Congressional Candidate Eric Jones Makes) · Graham Platner: 15 new (Donald Trump Said This About Me) · Micah Lasher: 15 new (Welcome to the Upper West Side) · David Seligman: 15 new (Seligman for AG - Compassion in Law) · Abdul El-Sayed: 15 new (Our new ad, “Stopwatch.”) · Mandela Barnes: 10 new (Mandela Barnes on MSNOW's The Weekend)"
-    },
-    {
-      "ts": null,
-      "note": "Initial seed from primary-countdown. No live data pulled yet."
     }
   ],
   "races": {

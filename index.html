@@ -297,7 +297,7 @@ function overview(){
   const cl=D.changelog||[];
   const updates=`<details class="updates"><summary>📣 What changed
     <span class="latest">${cl[0]?cl[0].note:""}</span><span class="chev">›</span></summary>
-    <ul>${cl.slice(0,10).map(e=>`<li><span class="t">${e.ts||"—"}</span>${e.note}</li>`).join("")}</ul></details>`;
+    <ul>${cl.slice(0,10).map(e=>`<li><span class="t">${e.ts||"—"}</span>${(e.note||"").replace(/(\+?\$[\d,]+(?:\.\d+)?[KMB]?)/g,'<b>$1</b>')}</li>`).join("")}</ul></details>`;
   const sub=`<div class="sub">${D.lastUpdated?"Updated "+D.lastUpdated+" · ":""}${Object.keys(D.races).length} races · cycle 2026 · <span style="color:var(--dem)">■</span> Dem <span style="color:var(--rep)">■</span> Rep — bar shows spending advantage</div>`;
   const controls=`<div class="controls">
     <div class="seg" id="segStatus">${[["all","All"],["primary","In primary"],["general","General"]].map(([v,l])=>`<button class="${state.status===v?'on':''}" data-v="${v}">${l}</button>`).join("")}</div>
