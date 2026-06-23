@@ -418,8 +418,8 @@ function detail(rk){
       <div class="wknote">Weeks run Tue–Mon. ${prim?`<b>P-W</b> = weeks before the ${md(race.primaryDate)} primary; the count restarts (W1 = week before) for the Nov 3 general.`:`Counting back from the Nov 3 general (W1 = the week before).`}${state.showBooked?' <b class="bk">Shaded “booked” weeks</b> are future airtime AdImpact shows reserved/ordered — not yet aired.':''}${earlier?` <span class="gridtoggle" onclick="window.toggleGridAll()">${state.gridAll?'show recent only':'+ '+earlier+' earlier weeks'}</span>`:''}</div></div>`;
   }
 
-  const advRow=(adv,tag)=>{const cr=crBy[adv.name]||[];const has=cr.length>0;
-    return `<div class="sp ${adv.side}${has?' hascr':''}"${has?' onclick="window.toggleCr(this)"':''}><span class="dot"></span><span class="nm">${adv.name}${adv.isNew?'<span class="newbadge">NEW</span>':''}${tag?`<span class="afftag${tag==='opposing'?' oppt':''}">${tag}</span>`:''}${has?`<span class="crcount"><span class="car">▸</span> ${cr.length} ad${cr.length>1?'s':''}</span>`:''}${adv.metaAds?`<a class="metalink" href="${adv.metaAds.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ⓜ ${adv.metaAds.n} Meta</a>`:''}</span><span class="amt">${fmt(adv.amount)}</span></div>`
+  const advRow=(adv,tag)=>{const cr=(crBy[adv.name]||[]).filter(crMatchesView);const has=cr.length>0;
+    return `<div class="sp ${adv.side}${has?' hascr':''}"${has?' onclick="window.toggleCr(this)"':''}><span class="dot"></span><span class="nm">${adv.name}${adv.isNew?'<span class="newbadge">NEW</span>':''}${tag?`<span class="afftag${tag==='opposing'?' oppt':''}">${tag}</span>`:''}${has?`<span class="crcount"><span class="car">▸</span> ${cr.length} ${state.crView==='live'?'live':'past'} ad${cr.length>1?'s':''}</span>`:''}${adv.metaAds?`<a class="metalink" href="${adv.metaAds.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ⓜ ${adv.metaAds.n} Meta</a>`:''}</span><span class="amt">${fmt(adv.amount)}</span></div>`
       +(has?`<div class="crstrip">${cr.slice().sort((a,b)=>(b.flightPresent?1:0)-(a.flightPresent?1:0)||String(b.flightEnd||"").localeCompare(String(a.flightEnd||""))).map(crCard).join("")}</div>`:"");};
 
   const candBlock=c=>{
@@ -427,7 +427,7 @@ function detail(rk){
     const rec=reconcile(c), total=suppTotal(c)||rec.total||0, against=oppTotal(c);
     const relTxt={tracked:"Your candidate","primary-opp":"Primary rival","general-opp":"General opponent"}[c.relationship]||c.relationship;
     const first=c.name.split(" ")[0];
-    const adGroup=(platform)=>{const items=(c.ads||[]).filter(a=>a.platform===platform);
+    const adGroup=(platform)=>{const items=(c.ads||[]).filter(a=>a.platform===platform).filter(crMatchesView);
       const cards=items.slice(0,8).map(a=>{let thumb=a.thumb||"";if(platform==="YouTube"){const id=ytId(a.url);thumb=id?`https://i.ytimg.com/vi/${id}/hqdefault.jpg`:"";}
         return{thumb,title:a.title||(platform+" ad"),type:a.type||(platform==="YouTube"?"Video":"Digital"),link:a.url,sub:a.sub||a.spend||platform};});
       const n=(platform==="Meta"&&items[0]&&items[0].count)?items[0].count:items.length;
@@ -443,7 +443,8 @@ function detail(rk){
       <div class="candbody">${own}${sup}${opp}${digital}${fec}${empty}</div></div>`;
   };
   const order={tracked:0,"primary-opp":1,"general-opp":2};
-  const field=`<div class="panel"><h3>Ads by candidate <span class="crhint">each candidate’s own ads + the groups backing them — tap an advertiser to watch its ads</span></h3>`
+  const crTab=(v,lbl)=>`<span onclick="window.setCrView('${v}')" style="cursor:pointer;padding:3px 11px;border-radius:11px;margin-left:6px;font-size:12px;font-weight:600;${state.crView===v?'background:var(--accent);color:#fff':'background:rgba(128,128,128,.15);color:var(--txt2)'}">${lbl}</span>`;
+  const field=`<div class="panel"><h3>Ads by candidate <span class="crhint">${state.crView==='live'?'currently airing (last 7 days)':'ran previously — no longer airing'}</span><span style="float:right">${crTab('live','● Live')}${crTab('historic','Historic')}</span></h3>`
     +[...cands].sort((a,b)=>(order[a.relationship]??3)-(order[b.relationship]??3)||suppTotal(b)-suppTotal(a)).map(candBlock).join("")+`</div>`;
   const outsidePanel=(outside.length||othercand.length)?`<div class="panel"><h3>Other outside spending <span class="crhint">not tied to one candidate</span></h3>`
     +(outside.length?`<div class="adsub">Active in the race (party side known, candidate not specific)</div>`+outside.slice().sort((a,b)=>b.amount-a.amount).map(a=>advRow(a)).join(""):"")
@@ -496,9 +497,13 @@ function cls(c){return({FEC:"fec","FEC Schedule E":"fec","confirmed-inbox":"conf
 function lab(c){return({FEC:"FEC","FEC Schedule E":"FEC","confirmed-inbox":"Inbox",adimpact:"AdImpact",estimate:"Est",sample:"Sample"})[c]||"Est";}
 
 // ---------- router ----------
-const state={status:"all",level:"all",sort:"spend",gridDim:"advertiser",gridAll:false,phase:"general"};
+const state={status:"all",level:"all",sort:"spend",gridDim:"advertiser",gridAll:false,phase:"general",crView:"live"};
 window.toggleGrid=()=>{state.gridDim=state.gridDim==="advertiser"?"market":"advertiser";render();};
 window.togglePhase=()=>{state.phase=state.phase==="primary"?"general":"primary";render();};
+window.setCrView=(v)=>{state.crView=v;render();};
+// Live = airing within the last 7 days (flightPresent, or flightEnd within 7d, or undated digital). Auto-decays to Historic.
+function isLiveCreative(c){if(c&&c.flightPresent)return true;const e=c&&c.flightEnd;if(!e)return true;const d=new Date(String(e).length<=10?e+"T00:00:00":e);return isNaN(d)?true:(Date.now()-d.getTime())<=7*864e5;}
+function crMatchesView(c){return state.crView==="historic"?!isLiveCreative(c):isLiveCreative(c);}
 window.toggleGridAll=()=>{state.gridAll=!state.gridAll;render();};
 window.toggleBooked=()=>{state.showBooked=!state.showBooked;render();};
 function render(){
