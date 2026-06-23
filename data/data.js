@@ -1,6 +1,6 @@
 // AUTO-GENERATED from data.json by scripts/wrap.js. Do not edit by hand.
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "cycle": "2026",
   "sources": {
     "federalSpend": "FEC OpenFEC API (api.open.fec.gov)",
@@ -21,6 +21,10 @@ window.TRACKER_DATA = {
     "state": 37
   },
   "changelog": [
+    {
+      "ts": "2026-06-23",
+      "note": "Inbox: buys Susan Collins (ME-Sen-2026): 3 flight(s) · + Susan Collins (ME-Sen-2026) $100,408 · buys Majority Forward (ME-Sen-2026): 2 flight(s) · ✎ Majority Forward (ME-Sen-2026) inbox $168,049"
+    },
     {
       "ts": "2026-06-22",
       "note": "Inbox: + Graham Platner (ME-Sen-2026) $237,559 · + Susan Collins (ME-Sen-2026) $21,630 · ✎ WinSenate (ME-Sen-2026) inbox $267,169 [correction] · ✎ Pine Tree Results PAC (ME-Sen-2026) inbox $159,840 · ✎ Majority Forward (ME-Sen-2026) inbox $30,099 · ✎ Stronger America (ME-Sen-2026) inbox $70,700 · + Abdul El-Sayed (MI-Sen-2026) $291,055 · + Mallory McMorrow (MI-Sen-2026) $129,300"
@@ -74401,10 +74405,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 30099,
-            "flight": "6/17-7/6",
-            "source": "inbox",
-            "asOf": "2026-06-22"
+            "amount": 168049,
+            "flight": "6/23-7/13 broadcast + 6/24-7/13 cable (Bangor)",
+            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (broadcast 6/23-7/13 most-complete 29% + cable 6/24-7/13)",
+            "asOf": "2026-06-23"
           }
         },
         {
@@ -93239,6 +93243,76 @@ window.TRACKER_DATA = {
           "amount": 71,
           "week": 49,
           "source": "AdImpact (AdMo)"
+        },
+        {
+          "advertiser": "Susan Collins",
+          "side": "R",
+          "market": "Portland",
+          "station": "cable",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-07-01",
+          "amount": 69620,
+          "week": 19,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
+          "creativeUrl": null,
+          "asOf": "2026-06-23",
+          "_key": "alert-mesen-collins-cable-20260623|Portland|cable|2026-06-23"
+        },
+        {
+          "advertiser": "Susan Collins",
+          "side": "R",
+          "market": "Presque Isle",
+          "station": "cable",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-07-01",
+          "amount": 10071,
+          "week": 19,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
+          "creativeUrl": null,
+          "asOf": "2026-06-23",
+          "_key": "alert-mesen-collins-cable-20260623|Presque Isle|cable|2026-06-23"
+        },
+        {
+          "advertiser": "Susan Collins",
+          "side": "R",
+          "market": "Bangor",
+          "station": "cable",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-07-01",
+          "amount": 20717,
+          "week": 19,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
+          "creativeUrl": null,
+          "asOf": "2026-06-23",
+          "_key": "alert-mesen-collins-cable-20260623|Bangor|cable|2026-06-23"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Bangor",
+          "station": "broadcast",
+          "flightStart": "2026-06-23",
+          "flightEnd": "2026-07-13",
+          "amount": 141799,
+          "week": 19,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (broadcast 6/23-7/13 most-complete 29% + cable 6/24-7/13)",
+          "creativeUrl": null,
+          "asOf": "2026-06-23",
+          "_key": "alert-mesen-majorityforward-20260623|Bangor|broadcast|2026-06-23"
+        },
+        {
+          "advertiser": "Majority Forward",
+          "side": "D",
+          "market": "Bangor",
+          "station": "cable",
+          "flightStart": "2026-06-24",
+          "flightEnd": "2026-07-13",
+          "amount": 26250,
+          "week": 19,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (broadcast 6/23-7/13 most-complete 29% + cable 6/24-7/13)",
+          "creativeUrl": null,
+          "asOf": "2026-06-23",
+          "_key": "alert-mesen-majorityforward-20260623|Bangor|cable|2026-06-24"
         }
       ],
       "creativesByAdvertiser": {
@@ -133893,6 +133967,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-22",
           "flight": "6/23-7/1"
+        },
+        {
+          "_key": "inbox:alert-mesen-collins-cable-20260623",
+          "actor": "Susan Collins",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 100408,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-23",
+          "flight": "6/23-7/1 (cable)"
         }
       ],
       "ads": [

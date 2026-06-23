@@ -89,7 +89,14 @@ cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff
 1. **Window of new mail.** Read `data/.inbox-last` if it exists (the date of the
    newest email processed last run); else use `newer_than:2d`.
 2. **Search.** Navigate the controlled tab to `<contents of .inbox-url>` +
-   `#search/label%3A"ADIMPACT (Alerts)" newer_than%3A2d` (or `after:<.inbox-last>`).
+   `#search/label%3Aadimpact--alerts-+after%3A<YYYY/MM/DD>` (date floor from
+   `.inbox-last`; e.g. `after%3A2026%2F06%2F22`). Screenshot / read the list.
+   ⚠️ **Label-token gotcha:** Gmail search does NOT accept the human label name —
+   `label:"ADIMPACT (Alerts)"` matches **zero** messages (the space + parens break
+   it) and silently returns nothing, so the whole loop becomes a no-op. The label
+   tokenizes to **`label:adimpact--alerts-`** (lowercase, every run of non-alphanumerics
+   → a hyphen, trailing hyphen kept). To get the exact token for any label, open it
+   from the sidebar once and read what Gmail rewrites the search box to.
    Screenshot / read the list.
 3. **Read each NEW email** (newer than `.inbox-last`): open it, read the body
    (`get_page_text`). Build queue items:
@@ -105,6 +112,24 @@ cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff
      CD-07"), else "group". `districtHint` like "ME Senate"/"PA CD-07"/"TX Governor"
      — the resolver maps it to the raceKey. `sourceKey` stable per advertiser+race so
      a later recap overwrites (set `correction:true` when it's a revision).
+   - **Spending Alert / Reallocation Alert** (the common AdImpact email — ONE
+     advertiser, a single NEW flight, per-market table; subject `Spending Alert: <race> - <advertiser>`).
+     This is **per-flight, not cumulative** — do NOT overwrite the advertiser's running
+     total with a single flight. Emit one item per advertiser+flight with a `buys[]`
+     array (the engine routes it to `race.buys[]`, the week×market grid), e.g.:
+     ```json
+     { "advertiser": "Susan Collins", "side": "R", "raceKey": "ME-Sen-2026",
+       "kind": "candidate", "flight": "6/23-7/1", "amount": 100408,
+       "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable)",
+       "sourceKey": "alert-mesen-collins-cable-20260623",
+       "buys": [ {"market":"Portland","flightStart":"2026-06-23","flightEnd":"2026-07-01","amount":69620},
+                 {"market":"Presque Isle","flightStart":"2026-06-23","flightEnd":"2026-07-01","amount":10071},
+                 {"market":"Bangor","flightStart":"2026-06-23","flightEnd":"2026-07-01","amount":20717} ] }
+     ```
+     `sourceKey` unique **per flight** (include cable/broadcast + start date) so distinct
+     flights accumulate and a re-report of the SAME flight overwrites itself (idempotent).
+     If a thread re-sends the same flight with a more-complete figure (higher "% of
+     stations reported"), keep the most-complete number for that flight, not the sum.
    - **Ad Alert (new creative)** → one item in `data/newads-queue.json` (array),
      shape per `docs/NEW-ADS-RADAR.md`:
      ```json
