@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-23",
+      "note": "Inbox: + Shri Thanedar (MI-13-2026) $59,780 · ✎ WinSenate (AK-Sen-2026) inbox $271,759 [correction] · ✎ Majority Forward (AK-Sen-2026) inbox $711,804 · ✎ Nebraska Groundswell (NE-Sen-2026) inbox $4,740 · + Mary Peltola (AK-Sen-2026) $8,799"
+    },
+    {
+      "ts": "2026-06-23",
       "note": "Inbox: buys Susan Collins (ME-Sen-2026): 3 flight(s) · + Susan Collins (ME-Sen-2026) $100,408 · buys Majority Forward (ME-Sen-2026): 2 flight(s) · ✎ Majority Forward (ME-Sen-2026) inbox $168,049"
     },
     {
@@ -67428,7 +67432,13 @@
           "source": "inbox",
           "isNew": true,
           "flight": "6/23-6/29",
-          "asOf": "2026-06-22"
+          "asOf": "2026-06-22",
+          "inbox": {
+            "amount": 4740,
+            "flight": "6/23-6/29 radio (Omaha-Council Bluffs)",
+            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (NE radio)",
+            "asOf": "2026-06-23"
+          }
         },
         {
           "name": "Nebraska Appleseed Action Fund",
@@ -93242,76 +93252,6 @@
           "amount": 71,
           "week": 49,
           "source": "AdImpact (AdMo)"
-        },
-        {
-          "advertiser": "Susan Collins",
-          "side": "R",
-          "market": "Portland",
-          "station": "cable",
-          "flightStart": "2026-06-23",
-          "flightEnd": "2026-07-01",
-          "amount": 69620,
-          "week": 19,
-          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
-          "creativeUrl": null,
-          "asOf": "2026-06-23",
-          "_key": "alert-mesen-collins-cable-20260623|Portland|cable|2026-06-23"
-        },
-        {
-          "advertiser": "Susan Collins",
-          "side": "R",
-          "market": "Presque Isle",
-          "station": "cable",
-          "flightStart": "2026-06-23",
-          "flightEnd": "2026-07-01",
-          "amount": 10071,
-          "week": 19,
-          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
-          "creativeUrl": null,
-          "asOf": "2026-06-23",
-          "_key": "alert-mesen-collins-cable-20260623|Presque Isle|cable|2026-06-23"
-        },
-        {
-          "advertiser": "Susan Collins",
-          "side": "R",
-          "market": "Bangor",
-          "station": "cable",
-          "flightStart": "2026-06-23",
-          "flightEnd": "2026-07-01",
-          "amount": 20717,
-          "week": 19,
-          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable 6/23-7/1)",
-          "creativeUrl": null,
-          "asOf": "2026-06-23",
-          "_key": "alert-mesen-collins-cable-20260623|Bangor|cable|2026-06-23"
-        },
-        {
-          "advertiser": "Majority Forward",
-          "side": "D",
-          "market": "Bangor",
-          "station": "broadcast",
-          "flightStart": "2026-06-23",
-          "flightEnd": "2026-07-13",
-          "amount": 141799,
-          "week": 19,
-          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (broadcast 6/23-7/13 most-complete 29% + cable 6/24-7/13)",
-          "creativeUrl": null,
-          "asOf": "2026-06-23",
-          "_key": "alert-mesen-majorityforward-20260623|Bangor|broadcast|2026-06-23"
-        },
-        {
-          "advertiser": "Majority Forward",
-          "side": "D",
-          "market": "Bangor",
-          "station": "cable",
-          "flightStart": "2026-06-24",
-          "flightEnd": "2026-07-13",
-          "amount": 26250,
-          "week": 19,
-          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (broadcast 6/23-7/13 most-complete 29% + cable 6/24-7/13)",
-          "creativeUrl": null,
-          "asOf": "2026-06-23",
-          "_key": "alert-mesen-majorityforward-20260623|Bangor|cable|2026-06-24"
         }
       ],
       "creativesByAdvertiser": {
@@ -112811,6 +112751,12 @@
             "n": 1200,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 271759,
+            "flight": "6/30-7/20 broadcast (REVISED down; $711,804 reallocated to Majority Forward)",
+            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (AK revised; reallocation out)",
+            "asOf": "2026-06-23"
           }
         },
         {
@@ -112831,6 +112777,12 @@
             "n": 110,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 711804,
+            "flight": "6/30-7/20 broadcast (new flight, reallocated from WinSenate)",
+            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (AK new flight; reallocation in)",
+            "asOf": "2026-06-23"
           }
         },
         {
@@ -135665,7 +135617,19 @@
       "result": null,
       "links": {},
       "fecId": "H2MI13204",
-      "spend": [],
+      "spend": [
+        {
+          "_key": "inbox:alert-mi13-thanedar-20260623",
+          "actor": "Shri Thanedar",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 59780,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (MI-13 Detroit bcast+cable)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-23",
+          "flight": "6/24-6/29 (broadcast $49,000 + cable $10,780, Detroit)"
+        }
+      ],
       "ads": [],
       "photo": "assets/photos/shri-thanedar.jpg"
     },
@@ -136202,6 +136166,17 @@
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-22",
           "flight": "6/23-6/29"
+        },
+        {
+          "_key": "inbox:alert-aksen-peltola-radio-20260623",
+          "actor": "Mary Peltola",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 8799,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (AK radio)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-23",
+          "flight": "6/23-6/29 radio (Anchorage $6,420 + Non-Metro $2,380)"
         }
       ],
       "ads": [

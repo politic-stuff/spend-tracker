@@ -127,23 +127,24 @@ cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff
      — the resolver maps it to the raceKey. `sourceKey` stable per advertiser+race so
      a later recap overwrites (set `correction:true` when it's a revision).
    - **Spending Alert / Reallocation Alert** (the common AdImpact email — ONE
-     advertiser, a single NEW flight, per-market table; subject `Spending Alert: <race> - <advertiser>`).
-     This is **per-flight, not cumulative** — do NOT overwrite the advertiser's running
-     total with a single flight. Emit one item per advertiser+flight with a `buys[]`
-     array (the engine routes it to `race.buys[]`, the week×market grid), e.g.:
+     advertiser, a single flight, per-market table; subject `Spending Alert: <race> - <advertiser>`).
+     **Ingest as a SCALAR only — do NOT use `buys[]`.** The AdImpact *platform scrub*
+     already owns `race.buys[]` (weekly per-market grid, rows have no `_key`); these
+     alerts are previews of that same spend, so adding `buys[]` rows **double-counts**
+     the grid (and the market names won't even match — alert says "Bangor", scrub says
+     "Bangor, ME"). Emit a scalar item (the engine routes group→`spender.inbox` refresh,
+     candidate→a `confirmed-inbox` spend row, brand-new advertiser→new spender):
      ```json
      { "advertiser": "Susan Collins", "side": "R", "raceKey": "ME-Sen-2026",
-       "kind": "candidate", "flight": "6/23-7/1", "amount": 100408,
+       "kind": "candidate", "amount": 100408, "flight": "6/23-7/1 (cable)",
        "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (cable)",
-       "sourceKey": "alert-mesen-collins-cable-20260623",
-       "buys": [ {"market":"Portland","flightStart":"2026-06-23","flightEnd":"2026-07-01","amount":69620},
-                 {"market":"Presque Isle","flightStart":"2026-06-23","flightEnd":"2026-07-01","amount":10071},
-                 {"market":"Bangor","flightStart":"2026-06-23","flightEnd":"2026-07-01","amount":20717} ] }
+       "sourceKey": "alert-mesen-collins-cable-20260623", "correction": false }
      ```
-     `sourceKey` unique **per flight** (include cable/broadcast + start date) so distinct
-     flights accumulate and a re-report of the SAME flight overwrites itself (idempotent).
-     If a thread re-sends the same flight with a more-complete figure (higher "% of
-     stations reported"), keep the most-complete number for that flight, not the sum.
+     `sourceKey` stable per advertiser+flight so re-reports overwrite (idempotent); set
+     `correction:true` on a revision/reallocation. If a thread re-sends the same flight
+     with a more-complete figure (higher "% of stations reported"), use the most-complete
+     number, not the sum. `buys[]` is reserved for sources the scrub does NOT cover —
+     e.g. station/BCTV "orders" with real call letters (see the `locality-…` KUTV rows).
    - **Ad Alert (new creative)** → one item in `data/newads-queue.json` (array),
      shape per `docs/NEW-ADS-RADAR.md`:
      ```json
