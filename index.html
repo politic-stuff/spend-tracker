@@ -456,7 +456,7 @@ function detail(rk){
     <div class="dmeta">${race.state} · ${statusLbl}</div>
     ${race.seatHeldBy?`<div class="seat">Seat: ${race.seatHeldBy}</div>`:""}
     <div class="matchup">${mcard(our,"Your candidate")}<div class="vs">vs</div>${mcard(opp,opp&&opp.relationship==='general-opp'?'General opponent':'Top rival')}</div>
-    <div class="panel"><h3>Total spent to date</h3>${bigbar}</div>
+    <div class="panel"><h3>Total spent · whole cycle <span class="crhint">primary + general combined — see the week grid below for the primary/general split</span></h3>${bigbar}</div>
     ${adBreakdown(race,rk)}
     ${weekgrid}
     ${field}${outsidePanel}`;
