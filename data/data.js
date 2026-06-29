@@ -1,6 +1,6 @@
 // AUTO-GENERATED from data.json by scripts/wrap.js. Do not edit by hand.
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-29",
   "cycle": "2026",
   "sources": {
     "federalSpend": "FEC OpenFEC API (api.open.fec.gov)",
@@ -21,6 +21,14 @@ window.TRACKER_DATA = {
     "state": 37
   },
   "changelog": [
+    {
+      "ts": "2026-06-29",
+      "note": "Inbox: ✎ United Democracy Project (MI-Sen-2026) inbox $15,500,000 · ✎ Center for Democratic Priorities (MI-Sen-2026) inbox $6,530,000 · ✎ Yes MI Action Committee (MI-Sen-2026) inbox $6,170,000 · ✎ A Stronger Michigan (MI-Sen-2026) inbox $5,550,000 · ✎ Americans for Prosperity Action (MI-Sen-2026) inbox $9,400,000 · ✎ GLCF (MI-Sen-2026) inbox $1,470,000 · ✎ Senate Opportunity Fund (MI-Sen-2026) inbox $349,000 · ✎ Sentinel Action Fund (MI-Sen-2026) inbox $131,000"
+    },
+    {
+      "ts": "2026-06-29",
+      "note": "🆕 NEW spender(s) via inbox: Americans for Prosperity in NE-Sen-2026 ($4,000, R) · Lead Maine Committee in ME-Sen-2026 ($25,000, ?)"
+    },
     {
       "ts": "2026-06-23",
       "note": "Inbox: + Shri Thanedar (MI-13-2026) $59,780 · ✎ WinSenate (AK-Sen-2026) inbox $271,759 [correction] · ✎ Majority Forward (AK-Sen-2026) inbox $711,804 · ✎ Nebraska Groundswell (NE-Sen-2026) inbox $4,740 · + Mary Peltola (AK-Sen-2026) $8,799"
@@ -67435,16 +67443,25 @@ window.TRACKER_DATA = {
           "flight": "6/23-6/29",
           "asOf": "2026-06-22",
           "inbox": {
-            "amount": 4740,
-            "flight": "6/23-6/29 radio (Omaha-Council Bluffs)",
-            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (NE radio)",
-            "asOf": "2026-06-23"
+            "amount": 173000,
+            "flight": "broadcast 6/30-7/6",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
           "name": "Nebraska Appleseed Action Fund",
           "side": "D",
           "amount": 27496
+        },
+        {
+          "name": "Americans for Prosperity",
+          "amount": 4000,
+          "side": "R",
+          "source": "inbox",
+          "isNew": true,
+          "flight": null,
+          "asOf": "2026-06-29"
         },
         {
           "name": "NRSC",
@@ -74333,6 +74350,12 @@ window.TRACKER_DATA = {
             "n": 36,
             "imp": "250K - 300K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Senate%20Leadership%20Fund&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 28800000,
+            "flight": "broadcast 9/2-11/3, digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74345,10 +74368,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WinSenate&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 267169,
-            "flight": "6/16-8/10",
-            "source": "inbox",
-            "asOf": "2026-06-22"
+            "amount": 24900000,
+            "flight": "digital 8/11-11/3",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74356,10 +74379,10 @@ window.TRACKER_DATA = {
           "side": "R",
           "amount": 23719244,
           "inbox": {
-            "amount": 159840,
-            "flight": "6/16-6/29",
-            "source": "inbox",
-            "asOf": "2026-06-22"
+            "amount": 20600000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74370,6 +74393,12 @@ window.TRACKER_DATA = {
             "n": 880,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 3720000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74380,6 +74409,12 @@ window.TRACKER_DATA = {
             "n": 2,
             "imp": "60K - 70K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=WFW%20Action%20Fund&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 16800000,
+            "flight": "broadcast 9/1-11/1",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74397,10 +74432,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Stronger%20America&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 70700,
-            "flight": "6/23-6/28",
-            "source": "inbox",
-            "asOf": "2026-06-22"
+            "amount": 2530000,
+            "flight": "cable 6/29-7/26",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74415,10 +74450,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 168049,
-            "flight": "6/23-7/13 broadcast + 6/24-7/13 cable (Bangor)",
-            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (broadcast 6/23-7/13 most-complete 29% + cable 6/24-7/13)",
-            "asOf": "2026-06-23"
+            "amount": 2530000,
+            "flight": "digital 6/14-8/10",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -74476,7 +74511,13 @@ window.TRACKER_DATA = {
         {
           "name": "League of Labor/Common Defense Action Fund",
           "side": "D",
-          "amount": 205099
+          "amount": 205099,
+          "inbox": {
+            "amount": 215000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Senate Opportunity Fund",
@@ -74500,7 +74541,13 @@ window.TRACKER_DATA = {
         {
           "name": "Common Defense Action Fund",
           "side": "D",
-          "amount": 99800
+          "amount": 99800,
+          "inbox": {
+            "amount": 101000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Clearpath Action Inc",
@@ -74511,6 +74558,15 @@ window.TRACKER_DATA = {
           "name": "Wood for ME Senate",
           "side": "D",
           "amount": 25898
+        },
+        {
+          "name": "Lead Maine Committee",
+          "amount": 25000,
+          "side": "?",
+          "source": "inbox",
+          "isNew": true,
+          "flight": "digital 6/14-6/20",
+          "asOf": "2026-06-29"
         },
         {
           "name": "Securing America's Future Energy Alliance",
@@ -97142,6 +97198,12 @@ window.TRACKER_DATA = {
             "n": 36,
             "imp": "250K - 300K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Senate%20Leadership%20Fund&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 25800000,
+            "flight": "broadcast 9/8-11/2, cable 9/19",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -97164,6 +97226,12 @@ window.TRACKER_DATA = {
             "n": 1500,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Americans%20for%20Prosperity&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 9400000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -97174,6 +97242,12 @@ window.TRACKER_DATA = {
             "n": 36,
             "imp": "175K - 200K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Center%20for%20Democratic%20Priorities&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 6530000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -97186,7 +97260,13 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Yes%20MI%20Action%20Committee&search_type=keyword_unordered"
           },
           "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
+          "source": "AdImpact 2026-06-22 scrub",
+          "inbox": {
+            "amount": 6170000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "United Democracy Project",
@@ -97200,10 +97280,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 1394277,
-            "flight": "6/23-6/29",
-            "source": "inbox",
-            "asOf": "2026-06-22"
+            "amount": 15500000,
+            "flight": "broadcast/cable/satellite 6/30-8/4",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -97213,10 +97293,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 29500,
-            "flight": "6/18-6/24",
-            "source": "inbox",
-            "asOf": "2026-06-22"
+            "amount": 5550000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -97266,7 +97346,13 @@ window.TRACKER_DATA = {
         {
           "name": "Senate Opportunity Fund",
           "side": "R",
-          "amount": 271557
+          "amount": 271557,
+          "inbox": {
+            "amount": 349000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Stevens for MI Senate",
@@ -97286,7 +97372,13 @@ window.TRACKER_DATA = {
         {
           "name": "Sentinel Action Fund",
           "side": "R",
-          "amount": 129045
+          "amount": 129045,
+          "inbox": {
+            "amount": 131000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Americans for Prosperity",
@@ -97296,7 +97388,13 @@ window.TRACKER_DATA = {
         {
           "name": "Fighting for Michigan",
           "side": "D",
-          "amount": 12737
+          "amount": 12737,
+          "inbox": {
+            "amount": 394000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Americans for Pharma Reform",
@@ -97328,7 +97426,13 @@ window.TRACKER_DATA = {
           "amount": 1387953,
           "side": "r",
           "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
+          "source": "AdImpact 2026-06-22 scrub",
+          "inbox": {
+            "amount": 1470000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         }
       ],
       "buys": [
@@ -112742,6 +112846,12 @@ window.TRACKER_DATA = {
             "n": 6,
             "imp": "175K - 200K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Last%20Frontier%20PAC&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 2860000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -112768,6 +112878,12 @@ window.TRACKER_DATA = {
             "n": 880,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 4430000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -112780,10 +112896,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 711804,
-            "flight": "6/30-7/20 broadcast (new flight, reallocated from WinSenate)",
-            "source": "competitive inbox · AdImpact Spend Alert 2026-06-23 (AK new flight; reallocation in)",
-            "asOf": "2026-06-23"
+            "amount": 5150000,
+            "flight": "broadcast 6/30-7/13, digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -112799,12 +112915,24 @@ window.TRACKER_DATA = {
             "n": 330,
             "imp": ">1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=The%20907%20Initiative&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 1450000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
           "name": "Last Frontier Action",
           "side": "R",
-          "amount": 1046105
+          "amount": 1046105,
+          "inbox": {
+            "amount": 1120000,
+            "flight": "digital 6/14-6/20",
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "American Advancement Inc",
@@ -112814,12 +112942,24 @@ window.TRACKER_DATA = {
             "n": 4,
             "imp": "35K - 40K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=American%20Advancement&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 800000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
           "name": "Families Over Billionaires",
           "side": "D",
-          "amount": 542507
+          "amount": 542507,
+          "inbox": {
+            "amount": 543000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Duty and Honor",
@@ -112829,6 +112969,12 @@ window.TRACKER_DATA = {
             "n": 180,
             "imp": "600K - 700K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Duty%20and%20Honor&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 323000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
           }
         },
         {
@@ -112839,7 +112985,13 @@ window.TRACKER_DATA = {
         {
           "name": "Senate Opportunity Fund",
           "side": "R",
-          "amount": 139114
+          "amount": 139114,
+          "inbox": {
+            "amount": 139000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-26",
+            "asOf": "2026-06-29"
+          }
         },
         {
           "name": "Sullivan for AK Senate",
@@ -133509,6 +133661,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:recap-nesen-osborn",
+          "actor": "Dan Osborn",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 16000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": null
         }
       ],
       "ads": [
@@ -133600,6 +133763,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:recap-nesen-ricketts",
+          "actor": "Pete Ricketts",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 47000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": "digital 6/14-6/20, radio 6/22-7/5"
         }
       ],
       "ads": [],
@@ -133809,6 +133983,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-22",
           "flight": "6/23-6/29"
+        },
+        {
+          "_key": "inbox:recap-mesen-platner",
+          "actor": "Graham Platner",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1500000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": "digital 6/14-6/20"
         }
       ],
       "ads": [
@@ -133930,6 +134115,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-23",
           "flight": "6/23-7/1 (cable)"
+        },
+        {
+          "_key": "inbox:recap-mesen-collins",
+          "actor": "Susan Collins",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 694000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": "digital 6/14-6/20"
         }
       ],
       "ads": [
@@ -135282,6 +135478,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-22",
           "flight": "6/23-6/29"
+        },
+        {
+          "_key": "inbox:recap-misen-el-sayed",
+          "actor": "Abdul El-Sayed",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 1710000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": "digital 6/14-6/20"
         }
       ],
       "ads": [
@@ -135381,6 +135588,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-22",
           "flight": "6/23-6/29"
+        },
+        {
+          "_key": "inbox:recap-misen-mcmorrow",
+          "actor": "Mallory McMorrow",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 2300000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": null
         }
       ],
       "ads": [
@@ -135535,6 +135753,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:recap-misen-rogers",
+          "actor": "Mike Rogers",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 170000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": null
         }
       ],
       "ads": [
@@ -135599,6 +135828,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-22",
           "flight": "6/23-6/29"
+        },
+        {
+          "_key": "inbox:recap-mi13-mckinney",
+          "actor": "Donavan McKinney",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 181000,
+          "source": "competitive inbox · Spending Recap 2026-06-25",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": null
         }
       ],
       "ads": [],
@@ -135629,6 +135869,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-23",
           "flight": "6/24-6/29 (broadcast $49,000 + cable $10,780, Detroit)"
+        },
+        {
+          "_key": "inbox:recap-mi13-thanedar",
+          "actor": "Shri Thanedar",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 182000,
+          "source": "competitive inbox · Spending Recap 2026-06-25",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": "cable 6/27-6/29"
         }
       ],
       "ads": [],
@@ -136178,6 +136429,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-06-23",
           "flight": "6/23-6/29 radio (Anchorage $6,420 + Non-Metro $2,380)"
+        },
+        {
+          "_key": "inbox:recap-aksen-peltola",
+          "actor": "Mary Peltola",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 3020000,
+          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-06-29",
+          "flight": "broadcast 6/30-7/6, digital 6/14-6/20, radio 6/23-7/6"
         }
       ],
       "ads": [
