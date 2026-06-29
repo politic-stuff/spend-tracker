@@ -154,20 +154,23 @@ cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff
        "link": "<watch/source URL from the email>", "source": "competitive inbox Ad Alert",
        "note": "tone: Negative; issues: military/veterans" }
      ```
-3a. **New-spender sweep (ALL feeds, not just AdImpact).** New advertisers/candidates
-   often surface FIRST in the station feeds, not `ADIMPACT (Alerts)` — e.g. Brent
-   Taylor's (TN-09, R vs Pearson) first buy came in via **`AMPERSAND (Cable)`**
-   ("Ampersand Political Competitive Update" hourly emails from `@ampersand.tv`,
-   each listing `<race> <advertiser> <flight> $<amount>` lines), and the AdImpact-only
-   search missed it. So each run ALSO scan the new mail in `AMPERSAND (Cable)` (token
-   `label:ampersand-cab-`) — and skim `AdMo (Spots)` / the `* (BCTV)` station labels if
-   time — for any advertiser or candidate that maps to a **tracked race** but is **not
-   yet a known spender** in `data.json`. For each such first-seen spender, emit a
-   queue item (spender row + NEW flag; per-market `buys[]` if the email itemizes
-   markets — these station/cable orders are NOT covered by the AdImpact scrub, so
-   `buys[]` is correct and won't double-count). New spenders in tracked races are
-   high-signal — surface them prominently (they ride the `🆕 NEW spender` changelog
-   line into the site's "What's new").
+3a. **STANDING MANDATE — read ALL feeds, filter to tracked races, capture everything.**
+   The loop is NOT AdImpact-only. Each run, read the new mail across **every** competitive
+   feed — `ADIMPACT (Alerts)` (richest), `AMPERSAND (Cable)` (token `label:ampersand-cab-`;
+   hourly "Ampersand Political Competitive Update" emails from `@ampersand.tv`, each line
+   `<race> <advertiser> <flight> $<amount>`), `AdMo (Spots)`, and the `* (BCTV)` station
+   labels. For **each** email apply ONE test: **does it map to one of our tracked races?**
+   (the 33 raceKeys in `data.json` — the resolver maps "TN-CD 9"→`TN-9-2026`, "ME Senate"→
+   `ME-Sen-2026`, etc.)
+   - **NOT a tracked race → disregard it.** Most mail is noise; drop it, don't queue it.
+   - **Tracked race → capture it and update the site.** Any relevant activity counts:
+     a new spend figure, a **brand-new spender/candidate** (e.g. Brent Taylor's R buy in
+     TN-09 vs Pearson — which came in via Ampersand, NOT AdImpact, and the old AdImpact-only
+     loop missed), a revision, or a new creative. Emit the right queue item: spend → scalar
+     or recap row; first-seen spender → spender row + **NEW flag**; station/cable orders with
+     real markets → per-market `buys[]` (the AdImpact scrub does NOT cover these, so `buys[]`
+     is correct and won't double-count). New spenders are the highest-signal event — they ride
+     the `🆕 NEW spender` changelog line into the site's "What's new".
 
 4. **Ingest:**
    ```bash
