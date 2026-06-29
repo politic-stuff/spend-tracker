@@ -22,6 +22,10 @@
   "changelog": [
     {
       "ts": "2026-06-29",
+      "note": "New creative: Brent Taylor (TN-9-2026) first TV ad attached (X/@BrentTaylorTN)"
+    },
+    {
+      "ts": "2026-06-29",
       "note": "🆕 NEW spender: Brent Taylor in TN-9-2026 ($16,000, R) — first buy via Ampersand cable, flight 6/29–7/5 (Nashville $8K, Memphis $7K, Jackson $1K; Ampersand logged $16,425)"
     },
     {
@@ -112854,7 +112858,26 @@
           "asOf": "2026-06-29",
           "_key": "ampersand-tn9-brent-taylor|Jackson||2026-06-29"
         }
-      ]
+      ],
+      "creativesByAdvertiser": {
+        "Brent Taylor": [
+          {
+            "title": "Brent Taylor for Congress — first TV ad",
+            "link": "https://x.com/BrentTaylorTN/status/2071602186140729651",
+            "thumb": "",
+            "type": "TV",
+            "sub": "Candidate X/Twitter (@BrentTaylorTN)",
+            "flightStart": "2026-06-29",
+            "flightEnd": "2026-06-29",
+            "flightPresent": true,
+            "aired": "Aired 6/29 – present",
+            "isNew": true,
+            "source": "Candidate X/Twitter (@BrentTaylorTN)",
+            "oppose": "",
+            "note": "Brent Taylor's first TV ad, posted to his X account. Cable buy airing Nashville / Memphis / Jackson, flight 6/29–7/5 (~$16K, Ampersand)."
+          }
+        ]
+      }
     },
     "WI-Gov-2026": {
       "raceKey": "WI-Gov-2026",
