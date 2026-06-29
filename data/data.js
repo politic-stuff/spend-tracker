@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-06-29",
+      "note": "🆕 NEW spender: Brent Taylor in TN-9-2026 ($16,000, R) — first buy via Ampersand cable, flight 6/29–7/5 (Nashville $8K, Memphis $7K, Jackson $1K; Ampersand logged $16,425)"
+    },
+    {
+      "ts": "2026-06-29",
       "note": "Inbox: ✎ United Democracy Project (MI-Sen-2026) inbox $15,500,000 · ✎ Center for Democratic Priorities (MI-Sen-2026) inbox $6,530,000 · ✎ Yes MI Action Committee (MI-Sen-2026) inbox $6,170,000 · ✎ A Stronger Michigan (MI-Sen-2026) inbox $5,550,000 · ✎ Americans for Prosperity Action (MI-Sen-2026) inbox $9,400,000 · ✎ GLCF (MI-Sen-2026) inbox $1,470,000 · ✎ Senate Opportunity Fund (MI-Sen-2026) inbox $349,000 · ✎ Sentinel Action Fund (MI-Sen-2026) inbox $131,000"
     },
     {
@@ -112796,7 +112800,62 @@ window.TRACKER_DATA = {
       "seatHeldBy": "Steve Cohen (D), retiring — OPEN",
       "notes": "OPEN seat — Cohen retiring after GOP redistricting (announced 5/15/26). Not a Cohen challenge. GOP primary pending.",
       "confidence": "high",
-      "adimpact": null
+      "adimpact": null,
+      "spenders": [
+        {
+          "name": "Brent Taylor",
+          "amount": 16000,
+          "side": "R",
+          "source": "inbox",
+          "isNew": true,
+          "flight": "6/29-7/5",
+          "asOf": "2026-06-29"
+        }
+      ],
+      "buys": [
+        {
+          "advertiser": "Brent Taylor",
+          "side": "R",
+          "market": "Nashville",
+          "station": null,
+          "flightStart": "2026-06-29",
+          "flightEnd": "2026-07-05",
+          "amount": 8000,
+          "week": 6,
+          "source": "competitive inbox · Ampersand Cable 2026-06-26",
+          "creativeUrl": null,
+          "asOf": "2026-06-29",
+          "_key": "ampersand-tn9-brent-taylor|Nashville||2026-06-29"
+        },
+        {
+          "advertiser": "Brent Taylor",
+          "side": "R",
+          "market": "Memphis",
+          "station": null,
+          "flightStart": "2026-06-29",
+          "flightEnd": "2026-07-05",
+          "amount": 7000,
+          "week": 6,
+          "source": "competitive inbox · Ampersand Cable 2026-06-26",
+          "creativeUrl": null,
+          "asOf": "2026-06-29",
+          "_key": "ampersand-tn9-brent-taylor|Memphis||2026-06-29"
+        },
+        {
+          "advertiser": "Brent Taylor",
+          "side": "R",
+          "market": "Jackson",
+          "station": null,
+          "flightStart": "2026-06-29",
+          "flightEnd": "2026-07-05",
+          "amount": 1000,
+          "week": 6,
+          "source": "competitive inbox · Ampersand Cable 2026-06-26",
+          "creativeUrl": null,
+          "asOf": "2026-06-29",
+          "_key": "ampersand-tn9-brent-taylor|Jackson||2026-06-29"
+        }
+      ]
     },
     "WI-Gov-2026": {
       "raceKey": "WI-Gov-2026",

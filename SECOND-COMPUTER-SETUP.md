@@ -154,6 +154,21 @@ cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff
        "link": "<watch/source URL from the email>", "source": "competitive inbox Ad Alert",
        "note": "tone: Negative; issues: military/veterans" }
      ```
+3a. **New-spender sweep (ALL feeds, not just AdImpact).** New advertisers/candidates
+   often surface FIRST in the station feeds, not `ADIMPACT (Alerts)` — e.g. Brent
+   Taylor's (TN-09, R vs Pearson) first buy came in via **`AMPERSAND (Cable)`**
+   ("Ampersand Political Competitive Update" hourly emails from `@ampersand.tv`,
+   each listing `<race> <advertiser> <flight> $<amount>` lines), and the AdImpact-only
+   search missed it. So each run ALSO scan the new mail in `AMPERSAND (Cable)` (token
+   `label:ampersand-cab-`) — and skim `AdMo (Spots)` / the `* (BCTV)` station labels if
+   time — for any advertiser or candidate that maps to a **tracked race** but is **not
+   yet a known spender** in `data.json`. For each such first-seen spender, emit a
+   queue item (spender row + NEW flag; per-market `buys[]` if the email itemizes
+   markets — these station/cable orders are NOT covered by the AdImpact scrub, so
+   `buys[]` is correct and won't double-count). New spenders in tracked races are
+   high-signal — surface them prominently (they ride the `🆕 NEW spender` changelog
+   line into the site's "What's new").
+
 4. **Ingest:**
    ```bash
    node scripts/inbox-ingest.js     # inbox-queue.json → spend (confirmed-inbox, highest trust)

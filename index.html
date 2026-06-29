@@ -295,9 +295,25 @@ function overview(){
   list.sort((a,b)=>sort==="spend"?raceTotal(b.rk)-raceTotal(a.rk):sort==="date"?(a.race.primaryDate||a.race.generalDate||"").localeCompare(b.race.primaryDate||b.race.generalDate||""):(a.race.state||"").localeCompare(b.race.state||""));
 
   const cl=D.changelog||[];
-  const updates=`<details class="updates"><summary>📣 What changed
-    <span class="latest">${cl[0]?cl[0].note:""}</span><span class="chev">›</span></summary>
-    <ul>${cl.slice(0,10).map(e=>`<li><span class="t">${e.ts||"—"}</span>${(e.note||"").replace(/(\+?\$[\d,]+(?:\.\d+)?[KMB]?)/g,'<b>$1</b>')}</li>`).join("")}</ul></details>`;
+  // "What's new" — last 7 days only, one change per bullet (split the packed notes,
+  // strip the ✎/+/🆕 glyphs), newest first, NEW-spender items badged.
+  const today0=new Date();today0.setHours(0,0,0,0);
+  const daysAgo=ts=>{const t=new Date((ts||"")+"T00:00:00");return isFinite(t)?Math.round((today0-t)/864e5):1e9;};
+  const bolden=s=>s.replace(/(\+?\$[\d,]+(?:\.\d+)?[KMB]?)/g,'<b>$1</b>');
+  const clItems=[];
+  for(const e of cl){
+    if(daysAgo(e.ts)>=7)continue;                         // nothing a week or older
+    const note=e.note||"";
+    const isNew=/NEW spender/i.test(note);
+    const body=note.includes(":")?note.slice(note.indexOf(":")+1):note;   // drop the "Inbox:"/"🆕 …:" lead-in
+    for(let seg of body.split(" · ")){
+      seg=seg.replace(/^[\s✎+🆕]+/,"").trim();            // strip leading glyphs
+      if(seg)clItems.push({ts:e.ts,isNew,txt:seg});
+    }
+  }
+  const updates=`<details class="updates"><summary>📣 What's new
+    <span class="latest">${clItems.length?`last 7 days · ${clItems.length} update${clItems.length>1?"s":""}`:"no updates in the last 7 days"}</span><span class="chev">›</span></summary>
+    <ul>${clItems.length?clItems.slice(0,40).map(it=>`<li><span class="t">${it.ts||"—"}</span>${it.isNew?'<span class="newbadge">NEW</span> ':''}${bolden(it.txt)}</li>`).join(""):'<li>Nothing new this week.</li>'}</ul></details>`;
   const sub=`<div class="sub">${D.lastUpdated?"Updated "+D.lastUpdated+" · ":""}${Object.keys(D.races).length} races · cycle 2026 · <span style="color:var(--dem)">■</span> Dem <span style="color:var(--rep)">■</span> Rep — bar shows spending advantage</div>`;
   const controls=`<div class="controls">
     <div class="seg" id="segStatus">${[["all","All"],["primary","In primary"],["general","General"]].map(([v,l])=>`<button class="${state.status===v?'on':''}" data-v="${v}">${l}</button>`).join("")}</div>
