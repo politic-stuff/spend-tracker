@@ -46,7 +46,9 @@
   .updates summary .chev{margin-left:auto;transition:transform .2s;color:var(--muted)}
   .updates[open] summary .chev{transform:rotate(90deg)}
   .updates .latest{color:var(--txt2);font-weight:400;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .updates ul{margin:0;padding:0 18px 14px 38px;border-top:1px solid var(--line)}
+  .updates ul{margin:0;padding:0 18px 14px 38px;border-top:1px solid var(--line);max-height:360px;overflow-y:auto;overscroll-behavior:contain}
+  .updates ul::-webkit-scrollbar{width:8px}
+  .updates ul::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
   .updates li{font-size:14px;color:var(--txt2);margin:8px 0;line-height:1.45}
   .updates .t{color:var(--muted);font-size:12px;margin-right:6px}
   .sub{color:var(--muted);font-size:13.5px;margin:14px 2px}
