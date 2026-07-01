@@ -1,6 +1,6 @@
 // AUTO-GENERATED from data.json by scripts/wrap.js. Do not edit by hand.
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-07-01",
   "cycle": "2026",
   "sources": {
     "federalSpend": "FEC OpenFEC API (api.open.fec.gov)",
@@ -21,6 +21,14 @@ window.TRACKER_DATA = {
     "state": 37
   },
   "changelog": [
+    {
+      "ts": "2026-07-01",
+      "note": "Inbox: ✎ Susan Collins (ME-Sen-2026) → $1,220,000 · ✎ Graham Platner (ME-Sen-2026) → $1,920,000 · ✎ Majority Forward (ME-Sen-2026) inbox $2,900,000 · ✎ Pine Tree Results PAC (ME-Sen-2026) inbox $20,600,000 · ✎ One Nation (ME-Sen-2026) inbox $3,800,000 · ✎ Stronger America (ME-Sen-2026) inbox $2,590,000 · ✎ Abdul El-Sayed (MI-Sen-2026) → $2,190,000 · ✎ United Democracy Project (MI-Sen-2026) inbox $15,700,000"
+    },
+    {
+      "ts": "2026-07-01",
+      "note": "🆕 NEW spender(s) via inbox: Campaign for America First International Assistance in CA-22-2026 ($114,000, R)"
+    },
     {
       "ts": "2026-06-29",
       "note": "New creative: Brent Taylor (TN-9-2026) first TV ad attached (X/@BrentTaylorTN)"
@@ -27860,6 +27868,12 @@ window.TRACKER_DATA = {
             "n": 10,
             "imp": "60K - 70K",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=House%20Majority%20Forward&search_type=keyword_unordered"
+          },
+          "inbox": {
+            "amount": 1610000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -27941,6 +27955,15 @@ window.TRACKER_DATA = {
           "name": "DCCC/Bains",
           "side": "D",
           "amount": 135699
+        },
+        {
+          "name": "Campaign for America First International Assistance",
+          "amount": 114000,
+          "side": "R",
+          "source": "inbox",
+          "isNew": true,
+          "flight": null,
+          "asOf": "2026-07-01"
         },
         {
           "name": "Bains for CA CD-22",
@@ -67451,10 +67474,10 @@ window.TRACKER_DATA = {
           "flight": "6/23-6/29",
           "asOf": "2026-06-22",
           "inbox": {
-            "amount": 173000,
-            "flight": "broadcast 6/30-7/6",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 335000,
+            "flight": "6/30-7/6 (radio)",
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -74388,9 +74411,9 @@ window.TRACKER_DATA = {
           "amount": 23719244,
           "inbox": {
             "amount": 20600000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -74403,10 +74426,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 3720000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 3800000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -74440,10 +74463,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Stronger%20America&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 2530000,
-            "flight": "cable 6/29-7/26",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 2590000,
+            "flight": "6/29-7/26 (cable)",
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -74458,10 +74481,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 2530000,
-            "flight": "digital 6/14-8/10",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 2900000,
+            "flight": "6/30-7/6 (bcast)",
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -97288,10 +97311,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 15500000,
-            "flight": "broadcast/cable/satellite 6/30-8/4",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 15700000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -97301,10 +97324,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 5550000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 8230000,
+            "flight": "6/25-7/7",
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -97398,10 +97421,10 @@ window.TRACKER_DATA = {
           "side": "D",
           "amount": 12737,
           "inbox": {
-            "amount": 394000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 517000,
+            "flight": "6/30-7/6 (radio)",
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -97436,10 +97459,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 1470000,
+            "amount": 1520000,
             "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         }
       ],
@@ -112930,10 +112953,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Last%20Frontier%20PAC&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 2860000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 2880000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -112962,10 +112985,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 4430000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 4530000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -112978,10 +113001,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 5150000,
-            "flight": "broadcast 6/30-7/13, digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 5210000,
+            "flight": null,
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -113010,10 +113033,10 @@ window.TRACKER_DATA = {
           "side": "R",
           "amount": 1046105,
           "inbox": {
-            "amount": 1120000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 1310000,
+            "flight": "7/1-7/15 (radio)",
+            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -133372,6 +133395,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:recap-ca22-villegas",
+          "actor": "Randy Villegas",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 10000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-01",
+          "flight": "7/1-7/1 (bcast ES)"
         }
       ],
       "ads": [],
@@ -133410,6 +133444,17 @@ window.TRACKER_DATA = {
           "source": "FEC Schedule E",
           "confidence": "FEC",
           "asOf": "2026-06-17"
+        },
+        {
+          "_key": "inbox:recap-ca22-valadao",
+          "actor": "David Valadao",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 14000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-01",
+          "flight": "7/1-7/1 (bcast EN+ES)"
         }
       ],
       "ads": [
@@ -133851,11 +133896,11 @@ window.TRACKER_DATA = {
           "actor": "Pete Ricketts",
           "type": "candidate",
           "bucket": "self",
-          "amount": 47000,
-          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "amount": 50000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": "digital 6/14-6/20, radio 6/22-7/5"
+          "asOf": "2026-07-01",
+          "flight": null
         }
       ],
       "ads": [],
@@ -134071,11 +134116,11 @@ window.TRACKER_DATA = {
           "actor": "Graham Platner",
           "type": "candidate",
           "bucket": "self",
-          "amount": 1500000,
-          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "amount": 1920000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": "digital 6/14-6/20"
+          "asOf": "2026-07-01",
+          "flight": null
         }
       ],
       "ads": [
@@ -134203,11 +134248,11 @@ window.TRACKER_DATA = {
           "actor": "Susan Collins",
           "type": "candidate",
           "bucket": "self",
-          "amount": 694000,
-          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "amount": 1220000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": "digital 6/14-6/20"
+          "asOf": "2026-07-01",
+          "flight": "7/6-7/10 (bcast+cable+radio)"
         }
       ],
       "ads": [
@@ -135566,11 +135611,11 @@ window.TRACKER_DATA = {
           "actor": "Abdul El-Sayed",
           "type": "candidate",
           "bucket": "self",
-          "amount": 1710000,
-          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "amount": 2190000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": "digital 6/14-6/20"
+          "asOf": "2026-07-01",
+          "flight": "6/30-7/6 (bcast)"
         }
       ],
       "ads": [
@@ -135916,10 +135961,10 @@ window.TRACKER_DATA = {
           "actor": "Donavan McKinney",
           "type": "candidate",
           "bucket": "self",
-          "amount": 181000,
-          "source": "competitive inbox · Spending Recap 2026-06-25",
+          "amount": 281000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
+          "asOf": "2026-07-01",
           "flight": null
         }
       ],
@@ -135957,11 +136002,11 @@ window.TRACKER_DATA = {
           "actor": "Shri Thanedar",
           "type": "candidate",
           "bucket": "self",
-          "amount": 182000,
-          "source": "competitive inbox · Spending Recap 2026-06-25",
+          "amount": 606000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": "cable 6/27-6/29"
+          "asOf": "2026-07-01",
+          "flight": "6/30-7/6 (bcast)"
         }
       ],
       "ads": [],
@@ -136517,11 +136562,11 @@ window.TRACKER_DATA = {
           "actor": "Mary Peltola",
           "type": "candidate",
           "bucket": "self",
-          "amount": 3020000,
-          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "amount": 3190000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": "broadcast 6/30-7/6, digital 6/14-6/20, radio 6/23-7/6"
+          "asOf": "2026-07-01",
+          "flight": "6/30-7/6 (bcast+radio)"
         }
       ],
       "ads": [
@@ -136623,7 +136668,19 @@ window.TRACKER_DATA = {
         "yt": "https://www.youtube.com/@DanSullivanforAlaska"
       },
       "fecId": null,
-      "spend": [],
+      "spend": [
+        {
+          "_key": "inbox:recap-aksen-sullivan",
+          "actor": "Dan S. Sullivan",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 71000,
+          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-01",
+          "flight": "7/1-7/7 (bcast+radio)"
+        }
+      ],
       "ads": [
         {
           "platform": "Meta",
