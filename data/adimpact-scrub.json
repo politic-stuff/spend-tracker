@@ -1,23 +1,27 @@
 {
-  "_note": "AdImpact Race Overview advertiser totals (all media types), harvested 2026-06-22. {race:{total,advertisers:{name:spend}}}. NY-10/NY-12/MI-13 not tracked by AdImpact.",
-  "ME-Sen-2026": {"total": 154869027, "advertisers": {
-    "SLF PAC": 27394717, "WinSenate": 24805725, "Pine Tree Results PAC": 24335165, "One Nation": 21742429, "WFW Action Fund": 16211000, "Platner for ME Senate": 12257254, "Stronger America": 7966371, "Majority Forward": 7329924, "Unrig Our Economy": 2567927, "Duty and Honor": 2435435, "Collins for ME Senate": 2049031, "Mills for ME Senate": 1974332, "American Advancement Inc": 846559, "American Energy Action": 544762 }},
-  "MI-Sen-2026": {"total": 82749476, "advertisers": {
-    "SLF PAC": 23542987, "WinSenate": 16380884, "Americans for Prosperity Action": 9051731, "United Democracy Project": 7721604, "Center for Democratic Priorities": 6345278, "Yes MI Action Committee": 5814331, "A Stronger Michigan": 3795340, "McMorrow for MI Senate": 1967806, "Center Forward Committee": 1905514, "El-Sayed for MI Senate": 1591964, "GLCF": 1387953, "Fight for Michigan": 875028, "A Stronger Michigan (D)": 696464, "Senate Opportunity Fund": 349171 }},
-  "AK-Sen-2026": {"total": 34680966, "advertisers": {
-    "SLF PAC": 6925685, "Last Frontier PAC": 6416627, "WinSenate": 6045350, "Majority Forward": 4003783, "One Nation": 3693194, "Peltola for AK Senate": 3069810, "The 907 Initiative": 1438643, "Last Frontier Action": 1075073, "American Advancement Inc": 799655, "Families Over Billionaires": 542507, "Duty and Honor": 323031, "American Chemistry Council": 147480, "Senate Opportunity Fund": 112794, "Save My Care": 32962 }},
-  "CA-22-2026": {"total": 27994383, "advertisers": {
-    "CLF": 7913475, "House Majority PAC": 5824850, "American Action Network": 2739794, "House Majority Forward": 1587538, "314 Action": 1267251, "Villegas for CA CD-22": 1137005, "Save My Care": 1125327, "Project 218": 866858, "New Democrat Majority": 681348, "Blue Dog Action PAC": 599836, "DMFI PAC": 587818, "American Priorities": 486169, "Healthcare Saves Lives": 421028, "American Energy Action": 404486 }},
-  "PA-7-2026": {"total": 22345855, "advertisers": {
-    "CLF": 7758920, "House Majority PAC": 6562380, "Stronger Together  PA": 1514094, "Lead Left PAC": 1441506, "American Prosperity Alliance": 994585, "Brooks for PA CD-07": 541897, "House Majority Forward": 482392, "Affordable PA": 444133, "Save My Care": 432364, "Crosswell for PA CD-07": 420559, "Securing American Greatness": 399608, "Congressional Progressive Caucus PAC": 326849, "American Action Network": 289851, "NRDC Action Fund": 134503 }},
-  "PA-8-2026": {"total": 14599882, "advertisers": {
-    "House Majority PAC": 3666795, "CLF": 3487972, "Unrig Our Economy": 2480098, "Affordable PA": 1443002, "House Majority Forward": 1404132, "Save My Care": 830407, "American Prosperity Alliance": 371039, "Securing American Greatness": 254184, "American Action Network": 252998, "NRDC Action Fund": 126289, "Campaign for America First International Assistance": 117774, "Bresnahan for PA CD-08": 43499 }},
-  "TX-Gov-2026": {"total": 7650172, "advertisers": {
-    "Abbott for TX Governor": 6161770, "Hinojosa for TX Governor": 647102, "Huffines for TX Comptroller": 519999, "Texans for Greg Abbott": 234000, "Cole for TX Governor": 63195, "Lone Star Project": 6955, "Texas Majority PAC": 6680 }},
-  "CA-4-2026": {"total": 7589672, "advertisers": {
-    "Jones for CA CD-04": 3928032, "Thompson for CA CD-04": 1952277, "Blue Dog Action PAC": 1115889, "New Leadership Now": 489196, "Article One PAC": 104000 }},
-  "NY-13-2026": {"total": 7012327, "advertisers": {
-    "BOLD America": 2167756, "Progressive Unity Fund": 1442242, "American Priorities": 1080252, "Justice Democrats": 691464, "Avila Chevalier for NY CD-13": 541795, "Project 218": 500933, "Latino Victory Fund": 380543, "Espaillat for NY CD-13": 131941 }},
-  "NE-Sen-2026": {"total": 3150338, "advertisers": {
-    "One Nation": 1128861, "Ricketts for NE Senate": 1109934, "Osborn for NE Senate": 433136, "Defending Our Values PAC": 254103, "Fellowship PAC": 202955 }}
+  "_note": "AdImpact Race Overview advertiser totals (all media types), harvested 2026-07-01 via workbook portal. {race:{total,advertisers:{name:spend}}}. Top visible advertisers per race panel; long tail below ~$100K omitted (immaterial to raise-only scrub). NE-Sen Osborn (IND) omitted — bar label obscured.",
+  "CA-22-2026": {"total": 28861768, "advertisers": {
+    "CLF": 7913475, "House Majority PAC": 6094850, "American Action Network": 2740179, "House Majority Forward": 1823585, "Save My Care": 1369321, "314 Action": 1267443, "Villegas for CA CD-22": 1174581, "Project 218": 866897, "New Democrat Majority": 681571, "Blue Dog Action PAC": 599931, "DMFI PAC": 590122 }},
+  "CA-4-2026": {"total": 7612185, "advertisers": {
+    "Jones for CA CD-04": 3939487, "Thompson for CA CD-04": 1953657, "Blue Dog Action PAC": 1115934, "New Leadership Now": 493598, "Article One PAC": 104000, "Riehle for CA CD-04": 5230, "National Association of Realtors": 279 }},
+  "PA-8-2026": {"total": 14745395, "advertisers": {
+    "House Majority PAC": 3666795, "CLF": 3561364, "Unrig Our Economy": 2480101, "House Majority Forward": 1449595, "Affordable PA": 1443016, "Save My Care": 848885, "American Prosperity Alliance": 371039, "Securing American Greatness": 254184, "American Action Network": 252998, "NRDC Action Fund": 126289, "Campaign for America First International Assistance": 117774 }},
+  "PA-7-2026": {"total": 22668563, "advertisers": {
+    "CLF": 7758920, "House Majority PAC": 6597380, "Stronger Together PA": 1558384, "Lead Left PAC": 1441974, "American Prosperity Alliance": 994601, "Brooks for PA CD-07": 543217, "House Majority Forward": 530267, "Save My Care": 502786, "Affordable PA": 444133, "Crosswell for PA CD-07": 420559, "Securing American Greatness": 399608 }},
+  "NE-Sen-2026": {"total": 3956596, "advertisers": {
+    "Ricketts for NE Senate": 1598484, "One Nation": 1128861, "Nebraska Groundswell": 301265, "Defending Our Values PAC": 254107, "Fellowship PAC": 202960, "Nebraska Appleseed Action Fund": 27772, "Americans for Prosperity": 3619, "Common Defense Action Fund": 1076, "MomsRising Together": 768, "NRSC": 564 }},
+  "ME-Sen-2026": {"total": 164283508, "advertisers": {
+    "SLF PAC": 28863792, "WinSenate": 25623700, "Pine Tree Results PAC": 24989203, "One Nation": 23046783, "WFW Action Fund": 16837704, "Platner for ME Senate": 12915816, "Stronger America": 9227897, "Majority Forward": 8844008, "Collins for ME Senate": 2786592, "Unrig Our Economy": 2642089, "Duty and Honor": 2495470 }},
+  "MI-Sen-2026": {"total": 100816055, "advertisers": {
+    "SLF PAC": 25830544, "WinSenate": 17020884, "United Democracy Project": 15822611, "Americans for Prosperity Action": 9527927, "A Stronger Michigan": 8304090, "Center for Democratic Priorities": 6525274, "Yes MI Action Committee": 6523223, "McMorrow for MI Senate": 2328866, "El-Sayed for MI Senate": 2246382, "Center Forward Committee": 1905641, "GLCF": 1541999 }},
+  "MI-13-2026": {"total": 913234, "advertisers": {
+    "Thanedar for MI CD-13": 608844, "McKinney for MI CD-13": 281403, "National Nurses United": 22617, "Justice Democrats": 370 }},
+  "AK-Sen-2026": {"total": 38315841, "advertisers": {
+    "SLF PAC": 7845849, "Last Frontier PAC": 6979368, "Majority Forward": 5244797, "WinSenate": 5161307, "One Nation": 4556750, "Peltola for AK Senate": 3647793, "The 907 Initiative": 1447544, "Last Frontier Action": 1307831, "American Advancement Inc": 799678, "Families Over Billionaires": 542507, "Duty and Honor": 323034 }},
+  "NY-13-2026": {"total": 7780181, "advertisers": {
+    "BOLD America": 2276007, "Progressive Unity Fund": 1525373, "American Priorities": 1196706, "Justice Democrats": 761808, "Latino Victory Fund": 640932, "Avila Chevalier for NY CD-13": 553343, "Project 218": 512241, "Espaillat for NY CD-13": 146933, "United for Progress PAC": 63381, "National Black Empowerment Action Fund": 43157 }},
+  "NY-7-2026": {"total": 1218077, "advertisers": {
+    "Real Fight NYC": 436263, "Valdez for NY CD-07": 232126, "Reynoso for NY CD-07": 148741, "Justice Democrats": 131429, "American Priorities": 98428, "Leaders We Deserve": 73013, "Won for NY CD-07": 53935 }},
+  "TX-Gov-2026": {"total": 8264254, "advertisers": {
+    "Abbott for TX Governor": 6734996, "Hinojosa for TX Governor": 687251, "Huffines for TX Comptroller": 519999, "Texans for Greg Abbott": 234000, "Cole for TX Governor": 63195, "Preserve, Protect and Defend": 9697, "Texas Majority PAC": 6769, "Lone Star Project": 5969, "Brooks for TX Governor": 600, "Texas Federation of Teachers": 392, "Project Red TX": 382 }}
 }

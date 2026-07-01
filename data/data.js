@@ -23,6 +23,14 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-07-01",
+      "note": "AdImpact advertiser scrub (2026-07-01): 17 raised, 1 added (Huffines for TX Comptroller $520K in TX-Gov), 1 flagged (NY-7 American Priorities). Biggest raises: MI-Sen United Democracy Project ->$15.8M, SLF PAC ->$25.8M, A Stronger Michigan ->$8.3M."
+    },
+    {
+      "ts": "2026-07-01",
+      "note": "AdImpact race totals: CA-22-2026: D $17.0M / R $11.8M · CA-4-2026: D $7.6M / R $5,230 · PA-8-2026: D $10.1M / R $4.7M · PA-7-2026: D $13.1M / R $9.6M · NE-Sen-2026: D $331,404 / R $3.2M · ME-Sen-2026: D $55.9M / R $108.4M · MI-Sen-2026: D $63.2M / R $37.6M · MI-13-2026: D $913,234 / R $0"
+    },
+    {
+      "ts": "2026-07-01",
       "note": "Inbox: ✎ Majority Forward (AK-Sen-2026) inbox $353,033 · ✎ Nebraska Groundswell (NE-Sen-2026) inbox $6,235 · ✎ Nebraska Groundswell (NE-Sen-2026) inbox $125,204 [correction] · + Susan Collins (ME-Sen-2026) $5,000 · + Graham Platner (ME-Sen-2026) $48,968 · + Abdul El-Sayed (MI-Sen-2026) $36,000 · ✎ A Stronger Michigan (MI-Sen-2026) inbox $43,000"
     },
     {
@@ -178,11 +186,10 @@ window.TRACKER_DATA = {
       "notes": "Cognetti (Scranton mayor) challenging freshman R. Leans R.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 9232352,
-        "repSide": 4132094,
-        "total": 13364445,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 10094433,
+        "repSide": 4650961,
+        "total": 14745395,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -12154,11 +12161,10 @@ window.TRACKER_DATA = {
       "notes": "Toss-up. Freshman R flipped seat 2024 by ~1pt.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 11747105,
-        "repSide": 9201090,
-        "total": 20948195,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 13059971,
+        "repSide": 9608592,
+        "total": 22668563,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -27827,11 +27833,10 @@ window.TRACKER_DATA = {
       "notes": "Top-two: Valadao 1st, Villegas 2nd. Marquee race.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 15227567,
-        "repSide": 10938525,
-        "total": 26166092,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 17033351,
+        "repSide": 11828416,
+        "total": 28861768,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -27893,7 +27898,9 @@ window.TRACKER_DATA = {
         {
           "name": "Save My Care",
           "side": "D",
-          "amount": 1002053
+          "amount": 1369321,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Project 218",
@@ -59806,11 +59813,10 @@ window.TRACKER_DATA = {
       "notes": "DEM-vs-DEM general. Jones self-funded ~$5.35M.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 7303296,
+        "demSide": 7606955,
         "repSide": 5230,
-        "total": 7308526,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "total": 7612185,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -67430,11 +67436,10 @@ window.TRACKER_DATA = {
       "notes": "Dem nominee Burbank pledged to drop out and back Osborn. Effectively Osborn vs Ricketts.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 27496,
-        "repSide": 2955897,
-        "total": 2983393,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 331404,
+        "repSide": 3191575,
+        "total": 3956596,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -67471,9 +67476,9 @@ window.TRACKER_DATA = {
         },
         {
           "name": "Nebraska Groundswell",
-          "amount": 75395,
+          "amount": 301265,
           "side": "R",
-          "source": "inbox",
+          "source": "AdImpact 2026-06-22 scrub",
           "isNew": true,
           "flight": "6/23-6/29",
           "asOf": "2026-06-22",
@@ -67482,7 +67487,8 @@ window.TRACKER_DATA = {
             "flight": "6/30-7/6 (bcast)",
             "source": "competitive inbox · AdImpact Reallocation Alert 2026-07-01 (bcast; $91,734 reallocated out of NE Senate to NE Economic Issue)",
             "asOf": "2026-07-01"
-          }
+          },
+          "confidence": "adimpact"
         },
         {
           "name": "Nebraska Appleseed Action Fund",
@@ -74370,11 +74376,10 @@ window.TRACKER_DATA = {
       "notes": "Platner won June 9 primary; Mills withdrew pre-primary.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 48593267,
-        "repSide": 98177504,
-        "total": 146770771,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 55866092,
+        "repSide": 108417416,
+        "total": 164283508,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -74514,7 +74519,7 @@ window.TRACKER_DATA = {
         {
           "name": "Collins for ME Senate",
           "side": "R",
-          "amount": 2049031,
+          "amount": 2786592,
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
         },
@@ -94523,22 +94528,23 @@ window.TRACKER_DATA = {
       "notes": "Main contest: incumbent Espaillat vs our DSA-backed Avila Chevalier. GOP nominee via parallel 6/23 primary (pending). Several minor Dem filers omitted.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 5347592,
+        "demSide": 7780181,
         "repSide": 0,
-        "total": 5347592,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "total": 7780181,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
           "name": "BOLD America",
           "side": "D",
-          "amount": 1790746,
+          "amount": 2276007,
           "metaAds": {
             "n": 100,
             "imp": "900K - 1M",
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=BOLD%20America&search_type=keyword_unordered"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Progressive Unity Fund",
@@ -94577,7 +94583,7 @@ window.TRACKER_DATA = {
         {
           "name": "Latino Victory Fund",
           "side": "D",
-          "amount": 380543,
+          "amount": 640932,
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
         },
@@ -96959,11 +96965,10 @@ window.TRACKER_DATA = {
       "notes": "OPEN (Velázquez retiring). Valdez frontrunner vs Reynoso (Velázquez-backed). GOP opp pending. Safe-D.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 792000,
+        "demSide": 1218077,
         "repSide": 0,
-        "total": 792000,
-        "asOf": "2026-06-17",
-        "source": "AdImpact Spending Recap (2026-06-17)"
+        "total": 1218077,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -97218,17 +97223,16 @@ window.TRACKER_DATA = {
       "notes": "OPEN (Peters retiring). Leading trio El-Sayed/McMorrow/Stevens. GOP frontrunner Mike Rogers (2024 nominee).",
       "confidence": "high",
       "adimpact": {
-        "demSide": 34888173,
-        "repSide": 27823831,
-        "total": 62712004,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 63168438,
+        "repSide": 37647616,
+        "total": 100816055,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
           "name": "SLF PAC",
           "side": "R",
-          "amount": 19452708,
+          "amount": 25830544,
           "metaAds": {
             "n": 36,
             "imp": "250K - 300K",
@@ -97239,7 +97243,9 @@ window.TRACKER_DATA = {
             "flight": "broadcast 9/8-11/2, cable 9/19",
             "source": "competitive inbox · Spending Recap 2026-06-26",
             "asOf": "2026-06-29"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "WinSenate",
@@ -97256,7 +97262,7 @@ window.TRACKER_DATA = {
         {
           "name": "Americans for Prosperity Action",
           "side": "R",
-          "amount": 7242286,
+          "amount": 9527927,
           "metaAds": {
             "n": 1500,
             "imp": ">1M",
@@ -97267,12 +97273,14 @@ window.TRACKER_DATA = {
             "flight": "digital 6/14-6/20",
             "source": "competitive inbox · Spending Recap 2026-06-26",
             "asOf": "2026-06-29"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Center for Democratic Priorities",
           "side": "D",
-          "amount": 5125757,
+          "amount": 6525274,
           "metaAds": {
             "n": 36,
             "imp": "175K - 200K",
@@ -97283,7 +97291,9 @@ window.TRACKER_DATA = {
             "flight": null,
             "source": "competitive inbox · Spending Recap 2026-06-26",
             "asOf": "2026-06-29"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Yes MI Action Committee",
@@ -97306,7 +97316,7 @@ window.TRACKER_DATA = {
         {
           "name": "United Democracy Project",
           "side": "D",
-          "amount": 7721604,
+          "amount": 15822611,
           "metaAds": {
             "n": 10,
             "imp": ">1M",
@@ -97324,7 +97334,7 @@ window.TRACKER_DATA = {
         {
           "name": "A Stronger Michigan",
           "side": "D",
-          "amount": 3795340,
+          "amount": 8304090,
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
@@ -97337,7 +97347,9 @@ window.TRACKER_DATA = {
         {
           "name": "McMorrow for MI Senate",
           "side": "D",
-          "amount": 1810492
+          "amount": 2328866,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Center Forward Committee",
@@ -97352,7 +97364,7 @@ window.TRACKER_DATA = {
         {
           "name": "El-Sayed for MI Senate",
           "side": "D",
-          "amount": 1591964,
+          "amount": 2246382,
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
         },
@@ -112786,21 +112798,25 @@ window.TRACKER_DATA = {
       "notes": "McKinney (Sanders/Tlaib/WFP) vs incumbent Thanedar lead a 6-way primary. Safe-D.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 110834,
+        "demSide": 913234,
         "repSide": 0,
-        "total": 110834,
-        "asOf": "2026-06-17"
+        "total": 913234,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
           "name": "McKinney for MI CD-13",
-          "amount": 60119,
-          "side": "D"
+          "amount": 281403,
+          "side": "D",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Thanedar for MI CD-13",
-          "amount": 50344,
-          "side": "D"
+          "amount": 608844,
+          "side": "D",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Justice Democrats",
@@ -112949,11 +112965,10 @@ window.TRACKER_DATA = {
       "notes": "Top-4 nonpartisan primary → RCV general. Peltola vs incumbent Sullivan (R) the main contest.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 15329048,
-        "repSide": 21022019,
-        "total": 36351068,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 16463282,
+        "repSide": 21852559,
+        "total": 38315841,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -113017,7 +113032,7 @@ window.TRACKER_DATA = {
         {
           "name": "Majority Forward",
           "side": "D",
-          "amount": 3944736,
+          "amount": 5244797,
           "metaAds": {
             "n": 110,
             "imp": ">1M",
@@ -113028,12 +113043,16 @@ window.TRACKER_DATA = {
             "flight": "7/7-7/13 (bcast)",
             "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (bcast)",
             "asOf": "2026-07-01"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "Peltola for AK Senate",
           "side": "D",
-          "amount": 2874660
+          "amount": 3647793,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "The 907 Initiative",
@@ -113054,13 +113073,15 @@ window.TRACKER_DATA = {
         {
           "name": "Last Frontier Action",
           "side": "R",
-          "amount": 1046105,
+          "amount": 1307831,
           "inbox": {
             "amount": 1310000,
             "flight": "7/1-7/15 (radio)",
             "source": "competitive inbox · Spending Recap 2026-06-30",
             "asOf": "2026-07-01"
-          }
+          },
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         },
         {
           "name": "American Advancement Inc",
@@ -126656,11 +126677,10 @@ window.TRACKER_DATA = {
       "notes": "Abbott 3-term incumbent.",
       "confidence": "high",
       "adimpact": {
-        "demSide": 691246,
-        "repSide": 6968574,
-        "total": 7659820,
-        "asOf": "2026-06-17",
-        "source": "AdMo"
+        "demSide": 774273,
+        "repSide": 7489982,
+        "total": 8264254,
+        "asOf": "2026-07-01"
       },
       "spenders": [
         {
@@ -126692,6 +126712,13 @@ window.TRACKER_DATA = {
           "name": "Lone Star Project",
           "side": "D",
           "amount": 94
+        },
+        {
+          "name": "Huffines for TX Comptroller",
+          "amount": 519999,
+          "side": "",
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
         }
       ],
       "buys": [

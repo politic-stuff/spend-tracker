@@ -11,16 +11,31 @@ loop's top-of-3-hours pushes.
 ---
 
 ## 0. Prerequisites (the human does these once)
-- **Log into AdImpact** in the dedicated `competitives@fight.agency` Chrome profile,
-  in its own tab (paid login — the agent never enters credentials). Leave it open.
+- **Be signed into AdImpact SSO** in the dedicated `competitives@fight.agency` Chrome
+  profile (paid login — the agent never enters credentials). The session cookie
+  persists; `login.adimpact.com` should greet "Welcome back, Competitive!". No tab
+  needs to be left open — each run reaches the workbook via the portal (below).
 - Same browser rules as the inbox loop: this machine's dedicated profile is the ONLY
   connected Chrome extension.
 
 ## 1. Connect (hard gate — never guess)
 `list_connected_browsers` → proceed ONLY if exactly one browser. `select_browser` it.
-Open a controlled tab to the AdImpact app. **Verify you're on the logged-in AdImpact
-account** (the "Fight Agency Political Campaign Comp 2026" workbook is visible). If not
-logged in, or >1 browser, or zero, **HALT and notify the user** — do not guess.
+
+**Reach the workbook via the PORTAL, not a deep link** (verified 2026-07-01):
+1. Navigate a tab to `https://login.adimpact.com`. Expect "Welcome back, Competitive!"
+   with the Dashboards list. If it shows a credentials form instead, **HALT and notify
+   the user** — never enter credentials.
+2. Click the **"2026 Political Campaign Competitive"** dashboard link. It opens the
+   "Fight Agency Political Campaign Comp 2026" Tableau workbook in a NEW tab, fully
+   authenticated. Work in that tab.
+- Do NOT navigate directly to `data.adimpact.com/views/...` — a deep link bounces to
+  the Tableau Server sign-in form even with a live SSO session.
+- If `navigate` returns **"Navigation to this domain is not allowed"** (extension-level
+  domain block; historically flaky, believed fixed by the 7/1 app update), do NOT treat
+  it as a login failure: end the run gracefully with a note that AdImpact was
+  unreachable, and push nothing. Retry next scheduled run.
+
+If >1 browser, or zero, **HALT and notify the user** — do not guess.
 
 ```bash
 cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff

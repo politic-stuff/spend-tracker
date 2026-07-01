@@ -195,7 +195,7 @@ cd ~/spend-tracker && git pull && gh auth switch --user politic-stuff
      ```
 3a. **STANDING MANDATE — read ALL feeds, filter to tracked races, capture everything.**
    The loop is NOT AdImpact-only. Each run, read the new mail across **every** competitive
-   feed — `ADIMPACT (Alerts)` (richest), `AMPERSAND (Cable)` (token `label:ampersand-cab-`;
+   feed — `ADIMPACT (Alerts)` (richest), `AMPERSAND (Cable)` (token `label:ampersand--cable-` — verified live 7/1; the old `label:ampersand-cab-` guess matches ZERO;
    hourly "Ampersand Political Competitive Update" emails from `@ampersand.tv`, each line
    `<race> <advertiser> <flight> $<amount>`), `AdMo (Spots)`, and the `* (BCTV)` station
    labels. For **each** email apply ONE test: **does it map to one of our tracked races?**
