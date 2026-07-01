@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-07-01",
+      "note": "Inbox: ✎ Majority Forward (AK-Sen-2026) inbox $353,033 · ✎ Nebraska Groundswell (NE-Sen-2026) inbox $6,235 · ✎ Nebraska Groundswell (NE-Sen-2026) inbox $125,204 [correction] · + Susan Collins (ME-Sen-2026) $5,000 · + Graham Platner (ME-Sen-2026) $48,968 · + Abdul El-Sayed (MI-Sen-2026) $36,000 · ✎ A Stronger Michigan (MI-Sen-2026) inbox $43,000"
+    },
+    {
+      "ts": "2026-07-01",
       "note": "Inbox: ✎ Susan Collins (ME-Sen-2026) → $1,220,000 · ✎ Graham Platner (ME-Sen-2026) → $1,920,000 · ✎ Majority Forward (ME-Sen-2026) inbox $2,900,000 · ✎ Pine Tree Results PAC (ME-Sen-2026) inbox $20,600,000 · ✎ One Nation (ME-Sen-2026) inbox $3,800,000 · ✎ Stronger America (ME-Sen-2026) inbox $2,590,000 · ✎ Abdul El-Sayed (MI-Sen-2026) → $2,190,000 · ✎ United Democracy Project (MI-Sen-2026) inbox $15,700,000"
     },
     {
@@ -67474,9 +67478,9 @@ window.TRACKER_DATA = {
           "flight": "6/23-6/29",
           "asOf": "2026-06-22",
           "inbox": {
-            "amount": 335000,
-            "flight": "6/30-7/6 (radio)",
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 125204,
+            "flight": "6/30-7/6 (bcast)",
+            "source": "competitive inbox · AdImpact Reallocation Alert 2026-07-01 (bcast; $91,734 reallocated out of NE Senate to NE Economic Issue)",
             "asOf": "2026-07-01"
           }
         },
@@ -97324,9 +97328,9 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 8230000,
-            "flight": "6/25-7/7",
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 43000,
+            "flight": "7/1-7/7 (cable)",
+            "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (cable)",
             "asOf": "2026-07-01"
           }
         },
@@ -112803,7 +112807,26 @@ window.TRACKER_DATA = {
           "amount": 370,
           "side": "D"
         }
-      ]
+      ],
+      "creativesByAdvertiser": {
+        "McKinney for MI CD-13": [
+          {
+            "title": "We Deserve Better 2",
+            "link": "https://host2.adimpact.com/admo/viewer/ecb67271-de50-407b-916c-620d6859ff80",
+            "thumb": "",
+            "type": "TV",
+            "sub": "competitive inbox Ad Alert",
+            "flightStart": "2026-07-01",
+            "flightEnd": "2026-07-01",
+            "flightPresent": true,
+            "aired": "Aired 7/1 – present",
+            "isNew": true,
+            "source": "competitive inbox Ad Alert",
+            "oppose": "Shri Thanedar",
+            "note": "tone: Contrast; issues: ICE, Special Interests. First aired 7/1 6:40 AM in Detroit on WWJ (CBS), :30. Donavan McKinney (D) primary challenger vs. incumbent Shri Thanedar."
+          }
+        ]
+      }
     },
     "MI-SD1-2026": {
       "raceKey": "MI-SD1-2026",
@@ -113001,9 +113024,9 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 5210000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 353033,
+            "flight": "7/7-7/13 (bcast)",
+            "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (bcast)",
             "asOf": "2026-07-01"
           }
         },
@@ -134121,6 +134144,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
           "flight": null
+        },
+        {
+          "_key": "inbox:alert-mesen-platner-cable-20260630",
+          "actor": "Graham Platner",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 48968,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (cable)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-01",
+          "flight": "6/30-7/6 (cable)"
         }
       ],
       "ads": [
@@ -134253,6 +134287,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
           "flight": "7/6-7/10 (bcast+cable+radio)"
+        },
+        {
+          "_key": "inbox:alert-mesen-collins-cable-20260707",
+          "actor": "Susan Collins",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 5000,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (cable)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-01",
+          "flight": "7/7-7/13 (cable)"
         }
       ],
       "ads": [
@@ -135616,6 +135661,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
           "flight": "6/30-7/6 (bcast)"
+        },
+        {
+          "_key": "inbox:alert-misen-el-sayed-cable-20260630",
+          "actor": "Abdul El-Sayed",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 36000,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (cable)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-01",
+          "flight": "6/30-7/6 (cable)"
         }
       ],
       "ads": [
