@@ -23,6 +23,10 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-07-01",
+      "note": "Inbox: ✎ Nebraska Groundswell (NE-Sen-2026) inbox $301,000 [correction] · ✎ Graham Platner (ME-Sen-2026) → $1,940,000 [correction] · ✎ Susan Collins (ME-Sen-2026) → $1,240,000 [correction] · ✎ Majority Forward (ME-Sen-2026) inbox $2,930,000 [correction] · ✎ Pine Tree Results PAC (ME-Sen-2026) inbox $20,700,000 [correction] · ✎ One Nation (ME-Sen-2026) inbox $3,840,000 [correction] · ✎ Stronger America (ME-Sen-2026) inbox $2,600,000 [correction] · ✎ A Stronger Michigan (MI-Sen-2026) inbox $8,300,000 [correction]"
+    },
+    {
+      "ts": "2026-07-01",
       "note": "AdImpact advertiser scrub (2026-07-01): 17 raised, 1 added (Huffines for TX Comptroller $520K in TX-Gov), 1 flagged (NY-7 American Priorities). Biggest raises: MI-Sen United Democracy Project ->$15.8M, SLF PAC ->$25.8M, A Stronger Michigan ->$8.3M."
     },
     {
@@ -67483,9 +67487,9 @@ window.TRACKER_DATA = {
           "flight": "6/23-6/29",
           "asOf": "2026-06-22",
           "inbox": {
-            "amount": 125204,
-            "flight": "6/30-7/6 (bcast)",
-            "source": "competitive inbox · AdImpact Reallocation Alert 2026-07-01 (bcast; $91,734 reallocated out of NE Senate to NE Economic Issue)",
+            "amount": 301000,
+            "flight": "6/30-7/6 (bcast) + 7/1-7/6 (radio)",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:36pm; -$38K reallocated to NE Economic Issue)",
             "asOf": "2026-07-01"
           },
           "confidence": "adimpact"
@@ -74419,9 +74423,9 @@ window.TRACKER_DATA = {
           "side": "R",
           "amount": 23719244,
           "inbox": {
-            "amount": 20600000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 20700000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:30pm)",
             "asOf": "2026-07-01"
           }
         },
@@ -74435,9 +74439,9 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 3800000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 3840000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:30pm)",
             "asOf": "2026-07-01"
           }
         },
@@ -74472,9 +74476,9 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Stronger%20America&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 2590000,
-            "flight": "6/29-7/26 (cable)",
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 2600000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:30pm)",
             "asOf": "2026-07-01"
           }
         },
@@ -74490,9 +74494,9 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 2900000,
-            "flight": "6/30-7/6 (bcast)",
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 2930000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:30pm)",
             "asOf": "2026-07-01"
           }
         },
@@ -97269,10 +97273,10 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Americans%20for%20Prosperity&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 9400000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 9530000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm)",
+            "asOf": "2026-07-01"
           },
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub"
@@ -97307,10 +97311,10 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 6170000,
-            "flight": "digital 6/14-6/20",
-            "source": "competitive inbox · Spending Recap 2026-06-26",
-            "asOf": "2026-06-29"
+            "amount": 6520000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm)",
+            "asOf": "2026-07-01"
           }
         },
         {
@@ -97325,9 +97329,9 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 15700000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 15800000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm)",
             "asOf": "2026-07-01"
           }
         },
@@ -97338,9 +97342,9 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 43000,
+            "amount": 8300000,
             "flight": "7/1-7/7 (cable)",
-            "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (cable)",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm; corrects alert single-flight $43K to cumulative)",
             "asOf": "2026-07-01"
           }
         },
@@ -97475,9 +97479,9 @@ window.TRACKER_DATA = {
           "confidence": "adimpact",
           "source": "AdImpact 2026-06-22 scrub",
           "inbox": {
-            "amount": 1520000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 1540000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm)",
             "asOf": "2026-07-01"
           }
         }
@@ -113023,9 +113027,9 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=One%20Nation&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 4530000,
-            "flight": null,
-            "source": "competitive inbox · Spending Recap 2026-06-30",
+            "amount": 4560000,
+            "flight": "wk of 6/30",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:21pm)",
             "asOf": "2026-07-01"
           }
         },
@@ -113039,9 +113043,9 @@ window.TRACKER_DATA = {
             "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=political_and_issue_ads&country=US&q=Majority%20Forward&search_type=keyword_unordered"
           },
           "inbox": {
-            "amount": 353033,
+            "amount": 5250000,
             "flight": "7/7-7/13 (bcast)",
-            "source": "competitive inbox · AdImpact Spend Alert 2026-07-01 (bcast)",
+            "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:21pm; corrects alert single-flight $353K to cumulative)",
             "asOf": "2026-07-01"
           },
           "confidence": "adimpact",
@@ -134166,11 +134170,11 @@ window.TRACKER_DATA = {
           "actor": "Graham Platner",
           "type": "candidate",
           "bucket": "self",
-          "amount": 1920000,
-          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "amount": 1940000,
+          "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:30pm)",
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
-          "flight": null
+          "flight": "6/30-7/6 (cable)"
         },
         {
           "_key": "inbox:alert-mesen-platner-cable-20260630",
@@ -134309,11 +134313,11 @@ window.TRACKER_DATA = {
           "actor": "Susan Collins",
           "type": "candidate",
           "bucket": "self",
-          "amount": 1220000,
-          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "amount": 1240000,
+          "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:30pm)",
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
-          "flight": "7/6-7/10 (bcast+cable+radio)"
+          "flight": "6/23-7/13 (bcast+cable)"
         },
         {
           "_key": "inbox:alert-mesen-collins-cable-20260707",
@@ -135683,11 +135687,11 @@ window.TRACKER_DATA = {
           "actor": "Abdul El-Sayed",
           "type": "candidate",
           "bucket": "self",
-          "amount": 2190000,
-          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "amount": 2250000,
+          "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm)",
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
-          "flight": "6/30-7/6 (bcast)"
+          "flight": "6/30-7/6 (bcast+cable)"
         },
         {
           "_key": "inbox:alert-misen-el-sayed-cable-20260630",
@@ -135804,11 +135808,11 @@ window.TRACKER_DATA = {
           "actor": "Mallory McMorrow",
           "type": "candidate",
           "bucket": "self",
-          "amount": 2300000,
-          "source": "competitive inbox · Spending Recap 2026-06-26",
+          "amount": 2330000,
+          "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:27pm)",
           "confidence": "confirmed-inbox",
-          "asOf": "2026-06-29",
-          "flight": null
+          "asOf": "2026-07-01",
+          "flight": "wk of 6/30"
         }
       ],
       "ads": [
@@ -136645,11 +136649,11 @@ window.TRACKER_DATA = {
           "actor": "Mary Peltola",
           "type": "candidate",
           "bucket": "self",
-          "amount": 3190000,
-          "source": "competitive inbox · Spending Recap 2026-06-30",
+          "amount": 3220000,
+          "source": "competitive inbox · AdImpact Spending Recap 2026-07-01 (5:21pm)",
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
-          "flight": "6/30-7/6 (bcast+radio)"
+          "flight": "wk of 6/30"
         }
       ],
       "ads": [
