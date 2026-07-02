@@ -44,5 +44,5 @@ for (const rk in scrub) {
   } else console.log(`\n${rk}: clean (within threshold)`);
 }
 console.log(`\n--- ${raised} raised, ${added} added, ${flagged} flagged-for-review ---`);
-if (apply) { data.lastUpdated = '2026-06-22'; fs.writeFileSync(path.join(dir, 'data.json'), JSON.stringify(data, null, 2)); require('./wrap.js'); console.log('APPLIED + wrapped.'); }
+if (apply) { data.lastUpdated = new Date().toISOString().slice(0, 10); fs.writeFileSync(path.join(dir, 'data.json'), JSON.stringify(data, null, 2)); require('./wrap.js'); console.log('APPLIED + wrapped.'); }
 else console.log('(dry run — re-run with --apply to write raises/adds)');

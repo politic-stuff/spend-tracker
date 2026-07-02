@@ -1,0 +1,14 @@
+[
+  { "raceKey": "CA-22-2026", "demSide": 17033351, "repSide": 11828416, "total": 28861768, "asOf": "2026-07-02" },
+  { "raceKey": "CA-4-2026",  "demSide": 7606955,  "repSide": 5230,     "total": 7612185,  "asOf": "2026-07-02" },
+  { "raceKey": "PA-8-2026",  "demSide": 10094433, "repSide": 4650961,  "total": 14745395, "asOf": "2026-07-02" },
+  { "raceKey": "PA-7-2026",  "demSide": 13059971, "repSide": 9608592,  "total": 22668563, "asOf": "2026-07-02" },
+  { "raceKey": "NE-Sen-2026","demSide": 331404,   "repSide": 3191575,  "total": 3956596,  "asOf": "2026-07-02" },
+  { "raceKey": "ME-Sen-2026","demSide": 55866092, "repSide": 108417416,"total": 164283508,"asOf": "2026-07-02" },
+  { "raceKey": "MI-Sen-2026","demSide": 63168438, "repSide": 37647616, "total": 100816055,"asOf": "2026-07-02" },
+  { "raceKey": "MI-13-2026", "demSide": 913234,   "repSide": 0,        "total": 913234,   "asOf": "2026-07-02" },
+  { "raceKey": "AK-Sen-2026","demSide": 16463282, "repSide": 21852559, "total": 38315841, "asOf": "2026-07-02" },
+  { "raceKey": "NY-13-2026", "demSide": 7780181,  "repSide": 0,        "total": 7780181,  "asOf": "2026-07-02" },
+  { "raceKey": "NY-7-2026",  "demSide": 1218077,  "repSide": 0,        "total": 1218077,  "asOf": "2026-07-02" },
+  { "raceKey": "TX-Gov-2026","demSide": 774273,   "repSide": 7489982,  "total": 8264254,  "asOf": "2026-07-02" }
+]

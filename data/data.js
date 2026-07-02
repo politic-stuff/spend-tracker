@@ -1,6 +1,6 @@
 // AUTO-GENERATED from data.json by scripts/wrap.js. Do not edit by hand.
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "cycle": "2026",
   "sources": {
     "federalSpend": "FEC OpenFEC API (api.open.fec.gov)",
@@ -21,6 +21,10 @@ window.TRACKER_DATA = {
     "state": 37
   },
   "changelog": [
+    {
+      "ts": "2026-07-02",
+      "note": "AdImpact race totals: CA-22-2026: D $17.0M / R $11.8M · CA-4-2026: D $7.6M / R $5,230 · PA-8-2026: D $10.1M / R $4.7M · PA-7-2026: D $13.1M / R $9.6M · NE-Sen-2026: D $331,404 / R $3.2M · ME-Sen-2026: D $55.9M / R $108.4M · MI-Sen-2026: D $63.2M / R $37.6M · MI-13-2026: D $913,234 / R $0"
+    },
     {
       "ts": "2026-07-01",
       "note": "Inbox: ✎ Nebraska Groundswell (NE-Sen-2026) inbox $301,000 [correction] · ✎ Graham Platner (ME-Sen-2026) → $1,940,000 [correction] · ✎ Susan Collins (ME-Sen-2026) → $1,240,000 [correction] · ✎ Majority Forward (ME-Sen-2026) inbox $2,930,000 [correction] · ✎ Pine Tree Results PAC (ME-Sen-2026) inbox $20,700,000 [correction] · ✎ One Nation (ME-Sen-2026) inbox $3,840,000 [correction] · ✎ Stronger America (ME-Sen-2026) inbox $2,600,000 [correction] · ✎ A Stronger Michigan (MI-Sen-2026) inbox $8,300,000 [correction]"
@@ -136,10 +140,6 @@ window.TRACKER_DATA = {
     {
       "ts": "2026-06-17",
       "note": "AdImpact race totals: CA-4-2026: D $7.6M / R $5,230"
-    },
-    {
-      "ts": "2026-06-17",
-      "note": "AdImpact race totals: NY-7-2026: D $840,839 / R $0 · NY-13-2026: D $5.6M / R $0 · PA-7-2026: D $12.9M / R $9.5M · PA-8-2026: D $10.0M / R $4.6M · TX-Gov-2026: D $714,763 / R $7.5M"
     }
   ],
   "races": {
@@ -193,7 +193,7 @@ window.TRACKER_DATA = {
         "demSide": 10094433,
         "repSide": 4650961,
         "total": 14745395,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -12168,7 +12168,7 @@ window.TRACKER_DATA = {
         "demSide": 13059971,
         "repSide": 9608592,
         "total": 22668563,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -27840,7 +27840,7 @@ window.TRACKER_DATA = {
         "demSide": 17033351,
         "repSide": 11828416,
         "total": 28861768,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -59820,7 +59820,7 @@ window.TRACKER_DATA = {
         "demSide": 7606955,
         "repSide": 5230,
         "total": 7612185,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -67443,7 +67443,7 @@ window.TRACKER_DATA = {
         "demSide": 331404,
         "repSide": 3191575,
         "total": 3956596,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -74383,7 +74383,7 @@ window.TRACKER_DATA = {
         "demSide": 55866092,
         "repSide": 108417416,
         "total": 164283508,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -94535,7 +94535,7 @@ window.TRACKER_DATA = {
         "demSide": 7780181,
         "repSide": 0,
         "total": 7780181,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -96972,7 +96972,7 @@ window.TRACKER_DATA = {
         "demSide": 1218077,
         "repSide": 0,
         "total": 1218077,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -97230,7 +97230,7 @@ window.TRACKER_DATA = {
         "demSide": 63168438,
         "repSide": 37647616,
         "total": 100816055,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -112805,7 +112805,7 @@ window.TRACKER_DATA = {
         "demSide": 913234,
         "repSide": 0,
         "total": 913234,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -112972,7 +112972,7 @@ window.TRACKER_DATA = {
         "demSide": 16463282,
         "repSide": 21852559,
         "total": 38315841,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {
@@ -126684,7 +126684,7 @@ window.TRACKER_DATA = {
         "demSide": 774273,
         "repSide": 7489982,
         "total": 8264254,
-        "asOf": "2026-07-01"
+        "asOf": "2026-07-02"
       },
       "spenders": [
         {

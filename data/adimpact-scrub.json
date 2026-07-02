@@ -1,5 +1,5 @@
 {
-  "_note": "AdImpact Race Overview advertiser totals (all media types), harvested 2026-07-01 via workbook portal. {race:{total,advertisers:{name:spend}}}. Top visible advertisers per race panel; long tail below ~$100K omitted (immaterial to raise-only scrub). NE-Sen Osborn (IND) omitted — bar label obscured.",
+  "_note": "AdImpact Race Overview advertiser totals (all media types), harvested 2026-07-02 via workbook portal. {race:{total,advertisers:{name:spend}}}. Top visible advertisers per race panel; long tail below ~$100K omitted (immaterial to raise-only scrub). NE-Sen Osborn (IND) omitted — bar label obscured. Values unchanged from 2026-07-01 (AdImpact had not refreshed).",
   "CA-22-2026": {"total": 28861768, "advertisers": {
     "CLF": 7913475, "House Majority PAC": 6094850, "American Action Network": 2740179, "House Majority Forward": 1823585, "Save My Care": 1369321, "314 Action": 1267443, "Villegas for CA CD-22": 1174581, "Project 218": 866897, "New Democrat Majority": 681571, "Blue Dog Action PAC": 599931, "DMFI PAC": 590122 }},
   "CA-4-2026": {"total": 7612185, "advertisers": {
