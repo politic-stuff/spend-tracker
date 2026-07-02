@@ -59802,6 +59802,23 @@
             "flightPresent": false,
             "aired": "Aired 7/2/25 – 1/1"
           }
+        ],
+        "Valadao for CA CD-22": [
+          {
+            "title": "On Our Side",
+            "link": "https://host2.adimpact.com/admo/viewer/7e3bf5a4-6352-412b-8cbb-c700dfa0fe06",
+            "thumb": "",
+            "type": "TV",
+            "sub": "competitive inbox Ad Alert (AdMo)",
+            "flightStart": "2026-07-01",
+            "flightEnd": "2026-07-01",
+            "flightPresent": true,
+            "aired": "Aired 7/1 – present",
+            "isNew": true,
+            "source": "competitive inbox Ad Alert (AdMo)",
+            "oppose": "",
+            "note": "tone: Positive; issues: Bipartisanship, Environment, Taxation. First aired 7/1 6:05 PM in Fresno-Visalia on KMPH (FOX), :30. David Valadao (R incumbent) own positive ad."
+          }
         ]
       }
     },
@@ -112541,6 +112558,21 @@
           }
         ],
         "United Democracy Project": [
+          {
+            "title": "A History",
+            "link": "https://host2.adimpact.com/admo/viewer/e2ba9d6a-c5a4-4442-8384-a31476c0aa24",
+            "thumb": "",
+            "type": "TV",
+            "sub": "competitive inbox Ad Alert (AdMo)",
+            "flightStart": "2026-07-02",
+            "flightEnd": "2026-07-02",
+            "flightPresent": true,
+            "aired": "Aired 7/2 – present",
+            "isNew": true,
+            "source": "competitive inbox Ad Alert (AdMo)",
+            "oppose": "",
+            "note": "tone: Negative; issues: Abortion. First aired 7/2 5:42 AM in Detroit on WJBK (FOX), :30. United Democracy Project (AIPAC-affiliated) in the MI Senate Democratic primary; on-screen target not stated in the alert."
+          },
           {
             "thumb": "https://pdfweb.s3.amazonaws.com/videos/b6013db4-7a00-401b-ac9e-16b163189cb3.webp",
             "link": "https://pdfweb.s3.amazonaws.com/videos/b6013db4-7a00-401b-ac9e-16b163189cb3.mp4",
