@@ -23,6 +23,14 @@ window.TRACKER_DATA = {
   "changelog": [
     {
       "ts": "2026-07-02",
+      "note": "Inbox: + Susan Collins (ME-Sen-2026) $6,239 · + Dan S. Sullivan (AK-Sen-2026) $320,960"
+    },
+    {
+      "ts": "2026-07-02",
+      "note": "🆕 NEW spender(s) via inbox: Affordable Maine in ME-Sen-2026 ($1,108,325, D)"
+    },
+    {
+      "ts": "2026-07-02",
       "note": "AdImpact race totals: CA-22-2026: D $17.0M / R $11.8M · CA-4-2026: D $7.6M / R $5,230 · PA-8-2026: D $10.1M / R $4.7M · PA-7-2026: D $13.1M / R $9.6M · NE-Sen-2026: D $331,404 / R $3.2M · ME-Sen-2026: D $55.9M / R $108.4M · MI-Sen-2026: D $63.2M / R $37.6M · MI-13-2026: D $913,234 / R $0"
     },
     {
@@ -74518,6 +74526,13 @@ window.TRACKER_DATA = {
           }
         },
         {
+          "name": "Collins for ME Senate",
+          "side": "R",
+          "amount": 2786592,
+          "confidence": "adimpact",
+          "source": "AdImpact 2026-06-22 scrub"
+        },
+        {
           "name": "Unrig Our Economy",
           "side": "D",
           "amount": 2263866,
@@ -74538,16 +74553,18 @@ window.TRACKER_DATA = {
           }
         },
         {
-          "name": "Collins for ME Senate",
-          "side": "R",
-          "amount": 2786592,
-          "confidence": "adimpact",
-          "source": "AdImpact 2026-06-22 scrub"
-        },
-        {
           "name": "Mills for ME Senate",
           "side": "D",
           "amount": 1974310
+        },
+        {
+          "name": "Affordable Maine",
+          "amount": 1108325,
+          "side": "D",
+          "source": "inbox",
+          "isNew": true,
+          "flight": "7/7-8/31 (broadcast, Portland)",
+          "asOf": "2026-07-02"
         },
         {
           "name": "American Advancement Inc",
@@ -134361,6 +134378,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
           "flight": "7/7-7/13 (cable)"
+        },
+        {
+          "_key": "inbox:alert-mesen-collins-radio-20260706",
+          "actor": "Susan Collins",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 6239,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-07-02 (ME radio, Portsmouth-Dover-Rochester)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-02",
+          "flight": "7/6-7/10 (radio)"
         }
       ],
       "ads": [
@@ -136798,6 +136826,17 @@ window.TRACKER_DATA = {
           "confidence": "confirmed-inbox",
           "asOf": "2026-07-01",
           "flight": "7/1-7/7 (bcast+radio)"
+        },
+        {
+          "_key": "inbox:alert-aksen-sullivan-bcast-20260707",
+          "actor": "Dan S. Sullivan",
+          "type": "candidate",
+          "bucket": "self",
+          "amount": 320960,
+          "source": "competitive inbox · AdImpact Spend Alert 2026-07-02 (AK broadcast; Anchorage/Juneau/Fairbanks)",
+          "confidence": "confirmed-inbox",
+          "asOf": "2026-07-02",
+          "flight": "7/7-8/18 (broadcast)"
         }
       ],
       "ads": [
